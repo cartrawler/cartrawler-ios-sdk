@@ -7,16 +7,14 @@ CarTrawler for iOS supports iOS 8, iOS 9, iOS 10 and iOS 11.
 ### CocoaPods
 Car Trawler uses a [private spec repository](http://guides.cocoapods.org/making/private-cocoapods.html) to publish libraries.
 
-Include the spec repository with the source directive in your Podfile as shown:
+Include the CarTrawler spec repository and pods in your Podfile and run `pod install`:
 
     source 'https://github.com/cartrawler/cartrawler-ios-pods'
-    
-Add the following pods into your Podfile and run `pod install`.
 
     pod 'CarTrawlerSDK',
     pod 'CTPayment'
 
-#### Sample Podfile
+#### Sample Complete Podfile
 
     source 'https://github.com/CocoaPods/Specs.git'
     source 'https://github.com/cartrawler/cartrawler-ios-pods'
