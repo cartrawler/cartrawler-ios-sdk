@@ -51,7 +51,7 @@ There is an example app provided [here](https://github.com/cartrawler/cartrawler
 
     - (void)viewDidLoad {
         [super viewDidLoad];
-        self.carTrawlerSDK = [CTCarTrawlerSDK new];
+        self.carTrawlerSDK = [CarTrawlerSDK new];
     }
 
     - (void)carRentalButtonTapped {
