@@ -5,19 +5,27 @@
 CarTrawler for iOS supports iOS 8, iOS 9, iOS 10 and iOS 11.
 
 ### CocoaPods
-Add the CarTrawler 
-Add the Intercom pod into your Podfile and run `pod install`.
+Car Trawler uses a [private spec repository](http://guides.cocoapods.org/making/private-cocoapods.html) to publish libraries.
 
-    source 'https://github.com/cartrawler/cartrawlerpods'
+Include the spec repository with the source directive in your Podfile as shown:
+
+    source 'https://github.com/cartrawler/cartrawler-ios-pods'
+    
+Add the following pods into your Podfile and run `pod install`.
+
+    pod 'CarTrawlerSDK',
+    pod 'CTPayment'
+
+#### Sample Podfile
+
     source 'https://github.com/CocoaPods/Specs.git'
-
-    use_frameworks!
+    source 'https://github.com/cartrawler/cartrawler-ios-pods'
 
     platform :ios, '8.0'
 
     target ‘MyTarget’ do
-      pod 'CarTrawlerSDK'
-      pod 'CTPayment'
+      pod 'CarTrawlerSDK', '~> 4.1'
+      pod 'CTPayment', '~> 1.0'
     end
 
 ### Carthage
@@ -41,21 +49,21 @@ There is an example app provided [here](https://github.com/cartrawler/cartrawler
 
 ## Step 2: Setup and Configuration
 
-@import CarTrawlerSDK;
+    @import CarTrawlerSDK;
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    self.carTrawlerSDK = [CTCarTrawlerSDK new];
-}
+    - (void)viewDidLoad {
+        [super viewDidLoad];
+        self.carTrawlerSDK = [CTCarTrawlerSDK new];
+    }
 
-- (void)userTappedCarRental {
-    [self.sdk presentCarTrawler:self
-                       clientID:@"123456"
-                     production:YES
-                       language:@"EN"
-                        country:@"IE"
-                       currency:@"EUR"
-                           user:nil
-                          style:nil
-               customAttributes:customAttributes];
-}
+    - (void)carRentalButtonTapped {
+        [self.sdk presentCarTrawler:self
+                           clientID:@"123456"
+                         production:YES
+                           language:@"EN"
+                            country:@"IE"
+                           currency:@"EUR"
+                               user:nil
+                              style:nil
+                   customAttributes:customAttributes];
+    }
