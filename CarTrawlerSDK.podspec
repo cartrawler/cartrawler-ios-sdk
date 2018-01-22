@@ -25,5 +25,6 @@ s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-sdk.git
 s.ios.vendored_frameworks = 'CarTrawlerSDK.framework'
 
 s.requires_arc = true
+s.dependency 'CTPayment'
 
 end
