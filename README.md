@@ -2,30 +2,31 @@
 
 ## Step 1: Install Car Trawler SDK
 
-CarTrawler for iOS supports iOS 8, iOS 9, iOS 10 and iOS 11.
+CarTrawler for iOS supports iOS 9, iOS 10 and iOS 11.
 
 ### CocoaPods
-Car Trawler uses a [private spec repository](http://guides.cocoapods.org/making/private-cocoapods.html) to publish libraries.
+CarTrawler uses a [private spec repository](http://guides.cocoapods.org/making/private-cocoapods.html) to publish libraries.
 
 Include the CarTrawler spec repository and pods in your Podfile and run `pod install`:
-
+```ruby    
     source 'https://github.com/cartrawler/cartrawler-ios-pods'
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
 
-    pod 'CarTrawlerSDK',
-    pod 'CTPayment'
+    pod 'CarTrawlerSDK'
+```
 
 #### Sample Complete Podfile
-
+```ruby 
     source 'https://github.com/CocoaPods/Specs.git'
     source 'https://github.com/cartrawler/cartrawler-ios-pods'
 
-    platform :ios, '8.0'
+    platform :ios, '9.0'
 
     target ‘MyTarget’ do
       pod 'CarTrawlerSDK', '~> 4.1'
-      pod 'CTPayment', '~> 1.0'
-    end
-
+    end
+```
 ### Carthage
 1. Add `github "cartrawler/cartrawler-ios-sdk"` to your Cartfile.
 2. Run carthage update.
@@ -42,12 +43,40 @@ Include the CarTrawler spec repository and pods in your Podfile and run `pod ins
         
 This step is required to work around an [App Store submission bug](http://www.openradar.me/radar?id=6409498411401216) when archiving universal binaries.
 
-## Example app
+## Example app Swift ![alt text](http://www.iconninja.com/files/329/840/906/ios-bird-brand-figure-animal-swift-icon.png)
+
+## Example app Swift
 There is an example app provided [here](https://github.com/cartrawler/cartrawler-ios/tree/master/Examples) for both Objective-C and Swift.
 
 ## Step 2: Setup and Configuration
+```swift
+    import CarTrawlerSDK 
 
-    @import CarTrawlerSDK;
+    let carTrawlerSDK = CarTrawlerSDK()
+
+    @IBAction func carRentalButtonTapped(_ sender: Any) {
+        let customAttributes = ["offlineMode": false,
+                                "loggingEnabled": true]
+        
+        let style = customStyle()
+        
+        carTrawlerSDK.presentCarTrawler(self,
+                                        clientID: "123456",
+                                        production: true,
+                                        language: "EN",
+                                        country: "IE",
+                                        currency: "EUR",
+                                        style: style,
+                                        customAttributes: customAttributes)
+    }
+```
+
+## Example app Objective-C
+There is an example app provided [here](https://github.com/cartrawler/cartrawler-ios/tree/master/Examples) for both Objective-C and Swift.
+
+## Step 2: Setup and Configuration
+```objc
+   @import CarTrawlerSDK;
 
     - (void)viewDidLoad {
         [super viewDidLoad];
@@ -65,3 +94,4 @@ There is an example app provided [here](https://github.com/cartrawler/cartrawler
                               style:nil
                    customAttributes:customAttributes];
     }
+    ```
