@@ -45,7 +45,6 @@ This step is required to work around an [App Store submission bug](http://www.op
 
 ## Example app Swift ![alt text](http://www.iconninja.com/files/329/840/906/ios-bird-brand-figure-animal-swift-icon.png)
 
-## Example app Swift
 There is an example app provided [here](https://github.com/cartrawler/cartrawler-ios/tree/master/Examples) for both Objective-C and Swift.
 
 ## Step 2: Setup and Configuration
