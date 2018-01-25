@@ -74,7 +74,7 @@ There is an example app provided [here](https://github.com/cartrawler/cartrawler
 There is an example app provided [here](https://github.com/cartrawler/cartrawler-ios/tree/master/Examples) for both Objective-C and Swift.
 
 ## Step 2: Setup and Configuration
-```objc
+    ```objc
    @import CarTrawlerSDK;
 
     - (void)viewDidLoad {
