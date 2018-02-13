@@ -14,15 +14,15 @@
 @property (nonatomic, readonly) UIColor *secondaryColor;
 @property (nonatomic, readonly) UIColor *accentColor;
 
-@property (nonatomic, readonly) NSString *regularFontName;
-@property (nonatomic, readonly) NSString *boldFontName;
-@property (nonatomic, readonly) NSString *italicFontName;
+@property (nonatomic, readonly) UIFont *regularFont;
+@property (nonatomic, readonly) UIFont *boldFont;
+@property (nonatomic, readonly) UIFont *italicFont;
 
 - (instancetype)initWithPrimaryColor:(UIColor *)primaryColor
                       secondaryColor:(UIColor *)secondaryColor
                          accentColor:(UIColor *)accentColor
-                     regularFontName:(NSString *)regularFontName
-                        boldFontName:(NSString *)boldFontName
-                      italicFontName:(NSString *)italicFontName;
+                         regularFont:(UIFont *)regularFont
+                            boldFont:(UIFont *)boldFont
+                          italicFont:(UIFont *)italicFont;
 
 @end
