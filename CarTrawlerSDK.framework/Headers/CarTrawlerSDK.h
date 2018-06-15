@@ -7,36 +7,117 @@
 
 #import <UIKit/UIKit.h>
 #import "CTStyle.h"
+#import "CTPassenger.h"
+#import "CarTrawlerSDKDelegate.h"
+#import "CTInPathVehicle.h"
+#import "CTInPathProtocol.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
 FOUNDATION_EXPORT const unsigned char CarTrawlerSDKVersionString[];
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface CarTrawlerSDK : NSObject
+static NSString * _Nonnull const CTOrderId = @"orderID";
+static NSString * _Nonnull const CTMyAccountID = @"myAccountId";
+static NSString * _Nonnull const CTVisitorId = @"visitorId";
 
 /**
- Present the Car Trawler rental flow from the provided view controller
+ Please refer to www.github.io/cartrawler for full documentation
+ */
+@interface CarTrawlerSDK : NSObject
+
+// MARK: CarTrawlerSDK
+
+/**
+ Use this CarTrawlerSDK singleton for all interactions with the library
+ */
++ (nonnull instancetype)sharedInstance;
+
+/**
+ Initialises the CartrawlerSDK
+
+ @param style an optional style object
+ @param customParameters an optional dictionary of custom parameters, see documentation for further details
+ @param isProduction a boolean indicating if the SDK should point to the production or test endpoint
+ */
+- (void)initialiseSDKWithStyle:(nullable CTStyle *)style
+              customParameters:(nullable NSDictionary *)customParameters
+                    production:(BOOL)isProduction;
+
+// MARK: Stand Alone
+
+/**
+ Presents the Standalone flow as a modal over the presenting view controller
+ The SDK must be initialised before calling this method
 
  @param presentingViewController the presenting view controller
  @param clientID a client ID
- @param production a boolean indicating if production or developmenr endpoints should be used
- @param language optional initial language code, defaults to EN if nil
- @param country optional initial country code, defaults to current locale country code if nil
- @param currency optional initial currency code, defaults to current locale currency code if nil
- @param style optional style object
- @param customAttributes a dictionary, to pass in custom parameters
+ @param countryCode a country code
+ @param currencyCode a currency code
+ @param languageCode a language code
  */
-- (void)presentCarTrawler:(UIViewController *)presentingViewController
-                 clientID:(NSString *)clientID
-               production:(BOOL)production
-                 language:(nullable NSString *)language
-                  country:(nullable NSString *)country
-                 currency:(nullable NSString *)currency
-                    style:(nullable CTStyle *)style
-         customAttributes:(nullable NSDictionary *)customAttributes;
+- (void)presentStandAloneFromViewController:(nonnull UIViewController *)presentingViewController
+                                   clientID:(nonnull NSString *)clientID
+                                countryCode:(nonnull NSString *)countryCode
+                               currencyCode:(nonnull NSString *)currencyCode
+                               languageCode:(nonnull NSString *)languageCode
+                                 passengers:(nullable NSArray<CTPassenger *> *)passengers;
+
+
+// MARK:  InPath
+
+/**
+ Adds the In Path card to the container view thats passed in
+ This will also trigger a fetch for best daily rate which will be passed back in the delegate
+ The SDK must be initialised before calling this method
+
+ @param containerView the container view for the in path card
+ @param clientID a client ID
+ @param currencyCode a currency code
+ @param countryCode a country code
+ @param languageCode a language code
+ @param airportCode an airport code
+ @param pickupDate a pickup date
+ @param returnDate an optional return date, defaults to three days after pickup date if nil
+ @param flightNumber optional flight number
+ @param passengers optional array of passengers
+ @param delegate a delegate
+ */
+- (void)addInPathCardToView:(nonnull UIView *)containerView
+                   clientID:(nonnull NSString *)clientID
+                   currency:(nonnull NSString *)currencyCode
+            customerCountry:(nonnull NSString *)countryCode
+               languageCode:(nonnull NSString *)languageCode
+                   IATACode:(nullable NSString *)airportCode
+                 pickupDate:(nonnull NSDate *)pickupDate
+                 returnDate:(nullable NSDate *)returnDate
+               flightNumber:(nullable NSString *)flightNumber
+                 passengers:(nullable NSArray<CTPassenger *> *)passengers
+                   delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
+
+/**
+ Present the Car Trawler InPath flow from the provided view controller
+ The SDK must be initialised, and the In Path card added before calling this method
+ */
+- (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
+
+/**
+ Refreshes the in path search.
+ This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
+ The SDK must be initialised, and the In Path card added before calling this method
+ */
+- (void)refreshInPath;
+
+/**
+ Removes an added vehicle if selected
+ */
+- (void)removeVehicle;
+
+/**
+ Call this method when a successful In Path payment has been completed.
+ 
+ @param confirmationID The confirmation ID or 'Booking reference'
+ */
+- (void)didReceiveBookingConfirmationID:(nonnull NSString *)confirmationID;
 
 @end
 
-NS_ASSUME_NONNULL_END
