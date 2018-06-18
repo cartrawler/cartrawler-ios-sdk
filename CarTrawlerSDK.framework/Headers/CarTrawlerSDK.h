@@ -57,9 +57,9 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  */
 - (void)presentStandAloneFromViewController:(nonnull UIViewController *)presentingViewController
                                    clientID:(nonnull NSString *)clientID
-                                countryCode:(nonnull NSString *)countryCode
-                               currencyCode:(nonnull NSString *)currencyCode
-                               languageCode:(nonnull NSString *)languageCode
+                                countryCode:(nullable NSString *)countryCode
+                               currencyCode:(nullable NSString *)currencyCode
+                               languageCode:(nullable NSString *)languageCode
                                  passengers:(nullable NSArray<CTPassenger *> *)passengers;
 
 
@@ -70,7 +70,6 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  This will also trigger a fetch for best daily rate which will be passed back in the delegate
  The SDK must be initialised before calling this method
 
- @param containerView the container view for the in path card
  @param clientID a client ID
  @param currencyCode a currency code
  @param countryCode a country code
@@ -82,23 +81,27 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  @param passengers optional array of passengers
  @param delegate a delegate
  */
-- (void)addInPathCardToView:(nonnull UIView *)containerView
-                   clientID:(nonnull NSString *)clientID
-                   currency:(nonnull NSString *)currencyCode
-            customerCountry:(nonnull NSString *)countryCode
-               languageCode:(nonnull NSString *)languageCode
-                   IATACode:(nullable NSString *)airportCode
-                 pickupDate:(nonnull NSDate *)pickupDate
-                 returnDate:(nullable NSDate *)returnDate
-               flightNumber:(nullable NSString *)flightNumber
-                 passengers:(nullable NSArray<CTPassenger *> *)passengers
-                   delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
+- (void)initialiseInPathWithClientID:(nonnull NSString *)clientID
+                            currency:(nullable NSString *)currencyCode
+                     customerCountry:(nullable NSString *)countryCode
+                        languageCode:(nullable NSString *)languageCode
+                            IATACode:(nullable NSString *)airportCode
+                          pickupDate:(nonnull NSDate *)pickupDate
+                          returnDate:(nullable NSDate *)returnDate
+                        flightNumber:(nullable NSString *)flightNumber
+                          passengers:(nullable NSArray<CTPassenger *> *)passengers
+                            delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
 
 /**
  Present the Car Trawler InPath flow from the provided view controller
  The SDK must be initialised, and the In Path card added before calling this method
  */
 - (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
+
+/**
+ Set InPath card view into a Container View
+ */
+- (void)setInPathInView:(UIView *)containerView;
 
 /**
  Refreshes the in path search.

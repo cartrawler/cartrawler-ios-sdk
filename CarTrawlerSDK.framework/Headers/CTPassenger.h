@@ -51,4 +51,6 @@
 
 + (nullable  CTPassenger *)primaryDriverFromPassengers:(nonnull NSArray *)passengers;
 
+- (NSString * _Nullable)formattedPhoneNumber;
+
 @end
