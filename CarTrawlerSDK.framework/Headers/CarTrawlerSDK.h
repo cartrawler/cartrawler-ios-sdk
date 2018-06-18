@@ -66,8 +66,8 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 // MARK:  InPath
 
 /**
- Adds the In Path card to the container view thats passed in
- This will also trigger a fetch for best daily rate which will be passed back in the delegate
+ Initialises the In Path flow
+ This triggers a fetch for best daily rate which will be passed back in the delegate
  The SDK must be initialised before calling this method
 
  @param clientID a client ID
@@ -99,9 +99,9 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 - (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
 
 /**
- Set InPath card view into a Container View
+ Adds InPath card to the provided container view
  */
-- (void)setInPathInView:(UIView *)containerView;
+- (void)addInPathCardToView:(nonnull UIView *)containerView;
 
 /**
  Refreshes the in path search.
