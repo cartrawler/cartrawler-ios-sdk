@@ -5,7 +5,8 @@
 //  Created by Alan Mathews on 06/06/2018.
 //  Copyright © 2018 Cartrawler. All rights reserved.
 //
-#import "CartrawlerAPI.h"
+
+@class CTVehicleAvailability, CTErrorResponse ,CTMatchedLocation;
 
 @protocol CTInPathModuleDelegate <NSObject>
 
