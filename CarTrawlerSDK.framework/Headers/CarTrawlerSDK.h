@@ -6,11 +6,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CTStyle.h"
 #import "CTPassenger.h"
 #import "CarTrawlerSDKDelegate.h"
-#import "CTInPathVehicle.h"
+#import "CTStyle.h"
+#import "CTExtraEquipment.h"
 #import "CTInPathProtocol.h"
+#import "CTCustomer.h"
+#import "CTFee.h"
+#import "CTBooking.h"
+#import "CTInPathModuleDelegate.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
@@ -23,6 +27,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 /**
  Please refer to www.github.io/cartrawler for full documentation
  */
+
 @interface CarTrawlerSDK : NSObject
 
 // MARK: CarTrawlerSDK
@@ -91,17 +96,41 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                         flightNumber:(nullable NSString *)flightNumber
                           passengers:(nullable NSArray<CTPassenger *> *)passengers
                             delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
+/**
+ Initialises the In Path flow
+ This triggers a fetch for best daily rate which will be passed back in the delegate
+ The SDK must be initialised before calling this method
+ 
+ 
+ 
+ */
+
+- (void)initializeGroundTransportationInPathWithClientId:(nonnull NSString *)clientId
+									   pickupAirportIATACode:(nonnull NSString *)pickupAirportIATACode
+									  dropoffAirportIATACode:(nonnull NSString *)dropoffAirportIATACode
+										  pickupDateTime:(nonnull NSDate *)pickupDateTime
+											currencyCode:(nonnull NSString *)currencyCode
+											languageCode:(nonnull NSString *)languageCode
+											 countryCode:(nullable NSString *)countryCode
+									   passengerQuantity:(nullable NSNumber *)passengerQuantity
+												delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
 
 /**
  Present the Car Trawler InPath flow from the provided view controller
  The SDK must be initialised, and the In Path card added before calling this method
  */
-- (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
+- (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController
+                             appType:(CTAppType)appType;
 
 /**
  Adds InPath card to the provided container view
  */
 - (void)addInPathCardToView:(nonnull UIView *)containerView;
+
+/**
+ Adds Ground Transportation card to the provided container view
+ */
+- (void)addGroundTransportationCardToView:(nonnull UIView *)containerView;
 
 /**
  Refreshes the in path search.
@@ -111,9 +140,21 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 - (void)refreshInPath;
 
 /**
+ Refreshes the Ground Transportation in path search.
+ This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
+ The SDK must be initialised, and the In Path card added before calling this method
+ */
+- (void)refreshGroundTransportation;
+
+/**
  Removes an added vehicle if selected
  */
 - (void)removeVehicle;
+
+/**
+ Removes an added Ground Transportation if selected
+ */
+- (void)removeGroundTransportation;
 
 /**
  Call this method when a successful In Path payment has been completed.

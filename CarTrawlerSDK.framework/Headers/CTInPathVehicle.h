@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CTExtraEquipment.h"
+
+@class CTExtraEquipment;
 
 @interface CTInPathVehicle : NSObject
 

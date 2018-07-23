@@ -94,10 +94,9 @@ typedef NS_ENUM(NSUInteger, CTFeeType) {
  */
 @property (nonatomic, readonly) CTFeeType feePurpose;
 /**
- *  Suggested name of the fee if available, may be nil
+ *  Determines young driver
  */
-@property (nonatomic, readonly) NSString *optionalName;
-
+@property (nonatomic, readonly) BOOL isYoungDriver;
 /**
  Initialise with dictionary from JSON
 
