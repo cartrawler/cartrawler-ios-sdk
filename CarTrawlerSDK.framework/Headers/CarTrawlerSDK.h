@@ -160,8 +160,10 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  Call this method when a successful In Path payment has been completed.
  
  @param confirmationID The confirmation ID or 'Booking reference'
+ @param appType If the confirmation booking is for GT or Rental Path.
  */
-- (void)didReceiveBookingConfirmationID:(nonnull NSString *)confirmationID;
+- (void)didReceiveBookingConfirmationID:(NSString *)confirmationID
+                                appType:(CTAppType *)appType;
 
 @end
 
