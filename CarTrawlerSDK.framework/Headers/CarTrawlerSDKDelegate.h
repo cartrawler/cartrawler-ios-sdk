@@ -7,13 +7,27 @@
 //
 
 #import "CTInPathVehicle.h"
+#import "GTInPathVehicle.h"
 
 typedef NS_ENUM(NSInteger, CTAppType) {
     CTAppTypeRental,
     CTAppTypeGroundTransportation,
 };
 
+static NSString * _Nonnull const CTPlaceholderSeriesCode = @"[SERIESCODE]";
+static NSString * _Nonnull const CTPlaceholderCardNumber = @"[CARDNUMBER]";
+static NSString * _Nonnull const CTPlaceholderExpireDate = @"[EXPIREDATE]";
+static NSString * _Nonnull const CTPlaceholderCardCode = @"[CARDCODE]";
+static NSString * _Nonnull const CTPlaceholderCardHolderName = @"[CARDHOLDERNAME]";
+static NSString * _Nonnull const CTPlaceholderPassengerFirstName = @"[PASSENGERFIRSTNAME]";
+static NSString * _Nonnull const CTPlaceholderPassengerSurname = @"[PASSENGERSURNAME]";
+static NSString * _Nonnull const CTPlaceholderEmail = @"[EMAIL]";
+static NSString * _Nonnull const CTPlaceholderTelephone = @"[TELEPHONE]";
+static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYCODE]";
+
 @protocol CarTrawlerSDKDelegate <NSObject>
+
+#pragma Mark - Rental
 
 @required
 
@@ -24,13 +38,9 @@ typedef NS_ENUM(NSInteger, CTAppType) {
  @param vehicle The vehicle that was selected
  */
 - (void)didProduceInPathPaymentRequest:(nonnull NSDictionary *)request
-                               vehicle:(nonnull CTInPathVehicle *)vehicle
-                               appType:(CTAppType)appType
-;
+                               vehicle:(nonnull CTInPathVehicle *)vehicle;
 
 @optional
-
-#pragma Mark - Rental
 
 /**
  Called when the user taps on the cross sell card
@@ -52,6 +62,15 @@ typedef NS_ENUM(NSInteger, CTAppType) {
 - (void)didFailToReceiveBestDailyRate;
 
 #pragma Mark - GroundTransportation
+
+/**
+ Called when the user chooses to add the vehicle to their basket
+ 
+ @param request A dictionary containing information about the vehicle and the Cartrawler OTA payment request
+ @param vehicle The vehicle that was selected
+ */
+- (void)didProduceGTInPathPaymentRequest:(nonnull NSDictionary *)request
+                                 vehicle:(nonnull GTInPathVehicle *)vehicle;
 
 /**
  Called when the user taps on the cross sell card
