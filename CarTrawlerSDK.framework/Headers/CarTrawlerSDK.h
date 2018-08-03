@@ -163,7 +163,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  @param appType If the confirmation booking is for GT or Rental Path.
  */
 - (void)didReceiveBookingConfirmationID:(NSString *)confirmationID
-                                appType:(CTAppType *)appType;
+                                appType:(CTAppType)appType;
 
 @end
 
