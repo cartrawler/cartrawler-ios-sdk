@@ -23,7 +23,7 @@ static NSString * _Nonnull const CTPlaceholderPassengerFirstName = @"[PASSENGERF
 static NSString * _Nonnull const CTPlaceholderPassengerSurname = @"[PASSENGERSURNAME]";
 static NSString * _Nonnull const CTPlaceholderEmail = @"[EMAIL]";
 static NSString * _Nonnull const CTPlaceholderTelephone = @"[TELEPHONE]";
-static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYCODE]";
+static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYNAMECODE]";
 
 @protocol CarTrawlerSDKDelegate <NSObject>
 
