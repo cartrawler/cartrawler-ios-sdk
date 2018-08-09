@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "CarTrawlerSDK"
-s.version      = "6.3.6"
+s.version      = "6.3.7"
 s.summary      = "Cartrawler iOS SDK"
 s.description  = <<-DESC
 A toolkit for car rental & ground transport
