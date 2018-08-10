@@ -123,14 +123,14 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                              appType:(CTAppType)appType;
 
 /**
- Adds InPath card to the provided container view
+ Returns Rental Card to the client
  */
-- (void)addInPathCardToView:(nonnull UIView *)containerView;
+- (nonnull UIView *)getRentalCard;
 
 /**
- Adds Ground Transportation card to the provided container view
+ Returns Ground Transportation card to the client
  */
-- (void)addGroundTransportationCardToView:(nonnull UIView *)containerView;
+- (nonnull UIView *)getGroundTransportationCard;
 
 /**
  Refreshes the in path search.
