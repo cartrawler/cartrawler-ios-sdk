@@ -20,6 +20,7 @@
 @property (nonatomic, readonly, nonnull) NSNumber *age;
 @property (nonatomic, readonly, nullable) NSString *email;
 @property (nonatomic, readonly, nullable) NSString *phone;
+@property (nonatomic, readonly, nullable) NSString *phoneCountryPrefix;
 @property (nonatomic, readonly) BOOL isPrimaryDriver;
 
 
@@ -47,6 +48,7 @@
                               age:(nonnull NSNumber *)age
                             email:(nullable NSString *)email
                             phone:(nullable NSString *)phone
+               phoneCountryPrefix:(nullable NSString *)phoneCountryPrefix
                   isPrimaryDriver:(BOOL)isPrimaryDriver;
 
 + (nullable  CTPassenger *)primaryDriverFromPassengers:(nonnull NSArray *)passengers;
