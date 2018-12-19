@@ -14,7 +14,7 @@
 #import "CTCustomer.h"
 #import "CTFee.h"
 #import "CTBooking.h"
-#import "CTInPathModuleDelegate.h"
+#import "CTConfig.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
@@ -59,6 +59,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  @param countryCode a country code
  @param currencyCode a currency code
  @param languageCode a language code
+ @param passengers a passengers array
  */
 - (void)presentStandAloneFromViewController:(nonnull UIViewController *)presentingViewController
                                    clientID:(nonnull NSString *)clientID
@@ -67,6 +68,43 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                                languageCode:(nullable NSString *)languageCode
                                  passengers:(nullable NSArray<CTPassenger *> *)passengers;
 
+/**
+ Presents the Standalone flow as a modal over the presenting view controller
+ The SDK must be initialised before calling this method
+ 
+ @param presentingViewController the presenting view controller
+ @param clientID a client ID
+ @param countryCode a country code
+ @param currencyCode a currency code
+ @param languageCode a language code
+ @param pickupDate a pickup date
+ @param dropOffDate an optional return date, defaults to three days after pickup date if nil
+ @param pickupLocationID a pickup location ID
+ @param dropOffLocationID a drop off location ID
+ @param pinnedVehicleID a vehicle reference ID
+ @param passengers a passengers array
+ */
+- (void)presentStandAloneFromViewController:(nonnull UIViewController *)presentingViewController
+                                   clientID:(nonnull NSString *)clientID
+                                countryCode:(nullable NSString *)countryCode
+                               currencyCode:(nullable NSString *)currencyCode
+                               languageCode:(nullable NSString *)languageCode
+                                 pickupDate:(nullable NSDate *)pickupDate
+                                dropOffDate:(nullable NSDate *)dropOffDate
+                           pickupLocationID:(nullable NSString *)pickupLocationID
+                          dropOffLocationID:(nullable NSString *)dropOffLocationID
+                            pinnedVehicleID:(nullable NSString *)pinnedVehicleID
+                                 passengers:(nullable NSArray<CTPassenger *> *)passengers;
+
+/**
+ Presents the Standalone flow as a modal over the presenting view controller
+ The SDK must be initialised before calling this method
+ 
+ @param presentingViewController the presenting view controller
+ @param config a configuration object
+ */
+- (void)presentFromViewController:(nonnull UIViewController *)presentingViewController
+                       withConfig:(nonnull CTConfig *)config;
 
 // MARK:  InPath
 
