@@ -10,6 +10,7 @@
 #import "CarTrawlerSDKDelegate.h"
 #import "CTStyle.h"
 #import "CTExtraEquipment.h"
+#import "CTInPathModuleDelegate.h"
 #import "CTInPathProtocol.h"
 #import "CTCustomer.h"
 #import "CTFee.h"
