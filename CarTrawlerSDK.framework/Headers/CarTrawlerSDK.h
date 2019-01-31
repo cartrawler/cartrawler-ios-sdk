@@ -15,7 +15,7 @@
 #import "CTCustomer.h"
 #import "CTFee.h"
 #import "CTBooking.h"
-#import "CTConfig.h"
+#import "CTBestDailyRateParams.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
@@ -48,6 +48,9 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 - (void)initialiseSDKWithStyle:(nullable CTStyle *)style
               customParameters:(nullable NSDictionary *)customParameters
                     production:(BOOL)isProduction;
+
+
+// MARK: Single point initialisation
 
 // MARK: Stand Alone
 
@@ -97,16 +100,6 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                             pinnedVehicleID:(nullable NSString *)pinnedVehicleID
                                  passengers:(nullable NSArray<CTPassenger *> *)passengers;
 
-/**
- Presents the Standalone flow as a modal over the presenting view controller
- The SDK must be initialised before calling this method
- 
- @param presentingViewController the presenting view controller
- @param config a configuration object
- */
-- (void)presentFromViewController:(nonnull UIViewController *)presentingViewController
-                       withConfig:(nonnull CTConfig *)config;
-
 // MARK:  InPath
 
 /**
@@ -139,9 +132,6 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  Initialises the In Path flow
  This triggers a fetch for best daily rate which will be passed back in the delegate
  The SDK must be initialised before calling this method
- 
- 
- 
  */
 
 - (void)initializeGroundTransportationInPathWithClientId:(nonnull NSString *)clientId
@@ -203,6 +193,12 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  */
 - (void)didReceiveBookingConfirmationID:(NSString *)confirmationID
                                 appType:(CTAppType)appType;
+
+/**
+ This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
+ The SDK must be initialised, and a CTBestDailyRateParams object with the necessary parameters must be set before calling this method
+ */
+- (void)requestBestDailyRate:(CTBestDailyRateParams *)params;
 
 @end
 
