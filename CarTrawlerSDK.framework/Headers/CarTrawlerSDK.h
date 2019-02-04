@@ -16,6 +16,7 @@
 #import "CTFee.h"
 #import "CTBooking.h"
 #import "CTBestDailyRateParams.h"
+#import "CTConfig.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
