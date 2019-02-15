@@ -84,6 +84,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  @param languageCode a language code
  @param pickupDate a pickup date
  @param dropOffDate an optional return date, defaults to three days after pickup date if nil
+ @param airportCode an airport code
  @param pickupLocationID a pickup location ID
  @param dropOffLocationID a drop off location ID
  @param pinnedVehicleID a vehicle reference ID
@@ -96,6 +97,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                                languageCode:(nullable NSString *)languageCode
                                  pickupDate:(nullable NSDate *)pickupDate
                                 dropOffDate:(nullable NSDate *)dropOffDate
+                                   IATACode:(nullable NSString *)airportCode
                            pickupLocationID:(nullable NSString *)pickupLocationID
                           dropOffLocationID:(nullable NSString *)dropOffLocationID
                             pinnedVehicleID:(nullable NSString *)pinnedVehicleID
