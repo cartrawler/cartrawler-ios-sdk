@@ -19,23 +19,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) UIColor *ctaColor;
 @property (nonatomic, strong, readonly) UIColor *ctaFontColor;
 
-@property (nonatomic, strong, readonly) UIColor *linkColor;
-@property (nonatomic, strong, readonly) UIColor *backgroundColor;
+@property (nonatomic, strong) UIColor *secondaryCtaColor;
+@property (nonatomic, strong) UIColor *secondaryCtaFontColor;
 
-/* Deprecated */
-@property (nonatomic, strong, readonly) UIColor *secondaryColor DEPRECATED_ATTRIBUTE;
-@property (nonatomic, strong, readonly) UIColor *accentColor DEPRECATED_ATTRIBUTE;
-
-@property (nonatomic) UIFont *regularFont DEPRECATED_ATTRIBUTE;
-@property (nonatomic) UIFont *boldFont DEPRECATED_ATTRIBUTE;
-@property (nonatomic) UIFont *italicFont DEPRECATED_ATTRIBUTE;
-
-- (instancetype)initWithPrimaryColor:(UIColor *)primaryColor
-                      secondaryColor:(UIColor *)secondaryColor
-                         accentColor:(UIColor *)accentColor
-                         regularFont:(nullable UIFont *)regularFont
-                            boldFont:(nullable UIFont *)boldFont
-                          italicFont:(nullable UIFont *)italicFont;
+@property (nonatomic, strong) UIColor *linkColor;
 
 + (instancetype)styleWithPrimaryColor:(UIColor *)primaryColor
                     primaryLightColor:(nullable UIColor *)primaryLightColor
