@@ -59,7 +59,7 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 /**
  Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
  */
-- (void)didFailToReceiveBestDailyRate:(nonnull NSError *)error NS_SWIFT_NAME(didFailToReceiveBestDailyRate(error:));
+- (void)didFailToReceiveBestDailyRate;
 
 #pragma Mark - GroundTransportation
 
