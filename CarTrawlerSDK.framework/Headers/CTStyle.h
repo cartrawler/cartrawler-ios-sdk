@@ -8,21 +8,31 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
+typedef NS_ENUM(NSUInteger, CTAppTheme) {
+    CTAppThemeLight,
+    CTAppThemeDark
+};
+
 @interface CTStyle : NSObject
 
-@property (nonatomic, readonly) UIColor *primaryColor;
-@property (nonatomic, readonly) UIColor *secondaryColor;
-@property (nonatomic, readonly) UIColor *accentColor;
+// Mandatory parameters
+@property (nonatomic, readonly) CTAppTheme appTheme;
+@property (nonatomic, strong, readonly) UIColor *primaryColor;
 
-@property (nonatomic, readonly) UIFont *regularFont;
-@property (nonatomic, readonly) UIFont *boldFont;
-@property (nonatomic, readonly) UIFont *italicFont;
+// Optional Parameters
+@property (nonatomic, strong) UIColor *primaryDarkColor;
+@property (nonatomic, strong) UIColor *primaryLightColor;
+@property (nonatomic, strong) UIColor *ctaColor;
+@property (nonatomic, strong) UIColor *ctaFontColor;
+@property (nonatomic, strong) UIColor *secondaryCtaColor;
+@property (nonatomic, strong) UIColor *secondaryCtaFontColor;
+@property (nonatomic, strong) UIColor *linkColor;
 
-- (instancetype)initWithPrimaryColor:(UIColor *)primaryColor
-                      secondaryColor:(UIColor *)secondaryColor
-                         accentColor:(UIColor *)accentColor
-                         regularFont:(UIFont *)regularFont
-                            boldFont:(UIFont *)boldFont
-                          italicFont:(UIFont *)italicFont;
++ (instancetype)styleWithTheme:(CTAppTheme)appTheme
+                  primaryColor:(nonnull UIColor *)primaryColor;
 
 @end
+
+NS_ASSUME_NONNULL_END
