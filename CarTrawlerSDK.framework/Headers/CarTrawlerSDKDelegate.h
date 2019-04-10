@@ -40,12 +40,10 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didProduceInPathPaymentRequest:(nonnull NSDictionary *)request
                                vehicle:(nonnull CTInPathVehicle *)vehicle;
 
-@optional
-
 /**
- Called when the user taps on the cross sell card
+ Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
  */
-- (void)didTapCrossSellCard;
+- (void)didFailToReceiveBestDailyRate:(nonnull NSError *)error NS_SWIFT_NAME(didFailToReceiveBestDailyRate(error:));
 
 /**
  Called when the vehicles have been fetched and the best daily rate has been calculated
@@ -56,10 +54,12 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didReceiveBestDailyRate:(nonnull NSNumber *)price
                        currency:(nonnull NSString *)currency;
 
+@optional
+
 /**
- Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
+ Called when the user taps on the cross sell card
  */
-- (void)didFailToReceiveBestDailyRate;
+- (void)didTapCrossSellCard;
 
 #pragma Mark - GroundTransportation
 

@@ -84,6 +84,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  @param languageCode a language code
  @param pickupDate a pickup date
  @param dropOffDate an optional return date, defaults to three days after pickup date if nil
+ @param airportCode an airport code
  @param pickupLocationID a pickup location ID
  @param dropOffLocationID a drop off location ID
  @param pinnedVehicleID a vehicle reference ID
@@ -96,6 +97,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                                languageCode:(nullable NSString *)languageCode
                                  pickupDate:(nullable NSDate *)pickupDate
                                 dropOffDate:(nullable NSDate *)dropOffDate
+                                   IATACode:(nullable NSString *)airportCode
                            pickupLocationID:(nullable NSString *)pickupLocationID
                           dropOffLocationID:(nullable NSString *)dropOffLocationID
                             pinnedVehicleID:(nullable NSString *)pinnedVehicleID
@@ -126,41 +128,23 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                             IATACode:(nullable NSString *)airportCode
                           pickupDate:(nonnull NSDate *)pickupDate
                           returnDate:(nullable NSDate *)returnDate
+                     pinnedVehicleID:(nullable NSString *)pinnedVehicleID
                         flightNumber:(nullable NSString *)flightNumber
                           passengers:(nullable NSArray<CTPassenger *> *)passengers
                             delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
-/**
- Initialises the In Path flow
- This triggers a fetch for best daily rate which will be passed back in the delegate
- The SDK must be initialised before calling this method
- */
-
-- (void)initializeGroundTransportationInPathWithClientId:(nonnull NSString *)clientId
-									   pickupAirportIATACode:(nonnull NSString *)pickupAirportIATACode
-									  dropoffAirportIATACode:(nonnull NSString *)dropoffAirportIATACode
-										  pickupDateTime:(nonnull NSDate *)pickupDateTime
-											currencyCode:(nonnull NSString *)currencyCode
-											languageCode:(nonnull NSString *)languageCode
-											 countryCode:(nullable NSString *)countryCode
-									   passengerQuantity:(nullable NSNumber *)passengerQuantity
-												delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
 
 /**
  Present the Car Trawler InPath flow from the provided view controller
  The SDK must be initialised, and the In Path card added before calling this method
  */
 - (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController
-                             appType:(CTAppType)appType;
+                                appType:(CTAppType)appType;
 
 /**
  Returns Rental Card to the client
  */
 - (nonnull UIView *)getRentalCard;
 
-/**
- Returns Ground Transportation card to the client
- */
-- (nonnull UIView *)getGroundTransportationCard;
 
 /**
  Refreshes the in path search.
@@ -170,21 +154,9 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 - (void)refreshInPath;
 
 /**
- Refreshes the Ground Transportation in path search.
- This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
- The SDK must be initialised, and the In Path card added before calling this method
- */
-- (void)refreshGroundTransportation;
-
-/**
  Removes an added vehicle if selected
  */
 - (void)removeVehicle;
-
-/**
- Removes an added Ground Transportation if selected
- */
-- (void)removeGroundTransportation;
 
 /**
  Call this method when a successful In Path payment has been completed.
