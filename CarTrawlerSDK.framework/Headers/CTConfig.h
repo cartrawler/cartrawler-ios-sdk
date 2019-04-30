@@ -15,7 +15,6 @@
 typedef NS_ENUM(NSUInteger, CTFlowType) {
     CTFlowTypeStandAlone,
     CTFlowTypeInPath,
-    CTFlowTypeGroundTransportation,
     CTFlowTypeNone
 };
 

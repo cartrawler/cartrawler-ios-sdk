@@ -137,14 +137,12 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  Present the Car Trawler InPath flow from the provided view controller
  The SDK must be initialised, and the In Path card added before calling this method
  */
-- (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController
-                                appType:(CTAppType)appType;
+- (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
 
 /**
  Returns Rental Card to the client
  */
 - (nonnull UIView *)getRentalCard;
-
 
 /**
  Refreshes the in path search.
@@ -162,10 +160,8 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  Call this method when a successful In Path payment has been completed.
  
  @param confirmationID The confirmation ID or 'Booking reference'
- @param appType If the confirmation booking is for GT or Rental Path.
  */
-- (void)didReceiveBookingConfirmationID:(NSString *)confirmationID
-                                appType:(CTAppType)appType;
+- (void)didReceiveBookingConfirmationID:(NSString *)confirmationID;
 
 /**
  This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
