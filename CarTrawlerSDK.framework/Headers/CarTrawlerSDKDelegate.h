@@ -7,12 +7,6 @@
 //
 
 #import "CTInPathVehicle.h"
-#import "GTInPathVehicle.h"
-
-typedef NS_ENUM(NSInteger, CTAppType) {
-    CTAppTypeRental,
-    CTAppTypeGroundTransportation,
-};
 
 static NSString * _Nonnull const CTPlaceholderSeriesCode = @"[SERIESCODE]";
 static NSString * _Nonnull const CTPlaceholderCardNumber = @"[CARDNUMBER]";
@@ -60,37 +54,5 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
  Called when the user taps on the cross sell card
  */
 - (void)didTapCrossSellCard;
-
-#pragma Mark - GroundTransportation
-
-/**
- Called when the user chooses to add the vehicle to their basket
- 
- @param request A dictionary containing information about the vehicle and the Cartrawler OTA payment request
- @param vehicle The vehicle that was selected
- */
-- (void)didProduceGTInPathPaymentRequest:(nonnull NSDictionary *)request
-                                 vehicle:(nonnull GTInPathVehicle *)vehicle;
-
-/**
- Called when the user taps on the cross sell card
- */
-- (void)didTapGroundTransportationCard;
-
-/**
- Called when the vehicles have been fetched and the best daily rate has been calculated
- 
- @param price the best daily rate
- @param currency the currency
- */
-- (void)didReceiveGroundTransportationBestDailyRate:(nonnull NSNumber *)price
-                                           currency:(nonnull NSString *)currency;
-
-/**
- Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
- */
-- (void)didFailToReceiveGroundTransportationBestDailyRate;
-
-
 
 @end
