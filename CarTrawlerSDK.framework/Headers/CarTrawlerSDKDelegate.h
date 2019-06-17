@@ -7,6 +7,15 @@
 //
 
 #import "CTInPathVehicle.h"
+#import "CTWidgetContainer.h"
+
+/**
+ Enum referring to each flow supported
+ */
+typedef NS_ENUM(NSUInteger, CTFlowType) {
+    CTFlowTypeStandAlone,
+    CTFlowTypeInPath
+};
 
 static NSString * _Nonnull const CTPlaceholderSeriesCode = @"[SERIESCODE]";
 static NSString * _Nonnull const CTPlaceholderCardNumber = @"[CARDNUMBER]";
@@ -56,3 +65,15 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didTapCrossSellCard;
 
 @end
+
+
+@protocol CTWidgetContainerDelegate <NSObject>
+
+@optional
+- (void)didTapView:(nonnull CTWidgetContainer *)container;
+- (void)didTapAddCarHire:(nonnull CTWidgetContainer *)container;
+- (void)didTapRemoveButton:(nonnull CTWidgetContainer *)container;
+- (void)vehicleSelected:(nonnull CTWidgetVehicle *)vehicle;
+
+@end
+
