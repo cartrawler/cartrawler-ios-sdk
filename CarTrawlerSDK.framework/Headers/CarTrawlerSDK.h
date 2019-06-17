@@ -16,7 +16,8 @@
 #import "CTFee.h"
 #import "CTBooking.h"
 #import "CTBestDailyRateParams.h"
-#import "CTConfig.h"
+#import "CTContext.h"
+#import "CTWidgetContainer.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
@@ -27,7 +28,7 @@ static NSString * _Nonnull const CTMyAccountID = @"myAccountId";
 static NSString * _Nonnull const CTVisitorId = @"visitorId";
 
 /**
- Please refer to www.github.io/cartrawler for full documentation
+ Please refer to cartrawler.github.io for full documentation
  */
 
 @interface CarTrawlerSDK : NSObject
@@ -52,6 +53,32 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 
 
 // MARK: Single point initialisation
+
+/**
+ Set the context before presentation
+ The SDK must be initialised before calling this method
+ 
+ @param context the instance with initalisation properties
+ */
+- (nonnull instancetype)setContext:(nonnull CTContext *)context;
+
+/**
+ Presents the Standalone flow as a modal over the presenting view controller
+ The SDK must be initialised before calling this method
+ The presentation params must be set before calling this method
+ 
+ @param viewController the presenting view controller
+ */
+- (void)presentFromViewController:(nonnull UIViewController *)viewController;
+
+/**
+ Presents the given flow type as a modal over the presenting view controller
+ The SDK must be initialised before calling this method
+ The presentation params must be set before calling this method
+ 
+ @param viewController the presenting view controller
+ */
+- (void)presentFromViewController:(nonnull UIViewController *)viewController flow:(CTFlowType)flowType;
 
 // MARK: Stand Alone
 
@@ -145,6 +172,13 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 - (nonnull UIView *)getRentalCard;
 
 /**
+ Returns Widget to the client
+ */
+- (nonnull CTWidgetContainer *)getWidgetWithStatus:(CTWidgetStatus)status
+                                             style:(nullable CTWidgetStyle *)style
+                                      withDelegate:(nullable id <CTWidgetContainerDelegate>)delegate NS_SWIFT_NAME(getWidget(status:style:delegate:));
+
+/**
  Refreshes the in path search.
  This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
  The SDK must be initialised, and the In Path card added before calling this method
@@ -161,13 +195,13 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  
  @param confirmationID The confirmation ID or 'Booking reference'
  */
-- (void)didReceiveBookingConfirmationID:(NSString *)confirmationID;
+- (void)didReceiveBookingConfirmationID:(nonnull NSString *)confirmationID;
 
 /**
  This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
  The SDK must be initialised, and a CTBestDailyRateParams object with the necessary parameters must be set before calling this method
  */
-- (void)requestBestDailyRate:(CTBestDailyRateParams *)params;
+- (void)requestBestDailyRate:(nonnull CTBestDailyRateParams *)params;
 
 @end
 
