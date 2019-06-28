@@ -10,14 +10,13 @@
 #import "CarTrawlerSDKDelegate.h"
 #import "CTStyle.h"
 #import "CTExtraEquipment.h"
-#import "CTInPathModuleDelegate.h"
 #import "CTInPathProtocol.h"
 #import "CTCustomer.h"
 #import "CTFee.h"
-#import "CTBooking.h"
-#import "CTBestDailyRateParams.h"
+#import "CTAPIQueryParams.h"
 #import "CTContext.h"
 #import "CTWidgetContainer.h"
+#import "CTReservationDetails.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
@@ -63,22 +62,20 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 - (nonnull instancetype)setContext:(nonnull CTContext *)context;
 
 /**
- Presents the Standalone flow as a modal over the presenting view controller
+ Presents a modal over the presenting view controller given the context
  The SDK must be initialised before calling this method
- The presentation params must be set before calling this method
  
  @param viewController the presenting view controller
+ @param context which gives the parameters to be presented
  */
-- (void)presentFromViewController:(nonnull UIViewController *)viewController;
+- (void)presentFromViewController:(nonnull UIViewController *)viewController context:(nonnull CTContext *)context;
 
 /**
- Presents the given flow type as a modal over the presenting view controller
- The SDK must be initialised before calling this method
- The presentation params must be set before calling this method
- 
- @param viewController the presenting view controller
+ Present the Car Trawler InPath flow from the provided view controller
+ The SDK must be initialised, and the In Path card added before calling this method
  */
-- (void)presentFromViewController:(nonnull UIViewController *)viewController flow:(CTFlowType)flowType;
+- (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
+
 
 // MARK: Stand Alone
 
@@ -98,7 +95,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                                 countryCode:(nullable NSString *)countryCode
                                currencyCode:(nullable NSString *)currencyCode
                                languageCode:(nullable NSString *)languageCode
-                                 passengers:(nullable NSArray<CTPassenger *> *)passengers;
+                                 passengers:(nullable NSArray<CTPassenger *> *)passengers __attribute((deprecated("Use presentFromViewController:context: instead.")));
 
 /**
  Presents the Standalone flow as a modal over the presenting view controller
@@ -128,7 +125,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                            pickupLocationID:(nullable NSString *)pickupLocationID
                           dropOffLocationID:(nullable NSString *)dropOffLocationID
                             pinnedVehicleID:(nullable NSString *)pinnedVehicleID
-                                 passengers:(nullable NSArray<CTPassenger *> *)passengers;
+                                 passengers:(nullable NSArray<CTPassenger *> *)passengers __attribute((deprecated("Use setContext: and presentFromViewController:context: instead.")));
 
 // MARK:  InPath
 
@@ -158,13 +155,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
                      pinnedVehicleID:(nullable NSString *)pinnedVehicleID
                         flightNumber:(nullable NSString *)flightNumber
                           passengers:(nullable NSArray<CTPassenger *> *)passengers
-                            delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
-
-/**
- Present the Car Trawler InPath flow from the provided view controller
- The SDK must be initialised, and the In Path card added before calling this method
- */
-- (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
+                            delegate:(nullable id <CarTrawlerSDKDelegate>)delegate __attribute((deprecated("Use setContext: instead.")));
 
 /**
  Returns Rental Card to the client
@@ -198,10 +189,21 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 - (void)didReceiveBookingConfirmationID:(nonnull NSString *)confirmationID;
 
 /**
- This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
- The SDK must be initialised, and a CTBestDailyRateParams object with the necessary parameters must be set before calling this method
+
  */
-- (void)requestBestDailyRate:(nonnull CTBestDailyRateParams *)params;
+- (void)didReceiveReservationDetails:(nonnull CTReservationDetails *)reservationDetails;
+
+/**
+ This will trigger a new best daily rate fetch, and the subsequent delegate callbacks
+ The SDK must be initialised, and a CTAPIQueryParams object with the necessary parameters must be set before calling this method
+ */
+- (void)requestBestDailyRate:(nonnull CTAPIQueryParams *)params;
+
+/**
+ This will trigger a new vehicle request call
+ The SDK must be initialised, and a CTAPIQueryParams object with the necessary parameters must be set before calling this method
+ */
+- (void)requestVehicles:(nonnull CTAPIQueryParams *)params;
 
 @end
 

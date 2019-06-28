@@ -7,7 +7,10 @@
 //
 
 #import "CTInPathVehicle.h"
+#import "CTVehicleDetails.h"
 #import "CTWidgetContainer.h"
+
+@class CTReservationDetails;
 
 /**
  Enum referring to each flow supported
@@ -43,10 +46,8 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didProduceInPathPaymentRequest:(nonnull NSDictionary *)request
                                vehicle:(nonnull CTInPathVehicle *)vehicle;
 
-/**
- Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
- */
-- (void)didFailToReceiveBestDailyRate:(nonnull NSError *)error NS_SWIFT_NAME(didFailToReceiveBestDailyRate(error:));
+
+@optional
 
 /**
  Called when the vehicles have been fetched and the best daily rate has been calculated
@@ -57,7 +58,29 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didReceiveBestDailyRate:(nonnull NSNumber *)price
                        currency:(nonnull NSString *)currency;
 
-@optional
+/**
+ Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
+ */
+- (void)didFailToReceiveBestDailyRate:(nonnull NSError *)error NS_SWIFT_NAME(didFailToReceiveBestDailyRate(error:));
+
+/**
+ Called when the vehicles have been fetched
+ 
+ @param vehicles return based on params passed
+ */
+- (void)didReceiveVehicles:(nonnull NSArray <CTVehicleDetails *> *)vehicles;
+
+/**
+ Called when the call to fetch vehicles fails and the best daily rate cannot be calculated
+ */
+- (void)didFailToReceiveVehicles:(nonnull NSError *)error NS_SWIFT_NAME(didFailToReceiveVehicles(error:));
+
+/**
+ Called after stand alone flow booking payment has made
+ 
+ @param reservationDetails the booking reservation details
+ */
+- (void)didReceiveReservationDetails:(nonnull CTReservationDetails *)reservationDetails;
 
 /**
  Called when the user taps on the cross sell card
