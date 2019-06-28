@@ -30,6 +30,11 @@ typedef NS_ENUM(NSUInteger, CTAppTheme) {
 @property (nonatomic, strong) UIColor *secondaryCtaFontColor;
 @property (nonatomic, strong) UIColor *linkColor;
 
+// Fonts
+@property (nonatomic, strong) UIFont *regularFont;
+@property (nonatomic, strong) UIFont *boldFont;
+@property (nonatomic, strong) UIFont *italicFont;
+
 + (instancetype)styleWithTheme:(CTAppTheme)appTheme
                   primaryColor:(nonnull UIColor *)primaryColor;
 
