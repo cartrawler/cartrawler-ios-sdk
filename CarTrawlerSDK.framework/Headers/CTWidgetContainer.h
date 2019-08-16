@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CTWidgetStyle.h"
-#import "CTWidgetVehicle.h"
+#import "CTVehicleDetails.h"
 
 @protocol CTWidgetContainerDelegate;
 
@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setStatus:(CTWidgetStatus)status;
 - (void)setPrice:(NSString *)price;
-- (void)setVehicle:(CTWidgetVehicle *)vehicle;
+- (void)setVehicle:(CTVehicleDetails *)vehicle;
 
 @end
 

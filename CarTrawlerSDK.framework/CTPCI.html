@@ -1,0 +1,84 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <iframe id="ct-secure-payment" src="[URLPLACEHOLDER]" style="position: fixed;
+            height: 100vh;
+            left: 0%;
+            right: 0%;
+            top: 0;
+            z-index: 9999;
+            min-width: 100%;
+            *width: 100%;" frameborder="no" scrolling="no"></iframe>
+    <script>
+    var currentState = "NoState";
+    var jsonResponse = "NoResponse";
+    
+    document.addEventListener("DOMContentLoaded", function () {
+      window.addEventListener("message", function(e) {
+              var paymentFormMsg;
+              try {
+                    paymentFormMsg = JSON.parse(e.data);
+                    window.webkit.messageHandlers.CTWebView.postMessage({"paymentFormMsg" : paymentFormMsg} , "*");
+                    switch(paymentFormMsg.action) {
+                        case "onLoad":
+                          window.webkit.messageHandlers.CTWebView.postMessage({"onLoad" : true} , "*");
+                          break;
+                        case "sendMessage":
+                          currentState = "SendingPayment";
+                          window.webkit.messageHandlers.CTWebView.postMessage({"backButtonEnabled" : false} , "*");
+                          break;
+                        case "sendError":
+                          currentState = "PaymentError";
+                          break;
+                        case "validation":
+                          currentState = "ValidationError";
+                          window.webkit.messageHandlers.CTWebView.postMessage({"backButtonEnabled" : true} , "*");
+                          break;
+                        case "onError":
+                          currentState = "PaymentError";
+                          break;
+                        case "sendAuth":
+                          currentState = "SendAuthentication";
+                          break;
+                        case "startSCA":
+                          currentState = "StartedSCA";
+                          break;
+                    }
+                              
+                    window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState} , "*");
+              } catch(ex) {
+                   jsonResponse = decodeURIComponent(e.data);
+                   window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": jsonResponse});
+              }
+          });
+      });
+      
+      function setViewportMeta() {
+          var securePayment = document.getElementById("ct-secure-payment");
+          var meta = document.createElement('meta');
+          meta.setAttribute('name', 'viewport');
+          meta.setAttribute('content', 'width=device-width');
+          securePayment.getElementsByTagName('head')[0].appendChild(meta);
+      }
+
+      function validateAndBook() {
+          var securePaymentWin = document.getElementById("ct-secure-payment");
+          
+          if (currentState !== "SendingPayment") {
+              securePaymentWin.contentWindow.postMessage({"action" : "submitForm"} , "*");
+          } else {
+              securePaymentWin.contentWindow.postMessage({"disableBackButton" : "disable"} , "*");
+          }
+          
+          window.webkit.messageHandlers.CTWebView.postMessage({"currentState": currentState});
+      }
+    
+      function resetResponses() {
+          currentState = "";
+          jsonResponse = "";
+      }
+    
+    </script>
+    </body>
+</html>

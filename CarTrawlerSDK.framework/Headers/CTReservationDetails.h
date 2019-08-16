@@ -11,20 +11,23 @@
 #import "CTLocationDetails.h"
 #import "CTRentalInfo.h"
 
+@class CTVehicleDetails;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTReservationDetails : NSObject
 
 @property (nonatomic, nonnull, readonly) NSString *status;
-@property (nonatomic, nonnull, readonly) NSString *customerGivenName;
-@property (nonatomic, nonnull, readonly) NSString *customerSurname;
+@property (nonatomic, nonnull, readonly) NSString *givenName;
+@property (nonatomic, nonnull, readonly) NSString *surname;
 @property (nonatomic, nonnull, readonly) NSString *resID;
 @property (nonatomic, nonnull, readonly) NSDate *pickUpDateTime;
 @property (nonatomic, nonnull, readonly) NSDate *returnDateTime;
 @property (nonatomic, nonnull, readonly) CTLocationDetails *pickUpLocation;
 @property (nonatomic, nonnull, readonly) CTLocationDetails *returnLocation;
 @property (nonatomic, nullable, readonly) CTInsuranceDetails *insurance;
-@property (nonatomic, nullable, readonly) CTRentalInfo *rentalInfo;
+@property (nonatomic, nonnull, readonly) CTRentalInfo *rentalInfo;
+@property (nonatomic, nonnull, readonly) CTVehicleDetails *vehicleDetails;
 
 @end
 
