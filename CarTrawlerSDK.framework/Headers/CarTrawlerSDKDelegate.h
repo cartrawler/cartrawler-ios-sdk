@@ -96,7 +96,7 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didTapView:(nonnull CTWidgetContainer *)container;
 - (void)didTapAddCarHire:(nonnull CTWidgetContainer *)container;
 - (void)didTapRemoveButton:(nonnull CTWidgetContainer *)container;
-- (void)vehicleSelected:(nonnull CTWidgetVehicle *)vehicle;
+- (void)vehicleSelected:(nonnull CTVehicleDetails *)vehicle;
 
 @end
 

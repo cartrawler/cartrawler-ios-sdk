@@ -26,6 +26,9 @@ static NSString * _Nonnull const CTOrderId = @"orderID";
 static NSString * _Nonnull const CTMyAccountID = @"myAccountId";
 static NSString * _Nonnull const CTVisitorId = @"visitorId";
 
+
+typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
+
 /**
  Please refer to cartrawler.github.io for full documentation
  */
@@ -204,6 +207,11 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
  The SDK must be initialised, and a CTAPIQueryParams object with the necessary parameters must be set before calling this method
  */
 - (void)requestVehicles:(nonnull CTAPIQueryParams *)params;
+
+/**
+ This will clear all storage
+ */
+- (void)clearStorage:(nonnull CTClearStorageCompletion)completion;
 
 @end
 
