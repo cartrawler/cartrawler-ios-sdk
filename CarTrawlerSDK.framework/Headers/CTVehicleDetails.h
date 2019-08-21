@@ -25,7 +25,7 @@
 @property (nonatomic, readonly) BOOL airConditionInd;
 @property (nonatomic, readonly, nullable) NSString *transmissionType;
 @property (nonatomic, readonly, nullable) NSString *size;
-@property (nonatomic, readonly, nullable) NSString *category;
+@property (nonatomic, readonly, nullable) NSString *categoryText;
 
 // Supplier
 @property (nonatomic, readonly, nullable) NSString *supplier;
@@ -37,6 +37,7 @@
 @property (nonatomic, readonly, nullable) NSString *baggageText;
 @property (nonatomic, readonly, nullable) NSString *doorsCountText;
 @property (nonatomic, readonly, nullable) NSString *transmissionText;
+@property (nonatomic, readonly, nullable) NSString *sizeText;
 
 // Price
 @property (nonatomic, readonly, nullable) NSNumber *price;
