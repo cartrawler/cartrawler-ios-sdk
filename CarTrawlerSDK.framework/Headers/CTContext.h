@@ -35,29 +35,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE;
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType;
 
-+ (CTContext *)initWithClientID:(nonnull NSString *)clientID
-                    countryCode:(nullable NSString *)countryCode
-                   currencyCode:(nullable NSString *)currencyCode
-                   languageCode:(nullable NSString *)languageCode
-                     passengers:(nullable NSArray<CTPassenger *> *)passengers;
-
-+ (CTContext *)initWithFlowType:(CTFlowType)flowType
-                       clientID:(nonnull NSString *)clientID
-                    countryCode:(nullable NSString *)countryCode
-                   currencyCode:(nullable NSString *)currencyCode
-                   languageCode:(nullable NSString *)languageCode
-                     pickupDate:(nullable NSDate *)pickupDate
-                    dropOffDate:(nullable NSDate *)dropOffDate
-                 pickupLocation:(nullable NSString *)pickupLocation
-                dropOffLocation:(nullable NSString *)dropOffLocation
-                   flightNumber:(nullable NSString *)flightNumber
-               pickupLocationID:(nullable NSString *)pickupLocationID
-              dropOffLocationID:(nullable NSString *)dropOffLocationID
-                pinnedVehicleID:(nullable NSString *)pinnedVehicleID
-                     passengers:(nullable NSArray<CTPassenger *> *)passengers
-                       delegate:(nullable id <CarTrawlerSDKDelegate>)delegate;
-
-
 @end
 
 NS_ASSUME_NONNULL_END

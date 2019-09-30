@@ -9,6 +9,7 @@
 #import "CTInPathVehicle.h"
 #import "CTVehicleDetails.h"
 #import "CTWidgetContainer.h"
+#import "Payment.h"
 
 @class CTReservationDetails;
 
@@ -44,7 +45,8 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
  @param vehicle The vehicle that was selected
  */
 - (void)didProduceInPathPaymentRequest:(nonnull NSDictionary *)request
-                               vehicle:(nonnull CTInPathVehicle *)vehicle;
+                               vehicle:(nonnull CTInPathVehicle *)vehicle
+                               payment:(nonnull Payment *)payment;
 
 
 @optional
