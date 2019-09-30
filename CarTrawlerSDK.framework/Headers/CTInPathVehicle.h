@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @class CTExtraEquipment;
+@class CTVehicleDetails;
 
 @interface CTInPathVehicle : NSObject
 
@@ -29,6 +30,7 @@
 @property (nonatomic, readonly) NSNumber *insuranceCost;
 @property (nonatomic, readonly) NSNumber *totalCost;
 @property (nonatomic, strong, readonly) NSString *refId;
+@property (nonatomic, strong, readonly) CTVehicleDetails *vehicleDetails;
 
 /**
  *  The pay now price, this amount will be taken from the customers card at the time of booking. This price is made up from the deposit amount + insurance cost (if purchased)
@@ -67,6 +69,7 @@
                    payAtDeskPrice:(NSNumber *)payAtDeskPrice
                     payLaterPrice:(NSNumber *)payLaterPrice
                   bookingFeePrice:(NSNumber *)bookingFeePrice
-                            refId:(NSString *)refId;
+                            refId:(NSString *)refId
+                   vehicleDetails:(CTVehicleDetails *)vehicleDetails;
 
 @end

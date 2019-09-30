@@ -28,6 +28,7 @@ static NSString * _Nonnull const CTVisitorId = @"visitorId";
 
 
 typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
+typedef void (^CTReservationCompletion)(CTReservationDetails * _Nullable reservationDetails, NSError * _Nullable error);
 
 /**
  Please refer to cartrawler.github.io for full documentation
@@ -80,86 +81,6 @@ typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
 - (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
 
 
-// MARK: Stand Alone
-
-/**
- Presents the Standalone flow as a modal over the presenting view controller
- The SDK must be initialised before calling this method
-
- @param presentingViewController the presenting view controller
- @param clientID a client ID
- @param countryCode a country code
- @param currencyCode a currency code
- @param languageCode a language code
- @param passengers a passengers array
- */
-- (void)presentStandAloneFromViewController:(nonnull UIViewController *)presentingViewController
-                                   clientID:(nonnull NSString *)clientID
-                                countryCode:(nullable NSString *)countryCode
-                               currencyCode:(nullable NSString *)currencyCode
-                               languageCode:(nullable NSString *)languageCode
-                                 passengers:(nullable NSArray<CTPassenger *> *)passengers __attribute((deprecated("Use presentFromViewController:context: instead.")));
-
-/**
- Presents the Standalone flow as a modal over the presenting view controller
- The SDK must be initialised before calling this method
- 
- @param presentingViewController the presenting view controller
- @param clientID a client ID
- @param countryCode a country code
- @param currencyCode a currency code
- @param languageCode a language code
- @param pickupDate a pickup date
- @param dropOffDate an optional return date, defaults to three days after pickup date if nil
- @param airportCode an airport code
- @param pickupLocationID a pickup location ID
- @param dropOffLocationID a drop off location ID
- @param pinnedVehicleID a vehicle reference ID
- @param passengers a passengers array
- */
-- (void)presentStandAloneFromViewController:(nonnull UIViewController *)presentingViewController
-                                   clientID:(nonnull NSString *)clientID
-                                countryCode:(nullable NSString *)countryCode
-                               currencyCode:(nullable NSString *)currencyCode
-                               languageCode:(nullable NSString *)languageCode
-                                 pickupDate:(nullable NSDate *)pickupDate
-                                dropOffDate:(nullable NSDate *)dropOffDate
-                                   IATACode:(nullable NSString *)airportCode
-                           pickupLocationID:(nullable NSString *)pickupLocationID
-                          dropOffLocationID:(nullable NSString *)dropOffLocationID
-                            pinnedVehicleID:(nullable NSString *)pinnedVehicleID
-                                 passengers:(nullable NSArray<CTPassenger *> *)passengers __attribute((deprecated("Use setContext: and presentFromViewController:context: instead.")));
-
-// MARK:  InPath
-
-/**
- Initialises the In Path flow
- This triggers a fetch for best daily rate which will be passed back in the delegate
- The SDK must be initialised before calling this method
-
- @param clientID a client ID
- @param currencyCode a currency code
- @param countryCode a country code
- @param languageCode a language code
- @param airportCode an airport code
- @param pickupDate a pickup date
- @param returnDate an optional return date, defaults to three days after pickup date if nil
- @param flightNumber optional flight number
- @param passengers optional array of passengers
- @param delegate a delegate
- */
-- (void)initialiseInPathWithClientID:(nonnull NSString *)clientID
-                            currency:(nullable NSString *)currencyCode
-                     customerCountry:(nullable NSString *)countryCode
-                        languageCode:(nullable NSString *)languageCode
-                            IATACode:(nullable NSString *)airportCode
-                          pickupDate:(nonnull NSDate *)pickupDate
-                          returnDate:(nullable NSDate *)returnDate
-                     pinnedVehicleID:(nullable NSString *)pinnedVehicleID
-                        flightNumber:(nullable NSString *)flightNumber
-                          passengers:(nullable NSArray<CTPassenger *> *)passengers
-                            delegate:(nullable id <CarTrawlerSDKDelegate>)delegate __attribute((deprecated("Use setContext: instead.")));
-
 /**
  Returns Rental Card to the client
  */
@@ -192,9 +113,10 @@ typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
 - (void)didReceiveBookingConfirmationID:(nonnull NSString *)confirmationID;
 
 /**
-
+ This will trigger a request to retrieve a booking reservation matching the passed in booking ID, and the subsequent delegate callbacks
+ The SDK must be initialised before calling this method
  */
-- (void)didReceiveReservationDetails:(nonnull CTReservationDetails *)reservationDetails;
+- (void)requestReservationDetails:(nonnull CTAPIQueryParams *)params completion:(nonnull CTReservationCompletion)completion;
 
 /**
  This will trigger a new best daily rate fetch, and the subsequent delegate callbacks

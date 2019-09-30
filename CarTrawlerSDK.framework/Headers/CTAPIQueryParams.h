@@ -33,6 +33,8 @@ typedef NS_ENUM(NSUInteger, CTSortType) {
 @property (nonatomic, strong) NSArray<CTPassenger *>* passengers;
 @property (nonatomic) CTSortType sortType;
 @property (nonatomic) NSUInteger numberOfVehicles;
+@property (nonatomic, strong) NSString *resId;
+@property (nonatomic, strong) NSString *resUid;
 
 + (nonnull instancetype)bestDailyRateWithDelegate:(nonnull id <CarTrawlerSDKDelegate>)delegate
                                          clientID:(nonnull NSString *)clientID
@@ -45,7 +47,6 @@ typedef NS_ENUM(NSUInteger, CTSortType) {
                                  pickupLocationID:(nullable NSString *)pickupLocationID
                                 dropOffLocationID:(nullable NSString *)dropOffLocationID
                                        passengers:(nullable NSArray<CTPassenger *> *)passengers;
-
 
 @end
 
