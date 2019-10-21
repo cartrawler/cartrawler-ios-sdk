@@ -74,11 +74,15 @@ typedef NS_ENUM (NSUInteger, CTExtraEquipmentType) {
  */
 @property (nonatomic, nonnull, readonly) NSString *equipType;
 /**
- The equipment type
+ *  The equipment type
  */
 @property (nonatomic, readonly) CTExtraEquipmentType equipmentType;
 /**
- *  description of the equipment
+ *  Name of the equipment
+ */
+@property (nonatomic, nonnull, readonly) NSString *name;
+/**
+ *  Description of the equipment
  */
 @property (nonatomic, nonnull, readonly) NSString *equipDescription;
 
