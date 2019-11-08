@@ -1,0 +1,225 @@
+{
+  "enablePSD2WebForm": "false",
+  "partners": [
+    {
+      "name": "Ryanair",
+      "domain": "car-hire.ryanair.com",
+      "clientIds": [
+        "642619",
+        "300274",
+        "300444",
+        "731461",
+        "777939",
+        "779316",
+        "787697",
+        "787714",
+        "787731",
+        "787748",
+        "815050",
+        "839717",
+        "839734",
+        "839751",
+        "852620",
+        "852637",
+        "852654",
+        "852671",
+        "808199"
+      ],
+      "abandonmentKey": "808199"
+    },
+    {
+      "name": "easyJet",
+      "domain": "",
+      "clientIds": [
+        "512434",
+        "512451",
+        "512485",
+        "512468"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Test only",
+      "domain": "",
+      "clientIds": [
+        "503339",
+        "122070"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Content testing",
+      "domain": "",
+      "clientIds": [
+        "68622",
+        "122070"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "TravelStart (356100)",
+      "domain": "",
+      "clientIds": [
+        "304030",
+        "487834",
+        "487103"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Jet2",
+      "domain": "",
+      "clientIds": [
+        "605831"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Aer Lingus",
+      "domain": "",
+      "clientIds": [
+        "566323"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "West jet",
+      "domain": "",
+      "clientIds": [
+        "848557"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Hawaiian Airlines",
+      "domain": "",
+      "clientIds": [
+        "162768"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Jetstar",
+      "domain": "",
+      "clientIds": [
+        "728996"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Norwegian Air Shuttle",
+      "domain": "",
+      "clientIds": [
+        "139699",
+        "346087",
+        "828735"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Vueling",
+      "domain": "",
+      "clientIds": [
+        "198332"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Dollar",
+      "domain": "",
+      "clientIds": [
+        "229561"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Thrifty",
+      "domain": "",
+      "clientIds": [
+        "240458"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Swiss",
+      "domain": "",
+      "clientIds": [
+        "592214"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Expedia APAC",
+      "domain": "",
+      "clientIds": [
+        "381107"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Sales Banners",
+      "domain": "",
+      "clientIds": [
+        "633337"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "eDreams",
+      "domain": "",
+      "clientIds": [
+        "313415",
+        "313432",
+        "315710"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Go Voyage",
+      "domain": "",
+      "clientIds": [
+        "315710",
+        "315727",
+        "316169"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Opodo",
+      "domain": "",
+      "clientIds": [
+        "314945",
+        "314962",
+        "315404"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Travellink",
+      "domain": "",
+      "clientIds": [
+        "314180",
+        "314197",
+        "315639"
+      ],
+      "abandonmentKey": ""
+    },
+    {
+      "name": "Tipoa",
+      "domain": "",
+      "clientIds": [
+        "728503"
+       ],
+       "abandonmentKey": ""
+    },
+    {
+      "name": "itaka",
+      "domain": "",
+      "clientIds": [
+        "528125"
+      ],
+      "abandonmentKey": ""
+    }
+  ]
+}
+
