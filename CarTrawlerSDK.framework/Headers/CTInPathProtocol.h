@@ -12,5 +12,6 @@
 
 - (void)viewDidFinishLoading;
 - (void)performWidgetSearch;
+- (void)cancelRequest;
 
 @end
