@@ -80,7 +80,7 @@ typedef NS_ENUM(NSUInteger, CTFeeType) {
 /**
  *  CTFee
  */
-@interface CTFee : NSObject
+@interface CTFee : NSObject <NSCoding>
 /**
  *  The fee amount
  */
