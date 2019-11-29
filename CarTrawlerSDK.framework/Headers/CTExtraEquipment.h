@@ -48,7 +48,7 @@ typedef NS_ENUM (NSUInteger, CTExtraEquipmentType) {
 /**
  *  CTExtraEquipment
  */
-@interface CTExtraEquipment : NSObject
+@interface CTExtraEquipment : NSObject <NSCoding>
 /**
  *  The quantity of the equipment
  */
