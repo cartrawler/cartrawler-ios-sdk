@@ -17,6 +17,7 @@
 #import "CTContext.h"
 #import "CTWidgetContainer.h"
 #import "CTReservationDetails.h"
+#import "CTVehicleCharge.h"
 
 FOUNDATION_EXPORT double CarTrawlerSDKVersionNumber;
 
