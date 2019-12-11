@@ -1,32 +1,5 @@
 {
-  "enablePSD2WebForm": "false",
   "partners": [
-    {
-      "name": "Ryanair",
-      "domain": "car-hire.ryanair.com",
-      "clientIds": [
-        "642619",
-        "300274",
-        "300444",
-        "731461",
-        "777939",
-        "779316",
-        "787697",
-        "787714",
-        "787731",
-        "787748",
-        "815050",
-        "839717",
-        "839734",
-        "839751",
-        "852620",
-        "852637",
-        "852654",
-        "852671",
-        "808199"
-      ],
-      "abandonmentKey": "808199"
-    },
     {
       "name": "easyJet",
       "domain": "",
@@ -34,8 +7,11 @@
         "512434",
         "512451",
         "512485",
-        "512468"
+        "512468",
+        "300765"
       ],
+      "supplierBorderColor": "#009900",
+      "supplierTextColor": "#FFFFFF",
       "abandonmentKey": ""
     },
     {
@@ -210,16 +186,18 @@
       "clientIds": [
         "728503"
        ],
-       "abandonmentKey": ""
+       "abandonmentKey": "",
+       "enablePSD2WebForm": "false"
     },
     {
       "name": "itaka",
       "domain": "",
       "clientIds": [
-        "528125"
+        "528125",
+        "528414"
       ],
       "abandonmentKey": ""
     }
-  ]
+  ],
+  "enablePSD2WebForm": "false"
 }
-
