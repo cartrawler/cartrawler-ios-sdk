@@ -19,9 +19,11 @@
       "domain": "",
       "clientIds": [
         "503339",
-        "122070"
+        "122070",
+        "123456"
       ],
-      "abandonmentKey": ""
+      "abandonmentKey": "",
+      "enablePrePaidExtras": "true"
     },
     {
       "name": "Content testing",
@@ -199,5 +201,6 @@
       "abandonmentKey": ""
     }
   ],
-  "enablePSD2WebForm": "false"
+  "enablePSD2WebForm": "false",
+  "enablePrePaidExtras": "false"
 }

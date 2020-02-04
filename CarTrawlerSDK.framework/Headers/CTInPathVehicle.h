@@ -26,6 +26,7 @@
 @property (nonatomic, strong, readonly) NSDate *pickupDate;
 @property (nonatomic, strong, readonly) NSDate *dropoffDate;
 @property (nonatomic, strong, readonly) NSArray <CTExtraEquipment *> *extrasIncludedForFree;
+@property (nonatomic, strong, readonly) NSArray <CTExtraEquipment *> *extrasPayableNow;
 @property (nonatomic, strong, readonly) NSArray <CTExtraEquipment *> *extrasPayableAtDesk;
 @property (nonatomic, readonly) BOOL isBuyingInsurance;
 @property (nonatomic, readonly) NSNumber *insuranceCost;
@@ -63,6 +64,7 @@
                        pickupDate:(NSDate *)pickupDate
                       dropoffDate:(NSDate *)dropoffDate
             extrasIncludedForFree:(NSArray <CTExtraEquipment *> *)extrasIncludedForFree
+                 extrasPayableNow:(NSArray <CTExtraEquipment *> *)extrasPayableNow
               extrasPayableAtDesk:(NSArray <CTExtraEquipment *> *)extrasPayableAtDesk
                 isBuyingInsurance:(BOOL)isBuyingInsurance
                     insuranceCost:(NSNumber *)insuranceCost
