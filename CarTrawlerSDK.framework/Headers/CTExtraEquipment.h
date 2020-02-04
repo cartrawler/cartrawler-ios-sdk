@@ -45,10 +45,15 @@ typedef NS_ENUM (NSUInteger, CTExtraEquipmentType) {
     CTExtraEquipmentTypeGenericExtra
 };
 
+typedef NS_ENUM (NSUInteger, CTExtraEquipmentRateType) {
+    CTExtraEquipmentRateTypePostPaid,
+    CTExtraEquipmentRateTypePrePaid
+};
+
 /**
  *  CTExtraEquipment
  */
-@interface CTExtraEquipment : NSObject <NSCoding>
+@interface CTExtraEquipment : NSObject <NSCoding, NSCopying>
 /**
  *  The quantity of the equipment
  */
@@ -57,6 +62,10 @@ typedef NS_ENUM (NSUInteger, CTExtraEquipmentType) {
  *  Bool value if is included in rate
  */
 @property (nonatomic, readonly) BOOL isIncludedInRate;
+/**
+ *  Bool value if a guarantee payment or hold is required.
+ */
+@property (nonatomic, readonly) BOOL isGuaranteedInd;
 /**
  *  Bool value if equipment is tax inclusive
  */
@@ -85,6 +94,12 @@ typedef NS_ENUM (NSUInteger, CTExtraEquipmentType) {
  *  Description of the equipment
  */
 @property (nonatomic, nonnull, readonly) NSString *equipDescription;
+/**
+ *  The rate type
+ */
+@property (nonatomic, readwrite) CTExtraEquipmentRateType rateType;
+
+@property (nonatomic, readonly) NSInteger maxQuantity;
 
 - (instancetype)initFromDictionary:(NSDictionary *)dict;
 
