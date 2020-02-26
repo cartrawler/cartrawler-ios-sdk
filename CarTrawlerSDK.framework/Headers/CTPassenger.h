@@ -10,13 +10,13 @@
 
 @interface CTPassenger : NSObject
 
-@property (nonatomic, readonly, nonnull) NSString *firstName;
-@property (nonatomic, readonly, nonnull) NSString *lastName;
-@property (nonatomic, readonly, nonnull) NSString *addressLine1;
+@property (nonatomic, readonly, nullable) NSString *firstName;
+@property (nonatomic, readonly, nullable) NSString *lastName;
+@property (nonatomic, readonly, nullable) NSString *addressLine1;
 @property (nonatomic, readonly, nullable) NSString *addressLine2;
-@property (nonatomic, readonly, nonnull) NSString *city;
-@property (nonatomic, readonly, nonnull) NSString *postcode;
-@property (nonatomic, readonly, nonnull) NSString *countryCode;
+@property (nonatomic, readonly, nullable) NSString *city;
+@property (nonatomic, readonly, nullable) NSString *postcode;
+@property (nonatomic, readonly, nullable) NSString *countryCode;
 @property (nonatomic, readonly, nonnull) NSNumber *age;
 @property (nonatomic, readonly, nullable) NSString *email;
 @property (nonatomic, readonly, nullable) NSString *phone;
@@ -38,18 +38,18 @@
  @param isPrimaryDriver Bool to state is the passenger is the lead driver
  @return CTPassenger
  */
-- (nonnull instancetype)initWithFirstName:(nonnull NSString *)firstName
-                         lastName:(nonnull NSString *)lastName
-                     addressLine1:(nonnull NSString *)addressLine1
-                     addressLine2:(nullable NSString *)addressLine2
-                             city:(nonnull NSString *)city
-                         postcode:(nonnull NSString *)postcode
-                      countryCode:(nonnull NSString *)countryCode
-                              age:(nonnull NSNumber *)age
-                            email:(nullable NSString *)email
-                            phone:(nullable NSString *)phone
-               phoneCountryPrefix:(nullable NSString *)phoneCountryPrefix
-                  isPrimaryDriver:(BOOL)isPrimaryDriver;
+- (nonnull instancetype)initWithFirstName:(nullable NSString *)firstName
+                                 lastName:(nullable NSString *)lastName
+                             addressLine1:(nullable NSString *)addressLine1
+                             addressLine2:(nullable NSString *)addressLine2
+                                     city:(nullable NSString *)city
+                                 postcode:(nullable NSString *)postcode
+                              countryCode:(nullable NSString *)countryCode
+                                      age:(nonnull NSNumber *)age
+                                    email:(nullable NSString *)email
+                                    phone:(nullable NSString *)phone
+                       phoneCountryPrefix:(nullable NSString *)phoneCountryPrefix
+                          isPrimaryDriver:(BOOL)isPrimaryDriver;
 
 + (nullable  CTPassenger *)primaryDriverFromPassengers:(nonnull NSArray *)passengers;
 
