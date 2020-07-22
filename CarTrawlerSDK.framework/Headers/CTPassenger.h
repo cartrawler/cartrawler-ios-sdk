@@ -21,6 +21,7 @@
 @property (nonatomic, readonly, nullable) NSString *email;
 @property (nonatomic, readonly, nullable) NSString *phone;
 @property (nonatomic, readonly, nullable) NSString *phoneCountryPrefix;
+@property (nonatomic, readonly, nullable) NSString *loyaltyProgramNumber;
 @property (nonatomic, readonly) BOOL isPrimaryDriver;
 
 
@@ -49,6 +50,7 @@
                                     email:(nullable NSString *)email
                                     phone:(nullable NSString *)phone
                        phoneCountryPrefix:(nullable NSString *)phoneCountryPrefix
+                     loyaltyProgramNumber:(nullable NSString *)loyaltyProgramNumber
                           isPrimaryDriver:(BOOL)isPrimaryDriver;
 
 + (nullable  CTPassenger *)primaryDriverFromPassengers:(nonnull NSArray *)passengers;
