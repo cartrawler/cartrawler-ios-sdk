@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nonnull, readonly) NSString *status;
 @property (nonatomic, nonnull, readonly) NSString *givenName;
 @property (nonatomic, nonnull, readonly) NSString *surname;
+@property (nonatomic, nonnull, readonly) NSString *email;
 @property (nonatomic, nonnull, readonly) NSString *resId;
 @property (nonatomic, nonnull, readonly) NSString *resUid;
 @property (nonatomic, nonnull, readonly) NSDate *pickUpDateTime;
@@ -29,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, readonly) CTInsuranceDetails *insurance;
 @property (nonatomic, nonnull, readonly) CTRentalInfo *rentalInfo;
 @property (nonatomic, nonnull, readonly) CTVehicleDetails *vehicleDetails;
+@property (nonatomic, nonnull, readonly) NSString *loyaltyProgramId;
+@property (nonatomic, nonnull, readonly) NSString *loyaltyNumber;
 
 @end
 
