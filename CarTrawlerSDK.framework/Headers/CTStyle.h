@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTLoyaltyStyle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -34,6 +35,9 @@ typedef NS_ENUM(NSUInteger, CTAppTheme) {
 @property (nonatomic, strong) UIFont *regularFont;
 @property (nonatomic, strong) UIFont *boldFont;
 @property (nonatomic, strong) UIFont *italicFont;
+
+// Loyalty
+@property (nonatomic, strong) CTLoyaltyStyle *loyaltyStyle;
 
 + (instancetype)styleWithTheme:(CTAppTheme)appTheme
                   primaryColor:(nonnull UIColor *)primaryColor;
