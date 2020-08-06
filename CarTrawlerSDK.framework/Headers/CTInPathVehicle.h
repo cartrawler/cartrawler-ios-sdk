@@ -11,6 +11,7 @@
 @class CTExtraEquipment;
 @class CTVehicleDetails;
 @class CTVehicleCharge;
+@class CTLoyalty;
 
 @interface CTInPathVehicle : NSObject
 
@@ -34,6 +35,7 @@
 @property (nonatomic, strong, readonly) NSString *refId;
 @property (nonatomic, strong, readonly) CTVehicleDetails *vehicleDetails;
 @property (nonatomic, strong, readonly) NSArray <CTVehicleCharge *> *vehicleCharges;
+@property (nonatomic, strong, readonly) CTLoyalty *loyalty;
 
 /**
  *  The pay now price, this amount will be taken from the customers card at the time of booking. This price is made up from the deposit amount + insurance cost (if purchased)
@@ -51,30 +53,5 @@
  *  the booking fee for the rental
  */
 @property (nonatomic, readonly) NSNumber *bookingFeePrice;
-
-- (instancetype)initWithFirstName:(NSString *)firstName
-                         lastName:(NSString *)lastName
-                      vehicleName:(NSString *)vehicleName
-                 vehicleOrSimilar:(NSString *)vehicleOrSimilar
-                       vendorName:(NSString *)vendorName
-                  vehicleImageURL:(NSURL *)vehicleImageURL
-                   vendorImageURL:(NSURL *)vendorImageURL
-               pickupLocationName:(NSString *)pickupLocationName
-              dropoffLocationName:(NSString *)dropoffLocationName
-                       pickupDate:(NSDate *)pickupDate
-                      dropoffDate:(NSDate *)dropoffDate
-            extrasIncludedForFree:(NSArray <CTExtraEquipment *> *)extrasIncludedForFree
-                 extrasPayableNow:(NSArray <CTExtraEquipment *> *)extrasPayableNow
-              extrasPayableAtDesk:(NSArray <CTExtraEquipment *> *)extrasPayableAtDesk
-                isBuyingInsurance:(BOOL)isBuyingInsurance
-                    insuranceCost:(NSNumber *)insuranceCost
-                        totalCost:(NSNumber *)totalCost
-                      payNowPrice:(NSNumber *)payNowPrice
-                   payAtDeskPrice:(NSNumber *)payAtDeskPrice
-                    payLaterPrice:(NSNumber *)payLaterPrice
-                  bookingFeePrice:(NSNumber *)bookingFeePrice
-                            refId:(NSString *)refId
-                   vehicleDetails:(CTVehicleDetails *)vehicleDetails
-                   vehicleCharges:(NSArray <CTVehicleCharge *> *)vehicleCharges;
 
 @end

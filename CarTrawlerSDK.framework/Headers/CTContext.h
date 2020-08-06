@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *dropOffLocationID;
 @property (nonatomic, strong) NSString *pinnedVehicleID;
 @property (nonatomic, strong) NSArray<CTPassenger *>* passengers;
+@property (nonatomic, strong) NSString *loyaltyRegex;
 
 - (instancetype)init NS_UNAVAILABLE;
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType;
