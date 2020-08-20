@@ -10,8 +10,8 @@
 #import "CTInsuranceDetails.h"
 #import "CTLocationDetails.h"
 #import "CTRentalInfo.h"
-
-@class CTVehicleDetails;
+#import "CTLoyalty.h"
+#import "CTVehicleDetails.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -30,8 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, readonly) CTInsuranceDetails *insurance;
 @property (nonatomic, nonnull, readonly) CTRentalInfo *rentalInfo;
 @property (nonatomic, nonnull, readonly) CTVehicleDetails *vehicleDetails;
-@property (nonatomic, nonnull, readonly) NSString *loyaltyProgramId;
-@property (nonatomic, nonnull, readonly) NSString *loyaltyNumber;
+@property (nonatomic, nonnull, readonly) CTLoyalty *loyalty;
 
 @end
 

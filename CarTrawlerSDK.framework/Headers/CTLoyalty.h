@@ -12,8 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTLoyalty : NSObject
 
-@property (nonatomic, readonly) NSString *programName;
+@property (nonatomic, readonly) NSString *programId;
 @property (nonatomic, readonly) NSNumber *points;
+@property (nonatomic, readonly) NSString *number;
 
 @end
 
