@@ -1,211 +1,256 @@
 {
-  "partners": [
-    {
-      "name": "easyJet",
-      "domain": "",
-      "clientIds": [
-        "512434",
-        "512451",
-        "512485",
-        "512468",
-        "300765"
-      ],
-      "supplierBorderColor": "#009900",
-      "supplierTextColor": "#FFFFFF",
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Test only",
-      "domain": "",
-      "clientIds": [
-        "503339",
-        "122070",
-        "123456"
-      ],
-      "abandonmentKey": "",
-      "enablePSD2WebForm": "true",
-      "enablePrePaidExtras": "true",
-      "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true"
-    },
-    {
-      "name": "Content testing",
-      "domain": "",
-      "clientIds": [
-        "68622",
-        "122070"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "TravelStart (356100)",
-      "domain": "",
-      "clientIds": [
-        "304030",
-        "487834",
-        "487103"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Jet2",
-      "domain": "",
-      "clientIds": [
-        "605831"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Aer Lingus",
-      "domain": "",
-      "clientIds": [
-        "566323"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "West jet",
-      "domain": "",
-      "clientIds": [
-        "848557"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Hawaiian Airlines",
-      "domain": "",
-      "clientIds": [
-        "162768"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Jetstar",
-      "domain": "",
-      "clientIds": [
-        "728996"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Norwegian Air Shuttle",
-      "domain": "",
-      "clientIds": [
-        "139699",
-        "346087",
-        "828735"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Vueling",
-      "domain": "",
-      "clientIds": [
-        "198332"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Dollar",
-      "domain": "",
-      "clientIds": [
-        "229561"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Thrifty",
-      "domain": "",
-      "clientIds": [
-        "240458"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Swiss",
-      "domain": "",
-      "clientIds": [
-        "592214"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Expedia APAC",
-      "domain": "",
-      "clientIds": [
-        "381107"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Sales Banners",
-      "domain": "",
-      "clientIds": [
-        "633337"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "eDreams",
-      "domain": "",
-      "clientIds": [
-        "313415",
-        "313432",
-        "315710"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Go Voyage",
-      "domain": "",
-      "clientIds": [
-        "315710",
-        "315727",
-        "316169"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Opodo",
-      "domain": "",
-      "clientIds": [
-        "314945",
-        "314962",
-        "315404"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Travellink",
-      "domain": "",
-      "clientIds": [
-        "314180",
-        "314197",
-        "315639"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Tipoa",
-      "domain": "",
-      "clientIds": [
-        "728503"
-       ],
-       "abandonmentKey": "",
-       "enablePSD2WebForm": "false"
-    },
-    {
-      "name": "itaka",
-      "domain": "",
-      "clientIds": [
-        "528125",
-        "528414"
-      ],
-      "abandonmentKey": ""
-    }
-  ],
-  "enablePSD2WebForm": "false",
-  "enablePrePaidExtras": "false",
-  "enableZeroExcess": "false",
-  "enableZeroExcessUpSell": "false"
+    "partners": [
+      {
+        "name": "Native Test ID",
+        "domain": "",
+        "clientIds": [
+          "541368",
+          "300765"
+        ],
+        "abandonmentKey": "",
+        "loyaltyProgramId": "CARTRAWLER"
+      },
+      {
+        "name": "easyJet",
+        "domain": "",
+        "clientIds": [
+          "512434",
+          "512451",
+          "512485",
+          "512468"
+        ],
+        "supplierBorderColor": "#009900",
+        "supplierTextColor": "#FFFFFF",
+        "enableZeroExcess": "true",
+        "enableZeroExcessUpSell": "true",
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Finn.no",
+        "domain": "",
+        "clientIds": [
+          "360367",
+          "535724"
+        ],
+        "abandonmentKey": "",
+        "enableZeroExcess": "true",
+        "enableZeroExcessUpSell": "true"
+      },
+      {
+        "name": "Test only",
+        "domain": "",
+        "clientIds": [
+          "503339",
+          "122070"
+        ],
+        "enablePrePaidExtras": "true",
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Content testing",
+        "domain": "",
+        "clientIds": [
+          "68622",
+          "122070"
+        ],
+        "enablePrePaidExtras": "true",
+        "abandonmentKey": "",
+        "enableZeroExcess": "true",
+        "enableZeroExcessUpSell": "true"
+      },
+      {
+        "name": "TravelStart (356100)",
+        "domain": "",
+        "clientIds": [
+          "304030",
+          "487834",
+          "487103"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Jet2",
+        "domain": "",
+        "clientIds": [
+          "605831"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Aer Lingus",
+        "domain": "",
+        "clientIds": [
+          "566323"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "West jet",
+        "domain": "",
+        "clientIds": [
+          "848557"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Hawaiian Airlines",
+        "domain": "",
+        "clientIds": [
+          "162768"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Jetstar",
+        "domain": "",
+        "clientIds": [
+          "728996"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Norwegian Air Shuttle",
+        "domain": "",
+        "clientIds": [
+          "139699",
+          "346087",
+          "828735"
+        ],
+        "loyaltyProgramId": "NORWEGIAN",
+        "abandonmentKey": "",
+        "loyaltyRegex": "^\\d{8}(\\d{2})?$",
+        "enableZeroExcess": "true",
+        "enableZeroExcessUpSell": "true"
+      },
+      {
+        "name": "Vueling",
+        "domain": "",
+        "clientIds": [
+          "198332"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Dollar",
+        "domain": "",
+        "clientIds": [
+          "229561"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Thrifty",
+        "domain": "",
+        "clientIds": [
+          "240458"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Swiss",
+        "domain": "",
+        "clientIds": [
+          "592214"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Expedia APAC",
+        "domain": "",
+        "clientIds": [
+          "381107"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Sales Banners",
+        "domain": "",
+        "clientIds": [
+          "633337"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "eDreams",
+        "domain": "",
+        "clientIds": [
+          "313415",
+          "313432",
+          "315710"
+        ],
+        "abandonmentKey": "",
+        "enableZeroExcess": "true",
+        "enableZeroExcessUpSell": "true"
+      },
+      {
+        "name": "Go Voyage",
+        "domain": "",
+        "clientIds": [
+          "315710",
+          "315727",
+          "316169"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Opodo",
+        "domain": "",
+        "clientIds": [
+          "314945",
+          "314962",
+          "315404"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Travellink",
+        "domain": "",
+        "clientIds": [
+          "314180",
+          "314197",
+          "315639"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "Tipoa",
+        "domain": "",
+        "clientIds": [
+          "728503"
+         ],
+         "abandonmentKey": "",
+         "enablePSD2WebForm": "false"
+      },
+      {
+        "name": "itaka",
+        "domain": "",
+        "clientIds": [
+          "528125",
+          "528414"
+        ],
+        "abandonmentKey": ""
+      },
+      {
+        "name": "TAP",
+        "domain": "",
+        "clientIds": [
+          "861936"
+        ],
+        "loyaltyProgramId": "TAP",
+        "loyaltyRegex": "^[A-Za-z0-9]{6,}$"
+      },
+      {
+        "name": "Transavia",
+        "domain": "",
+        "clientIds": [
+          "505821"
+        ],
+        "enableZeroExcess": "false",
+        "enableZeroExcessUpSell": "false"
+      }
+    ],
+    "enablePSD2WebForm": "false",
+    "enablePrePaidExtras": "false",
+    "enableZeroExcess": "false",
+    "enableZeroExcessUpSell": "false"
 }
