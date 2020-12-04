@@ -16,6 +16,12 @@ typedef NS_ENUM(NSUInteger, CTAppTheme) {
     CTAppThemeDark
 };
 
+typedef NS_ENUM(NSInteger, CTUserInterfaceStyle) {
+    CTUserInterfaceStyleSystem,
+    CTUserInterfaceStyleLight,
+    CTUserInterfaceStyleDark
+};
+
 @interface CTStyle : NSObject
 
 // Mandatory parameters
@@ -23,6 +29,7 @@ typedef NS_ENUM(NSUInteger, CTAppTheme) {
 @property (nonatomic, strong, readonly) UIColor *primaryColor;
 
 // Optional Parameters
+@property (nonatomic) CTUserInterfaceStyle userInterfaceStyle;
 @property (nonatomic, strong) UIColor *primaryDarkColor;
 @property (nonatomic, strong) UIColor *primaryLightColor;
 @property (nonatomic, strong) UIColor *ctaColor;
@@ -30,6 +37,16 @@ typedef NS_ENUM(NSUInteger, CTAppTheme) {
 @property (nonatomic, strong) UIColor *secondaryCtaColor;
 @property (nonatomic, strong) UIColor *secondaryCtaFontColor;
 @property (nonatomic, strong) UIColor *linkColor;
+
+// Dark Mode colors
+@property (nonatomic, strong) UIColor *dmPrimaryColor;
+@property (nonatomic, strong) UIColor *dmPrimaryDarkColor;
+@property (nonatomic, strong) UIColor *dmPrimaryLightColor;
+@property (nonatomic, strong) UIColor *dmCtaColor;
+@property (nonatomic, strong) UIColor *dmCtaFontColor;
+@property (nonatomic, strong) UIColor *dmSecondaryCtaColor;
+@property (nonatomic, strong) UIColor *dmSecondaryCtaFontColor;
+@property (nonatomic, strong) UIColor *dmLinkColor;
 
 // Fonts
 @property (nonatomic, strong) UIFont *regularFont;
