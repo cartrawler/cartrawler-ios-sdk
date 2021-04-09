@@ -56,7 +56,8 @@
         "enablePrePaidExtras": "true",
         "abandonmentKey": "",
         "enableZeroExcess": "true",
-        "enableZeroExcessUpSell": "true"
+        "enableZeroExcessUpSell": "true",
+        "ratingType": "STARS"
       },
       {
         "name": "TravelStart (356100)",
