@@ -1,334 +1,642 @@
 {
-  "partners": [
-    {
-      "name": "Native Test ID",
-      "domain": "",
-      "clientIds": [
-        "541368"
-      ],
-      "abandonmentKey": "",
-      "loyaltyProgramId": "CARTRAWLER",
-      "supplierBorderColor": "#009900",
-      "supplierTextColor": "#FFFFFF",
-      "ratingType": "Stars"
-      
-    },
-    {
-      "name": "easyJet",
-      "domain": "",
-      "clientIds": [
-        "512434",
-        "512451",
-        "512485",
-        "512468",
-        "300765"
-      ],
-      "supplierBorderColor": "#009900",
-      "supplierTextColor": "#FFFFFF",
-      "abandonmentKey": "",
-      "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true"
-    },
-    {
-      "name": "Finn.no",
-      "domain": "",
-      "clientIds": [
-        "360367",
-        "535724",
-        "550480"
-      ],
-      "abandonmentKey": "",
-      "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true"
-    },
-    {
-      "name": "Test only",
-      "domain": "",
-      "clientIds": [
-        "503339",
-        "122070"
-      ],
-      "enablePrePaidExtras": "true",
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Content testing",
-      "domain": "",
-      "clientIds": [
-        "68622",
-        "122070"
-      ],
-      "enablePrePaidExtras": "true",
-      "abandonmentKey": "",
-      "supplierBorderColor": "#009900",
-      "supplierTextColor": "#FFFFFF",
-      "landingPageIcons": ["hertz", "enterprise", "flizzr", "budget", "avis"],
-      "enableRatings": "true",
-      "ratingType": "STARS"
-    },
-    {
-      "name": "TravelStart (356100)",
-      "domain": "",
-      "clientIds": [
-        "304030",
-        "487834",
-        "487103"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Jet2",
-      "domain": "",
-      "clientIds": [
-        "605831"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Aer Lingus",
-      "domain": "",
-      "clientIds": [
-        "566323"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "West jet",
-      "domain": "",
-      "clientIds": [
-        "848557"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Hawaiian Airlines",
-      "domain": "",
-      "clientIds": [
-        "162768"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Jetstar",
-      "domain": "",
-      "clientIds": [
-        "728996"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Norwegian Air Shuttle",
-      "domain": "",
-      "clientIds": [
-        "139699",
-        "346087",
-        "828735"
-      ],
-      "abandonmentKey": "",
-      "loyaltyProgramId": "NORWEGIAN",
-      "loyaltyRegex": "^\\d{8}(\\d{2})?$",
-      "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true"
-    },
-    {
-      "name": "Vueling",
-      "domain": "",
-      "clientIds": [
-        "198332"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Dollar",
-      "domain": "",
-      "clientIds": [
-        "229561"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Thrifty",
-      "domain": "",
-      "clientIds": [
-        "240458"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Swiss",
-      "domain": "",
-      "clientIds": [
-        "592214"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Expedia APAC",
-      "domain": "",
-      "clientIds": [
-        "381107"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Sales Banners",
-      "domain": "",
-      "clientIds": [
-        "633337"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "eDreams",
-      "domain": "",
-      "clientIds": [
-        "313415",
-        "313432",
-        "315710"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Go Voyage",
-      "domain": "",
-      "clientIds": [
-        "315710",
-        "315727",
-        "316169"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Opodo",
-      "domain": "",
-      "clientIds": [
-        "314945",
-        "314962",
-        "315404"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Travellink",
-      "domain": "",
-      "clientIds": [
-        "314180",
-        "314197",
-        "315639"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Tipoa",
-      "domain": "",
-      "clientIds": [
-        "728503"
-       ],
-       "abandonmentKey": "",
-       "enablePSD2WebForm": "false"
-    },
-    {
-      "name": "itaka",
-      "domain": "",
-      "clientIds": [
-        "528125",
-        "528414"
-      ]
-    },
-    {
-      "name": "TAP",
-      "domain": "",
-      "clientIds": [
-        "861936"
-      ],
-      "loyaltyProgramId": "TAP"
-    },
-    {
-      "name": "Transavia",
-      "domain": "",
-      "clientIds": [
-        "505821"
-      ]
-    },
-    {
-      "name": "Argus",
-      "domain": "",
-      "clientIds": [
-        "685068",
-        "685051"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Holiday Autos",
-      "domain": "",
-      "clientIds": [
-        "685034",
-        "685017",
-        "463473"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "CardGenY",
-      "domain": "",
-      "clientIds": [
-        "551908"
-      ]
-    },
-    {
-      "name": "RentalCars",
-      "domain": "",
-      "clientIds": [
-        "553676"
-      ]
-    },
-    {
-      "name": "MyIDTravel",
-      "domain": "",
-      "clientIds": [
-        "560408",
-        "560425"
-      ]
+    "partners": [
+        {
+            "name": "Native Test ID",
+            "domain": "",
+            "tag": "native_test_id",
+            "clientIds": [
+                "541368"
+            ],
+            "abandonmentKey": "",
+            "loyaltyProgramId": "CARTRAWLER",
+            "supplierBorderColor": "#009900",
+            "supplierTextColor": "#FFFFFF",
+            "ratingType": "STARS"
+        },
+        {
+            "name": "easyJet",
+            "domain": "",
+            "clientIds": [
+                "512434",
+                "512451",
+                "512485",
+                "512468",
+                "300765"
+            ],
+            "supplierBorderColor": "#009900",
+            "supplierTextColor": "#FFFFFF",
+            "abandonmentKey": "",
+            "enableZeroExcess": "true",
+            "enableZeroExcessUpSell": "true"
+        },
+        {
+            "name": "Finn.no",
+            "domain": "",
+            "clientIds": [
+                "360367",
+                "535724",
+                "550480"
+            ],
+            "abandonmentKey": "",
+            "enableZeroExcess": "true",
+            "enableZeroExcessUpSell": "true"
+        },
+        {
+            "name": "Test only",
+            "domain": "",
+            "clientIds": [
+                "503339",
+                "122070"
+            ],
+            "enablePrePaidExtras": "true",
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Content testing",
+            "domain": "",
+            "clientIds": [
+                "68622",
+                "122070"
+            ],
+            "enablePrePaidExtras": "true",
+            "abandonmentKey": "",
+            "supplierBorderColor": "#009900",
+            "supplierTextColor": "#FFFFFF",
+            "landingPageIcons": [
+                "hertz",
+                "enterprise",
+                "flizzr",
+                "budget",
+                "avis"
+            ],
+            "enableRatings": "true",
+            "ratingType": "STARS"
+        },
+        {
+            "name": "TravelStart (356100)",
+            "domain": "",
+            "clientIds": [
+                "304030",
+                "487834",
+                "487103"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Jet2",
+            "domain": "",
+            "clientIds": [
+                "605831"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Aer Lingus",
+            "domain": "",
+            "clientIds": [
+                "566323"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "West jet",
+            "domain": "",
+            "clientIds": [
+                "848557"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Hawaiian Airlines",
+            "domain": "",
+            "clientIds": [
+                "162768",
+                "222268"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Jetstar",
+            "domain": "",
+            "clientIds": [
+                "728996"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Norwegian Air Shuttle",
+            "domain": "",
+            "clientIds": [
+                "139699",
+                "346087",
+                "828735"
+            ],
+            "abandonmentKey": "",
+            "loyaltyProgramId": "NORWEGIAN",
+            "loyaltyRegex": "^\\d{8}(\\d{2})?$",
+            "enableZeroExcess": "true",
+            "enableZeroExcessUpSell": "true"
+        },
+        {
+            "name": "Vueling",
+            "domain": "",
+            "clientIds": [
+                "198332"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Dollar",
+            "domain": "",
+            "clientIds": [
+                "229561"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Thrifty",
+            "domain": "",
+            "clientIds": [
+                "240458"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Swiss",
+            "domain": "",
+            "clientIds": [
+                "592214"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Expedia APAC",
+            "domain": "",
+            "clientIds": [
+                "381107"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Sales Banners",
+            "domain": "",
+            "clientIds": [
+                "633337"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "eDreams",
+            "domain": "",
+            "tag": "edreams",
+            "clientIds": [
+                "313415",
+                "313432",
+                "315710"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Go Voyage",
+            "domain": "",
+            "clientIds": [
+                "315710",
+                "315727",
+                "316169"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Opodo",
+            "domain": "",
+            "clientIds": [
+                "314945",
+                "314962",
+                "315404"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Travellink",
+            "domain": "",
+            "clientIds": [
+                "314180",
+                "314197",
+                "315639"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Tipoa",
+            "domain": "",
+            "clientIds": [
+                "728503"
+            ],
+            "abandonmentKey": "",
+            "enablePSD2WebForm": "false"
+        },
+        {
+            "name": "itaka",
+            "domain": "",
+            "clientIds": [
+                "528125",
+                "528414"
+            ]
+        },
+        {
+            "name": "TAP",
+            "domain": "",
+            "clientIds": [
+                "861936"
+            ],
+            "loyaltyProgramId": "TAP"
+        },
+        {
+            "name": "Transavia",
+            "domain": "",
+            "clientIds": [
+                "505821"
+            ]
+        },
+        {
+            "name": "Argus",
+            "domain": "",
+            "clientIds": [
+                "685068",
+                "685051"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Holiday Autos",
+            "domain": "",
+            "clientIds": [
+                "685034",
+                "685017",
+                "463473"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "CardGenY",
+            "domain": "",
+            "clientIds": [
+                "551908"
+            ]
+        },
+        {
+            "name": "RentalCars",
+            "domain": "",
+            "clientIds": [
+                "553676"
+            ]
+        },
+        {
+            "name": "MyIDTravel",
+            "domain": "",
+            "clientIds": [
+                "560408",
+                "560425"
+            ]
+        }
+    ],
+    "suppliers": [
+        {
+            "name": "EUROPCAR",
+            "preferredBorderColor": "#009900",
+            "preferredTextColor": "#FFFFFF",
+            "preferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf",
+            "darkPreferredBorderColor": "#FFFFFF",
+            "darkPreferredTextColor": "#000000",
+            "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf"
+        },
+        {
+            "name": "AVIS",
+            "preferredBorderColor": "#D4002A",
+            "preferredTextColor": "#FFFFFF",
+            "preferredLogo": "https://ct-supplierimage.imgix.net/car/avis.pdf",
+            "darkPreferredBorderColor": "#D4002A",
+            "darkPreferredTextColor": "#FFFFFF",
+            "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/avis-dark.pdf"
+        },
+        {
+            "name": "BUDGET",
+            "preferredBorderColor": "#00285f",
+            "preferredTextColor": "#FFFFFF",
+            "preferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf",
+            "darkPreferredBorderColor": "#00285f",
+            "darkPreferredTextColor": "#FFFFFF",
+            "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf"
+        }
+    ],
+    "enablePSD2WebForm": "false",
+    "enablePrePaidExtras": "false",
+    "enableZeroExcess": "true",
+    "enableZeroExcessUpSell": "true",
+    "saleTermsAndConditionsURL": "https://cars.cartrawler.com/book/${x}/terms-sale",
+    "enableCovidInsuranceMessage": "true",
+    "covidInsuranceMessageURL": "https://allianztravel-info.com",
+    "imageBaseURL": "https://ct-supplierimage.imgix.net/car/",
+    "landingPageIcons": [
+        "europcar",
+        "avis",
+        "hertz",
+        "alamo",
+        "budget"
+    ],
+    "categories": {
+        "US": [
+            {
+                "type": "Economy",
+                "ids": [
+                    "1",
+                    "33",
+                    "2",
+                    "3",
+                    "34"
+                ],
+                "rank": 1
+            },
+            {
+                "type": "Compact",
+                "ids": [
+                    "4",
+                    "35"
+                ],
+                "rank": 2
+            },
+            {
+                "type": "Midsize",
+                "ids": [
+                    "5",
+                    "6",
+                    "36"
+                ],
+                "rank": 4
+            },
+            {
+                "type": "Standard",
+                "ids": [
+                    "7",
+                    "37"
+                ],
+                "rank": 6
+            },
+            {
+                "type": "Fullsize",
+                "ids": [
+                    "8",
+                    "38",
+                    "44"
+                ],
+                "rank": 7
+            },
+            {
+                "type": "Premium",
+                "ids": [
+                    "10",
+                    "39"
+                ],
+                "rank": 9
+            },
+            {
+                "type": "Luxury",
+                "ids": [
+                    "9",
+                    "21",
+                    "23",
+                    "24",
+                    "40"
+                ],
+                "rank": 14
+            },
+            {
+                "type": "Smallsuv",
+                "ids": [
+                    "27"
+                ],
+                "rank": 10
+            },
+            {
+                "type": "Midsizesuv",
+                "ids": [
+                    "28"
+                ],
+                "rank": 3
+            },
+            {
+                "type": "Largesuv",
+                "ids": [
+                    "29",
+                    "30"
+                ],
+                "rank": 5
+            },
+            {
+                "type": "Minivan",
+                "ids": [
+                    "11",
+                    "45",
+                    "46"
+                ],
+                "rank": 8
+            },
+            {
+                "type": "Van",
+                "ids": [
+                    "47"
+                ],
+                "rank": 12
+            },
+            {
+                "type": "Largevan.12pax",
+                "ids": [
+                    "12"
+                ],
+                "rank": 16
+            },
+            {
+                "type": "Largevan.15pax",
+                "ids": [
+                    "14"
+                ],
+                "rank": 17
+            },
+            {
+                "type": "Truck",
+                "ids": [
+                    "13",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "25",
+                    "26"
+                ],
+                "rank": 12
+            },
+            {
+                "type": "Convertible",
+                "ids": [
+                    "43"
+                ],
+                "rank": 13
+            },
+            {
+                "type": "Special",
+                "ids": [
+                    "32"
+                ],
+                "rank": 11
+            }
+        ],
+        "default": [
+            {
+                "type": "Mini",
+                "ids": [
+                    "1",
+                    "33"
+                ],
+                "rank": 1
+            },
+            {
+                "type": "Economy",
+                "ids": [
+                    "3",
+                    "34"
+                ],
+                "rank": 2
+            },
+            {
+                "type": "Compact",
+                "ids": [
+                    "4",
+                    "35"
+                ],
+                "rank": 3
+            },
+            {
+                "type": "Intermediate",
+                "ids": [
+                    "6",
+                    "36"
+                ],
+                "rank": 7
+            },
+            {
+                "type": "Standard",
+                "ids": [
+                    "7",
+                    "37"
+                ],
+                "rank": 6
+            },
+            {
+                "type": "Fullsize",
+                "ids": [
+                    "8",
+                    "38"
+                ],
+                "rank": 12
+            },
+            {
+                "type": "Luxury",
+                "ids": [
+                    "9",
+                    "40"
+                ],
+                "rank": 13
+            },
+            {
+                "type": "Premium",
+                "ids": [
+                    "10"
+                ],
+                "rank": 14
+            },
+            {
+                "type": "Minivan",
+                "ids": [
+                    "11"
+                ],
+                "rank": 11
+            },
+            {
+                "type": "Cargovan",
+                "ids": [
+                    "15"
+                ],
+                "rank": 15
+            },
+            {
+                "type": "Convertible",
+                "ids": [
+                    "43"
+                ],
+                "rank": 16
+            },
+            {
+                "type": "Estate",
+                "ids": [
+                    "44"
+                ],
+                "rank": 5
+            },
+            {
+                "type": "5seatcarrier",
+                "ids": [
+                    "45"
+                ],
+                "rank": 8
+            },
+            {
+                "type": "7seatcarrier",
+                "ids": [
+                    "46"
+                ],
+                "rank": 9
+            },
+            {
+                "type": "9seatcarrier",
+                "ids": [
+                    "47"
+                ],
+                "rank": 10
+            },
+            {
+                "type": "SUV",
+                "ids": [
+                    "48",
+                    "27",
+                    "28",
+                    "29",
+                    "5"
+                ],
+                "rank": 4
+            },
+            {
+                "type": "Scooter",
+                "ids": [
+                    "20"
+                ],
+                "rank": 17
+            },
+            {
+                "type": "Truck",
+                "ids": [
+                    "25",
+                    "26"
+                ],
+                "rank": 18
+            },
+            {
+                "type": "Exotic",
+                "ids": [
+                    "24"
+                ],
+                "rank": 19
+            }
+        ]
     }
-  ],
-  "suppliers": [
-    {
-      "name": "EUROPCAR",
-      "preferredBorderColor": "#009900",
-      "preferredTextColor": "#FFFFFF",
-      "preferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf",
-      "darkPreferredBorderColor": "#FFFFFF",
-      "darkPreferredTextColor": "#000000",
-      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf"
-    },
-    {
-      "name": "AVIS",
-      "preferredBorderColor": "#D4002A",
-      "preferredTextColor": "#FFFFFF",
-      "preferredLogo": "https://ct-supplierimage.imgix.net/car/avis.pdf",
-      "darkPreferredBorderColor": "#D4002A",
-      "darkPreferredTextColor": "#FFFFFF",
-      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/avis-dark.pdf"
-    },
-    {
-      "name": "BUDGET",
-      "preferredBorderColor": "#00285f",
-      "preferredTextColor": "#FFFFFF",
-      "preferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf",
-      "darkPreferredBorderColor": "#00285f",
-      "darkPreferredTextColor": "#FFFFFF",
-      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf"
-    }
-  ],
-  "enablePSD2WebForm": "false",
-  "enablePrePaidExtras": "false",
-  "enableZeroExcess": "true",
-  "enableZeroExcessUpSell": "true",
-  "saleTermsAndConditionsURL": "https://cars.cartrawler.com/book/${x}/terms-sale",
-  "enableCovidInsuranceMessage": "true",
-  "covidInsuranceMessageURL": "https://allianztravel-info.com",
-  "imageBaseURL": "https://ct-supplierimage.imgix.net/car/",
-  "landingPageIcons": ["europcar","avis","hertz","alamo","budget"]
 }
-
