@@ -37,6 +37,7 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
 @property (nonatomic, strong) NSString *pinnedVehicleID;
 @property (nonatomic, strong) NSArray<CTPassenger *>* passengers;
 @property (nonatomic, strong) NSString *loyaltyRegex;
+@property (nonatomic) BOOL customCashTreatment;
 @property (nonatomic) CTDeeplink deeplink;
 
 - (instancetype)init NS_UNAVAILABLE;

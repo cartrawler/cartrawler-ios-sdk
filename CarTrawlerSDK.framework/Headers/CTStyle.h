@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CTLoyaltyStyle.h"
+#import "CTCashStyle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -55,6 +56,9 @@ typedef NS_ENUM(NSInteger, CTUserInterfaceStyle) {
 
 // Loyalty
 @property (nonatomic, strong) CTLoyaltyStyle *loyaltyStyle;
+
+// CarTrawler Cash
+@property (nonatomic, strong) CTCashStyle *cashStyle;
 
 + (instancetype)styleWithTheme:(CTAppTheme)appTheme
                   primaryColor:(nonnull UIColor *)primaryColor;
