@@ -3,7 +3,6 @@
         {
             "name": "Native Test ID",
             "domain": "",
-            "tag": "native_test_id",
             "clientIds": [
                 "541368"
             ],
@@ -11,7 +10,7 @@
             "loyaltyProgramId": "CARTRAWLER",
             "supplierBorderColor": "#009900",
             "supplierTextColor": "#FFFFFF",
-            "ratingType": "STARS"
+            "ratingType": "Stars"
         },
         {
             "name": "easyJet",
@@ -110,8 +109,7 @@
             "name": "Hawaiian Airlines",
             "domain": "",
             "clientIds": [
-                "162768",
-                "222268"
+                "162768"
             ],
             "abandonmentKey": ""
         },
@@ -188,11 +186,23 @@
         {
             "name": "eDreams",
             "domain": "",
-            "tag": "edreams",
             "clientIds": [
                 "313415",
                 "313432",
                 "315710"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "eDreams Prime",
+            "domain": "",
+            "tag": "prime",
+            "clientIds": [
+                "564471",
+                "564488",
+                "564692",
+                "565168",
+                "565389"
             ],
             "abandonmentKey": ""
         },
@@ -207,12 +217,38 @@
             "abandonmentKey": ""
         },
         {
+            "name": "Go Voyage Prime",
+            "domain": "",
+            "tag": "prime",
+            "clientIds": [
+                "563417",
+                "562499",
+                "563145",
+                "562516",
+                "562720"
+            ],
+            "abandonmentKey": ""
+        },
+        {
             "name": "Opodo",
             "domain": "",
             "clientIds": [
                 "314945",
                 "314962",
                 "315404"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Opodo Prime",
+            "domain": "",
+            "tag": "prime",
+            "clientIds": [
+                "563485",
+                "563502",
+                "563706",
+                "564131",
+                "564403"
             ],
             "abandonmentKey": ""
         },
@@ -344,6 +380,21 @@
         "alamo",
         "budget"
     ],
+    "hash": {
+        "AMqinyiyeKKiOnNGJMUittwGR5y6uK1bEXTi5hQDcMahCLBZ1FCtdcjbQ6xKqPui64N0c/47ZL/RtJK3Ka69oI1XQU7raWo+AVtgT7Ndh0pm2i4DJ6VbcmSL6poraGLgKvd4S6alj+piBuv0+iLKJb20NwjBeySZoG9manNEMws=": [
+            "WniBPPmhJFpSRXOczzxmCoGjD3aLSt2OkIteUanzXGaWa5I6YzBGdv3PUMk0Ffxhwh4Jg5Zs2GsHV/gV8+ukBVQ9yJxx6WAal2M27RCRICdMYZTPfUft9Fc4PeTGfePoSy303ha7jaPmfYYL3HgVVLNOBBVFu5o61curL51AN8s=",
+            "kKRWaMgcpuJsTRQ8gyvcjT3YMdBG63wckmoR0qtx3jRq2uQvxrw9D+De+ryeeNr74kz3TN16vhYw8uHGDCckHH9bhqJsvNSvQp5Mrlt/4CI3Uwk92QZDTwfZlxe40h5WA6chCQRwbDmSVpoVvFflP/aicoDRBJQuIUqHuD3rWn4=",
+            "gBSFA9dfT8N5b3zSQN4J9jRsXHconmvpEHYwntol1g9mN7F/54p8+R9rU4S/5Yt2x4UADoVRd0synZsnG5xSCyD//wKju0EXEk/sfbjEf7qRtQCKAITAAX9qsm7pn+fsy3C3mn1zrxFeSLWh+knFmYjiky7ymnOm+pgqCW9e0Pk="
+        ],
+        "b6QUqVKuzdx/SvXkO7SgfzSA9Y4pXi+Vuylaiy3KjT8ethLt1V8Sf4uv/Wf6a6RUrsGmHHTyj1O2KG1nbI576La897D34oMMosFb9Ur4VvBY8mbGYguyaEsKapm+B+gkcJomNMp+eJseJKCFu36zG6NzBCkagG/oybranp11a+k=": [
+            "LdRRrAAMxxcsr+x7tq5I+9/NLzDnCMjVZAuABSfBaqi005xoerwpjiX8EzdPWbvyzbeU7mHVFsCSUVt7UTWqSN8BmyvoxlmjfjJSDLh9EG+7AI35OdFJJUmmtbiQAfXTiiyypUZDsSywAh0lOgA3ioz8H2eaeHUK682AkEItuYM=",
+            "MZGSXYV1Caj7xnmnuzLPqDGmZMX8VFg+uKSZPhkR6BGysIOLtWanksLspOILrYS5UOzIDnPVHuQmby8YXRGz05RzuAQBhIGub7VNmcj1Wf0UUKDK9kegCa2gLCgIFjSKDvvcFVSfHqSONzbznezVuvt1xOkzU3zeEQze01UvyCA=",
+            "i49JgSpYF5c9QCWPVtjvJIuB/92ESE/C1iKeksg9WDUFhyZFXYS4g/ddPiFxx0g2TKhW43SOTVfWJUI5F1krKuGELMbpvC240u4gS6nCvyELaDTnSJIzMqUFKWWSeYxvH36WE2gXM5DAqJ8J3t297jjqng+dFwX6pWu/+4a43gU=",
+            "Oj+tdQG+zf1uguL+L+Lqxd79lfDFKboV5CXFWJ8RtRzE19wT9894eoqQPXArlh1VzGWD1kPYi65f1gbIFNp8bjIoFHq9S72bLgVZGtvaEr0QJj6LY/xqtlSOqvgNAhxtYCbZ7zZODP/+v9Lzzj9b4MNPH6GML94n/R9DB4kaQkY=",
+            "RDcSvbMJQWZQFwWbtKPNzBtgr7/QimxQv5fXk3/bGim2DXnqBwGlX0RwCqW+zskqDcHFg2NMp+IvdzgY2pAP1ZvgFALmWLXXJpmdd9Iaxr4LjUNkPDCrxe4hs5SHxAzOpPX0PHhQ4gCwON+DkIAM1feEZgMo3Cxhjwy9cQ0XDuc=",
+            "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q="
+        ]
+    },
     "categories": {
         "US": [
             {
