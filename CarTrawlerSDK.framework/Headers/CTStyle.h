@@ -23,6 +23,11 @@ typedef NS_ENUM(NSInteger, CTUserInterfaceStyle) {
     CTUserInterfaceStyleDark
 };
 
+typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
+    CTLandingPageStyleDefault,
+    CTLandingPageStyleCheckmark
+};
+
 @interface CTStyle : NSObject
 
 // Mandatory parameters
@@ -31,6 +36,7 @@ typedef NS_ENUM(NSInteger, CTUserInterfaceStyle) {
 
 // Optional Parameters
 @property (nonatomic) CTUserInterfaceStyle userInterfaceStyle;
+@property (nonatomic) CTLandingPageStyle landingPageStyle;
 @property (nonatomic, strong) UIColor *primaryDarkColor;
 @property (nonatomic, strong) UIColor *primaryLightColor;
 @property (nonatomic, strong) UIColor *ctaColor;
@@ -48,6 +54,14 @@ typedef NS_ENUM(NSInteger, CTUserInterfaceStyle) {
 @property (nonatomic, strong) UIColor *dmSecondaryCtaColor;
 @property (nonatomic, strong) UIColor *dmSecondaryCtaFontColor;
 @property (nonatomic, strong) UIColor *dmLinkColor;
+
+// Landing page logo
+@property (nonatomic, strong, nullable) UIImage *landingPageLogoImage;
+@property (nonatomic, strong, nullable) NSURL *landingPageLogoURL;
+
+// Dark Mode landing page logo
+@property (nonatomic, strong, nullable) UIImage *dmLandingPageLogoImage;
+@property (nonatomic, strong, nullable) NSURL *dmLandingPageLogoURL;
 
 // Fonts
 @property (nonatomic, strong) UIFont *regularFont;
