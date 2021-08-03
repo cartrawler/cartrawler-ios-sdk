@@ -4,7 +4,8 @@
             "name": "Native Test ID",
             "domain": "",
             "clientIds": [
-                "541368"
+                "541368",
+                "83004"
             ],
             "abandonmentKey": "",
             "loyaltyProgramId": "CARTRAWLER",
@@ -15,6 +16,7 @@
         {
             "name": "easyJet",
             "domain": "",
+            "tag": "easyjet",
             "clientIds": [
                 "512434",
                 "512451",
@@ -186,6 +188,7 @@
         {
             "name": "eDreams",
             "domain": "",
+            "tag": "prime",
             "clientIds": [
                 "313415",
                 "313432",
@@ -209,6 +212,7 @@
         {
             "name": "Go Voyage",
             "domain": "",
+            "tag": "prime",
             "clientIds": [
                 "315710",
                 "315727",
@@ -232,6 +236,7 @@
         {
             "name": "Opodo",
             "domain": "",
+            "tag": "prime",
             "clientIds": [
                 "314945",
                 "314962",
@@ -255,6 +260,7 @@
         {
             "name": "Travellink",
             "domain": "",
+            "tag": "prime",
             "clientIds": [
                 "314180",
                 "314197",
@@ -333,6 +339,14 @@
             "clientIds": [
                 "560408",
                 "560425"
+            ]
+        },
+        {
+            "name": "United Airlines",
+            "domain": "",
+            "tag": "united",
+            "clientIds": [
+                "557739"
             ]
         }
     ],
