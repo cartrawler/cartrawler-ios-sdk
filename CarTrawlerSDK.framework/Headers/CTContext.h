@@ -39,6 +39,7 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
 @property (nonatomic, strong) NSString *loyaltyRegex;
 @property (nonatomic) BOOL customCashTreatment;
 @property (nonatomic) CTDeeplink deeplink;
+@property (nonatomic, strong) NSString *promotionCode;
 
 - (instancetype)init NS_UNAVAILABLE;
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType;
