@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface CTVehicleDetails : NSObject
 
@@ -26,11 +27,16 @@
 @property (nonatomic, readonly, nullable) NSString *transmissionType;
 @property (nonatomic, readonly, nullable) NSString *size;
 @property (nonatomic, readonly, nullable) NSString *categoryText;
+@property (nonatomic, readonly) BOOL isPreferredSupplier;
 
 // Supplier
 @property (nonatomic, readonly, nullable) NSString *supplier;
 @property (nonatomic, readonly, nullable) NSNumber *supplierRating;
 @property (nonatomic, readonly, nullable) NSURL *supplierImageURL;
+@property (nonatomic, readonly, nullable) NSString *preferredSupplierText;
+@property (nonatomic, readonly, nullable) UIColor *preferredSupplierTextColor;
+@property (nonatomic, readonly, nullable) UIColor *preferredSupplierBorderColor;
+@property (nonatomic, readonly, nullable) NSURL *preferredSupplierLogoURL;
 
 // Widget localization
 @property (nonatomic, readonly, nullable) NSString *passengersText;
