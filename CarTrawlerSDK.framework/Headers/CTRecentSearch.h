@@ -34,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) NSDate *dropoffTime;
 @property (nonatomic, strong, readonly) NSDate *derivedDropoffDate;
 
+@property (nonatomic, assign, readonly) BOOL isAtAirport;
+
 @end
 
 NS_ASSUME_NONNULL_END
