@@ -4735,6 +4735,8 @@ __69+[CTSelectionVehicleReducer configureExtrasForSelectionVehicleState:]_block_
 -[CTSessionState setCustomCashTreatment:]
 -[CTSessionState isVehicleListDeeplink]
 -[CTSessionState setIsVehicleListDeeplink:]
+-[CTSessionState recentSearch]
+-[CTSessionState setRecentSearch:]
 -[CTSessionState engineLoadID]
 -[CTSessionState setEngineLoadID:]
 -[CTSessionState queryID]
@@ -4806,6 +4808,7 @@ _OBJC_IVAR_$_CTSessionState._decryptedHosts
 _OBJC_IVAR_$_CTSessionState._hashes
 _OBJC_IVAR_$_CTSessionState._partnerTag
 _OBJC_IVAR_$_CTSessionState._promotionCode
+_OBJC_IVAR_$_CTSessionState._recentSearch
 _OBJC_IVAR_$_CTSessionState._engineLoadID
 _OBJC_IVAR_$_CTSessionState._queryID
 _OBJC_IVAR_$_CTSessionState._customerID
@@ -6542,13 +6545,14 @@ CartrawlerSDK/CTSelectionListState.h
 +[CTSessionReducer landingPageIconsURL:baseURL:]
 +[CTSessionReducer resetDeeplinkParamenters:payload:]
 _OBJC_CLASSLIST_REFERENCES_$_.144
-_OBJC_CLASSLIST_REFERENCES_$_.229
+_OBJC_CLASSLIST_REFERENCES_$_.233
 _OBJC_SELECTOR_REFERENCES_.253
-_OBJC_CLASSLIST_REFERENCES_$_.258
-_OBJC_CLASSLIST_REFERENCES_$_.290
-_OBJC_CLASSLIST_REFERENCES_$_.291
+_OBJC_CLASSLIST_REFERENCES_$_.262
+_OBJC_CLASSLIST_REFERENCES_$_.289
 _OBJC_CLASSLIST_REFERENCES_$_.294
-_OBJC_CLASSLIST_REFERENCES_$_.330
+_OBJC_CLASSLIST_REFERENCES_$_.295
+_OBJC_CLASSLIST_REFERENCES_$_.298
+_OBJC_CLASSLIST_REFERENCES_$_.334
 __OBJC_$_CLASS_METHODS_CTSessionReducer
 __OBJC_CLASS_PROTOCOLS_$_CTSessionReducer
 __OBJC_METACLASS_RO_$_CTSessionReducer
@@ -9514,7 +9518,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.245
 _OBJC_CLASSLIST_REFERENCES_$_.255
 _OBJC_CLASSLIST_REFERENCES_$_.256
 _OBJC_CLASSLIST_REFERENCES_$_.257
-_OBJC_CLASSLIST_REFERENCES_$_.262
 _OBJC_CLASSLIST_REFERENCES_$_.273
 _OBJC_CLASSLIST_REFERENCES_$_.343
 _OBJC_CLASSLIST_REFERENCES_$_.345
@@ -10272,11 +10275,13 @@ __52-[CTSelectedVehicleRatingsView updateWithViewModel:]_block_invoke
 -[CTRecentSearch dropoffDate]
 -[CTRecentSearch dropoffTime]
 -[CTRecentSearch derivedDropoffDate]
+-[CTRecentSearch isAtAirport]
 -[CTRecentSearch searchState]
 -[CTRecentSearch setSearchState:]
 -[CTRecentSearch .cxx_destruct]
 __OBJC_METACLASS_RO_$_CTRecentSearch
 __OBJC_$_INSTANCE_METHODS_CTRecentSearch
+_OBJC_IVAR_$_CTRecentSearch._isAtAirport
 _OBJC_IVAR_$_CTRecentSearch._pickupLocationName
 _OBJC_IVAR_$_CTRecentSearch._pickupCountryCode
 _OBJC_IVAR_$_CTRecentSearch._pickupAddressLine
@@ -11152,7 +11157,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.288
 _OBJC_CLASSLIST_REFERENCES_$_.301
 _OBJC_SELECTOR_REFERENCES_.320
 _OBJC_CLASSLIST_REFERENCES_$_.325
-_OBJC_CLASSLIST_REFERENCES_$_.334
 _OBJC_CLASSLIST_REFERENCES_$_.337
 _OBJC_CLASSLIST_REFERENCES_$_.363
 _OBJC_SELECTOR_REFERENCES_.365
