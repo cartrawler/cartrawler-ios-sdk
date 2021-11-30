@@ -353,19 +353,20 @@ __OBJC_$_INSTANCE_METHODS_CTShimmeringLayer
 __OBJC_$_INSTANCE_VARIABLES_CTShimmeringLayer
 __OBJC_$_PROP_LIST_CTShimmeringLayer
 __OBJC_CLASS_RO_$_CTShimmeringLayer
-_OBJC_SELECTOR_REFERENCES_.254
-_OBJC_SELECTOR_REFERENCES_.256
-_OBJC_CLASSLIST_REFERENCES_$_.257
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_CLASSLIST_REFERENCES_$_.251
+_OBJC_SELECTOR_REFERENCES_.255
+_OBJC_SELECTOR_REFERENCES_.257
+_OBJC_SELECTOR_REFERENCES_.259
 _OBJC_SELECTOR_REFERENCES_.261
 _OBJC_SELECTOR_REFERENCES_.263
 _OBJC_SELECTOR_REFERENCES_.265
 _OBJC_SELECTOR_REFERENCES_.267
 _OBJC_SELECTOR_REFERENCES_.269
 _OBJC_SELECTOR_REFERENCES_.271
-_OBJC_SELECTOR_REFERENCES_.273
-_OBJC_SELECTOR_REFERENCES_.275
-_OBJC_CLASSLIST_REFERENCES_$_.278
-_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_CLASSLIST_REFERENCES_$_.274
+_OBJC_SELECTOR_REFERENCES_.276
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTShimmeringLayer.m
 CartrawlerSDK/CTShimmeringLayer.m
 CartrawlerSDK/CTShimmeringLayer.h
@@ -373,8 +374,6 @@ fade_animation
 shimmer_slide_animation
 shimmer_slide_repeat
 shimmer_slide_finish
-CGPointMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 -[CTAppState networkState]
 -[CTAppState setNetworkState:]
 -[CTAppState sessionState]
@@ -413,8 +412,8 @@ CartrawlerSDK/UIImage+RTL.m
 -[CTSelectedVehicleAllExtrasViewController viewWillDisappear:]
 -[CTSelectedVehicleAllExtrasViewController updateWithViewModel:]
 ___64-[CTSelectedVehicleAllExtrasViewController updateWithViewModel:]_block_invoke
-___copy_helper_block_e4_20s24s
-___destroy_helper_block_e4_20s24s
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
 ___64-[CTSelectedVehicleAllExtrasViewController updateWithViewModel:]_block_invoke.149
 -[CTSelectedVehicleAllExtrasViewController addPaymentSummaryViewController]
 -[CTSelectedVehicleAllExtrasViewController cancelButtonTapped]
@@ -481,7 +480,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.116
 _OBJC_CLASSLIST_REFERENCES_$_.119
 _OBJC_SELECTOR_REFERENCES_.121
 _OBJC_SELECTOR_REFERENCES_.123
-___block_descriptor_28_e4_20s24s_e5_v4?0l
+___block_descriptor_48_e8_32s40s_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.126
 _OBJC_SELECTOR_REFERENCES_.134
 _OBJC_SELECTOR_REFERENCES_.136
@@ -546,8 +545,8 @@ __OBJC_CLASS_RO_$_CTSelectedVehicleAllExtrasViewController
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTSelectedVehicleAllExtrasViewController.m
 CartrawlerSDK/CTSelectedVehicleAllExtrasViewController.m
 __64-[CTSelectedVehicleAllExtrasViewController updateWithViewModel:]_block_invoke.149
-__destroy_helper_block_e4_20s24s
-__copy_helper_block_e4_20s24s
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
 __64-[CTSelectedVehicleAllExtrasViewController updateWithViewModel:]_block_invoke
 -[CTLabelLinkColor layoutSubviews]
 __OBJC_METACLASS_RO_$_CTLabelLinkColor
@@ -560,20 +559,20 @@ __OBJC_CLASS_RO_$_CTViewBackgroundColor
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTViewBackgroundColor.m
 -[CTReservationsInteractor fetchReservation:completion:]
 ___56-[CTReservationsInteractor fetchReservation:completion:]_block_invoke
-___copy_helper_block_e4_20b24s
+___copy_helper_block_e8_32b40s
 ___56-[CTReservationsInteractor fetchReservation:completion:]_block_invoke.48
 ___56-[CTReservationsInteractor fetchReservation:completion:]_block_invoke_2
-___copy_helper_block_e4_20b24s28s
-___destroy_helper_block_e4_20s24s28s
-___copy_helper_block_e4_20b
-___destroy_helper_block_e4_20s
+___copy_helper_block_e8_32b40s48s
+___destroy_helper_block_e8_32s40s48s
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
 -[CTReservationsInteractor validateParams:]
 _OBJC_CLASSLIST_REFERENCES_$_.31
 _OBJC_SELECTOR_REFERENCES_.33
-___block_descriptor_28_e4_20bs24s_e5_v4?0l
+___block_descriptor_48_e8_32bs40s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.37
-___block_descriptor_32_e4_20bs24s28s_e5_v4?0l
-___block_descriptor_24_e4_20bs_e49_v12?0"CTReservationDetails"4"CTErrorResponse"8l
+___block_descriptor_56_e8_32bs40s48s_e5_v8?0l
+___block_descriptor_40_e8_32bs_e50_v24?0"CTReservationDetails"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.54
 _OBJC_SELECTOR_REFERENCES_.62
 _OBJC_SELECTOR_REFERENCES_.76
@@ -583,13 +582,13 @@ __OBJC_$_INSTANCE_METHODS_CTReservationsInteractor
 __OBJC_CLASS_RO_$_CTReservationsInteractor
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/Interactor/CTReservationsInteractor.m
 CartrawlerSDK/Interactor/CTReservationsInteractor.m
-__destroy_helper_block_e4_20s
-__copy_helper_block_e4_20b
-__destroy_helper_block_e4_20s24s28s
-__copy_helper_block_e4_20b24s28s
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32b40s48s
 __56-[CTReservationsInteractor fetchReservation:completion:]_block_invoke_2
 __56-[CTReservationsInteractor fetchReservation:completion:]_block_invoke.48
-__copy_helper_block_e4_20b24s
+__copy_helper_block_e8_32b40s
 __56-[CTReservationsInteractor fetchReservation:completion:]_block_invoke
 -[CTToolBarButtonItem initWithImage:style:target:action:]
 -[CTToolBarButtonItem initWithTitle:style:target:action:]
@@ -703,8 +702,8 @@ CartrawlerSDK/NSMutableAttributedString+CTLink.m
 -[CTInsuranceCardView awakeFromNib]
 -[CTInsuranceCardView updateWithViewModel:]
 ___43-[CTInsuranceCardView updateWithViewModel:]_block_invoke
-___copy_helper_block_e4_20w
-___destroy_helper_block_e4_20w
+___copy_helper_block_e8_32w
+___destroy_helper_block_e8_32w
 -[CTInsuranceCardView addAndContinueButtonTapped:]
 -[CTInsuranceCardView numberOfSectionsInTableView:]
 -[CTInsuranceCardView tableView:estimatedHeightForRowAtIndexPath:]
@@ -769,7 +768,7 @@ _OBJC_SELECTOR_REFERENCES_.117
 _OBJC_SELECTOR_REFERENCES_.119
 _OBJC_SELECTOR_REFERENCES_.125
 _OBJC_CLASSLIST_REFERENCES_$_.132
-___block_descriptor_24_e4_20w_e29_v12?0"UIImage"4"NSString"8l
+___block_descriptor_40_e8_32w_e30_v24?0"UIImage"8"NSString"16l
 _OBJC_SELECTOR_REFERENCES_.152
 _OBJC_SELECTOR_REFERENCES_.154
 _OBJC_SELECTOR_REFERENCES_.156
@@ -816,8 +815,8 @@ __OBJC_CLASS_RO_$_CTInsuranceCardView
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/Insurance Page/View/CTInsuranceCardView.m
 CartrawlerSDK/Insurance Page/View/CTInsuranceCardView.m
 CartrawlerSDK/Insurance Page/View/CTInsuranceCardView.h
-__destroy_helper_block_e4_20w
-__copy_helper_block_e4_20w
+__destroy_helper_block_e8_32w
+__copy_helper_block_e8_32w
 __43-[CTInsuranceCardView updateWithViewModel:]_block_invoke
 -[CTViewDynamicWhite layoutSubviews]
 -[CTViewDynamicGrey layoutSubviews]
@@ -875,8 +874,8 @@ CTCodedImagesResizingBehaviorApply
 +[CTRequestBuilder(Abandonment) setupURLComponentsWith:customerID:orderId:dropoffAirportcode:deepLink:pickupDateString:data:abandonmentEndPoint:]
 +[CTRequestBuilder(Abandonment) buildDataJSONForVehicles:availabilityItem:pickUpDate:dropOffDate:totalText:dayText:]
 ___116+[CTRequestBuilder(Abandonment) buildDataJSONForVehicles:availabilityItem:pickUpDate:dropOffDate:totalText:dayText:]_block_invoke
-___copy_helper_block_e4_20s28s32s36s40s
-___destroy_helper_block_e4_20s28s32s36s40s
+___copy_helper_block_e8_32s48s56s64s72s
+___destroy_helper_block_e8_32s48s56s64s72s
 +[CTRequestBuilder(Abandonment) buildAbandonmentVehicle:pickUpDate:dropOffDate:totalText:dayText:]
 +[CTRequestBuilder(Abandonment) returnAbandonmentVehicle:pickUpDate:dropOffDate:totalText:dayText:]
 +[CTRequestBuilder(Abandonment) specialOffers:]
@@ -886,7 +885,7 @@ _OBJC_SELECTOR_REFERENCES_.22
 _OBJC_CLASSLIST_REFERENCES_$_.23
 _OBJC_SELECTOR_REFERENCES_.25
 _OBJC_CLASSLIST_REFERENCES_$_.26
-___block_descriptor_44_e4_20s28s32s36s40s_e34_v16?0"CTAvailabilityItem"4I8^c12l
+___block_descriptor_80_e8_32s48s56s64s72s_e35_v32?0"CTAvailabilityItem"8Q16^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.56
 _OBJC_CLASSLIST_REFERENCES_$_.63
 _OBJC_CLASSLIST_REFERENCES_$_.170
@@ -904,8 +903,8 @@ __OBJC_$_CATEGORY_CLASS_METHODS_CTRequestBuilder_$_Abandonment
 __OBJC_$_CATEGORY_CTRequestBuilder_$_Abandonment
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTRequestBuilder+Abandonment.m
 CartrawlerSDK/CTRequestBuilder+Abandonment.m
-__destroy_helper_block_e4_20s28s32s36s40s
-__copy_helper_block_e4_20s28s32s36s40s
+__destroy_helper_block_e8_32s48s56s64s72s
+__copy_helper_block_e8_32s48s56s64s72s
 __116+[CTRequestBuilder(Abandonment) buildDataJSONForVehicles:availabilityItem:pickUpDate:dropOffDate:totalText:dayText:]_block_invoke
 -[CTVehicleListFilterHeaderView updateWithViewModel:]
 -[CTVehicleListFilterHeaderView clearAllTapped:]
@@ -987,9 +986,11 @@ _OBJC_SELECTOR_REFERENCES_.247
 _OBJC_SELECTOR_REFERENCES_.249
 _OBJC_SELECTOR_REFERENCES_.251
 _OBJC_CLASSLIST_REFERENCES_$_.254
+_OBJC_SELECTOR_REFERENCES_.256
 _OBJC_SELECTOR_REFERENCES_.260
 _OBJC_SELECTOR_REFERENCES_.262
 _OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.280
 _OBJC_SELECTOR_REFERENCES_.284
 _OBJC_SELECTOR_REFERENCES_.286
 _OBJC_SELECTOR_REFERENCES_.290
@@ -1119,13 +1120,13 @@ isCodePointStrongRTL
 +[CTAbandonmentHelper sendAbandonmentRequestWithItems:selectedVehicle:appState:]
 +[CTAbandonmentHelper filterCarsItems:]
 ___39+[CTAbandonmentHelper filterCarsItems:]_block_invoke
-___copy_helper_block_e4_20s
-___block_descriptor_24_e4_20s_e34_v16?0"CTAvailabilityItem"4I8^c12l
+___copy_helper_block_e8_32s
+___block_descriptor_40_e8_32s_e35_v32?0"CTAvailabilityItem"8Q16^B24l
 __OBJC_$_CLASS_METHODS_CTAbandonmentHelper
 __OBJC_METACLASS_RO_$_CTAbandonmentHelper
 __OBJC_CLASS_RO_$_CTAbandonmentHelper
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTAbandonmentHelper.m
-__copy_helper_block_e4_20s
+__copy_helper_block_e8_32s
 __39+[CTAbandonmentHelper filterCarsItems:]_block_invoke
 CartrawlerSDK/CTAbandonmentHelper.m
 -[CTInPathInteractor initWithDelegate:isProduction:]
@@ -1138,15 +1139,15 @@ ___50-[CTInPathInteractor performSearchWithAirportCode]_block_invoke
 ___49-[CTInPathInteractor performPickupLocationSearch]_block_invoke
 -[CTInPathInteractor performDropoffLocationSearch:]
 ___51-[CTInPathInteractor performDropoffLocationSearch:]_block_invoke
-___copy_helper_block_e4_20s24w
-___destroy_helper_block_e4_20s24w
+___copy_helper_block_e8_32s40w
+___destroy_helper_block_e8_32s40w
 -[CTInPathInteractor requestVehicleWithPickUpLocation:returnLocation:]
 ___70-[CTInPathInteractor requestVehicleWithPickUpLocation:returnLocation:]_block_invoke
 -[CTInPathInteractor cancelRequest]
 -[CTInPathInteractor didReceiveBestDailyPrice:]
 ___47-[CTInPathInteractor didReceiveBestDailyPrice:]_block_invoke
-___copy_helper_block_e4_20s24s28s32s
-___destroy_helper_block_e4_20s24s28s32s
+___copy_helper_block_e8_32s40s48s56s
+___destroy_helper_block_e8_32s40s48s56s
 -[CTInPathInteractor didReceiveAvailabilityResponse:]
 ___53-[CTInPathInteractor didReceiveAvailabilityResponse:]_block_invoke
 -[CTInPathInteractor didReceivePickupLocation:]
@@ -1167,15 +1168,15 @@ ___52-[CTInPathInteractor didFailToReceiveBestDailyRate:]_block_invoke
 -[CTInPathInteractor .cxx_destruct]
 _OBJC_IVAR_$_CTInPathInteractor._delegate
 _OBJC_CLASSLIST_REFERENCES_$_.43
-___block_descriptor_24_e4_20w_e45_v12?0"CTLocationSearch"4"CTErrorResponse"8l
-___block_descriptor_28_e4_20s24w_e45_v12?0"CTLocationSearch"4"CTErrorResponse"8l
+___block_descriptor_40_e8_32w_e46_v24?0"CTLocationSearch"8"CTErrorResponse"16l
+___block_descriptor_48_e8_32s40w_e46_v24?0"CTLocationSearch"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.90
-___block_descriptor_24_e4_20w_e50_v12?0"CTVehicleAvailability"4"CTErrorResponse"8l
+___block_descriptor_40_e8_32w_e51_v24?0"CTVehicleAvailability"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.140
 _OBJC_SELECTOR_REFERENCES_.150
 _OBJC_CLASSLIST_REFERENCES_$_.157
-___block_descriptor_36_e4_20s24s28s32s_e5_v4?0l
-___block_descriptor_24_e4_20s_e5_v4?0l
+___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+___block_descriptor_40_e8_32s_e5_v8?0l
 _OBJC_IVAR_$_CTInPathInteractor._availabilityRequest
 __OBJC_METACLASS_RO_$_CTInPathInteractor
 __OBJC_$_INSTANCE_METHODS_CTInPathInteractor
@@ -1190,12 +1191,12 @@ __48-[CTInPathInteractor didReceiveMatchedLocation:]_block_invoke
 __48-[CTInPathInteractor didReceiveDropoffLocation:]_block_invoke
 __47-[CTInPathInteractor didReceivePickupLocation:]_block_invoke
 __53-[CTInPathInteractor didReceiveAvailabilityResponse:]_block_invoke
-__destroy_helper_block_e4_20s24s28s32s
-__copy_helper_block_e4_20s24s28s32s
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32s40s48s56s
 __47-[CTInPathInteractor didReceiveBestDailyPrice:]_block_invoke
 __70-[CTInPathInteractor requestVehicleWithPickUpLocation:returnLocation:]_block_invoke
-__destroy_helper_block_e4_20s24w
-__copy_helper_block_e4_20s24w
+__destroy_helper_block_e8_32s40w
+__copy_helper_block_e8_32s40w
 __51-[CTInPathInteractor performDropoffLocationSearch:]_block_invoke
 __49-[CTInPathInteractor performPickupLocationSearch]_block_invoke
 __50-[CTInPathInteractor performSearchWithAirportCode]_block_invoke
@@ -1407,6 +1408,8 @@ CartrawlerSDK/CTVehicleListFilterModel.h
 -[CTSearchFormState setValidationErrors:]
 -[CTSearchFormState vehicleSearchLoading]
 -[CTSearchFormState setVehicleSearchLoading:]
+-[CTSearchFormState resetVehicleSearchProgress]
+-[CTSearchFormState setResetVehicleSearchProgress:]
 -[CTSearchFormState numberOfPassengers]
 -[CTSearchFormState setNumberOfPassengers:]
 -[CTSearchFormState vehicleSearchError]
@@ -1431,6 +1434,7 @@ _OBJC_IVAR_$_CTSearchFormState._dropoffLocationRequired
 _OBJC_IVAR_$_CTSearchFormState._driverAgeRequired
 _OBJC_IVAR_$_CTSearchFormState._isYoungAgeSelected
 _OBJC_IVAR_$_CTSearchFormState._vehicleSearchLoading
+_OBJC_IVAR_$_CTSearchFormState._resetVehicleSearchProgress
 _OBJC_IVAR_$_CTSearchFormState._searchFormSubmitted
 _OBJC_IVAR_$_CTSearchFormState._recentSearchLocationTapped
 _OBJC_IVAR_$_CTSearchFormState._selectedTextField
@@ -1472,7 +1476,7 @@ ___58-[CTAPIController requestSearchAirportLocationsWithState:]_block_invoke_2
 -[CTAPIController requestVehicleAvailabilityWithState:]
 ___55-[CTAPIController requestVehicleAvailabilityWithState:]_block_invoke
 ___55-[CTAPIController requestVehicleAvailabilityWithState:]_block_invoke_2
-___copy_helper_block_e4_20s24s28s
+___copy_helper_block_e8_32s40s48s
 -[CTAPIController requestInsuranceForSelectedVehicleWithState:]
 ___63-[CTAPIController requestInsuranceForSelectedVehicleWithState:]_block_invoke
 ___63-[CTAPIController requestInsuranceForSelectedVehicleWithState:]_block_invoke_2
@@ -1491,31 +1495,31 @@ ___67-[CTAPIController requestPrivacyPolicyForSelectedVehicleWithState:]_block_i
 -[CTAPIController availabilityRequest]
 -[CTAPIController setAvailabilityRequest:]
 -[CTAPIController .cxx_destruct]
-___block_descriptor_20_e45_v12?0"CT_IpToCountryRS"4"CTErrorResponse"8l
+___block_descriptor_32_e46_v24?0"CT_IpToCountryRS"8"CTErrorResponse"16l
 ___block_literal_global
 _OBJC_CLASSLIST_REFERENCES_$_.60
-___block_descriptor_20_e27_v12?0"NSData"4"NSError"8l
+___block_descriptor_32_e28_v24?0"NSData"8"NSError"16l
 ___block_literal_global.72
 _OBJC_CLASSLIST_REFERENCES_$_.76
-___block_descriptor_20_e25_v8?0"CTLoyaltyDetails"4l
+___block_descriptor_32_e26_v16?0"CTLoyaltyDetails"8l
 ___block_literal_global.86
-___block_descriptor_20_e22_v8?0"CTSaleDetails"4l
+___block_descriptor_32_e23_v16?0"CTSaleDetails"8l
 ___block_literal_global.90
 _OBJC_CLASSLIST_REFERENCES_$_.99
-___block_descriptor_28_e4_20s24s_e45_v12?0"CTLocationSearch"4"CTErrorResponse"8l
-___block_descriptor_20_e45_v12?0"CTLocationSearch"4"CTErrorResponse"8l
+___block_descriptor_48_e8_32s40s_e46_v24?0"CTLocationSearch"8"CTErrorResponse"16l
+___block_descriptor_32_e46_v24?0"CTLocationSearch"8"CTErrorResponse"16l
 ___block_literal_global.117
 _OBJC_CLASSLIST_REFERENCES_$_.141
 _OBJC_CLASSLIST_REFERENCES_$_.142
 _OBJC_CLASSLIST_REFERENCES_$_.145
 _OBJC_SELECTOR_REFERENCES_.147
-___block_descriptor_32_e4_20s24s28s_e5_v4?0l
-___block_descriptor_24_e4_20s_e50_v12?0"CTVehicleAvailability"4"CTErrorResponse"8l
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+___block_descriptor_40_e8_32s_e51_v24?0"CTVehicleAvailability"8"CTErrorResponse"16l
 _OBJC_SELECTOR_REFERENCES_.166
 _OBJC_SELECTOR_REFERENCES_.168
 _OBJC_CLASSLIST_REFERENCES_$_.182
-___block_descriptor_28_e4_20s24s_e40_v12?0"CTInsurance"4"CTErrorResponse"8l
-___block_descriptor_20_e49_v12?0"CTTermsAndConditions"4"CTErrorResponse"8l
+___block_descriptor_48_e8_32s40s_e41_v24?0"CTInsurance"8"CTErrorResponse"16l
+___block_descriptor_32_e50_v24?0"CTTermsAndConditions"8"CTErrorResponse"16l
 ___block_literal_global.197
 ___block_literal_global.204
 ___block_literal_global.211
@@ -1541,7 +1545,7 @@ __78-[CTAPIController requestRentalTermsAndConditionsForSelectedVehicleWithState
 __78-[CTAPIController requestRentalTermsAndConditionsForSelectedVehicleWithState:]_block_invoke
 __63-[CTAPIController requestInsuranceForSelectedVehicleWithState:]_block_invoke_2
 __63-[CTAPIController requestInsuranceForSelectedVehicleWithState:]_block_invoke
-__copy_helper_block_e4_20s24s28s
+__copy_helper_block_e8_32s40s48s
 __55-[CTAPIController requestVehicleAvailabilityWithState:]_block_invoke_2
 __55-[CTAPIController requestVehicleAvailabilityWithState:]_block_invoke
 __58-[CTAPIController requestSearchAirportLocationsWithState:]_block_invoke_2
@@ -1972,9 +1976,8 @@ _OBJC_SELECTOR_REFERENCES_.234
 _OBJC_SELECTOR_REFERENCES_.238
 _OBJC_SELECTOR_REFERENCES_.242
 _OBJC_CLASSLIST_REFERENCES_$_.253
-_OBJC_SELECTOR_REFERENCES_.255
-_OBJC_SELECTOR_REFERENCES_.257
-_OBJC_SELECTOR_REFERENCES_.259
+_OBJC_SELECTOR_REFERENCES_.273
+_OBJC_SELECTOR_REFERENCES_.275
 _OBJC_SELECTOR_REFERENCES_.277
 _OBJC_SELECTOR_REFERENCES_.279
 _OBJC_SELECTOR_REFERENCES_.281
@@ -2029,8 +2032,6 @@ __OBJC_$_PROP_LIST_CTDriverDetailsViewController
 __OBJC_CLASS_RO_$_CTDriverDetailsViewController
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTDriverDetailsViewController.m
 CartrawlerSDK/CTDriverDetailsViewController.m
-UIEdgeInsetsMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
 __53-[CTDriverDetailsViewController updateWithViewModel:]_block_invoke.149
 __53-[CTDriverDetailsViewController updateWithViewModel:]_block_invoke
 -[CTSearchSplashViewModel initAppState:]
@@ -2183,8 +2184,8 @@ CartrawlerSDK/CTVehicleListNoResultCellTableViewCell.h
 ___Block_byref_object_copy_
 ___Block_byref_object_dispose_
 ___76-[CTGetRequest performRequestWithEndpoint:params:loggingEnabled:completion:]_block_invoke
-___copy_helper_block_e4_20b24r
-___destroy_helper_block_e4_20s24r
+___copy_helper_block_e8_32b40r
+___destroy_helper_block_e8_32s40r
 -[CTGetRequest URLSession:didReceiveChallenge:completionHandler:]
 -[CTGetRequest performingRequest]
 -[CTGetRequest setPerformingRequest:]
@@ -2197,7 +2198,7 @@ ___destroy_helper_block_e4_20s24r
 -[CTGetRequest .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.28
 _OBJC_CLASSLIST_REFERENCES_$_.82
-___block_descriptor_29_e4_20bs24r_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+___block_descriptor_49_e8_32bs40r_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
 _OBJC_CLASSLIST_REFERENCES_$_.104
 __OBJC_$_PROTOCOL_REFS_NSURLSessionDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLSessionDelegate
@@ -2216,8 +2217,8 @@ __OBJC_$_PROP_LIST_CTGetRequest
 __OBJC_CLASS_RO_$_CTGetRequest
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/Classes/CTGetRequest.m
 CartrawlerSDK/Classes/CTGetRequest.m
-__destroy_helper_block_e4_20s24r
-__copy_helper_block_e4_20b24r
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32b40r
 __76-[CTGetRequest performRequestWithEndpoint:params:loggingEnabled:completion:]_block_invoke
 __Block_byref_object_dispose_
 __Block_byref_object_copy_
@@ -2431,7 +2432,7 @@ _OBJC_SELECTOR_REFERENCES_.192
 _OBJC_SELECTOR_REFERENCES_.198
 _OBJC_SELECTOR_REFERENCES_.214
 _OBJC_CLASSLIST_REFERENCES_$_.215
-___block_descriptor_24_e4_20s_e29_v12?0"UIImage"4"NSString"8l
+___block_descriptor_40_e8_32s_e30_v24?0"UIImage"8"NSString"16l
 _OBJC_SELECTOR_REFERENCES_.226
 _OBJC_SELECTOR_REFERENCES_.228
 _OBJC_SELECTOR_REFERENCES_.231
@@ -2439,6 +2440,7 @@ _OBJC_SELECTOR_REFERENCES_.233
 _OBJC_SELECTOR_REFERENCES_.239
 _OBJC_SELECTOR_REFERENCES_.241
 _OBJC_CLASSLIST_REFERENCES_$_.252
+_OBJC_SELECTOR_REFERENCES_.254
 _OBJC_SELECTOR_REFERENCES_.258
 _OBJC_SELECTOR_REFERENCES_.266
 _OBJC_SELECTOR_REFERENCES_.268
@@ -2514,7 +2516,6 @@ _OBJC_SELECTOR_REFERENCES_.577
 _OBJC_SELECTOR_REFERENCES_.578
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTPaymentConfirmationTableViewController.m
 CartrawlerSDK/CTPaymentConfirmationTableViewController.m
-CGSizeMake
 __64-[CTPaymentConfirmationTableViewController updateWithViewModel:]_block_invoke.229
 __64-[CTPaymentConfirmationTableViewController updateWithViewModel:]_block_invoke
 UI_USER_INTERFACE_IDIOM
@@ -2787,8 +2788,6 @@ _OBJC_CLASSLIST_REFERENCES_$_.239
 _OBJC_CLASSLIST_REFERENCES_$_.242
 _OBJC_CLASSLIST_REFERENCES_$_.243
 _OBJC_CLASSLIST_REFERENCES_$_.246
-_OBJC_SELECTOR_REFERENCES_.248
-_OBJC_SELECTOR_REFERENCES_.250
 _OBJC_SELECTOR_REFERENCES_.252
 _OBJC_CLASSLIST_REFERENCES_$_.267
 _OBJC_CLASSLIST_REFERENCES_$_.287
@@ -2881,8 +2880,8 @@ CartrawlerSDK/Classes/CTVehicle.h
 -[CTUserInterfaceController updateWithAppState:]
 ___48-[CTUserInterfaceController updateWithAppState:]_block_invoke
 ___48-[CTUserInterfaceController updateWithAppState:]_block_invoke_2
-___copy_helper_block_e4_20s24s28w
-___destroy_helper_block_e4_20s24s28w
+___copy_helper_block_e8_32s40s48w
+___destroy_helper_block_e8_32s40s48w
 -[CTUserInterfaceController navigationControllerForState:]
 -[CTUserInterfaceController dismissViewController]
 ___50-[CTUserInterfaceController dismissViewController]_block_invoke
@@ -2893,8 +2892,8 @@ ___50-[CTUserInterfaceController dismissViewController]_block_invoke
 -[CTUserInterfaceController customFont]
 -[CTUserInterfaceController setCustomFont:]
 -[CTUserInterfaceController .cxx_destruct]
-___block_descriptor_32_e4_20s24s28w_e5_v4?0l
-___block_descriptor_28_e4_20s24w_e5_v4?0l
+___block_descriptor_56_e8_32s40s48w_e5_v8?0l
+___block_descriptor_48_e8_32s40w_e5_v8?0l
 __OBJC_METACLASS_RO_$_CTUserInterfaceController
 __OBJC_$_INSTANCE_METHODS_CTUserInterfaceController
 _OBJC_IVAR_$_CTUserInterfaceController._navigationController
@@ -2906,8 +2905,8 @@ __OBJC_CLASS_RO_$_CTUserInterfaceController
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTUserInterfaceController.m
 CartrawlerSDK/CTUserInterfaceController.m
 __50-[CTUserInterfaceController dismissViewController]_block_invoke
-__destroy_helper_block_e4_20s24s28w
-__copy_helper_block_e4_20s24s28w
+__destroy_helper_block_e8_32s40s48w
+__copy_helper_block_e8_32s40s48w
 __48-[CTUserInterfaceController updateWithAppState:]_block_invoke_2
 __48-[CTUserInterfaceController updateWithAppState:]_block_invoke
 +[CTSearchBookingsReducer updateState:action:payload:]
@@ -3022,8 +3021,7 @@ __OBJC_CLASS_RO_$_MARKRangeSliderView
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/MARKRangeSliderView.m
 CartrawlerSDK/MARKRangeSliderView.m
 CartrawlerSDK/MARKRangeSliderView.h
-CGRectMake
-__inline_isnanf
+__inline_isnand
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/math.h
 +[CTVehicleListViewModel storyboardName]
 +[CTVehicleListViewModel viewControllerIdentifier]
@@ -3044,10 +3042,10 @@ ___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_i
 ___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_5
 ___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_6
 ___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_7
-___copy_helper_block_e4_20s24s28s32s36s40s
-___destroy_helper_block_e4_20s24s28s32s36s40s
-___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke.287
-___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_2.289
+___copy_helper_block_e8_32s40s48s56s64s72s
+___destroy_helper_block_e8_32s40s48s56s64s72s
+___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke.291
+___67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_2.293
 +[CTVehicleListViewModel sortedRowViewModels:sort:appState:]
 ___60+[CTVehicleListViewModel sortedRowViewModels:sort:appState:]_block_invoke
 +[CTVehicleListViewModel addCashBannerToRows:appState:]
@@ -3096,66 +3094,62 @@ ___60+[CTVehicleListViewModel sortedRowViewModels:sort:appState:]_block_invoke
 -[CTVehicleListViewModel setIsConnected:]
 -[CTVehicleListViewModel shouldDisplayZeroExcessUpSell]
 -[CTVehicleListViewModel setShouldDisplayZeroExcessUpSell:]
+-[CTVehicleListViewModel resetVehicleSearchProgress]
+-[CTVehicleListViewModel setResetVehicleSearchProgress:]
 -[CTVehicleListViewModel .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.44
-_OBJC_CLASSLIST_REFERENCES_$_.48
-___block_descriptor_20_e22_v8?0"UIAlertAction"4l
+_OBJC_CLASSLIST_REFERENCES_$_.42
+___block_descriptor_32_e23_v16?0"UIAlertAction"8l
 ___block_literal_global.85
 ___block_literal_global.88
 _OBJC_CLASSLIST_REFERENCES_$_.96
-_OBJC_CLASSLIST_REFERENCES_$_.195
-_OBJC_CLASSLIST_REFERENCES_$_.200
-_OBJC_CLASSLIST_REFERENCES_$_.209
-_OBJC_CLASSLIST_REFERENCES_$_.214
-_OBJC_SELECTOR_REFERENCES_.218
-_OBJC_CLASSLIST_REFERENCES_$_.219
-_OBJC_CLASSLIST_REFERENCES_$_.228
-_OBJC_SELECTOR_REFERENCES_.230
-_OBJC_SELECTOR_REFERENCES_.232
-___block_descriptor_20_e50_c12?0"CTVehicleListFilterModel"4"NSDictionary"8l
-___block_literal_global.236
-_OBJC_SELECTOR_REFERENCES_.240
-___block_literal_global.241
-___block_literal_global.242
-___block_literal_global.243
-___block_literal_global.244
+_OBJC_CLASSLIST_REFERENCES_$_.199
+_OBJC_CLASSLIST_REFERENCES_$_.204
+_OBJC_CLASSLIST_REFERENCES_$_.218
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_CLASSLIST_REFERENCES_$_.223
+_OBJC_CLASSLIST_REFERENCES_$_.232
+_OBJC_SELECTOR_REFERENCES_.236
+___block_descriptor_32_e51_B24?0"CTVehicleListFilterModel"8"NSDictionary"16l
+___block_literal_global.240
+_OBJC_SELECTOR_REFERENCES_.244
 ___block_literal_global.245
-_OBJC_CLASSLIST_REFERENCES_$_.248
-___block_descriptor_44_e4_20s24s28s32s36s40s_e44_c12?0"CTAvailabilityItem"4"NSDictionary"8l
-___block_literal_global.288
-_OBJC_SELECTOR_REFERENCES_.291
-___block_descriptor_24_e4_20s_e44_c12?0"CTAvailabilityItem"4"NSDictionary"8l
+___block_literal_global.246
+___block_literal_global.247
+___block_literal_global.248
+___block_literal_global.249
+_OBJC_CLASSLIST_REFERENCES_$_.271
+___block_descriptor_80_e8_32s40s48s56s64s72s_e45_B24?0"CTAvailabilityItem"8"NSDictionary"16l
+___block_literal_global.292
 _OBJC_SELECTOR_REFERENCES_.295
+___block_descriptor_40_e8_32s_e45_B24?0"CTAvailabilityItem"8"NSDictionary"16l
 _OBJC_SELECTOR_REFERENCES_.299
-_OBJC_SELECTOR_REFERENCES_.301
 _OBJC_SELECTOR_REFERENCES_.303
 _OBJC_SELECTOR_REFERENCES_.305
-_OBJC_CLASSLIST_REFERENCES_$_.308
-_OBJC_SELECTOR_REFERENCES_.310
-___block_descriptor_24_e68_i12?0"CTVehicleListTableViewModel"4"CTVehicleListTableViewModel"8l
-_OBJC_CLASSLIST_REFERENCES_$_.314
-_OBJC_SELECTOR_REFERENCES_.318
+_OBJC_CLASSLIST_REFERENCES_$_.312
+_OBJC_SELECTOR_REFERENCES_.314
+___block_descriptor_40_e69_q24?0"CTVehicleListTableViewModel"8"CTVehicleListTableViewModel"16l
+_OBJC_CLASSLIST_REFERENCES_$_.318
 _OBJC_SELECTOR_REFERENCES_.322
-_OBJC_CLASSLIST_REFERENCES_$_.323
-_OBJC_SELECTOR_REFERENCES_.325
+_OBJC_SELECTOR_REFERENCES_.326
+_OBJC_CLASSLIST_REFERENCES_$_.327
 _OBJC_SELECTOR_REFERENCES_.329
-_OBJC_SELECTOR_REFERENCES_.331
 _OBJC_SELECTOR_REFERENCES_.333
 _OBJC_SELECTOR_REFERENCES_.335
 _OBJC_SELECTOR_REFERENCES_.339
 _OBJC_SELECTOR_REFERENCES_.343
 _OBJC_SELECTOR_REFERENCES_.345
-_OBJC_SELECTOR_REFERENCES_.351
-_OBJC_CLASSLIST_REFERENCES_$_.352
-_OBJC_SELECTOR_REFERENCES_.354
-_OBJC_CLASSLIST_REFERENCES_$_.355
-_OBJC_CLASSLIST_REFERENCES_$_.358
-_OBJC_SELECTOR_REFERENCES_.360
-_OBJC_SELECTOR_REFERENCES_.362
+_OBJC_CLASSLIST_REFERENCES_$_.356
+_OBJC_SELECTOR_REFERENCES_.358
+_OBJC_CLASSLIST_REFERENCES_$_.359
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_CLASSLIST_REFERENCES_$_.362
 _OBJC_SELECTOR_REFERENCES_.364
-_OBJC_CLASSLIST_REFERENCES_$_.365
-_OBJC_CLASSLIST_REFERENCES_$_.366
+_OBJC_SELECTOR_REFERENCES_.366
 _OBJC_SELECTOR_REFERENCES_.368
+_OBJC_CLASSLIST_REFERENCES_$_.369
+_OBJC_CLASSLIST_REFERENCES_$_.370
+_OBJC_SELECTOR_REFERENCES_.372
 __OBJC_$_CLASS_METHODS_CTVehicleListViewModel
 __OBJC_CLASS_PROTOCOLS_$_CTVehicleListViewModel
 __OBJC_METACLASS_RO_$_CTVehicleListViewModel
@@ -3166,6 +3160,7 @@ _OBJC_IVAR_$_CTVehicleListViewModel._isInPath
 _OBJC_IVAR_$_CTVehicleListViewModel._vehicleSearchLoading
 _OBJC_IVAR_$_CTVehicleListViewModel._isConnected
 _OBJC_IVAR_$_CTVehicleListViewModel._shouldDisplayZeroExcessUpSell
+_OBJC_IVAR_$_CTVehicleListViewModel._resetVehicleSearchProgress
 _OBJC_IVAR_$_CTVehicleListViewModel._rightLabelText
 _OBJC_IVAR_$_CTVehicleListViewModel._rowViewModels
 _OBJC_IVAR_$_CTVehicleListViewModel._selectedView
@@ -3187,10 +3182,10 @@ __OBJC_CLASS_RO_$_CTVehicleListViewModel
 CartrawlerSDK/CTVehicleListViewModel.m
 CartrawlerSDK/CTVehicleListViewModel.h
 __60+[CTVehicleListViewModel sortedRowViewModels:sort:appState:]_block_invoke
-__67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_2.289
-__67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke.287
-__destroy_helper_block_e4_20s24s28s32s36s40s
-__copy_helper_block_e4_20s24s28s32s36s40s
+__67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_2.293
+__67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke.291
+__destroy_helper_block_e8_32s40s48s56s64s72s
+__copy_helper_block_e8_32s40s48s56s64s72s
 __67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_7
 __67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_6
 __67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_5
@@ -3198,6 +3193,8 @@ __67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_in
 __67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_3
 __67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke_2
 __67+[CTVehicleListViewModel filteredVehiclesForState:selectedFilters:]_block_invoke
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 __39+[CTVehicleListViewModel sortViewModel]_block_invoke_3
 __39+[CTVehicleListViewModel sortViewModel]_block_invoke_2
 __39+[CTVehicleListViewModel sortViewModel]_block_invoke
@@ -3291,32 +3288,36 @@ _OBJC_CLASSLIST_REFERENCES_$_.159
 _OBJC_CLASSLIST_REFERENCES_$_.240
 _OBJC_CLASSLIST_REFERENCES_$_.241
 _OBJC_CLASSLIST_REFERENCES_$_.250
-_OBJC_CLASSLIST_REFERENCES_$_.271
 _OBJC_SELECTOR_REFERENCES_.283
 _OBJC_SELECTOR_REFERENCES_.285
 _OBJC_SELECTOR_REFERENCES_.287
 _OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
 _OBJC_SELECTOR_REFERENCES_.293
 _OBJC_CLASSLIST_REFERENCES_$_.296
 _OBJC_CLASSLIST_REFERENCES_$_.299
 _OBJC_CLASSLIST_REFERENCES_$_.300
 _OBJC_SELECTOR_REFERENCES_.306
 _OBJC_SELECTOR_REFERENCES_.308
+_OBJC_SELECTOR_REFERENCES_.310
 _OBJC_CLASSLIST_REFERENCES_$_.311
 _OBJC_SELECTOR_REFERENCES_.323
+_OBJC_SELECTOR_REFERENCES_.325
 _OBJC_CLASSLIST_REFERENCES_$_.326
 _OBJC_SELECTOR_REFERENCES_.328
 _OBJC_SELECTOR_REFERENCES_.330
-_OBJC_CLASSLIST_REFERENCES_$_.331
-_OBJC_CLASSLIST_REFERENCES_$_.340
-_OBJC_SELECTOR_REFERENCES_.342
-_OBJC_SELECTOR_REFERENCES_.344
+_OBJC_SELECTOR_REFERENCES_.332
+_OBJC_SELECTOR_REFERENCES_.334
+_OBJC_CLASSLIST_REFERENCES_$_.335
+_OBJC_CLASSLIST_REFERENCES_$_.344
 _OBJC_SELECTOR_REFERENCES_.346
 _OBJC_SELECTOR_REFERENCES_.348
 _OBJC_SELECTOR_REFERENCES_.350
 _OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.354
 _OBJC_SELECTOR_REFERENCES_.356
-_OBJC_SELECTOR_REFERENCES_.358
+_OBJC_SELECTOR_REFERENCES_.360
+_OBJC_SELECTOR_REFERENCES_.362
 __OBJC_$_CLASS_METHODS_CTPaymentViewModel
 __OBJC_CLASS_PROTOCOLS_$_CTPaymentViewModel
 __OBJC_METACLASS_RO_$_CTPaymentViewModel
@@ -3463,7 +3464,7 @@ ___41-[CTLoyaltyImageView setImageURL:resize:]_block_invoke
 -[CTLoyaltyImageView setImageURL:]
 -[CTLoyaltyImageView imageURL]
 -[CTLoyaltyImageView .cxx_destruct]
-___block_descriptor_28_e4_20w_e29_v12?0"UIImage"4"NSString"8l
+___block_descriptor_48_e8_32w_e30_v24?0"UIImage"8"NSString"16l
 _OBJC_IVAR_$_CTLoyaltyImageView._imageURL
 __OBJC_METACLASS_RO_$_CTLoyaltyImageView
 __OBJC_$_INSTANCE_METHODS_CTLoyaltyImageView
@@ -3791,8 +3792,9 @@ ___55-[CTInsuranceScreenViewController updateWithViewModel:]_block_invoke
 -[CTInsuranceScreenViewController .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.161
 _OBJC_CLASSLIST_REFERENCES_$_.174
+_OBJC_CLASSLIST_REFERENCES_$_.195
+_OBJC_CLASSLIST_REFERENCES_$_.200
 _OBJC_CLASSLIST_REFERENCES_$_.203
-_OBJC_CLASSLIST_REFERENCES_$_.204
 _OBJC_CLASSLIST_REFERENCES_$_.205
 _OBJC_IVAR_$_CTInsuranceScreenViewController._viewModel
 _OBJC_IVAR_$_CTInsuranceScreenViewController._navigationBar
@@ -3925,6 +3927,7 @@ ___28-[CTTextFiedView setHeight:]_block_invoke
 -[CTTextFiedView .cxx_destruct]
 _OBJC_IVAR_$_CTTextFiedView._textField
 _OBJC_IVAR_$_CTTextFiedView._textFieldHeightConstraint
+_OBJC_CLASSLIST_REFERENCES_$_.44
 _OBJC_IVAR_$_CTTextFiedView._messageLabel
 _OBJC_IVAR_$_CTTextFiedView._messageIcon
 __OBJC_$_PROTOCOL_REFS_CTFloatLabeledTextFieldDelegate
@@ -3945,7 +3948,7 @@ __28-[CTTextFiedView setHeight:]_block_invoke
 ___60+[CTCMSCommunicator fetchFile:source:withCompletionHandler:]_block_invoke
 +[CTCMSCommunicator endpointForSource:filename:]
 +[CTCMSCommunicator endpoints]
-___block_descriptor_24_e4_20bs_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+___block_descriptor_40_e8_32bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
 __OBJC_$_CLASS_METHODS_CTCMSCommunicator
 __OBJC_METACLASS_RO_$_CTCMSCommunicator
 __OBJC_CLASS_RO_$_CTCMSCommunicator
@@ -4082,20 +4085,15 @@ _OBJC_IVAR_$_CTPaymentViewController._paymentView
 _OBJC_CLASSLIST_REFERENCES_$_.79
 _OBJC_CLASSLIST_REFERENCES_$_.93
 _OBJC_CLASSLIST_REFERENCES_$_.158
-_OBJC_CLASSLIST_REFERENCES_$_.199
-_OBJC_SELECTOR_REFERENCES_.276
-_OBJC_SELECTOR_REFERENCES_.314
+_OBJC_CLASSLIST_REFERENCES_$_.248
 _OBJC_SELECTOR_REFERENCES_.316
 _OBJC_CLASSLIST_REFERENCES_$_.317
 _OBJC_CLASSLIST_REFERENCES_$_.324
-_OBJC_SELECTOR_REFERENCES_.326
-_OBJC_SELECTOR_REFERENCES_.332
 _OBJC_CLASSLIST_REFERENCES_$_.341
-_OBJC_CLASSLIST_REFERENCES_$_.344
+_OBJC_CLASSLIST_REFERENCES_$_.355
 _OBJC_IVAR_$_CTPaymentViewController._currentStatus
-_OBJC_SELECTOR_REFERENCES_.366
+_OBJC_CLASSLIST_REFERENCES_$_.358
 _OBJC_SELECTOR_REFERENCES_.370
-_OBJC_SELECTOR_REFERENCES_.372
 _OBJC_SELECTOR_REFERENCES_.374
 _OBJC_SELECTOR_REFERENCES_.376
 _OBJC_SELECTOR_REFERENCES_.378
@@ -4248,10 +4246,10 @@ CartrawlerSDK/CTLoyaltyStyle.h
 -[CTRentalInfo .cxx_destruct]
 __OBJC_METACLASS_RO_$_CTRentalInfo
 __OBJC_$_INSTANCE_METHODS_CTRentalInfo
-_OBJC_IVAR_$_CTRentalInfo._currency
-_OBJC_IVAR_$_CTRentalInfo._customerCurrency
 _OBJC_IVAR_$_CTRentalInfo._cost
+_OBJC_IVAR_$_CTRentalInfo._currency
 _OBJC_IVAR_$_CTRentalInfo._customerCost
+_OBJC_IVAR_$_CTRentalInfo._customerCurrency
 __OBJC_$_INSTANCE_VARIABLES_CTRentalInfo
 __OBJC_$_PROP_LIST_CTRentalInfo
 __OBJC_CLASS_RO_$_CTRentalInfo
@@ -4407,14 +4405,14 @@ CartrawlerSDK/Classes/CTAirport.m
 CartrawlerSDK/Classes/CTAirport.h
 -[WKWebView(CartrawlerSDK) stringByEvaluatingJavaScriptFromString:]
 ___67-[WKWebView(CartrawlerSDK) stringByEvaluatingJavaScriptFromString:]_block_invoke
-___copy_helper_block_e4_20r24r
-___destroy_helper_block_e4_20r24r
-___block_descriptor_28_e4_20r24r_e19_v12?04"NSError"8l
+___copy_helper_block_e8_32r40r
+___destroy_helper_block_e8_32r40r
+___block_descriptor_48_e8_32r40r_e20_v24?08"NSError"16l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_WKWebView_$_CartrawlerSDK
 __OBJC_$_CATEGORY_WKWebView_$_CartrawlerSDK
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CartrawlerSDK+WKWebView.m
-__destroy_helper_block_e4_20r24r
-__copy_helper_block_e4_20r24r
+__destroy_helper_block_e8_32r40r
+__copy_helper_block_e8_32r40r
 __67-[WKWebView(CartrawlerSDK) stringByEvaluatingJavaScriptFromString:]_block_invoke
 CartrawlerSDK/CartrawlerSDK+WKWebView.m
 -[CTSelectedVehicleExtrasView awakeFromNib]
@@ -4500,7 +4498,7 @@ ___43-[CTPostRequest performAbandonmentRequest:]_block_invoke
 -[CTPostRequest URLSession:didReceiveChallenge:completionHandler:]
 -[CTPostRequest cancel]
 -[CTPostRequest .cxx_destruct]
-___block_descriptor_20_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+___block_descriptor_32_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
 __OBJC_CLASS_PROTOCOLS_$_CTPostRequest
 __OBJC_METACLASS_RO_$_CTPostRequest
 __OBJC_$_INSTANCE_METHODS_CTPostRequest
@@ -4618,8 +4616,9 @@ CartrawlerSDK/CTLoyaltySectionViewModel.h
 +[CTSelectionVehicleReducer configureExtrasForSelectionVehicleState:]
 ___69+[CTSelectionVehicleReducer configureExtrasForSelectionVehicleState:]_block_invoke
 +[CTSelectionVehicleReducer removeZeroExcessFreeExtras:]
-_OBJC_CLASSLIST_REFERENCES_$_.192
-___block_descriptor_24_e4_20s_e32_v16?0"CTExtraEquipment"4I8^c12l
+_OBJC_CLASSLIST_REFERENCES_$_.113
+_OBJC_CLASSLIST_REFERENCES_$_.198
+___block_descriptor_40_e8_32s_e33_v32?0"CTExtraEquipment"8Q16^B24l
 __OBJC_$_CLASS_METHODS_CTSelectionVehicleReducer
 __OBJC_CLASS_PROTOCOLS_$_CTSelectionVehicleReducer
 __OBJC_METACLASS_RO_$_CTSelectionVehicleReducer
@@ -4780,6 +4779,7 @@ _OBJC_IVAR_$_CTSessionState._isVehicleListDeeplink
 _OBJC_IVAR_$_CTSessionState._isLoggedInUser
 _OBJC_IVAR_$_CTSessionState._paymentVersion
 _OBJC_IVAR_$_CTSessionState._mode
+_OBJC_IVAR_$_CTSessionState._timeoutInterval
 _OBJC_IVAR_$_CTSessionState._insuranceStyle
 _OBJC_IVAR_$_CTSessionState._style
 _OBJC_IVAR_$_CTSessionState._config
@@ -4817,7 +4817,6 @@ _OBJC_IVAR_$_CTSessionState._queryID
 _OBJC_IVAR_$_CTSessionState._customerID
 _OBJC_IVAR_$_CTSessionState._sessionID
 _OBJC_IVAR_$_CTSessionState._packDirective
-_OBJC_IVAR_$_CTSessionState._timeoutInterval
 __OBJC_$_INSTANCE_VARIABLES_CTSessionState
 __OBJC_$_PROP_LIST_CTSessionState
 __OBJC_CLASS_RO_$_CTSessionState
@@ -4935,7 +4934,6 @@ __OBJC_$_CATEGORY_UIView_$_CTUIViewAnimations
 CartrawlerSDK/UIView+CTUIViewAnimations.m
 -[CTNavigationBarPrimaryColor willMoveToWindow:]
 -[CTNavigationBarPrimaryColor traitCollectionDidChange:]
-_OBJC_CLASSLIST_REFERENCES_$_.42
 __OBJC_METACLASS_RO_$_CTNavigationBarPrimaryColor
 __OBJC_$_INSTANCE_METHODS_CTNavigationBarPrimaryColor
 __OBJC_CLASS_RO_$_CTNavigationBarPrimaryColor
@@ -5116,6 +5114,7 @@ CartrawlerSDK/CTAddress.h
 -[CTUSPSectionHeaderView isRecentSearch]
 -[CTUSPSectionHeaderView setIsRecentSearch:]
 -[CTUSPSectionHeaderView .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.48
 _OBJC_CLASSLIST_REFERENCES_$_.84
 _OBJC_IVAR_$_CTUSPSectionHeaderView._titleLabel
 _OBJC_IVAR_$_CTUSPSectionHeaderView._clearButton
@@ -5166,13 +5165,13 @@ CartrawlerSDK/CTAbandonmentI18n.h
 -[CTImageCache cachedImage:completion:]
 -[CTImageCache cachedImage:identifier:completion:]
 ___50-[CTImageCache cachedImage:identifier:completion:]_block_invoke
-___copy_helper_block_e4_20b24s28s32w
-___destroy_helper_block_e4_20s24s28s32w
+___copy_helper_block_e8_32b40s48s56w
+___destroy_helper_block_e8_32s40s48s56w
 -[CTImageCache loadImage:completionHandler:]
 -[CTImageCache handleReturnWithCompletion:andImage:andIdentifier:]
 ___66-[CTImageCache handleReturnWithCompletion:andImage:andIdentifier:]_block_invoke
 _sharedInstance.sharedInstance
-___block_descriptor_36_e4_20bs24s28s32w_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+___block_descriptor_64_e8_32bs40s48s56w_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
 __OBJC_$_CLASS_METHODS_CTImageCache
 __OBJC_CLASS_PROTOCOLS_$_CTImageCache
 __OBJC_METACLASS_RO_$_CTImageCache
@@ -5182,8 +5181,8 @@ __OBJC_CLASS_RO_$_CTImageCache
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTImageCache.m
 __66-[CTImageCache handleReturnWithCompletion:andImage:andIdentifier:]_block_invoke
 CartrawlerSDK/CTImageCache.m
-__destroy_helper_block_e4_20s24s28s32w
-__copy_helper_block_e4_20b24s28s32w
+__destroy_helper_block_e8_32s40s48s56w
+__copy_helper_block_e8_32b40s48s56w
 __50-[CTImageCache cachedImage:identifier:completion:]_block_invoke
 -[UILabel(CTLabelContentSize) contentSize]
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UILabel_$_CTLabelContentSize
@@ -5267,7 +5266,6 @@ CartrawlerSDK/CTVehicleListSaleCell.m
 +[CTSearchFormReducer validateSearchStep:]
 +[CTSearchFormReducer validateDriverAgeStep:]
 _OBJC_CLASSLIST_REFERENCES_$_.102
-_OBJC_CLASSLIST_REFERENCES_$_.121
 __OBJC_$_CLASS_METHODS_CTSearchFormReducer
 __OBJC_CLASS_PROTOCOLS_$_CTSearchFormReducer
 __OBJC_METACLASS_RO_$_CTSearchFormReducer
@@ -5441,12 +5439,14 @@ ___62-[CTSearchLocationsViewController showCurrentLocationLoading:]_block_invoke
 -[CTSearchLocationsViewController currentLocationButtonTapped]
 -[CTSearchLocationsViewController setCurrentLocationButtonTapped:]
 -[CTSearchLocationsViewController .cxx_destruct]
-___block_descriptor_24_e4_20s_e28_v12?0"NSArray"4"NSError"8l
+___block_descriptor_40_e8_32s_e29_v24?0"NSArray"8"NSError"16l
+_OBJC_CLASSLIST_REFERENCES_$_.121
 _OBJC_CLASSLIST_REFERENCES_$_.155
-___block_descriptor_25_e4_20s_e5_v4?0l
-_OBJC_CLASSLIST_REFERENCES_$_.218
-_OBJC_SELECTOR_REFERENCES_.222
+___block_descriptor_41_e8_32s_e5_v8?0l
+_OBJC_CLASSLIST_REFERENCES_$_.209
 _OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
 _OBJC_CLASSLIST_REFERENCES_$_.244
 _OBJC_IVAR_$_CTSearchLocationsViewController._delegate
 _OBJC_IVAR_$_CTSearchLocationsViewController._topView
@@ -5658,16 +5658,16 @@ ___58-[CTSelectedVehicleViewController showLoyaltyDimmingView:]_block_invoke
 -[CTSelectedVehicleViewController .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.103
 _OBJC_CLASSLIST_REFERENCES_$_.112
-_OBJC_SELECTOR_REFERENCES_.236
-_OBJC_SELECTOR_REFERENCES_.244
 _OBJC_SELECTOR_REFERENCES_.246
 _OBJC_CLASSLIST_REFERENCES_$_.297
+_OBJC_SELECTOR_REFERENCES_.301
 _OBJC_CLASSLIST_REFERENCES_$_.302
 _OBJC_CLASSLIST_REFERENCES_$_.307
 _OBJC_CLASSLIST_REFERENCES_$_.310
 _OBJC_SELECTOR_REFERENCES_.312
 _OBJC_CLASSLIST_REFERENCES_$_.315
 _OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.331
 _OBJC_IVAR_$_CTSelectedVehicleViewController._navigationBar
 _OBJC_IVAR_$_CTSelectedVehicleViewController._headerView
 _OBJC_IVAR_$_CTSelectedVehicleViewController._scrollView
@@ -5832,15 +5832,16 @@ ___79-[CTSearchViewController searchLocationsViewDidSelectRowAtIndexPath:viewMod
 -[CTSearchViewController setBottomContainerViewHeightConstraint:]
 -[CTSearchViewController .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.131
-_OBJC_CLASSLIST_REFERENCES_$_.198
+_OBJC_SELECTOR_REFERENCES_.218
 _OBJC_CLASSLIST_REFERENCES_$_.277
-___block_descriptor_24_e4_20s_e46_v12?0"CTMatchedLocation"4"CTErrorResponse"8l
+___block_descriptor_40_e8_32s_e47_v24?0"CTMatchedLocation"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.322
 _OBJC_SELECTOR_REFERENCES_.324
-_OBJC_SELECTOR_REFERENCES_.334
 _OBJC_SELECTOR_REFERENCES_.336
 _OBJC_SELECTOR_REFERENCES_.338
 _OBJC_SELECTOR_REFERENCES_.340
+_OBJC_SELECTOR_REFERENCES_.342
+_OBJC_SELECTOR_REFERENCES_.344
 _OBJC_IVAR_$_CTSearchViewController._viewModel
 _OBJC_IVAR_$_CTSearchViewController._navigationBar
 _OBJC_IVAR_$_CTSearchViewController._divider
@@ -6183,7 +6184,7 @@ ___111+[CartrawlerAPI requestLocationSearchWithClientID:airportCode:languageCode
 ___118+[CartrawlerAPI requestLocationSearchWithClientID:latitude:longitude:languageCode:endpoint:loggingEnabled:completion:]_block_invoke
 +[CartrawlerAPI requestExternalLocationSearchWithClientID:languageCode:externalLoc:endpoint:loggingEnabled:completion:]
 ___119+[CartrawlerAPI requestExternalLocationSearchWithClientID:languageCode:externalLoc:endpoint:loggingEnabled:completion:]_block_invoke
-___copy_helper_block_e4_20s24b
+___copy_helper_block_e8_32s40b
 +[CartrawlerAPI requestReservationDetailsWithClientID:resId:endpoint:loggingEnabled:resUid:languageCode:completion:]
 ___116+[CartrawlerAPI requestReservationDetailsWithClientID:resId:endpoint:loggingEnabled:resUid:languageCode:completion:]_block_invoke
 +[CartrawlerAPI requestVehicleAvailabilityForLocation:returnLocation:customerCountryCode:passengerQty:driverAge:pickUpDateTime:returnDateTime:currencyCode:clientID:language:customLoyaltyProgramID:promotionCode:endpoint:loggingEnabled:completion:]
@@ -6205,14 +6206,14 @@ ___65+[CartrawlerAPI makePaymentForOfflineModeWithJson:andCompletion:]_block_inv
 +[CartrawlerAPI sendAbandonmentRequest:pickupID:returnID:dropoffAirportcode:pickupDate:dropoffDate:currency:residenceID:orderId:languageCode:totalText:dayText:items:selectedVehicle:clientId:domainForClientID:abandonmentKey:]
 +[CartrawlerAPI targetForEndpointType:]
 +[CartrawlerAPI endPointForEndpointType:]
-___block_descriptor_24_e4_20bs_e45_v12?0"CT_IpToCountryRS"4"CTErrorResponse"8l
-___block_descriptor_24_e4_20bs_e41_v12?0"NSDictionary"4"CTErrorResponse"8l
+___block_descriptor_40_e8_32bs_e46_v24?0"CT_IpToCountryRS"8"CTErrorResponse"16l
+___block_descriptor_40_e8_32bs_e42_v24?0"NSDictionary"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.78
-___block_descriptor_28_e4_20s24bs_e41_v12?0"NSDictionary"4"CTErrorResponse"8l
+___block_descriptor_48_e8_32s40bs_e42_v24?0"NSDictionary"8"CTErrorResponse"16l
 _OBJC_CLASSLIST_REFERENCES_$_.152
-___block_descriptor_24_e4_20bs_e49_v12?0"CTTermsAndConditions"4"CTErrorResponse"8l
-___block_descriptor_28_e4_20bs_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
-_OBJC_CLASSLIST_REFERENCES_$_.196
+___block_descriptor_40_e8_32bs_e50_v24?0"CTTermsAndConditions"8"CTErrorResponse"16l
+___block_descriptor_48_e8_32bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+_OBJC_CLASSLIST_REFERENCES_$_.211
 __OBJC_$_CLASS_METHODS_CartrawlerAPI
 __OBJC_METACLASS_RO_$_CartrawlerAPI
 __OBJC_CLASS_RO_$_CartrawlerAPI
@@ -6228,7 +6229,7 @@ __169+[CartrawlerAPI requestRentalTermsAndConditions:returnDateTime:pickupLocati
 __194+[CartrawlerAPI requestInsuranceQuoteForVehicle:homeCountryCode:destinationCountryCode:currency:totalCost:pickupDateTime:returnDateTime:clientID:languageCode:endpoint:loggingEnabled:completion:]_block_invoke
 __246+[CartrawlerAPI requestVehicleAvailabilityForLocation:returnLocation:customerCountryCode:passengerQty:driverAge:pickUpDateTime:returnDateTime:currencyCode:clientID:language:customLoyaltyProgramID:promotionCode:endpoint:loggingEnabled:completion:]_block_invoke
 __116+[CartrawlerAPI requestReservationDetailsWithClientID:resId:endpoint:loggingEnabled:resUid:languageCode:completion:]_block_invoke
-__copy_helper_block_e4_20s24b
+__copy_helper_block_e8_32s40b
 __119+[CartrawlerAPI requestExternalLocationSearchWithClientID:languageCode:externalLoc:endpoint:loggingEnabled:completion:]_block_invoke
 __118+[CartrawlerAPI requestLocationSearchWithClientID:latitude:longitude:languageCode:endpoint:loggingEnabled:completion:]_block_invoke
 __111+[CartrawlerAPI requestLocationSearchWithClientID:airportCode:languageCode:endpoint:loggingEnabled:completion:]_block_invoke
@@ -6308,11 +6309,11 @@ ___56-[CTSearchCalendarViewController animateLabel:withText:]_block_invoke_3
 -[CTSearchCalendarViewController displayedDropoffDate]
 -[CTSearchCalendarViewController setDisplayedDropoffDate:]
 -[CTSearchCalendarViewController .cxx_destruct]
-___block_descriptor_24_e4_20w_e26_v12?0"NSDate"4"NSDate"8l
-___block_descriptor_24_e4_20w_e5_v4?0l
-___block_descriptor_24_e4_20w_e18_v12?0"NSDate"4c8l
+___block_descriptor_40_e8_32w_e27_v24?0"NSDate"8"NSDate"16l
+___block_descriptor_40_e8_32w_e5_v8?0l
+___block_descriptor_40_e8_32w_e19_v20?0"NSDate"8B16l
 _OBJC_CLASSLIST_REFERENCES_$_.167
-___block_descriptor_24_e4_20s_e7_v8?0c4l
+___block_descriptor_40_e8_32s_e8_v12?0B8l
 _OBJC_IVAR_$_CTSearchCalendarViewController._delegate
 _OBJC_IVAR_$_CTSearchCalendarViewController._viewModel
 _OBJC_IVAR_$_CTSearchCalendarViewController._navigationBar
@@ -6449,6 +6450,8 @@ CartrawlerSDK/CTVehicleCardContainerBottomView.m
 -[CTSelectionState showLoyaltyHelp]
 -[CTSelectionState showLoyaltyHelpSpecific]
 -[CTSelectionState showPriorityMessaging]
+-[CTSelectionState loadingTerms]
+-[CTSelectionState loadTermsError]
 -[CTSelectionState isZeroExcessIncluded:]
 -[CTSelectionState mergeZeroExcessToAddedExtras]
 -[CTSelectionState selectionListState]
@@ -6530,14 +6533,14 @@ _OBJC_IVAR_$_CTSelectionListState._zeroExcessUpsellState
 _OBJC_IVAR_$_CTSelectionListState._displayedFilters
 _OBJC_IVAR_$_CTSelectionListState._selectedFilters
 _OBJC_IVAR_$_CTSelectionListState._selectedOldFilters
-_OBJC_IVAR_$_CTSelectionListState._minPriceFilterValueSelected
-_OBJC_IVAR_$_CTSelectionListState._maxPriceFilterValueSelected
-_OBJC_IVAR_$_CTSelectionListState._minPriceFilterValue
-_OBJC_IVAR_$_CTSelectionListState._maxPriceFilterValue
 _OBJC_IVAR_$_CTSelectionListState._cheapestVehiclePrice
 _OBJC_IVAR_$_CTSelectionListState._mostExpensiveVehiclePrice
 _OBJC_IVAR_$_CTSelectionListState._averageVehiclePrice
 _OBJC_IVAR_$_CTSelectionListState._sensibleMaxPrice
+_OBJC_IVAR_$_CTSelectionListState._minPriceFilterValueSelected
+_OBJC_IVAR_$_CTSelectionListState._maxPriceFilterValueSelected
+_OBJC_IVAR_$_CTSelectionListState._minPriceFilterValue
+_OBJC_IVAR_$_CTSelectionListState._maxPriceFilterValue
 __OBJC_$_INSTANCE_VARIABLES_CTSelectionListState
 __OBJC_$_PROP_LIST_CTSelectionListState
 __OBJC_CLASS_RO_$_CTSelectionListState
@@ -6928,10 +6931,9 @@ CartrawlerSDK/CTAlertTableViewController.h
 -[CTPaymentWebView setSelectedTextField:]
 -[CTPaymentWebView .cxx_destruct]
 _OBJC_IVAR_$_CTPaymentWebView._webView
-_OBJC_CLASSLIST_REFERENCES_$_.113
 _OBJC_IVAR_$_CTPaymentWebView._jsonResponse
 _OBJC_IVAR_$_CTPaymentWebView._currentStatus
-_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_CLASSLIST_REFERENCES_$_.214
 _OBJC_IVAR_$_CTPaymentWebView._paymentStatus
 _OBJC_CLASSLIST_REFERENCES_$_.231
 _OBJC_IVAR_$_CTPaymentWebView._delegate
@@ -7161,6 +7163,7 @@ __OBJC_$_CATEGORY_CLASS_METHODS_NSDateFormatter_$_CartrawlerSDK
 __OBJC_$_CATEGORY_NSDateFormatter_$_CartrawlerSDK
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/NSDateFormatter+CartrawlerSDK.m
 CartrawlerSDK/NSDateFormatter+CartrawlerSDK.m
+-[CTTermsConditionsViewController viewDidLoad]
 -[CTTermsConditionsViewController updateWithViewModel:]
 -[CTTermsConditionsViewController viewWillLayoutSubviews]
 -[CTTermsConditionsViewController tableView:numberOfRowsInSection:]
@@ -7181,6 +7184,8 @@ CartrawlerSDK/NSDateFormatter+CartrawlerSDK.m
 -[CTTermsConditionsViewController setTableView:]
 -[CTTermsConditionsViewController regularFont]
 -[CTTermsConditionsViewController setRegularFont:]
+-[CTTermsConditionsViewController toastErrorDisplayed]
+-[CTTermsConditionsViewController setToastErrorDisplayed:]
 -[CTTermsConditionsViewController .cxx_destruct]
 _OBJC_IVAR_$_CTTermsConditionsViewController._delegate
 _OBJC_IVAR_$_CTTermsConditionsViewController._viewModel
@@ -7188,6 +7193,7 @@ _OBJC_IVAR_$_CTTermsConditionsViewController._navigationBar
 _OBJC_IVAR_$_CTTermsConditionsViewController._closeButton
 _OBJC_IVAR_$_CTTermsConditionsViewController._tableView
 _OBJC_IVAR_$_CTTermsConditionsViewController._regularFont
+_OBJC_IVAR_$_CTTermsConditionsViewController._toastErrorDisplayed
 __OBJC_CLASS_PROTOCOLS_$_CTTermsConditionsViewController
 __OBJC_METACLASS_RO_$_CTTermsConditionsViewController
 __OBJC_$_INSTANCE_METHODS_CTTermsConditionsViewController
@@ -7331,7 +7337,7 @@ ___30+[CTLocalisedStrings instance]_block_invoke
 -[CTLocalisedStrings .cxx_destruct]
 _instance.sharedInstance
 _instance.onceToken
-___block_descriptor_20_e5_v4?0l
+___block_descriptor_32_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.6
 __OBJC_$_CLASS_METHODS_CTLocalisedStrings
 __OBJC_METACLASS_RO_$_CTLocalisedStrings
@@ -7645,6 +7651,7 @@ __OBJC_CLASS_RO_$_CTTableViewHeaderFooterView
 -[CTReservationDetails .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.109
 _OBJC_CLASSLIST_REFERENCES_$_.164
+_OBJC_CLASSLIST_REFERENCES_$_.196
 __OBJC_METACLASS_RO_$_CTReservationDetails
 __OBJC_$_INSTANCE_METHODS_CTReservationDetails
 _OBJC_IVAR_$_CTReservationDetails._status
@@ -7917,13 +7924,13 @@ __OBJC_CLASS_RO_$_CTInsuranceExplainedModuleBuilder
 CartrawlerSDK/Insurance Explained Page/Builder/CTInsuranceExplainedModuleBuilder.m
 -[CTInsurance initFromDict:residency:]
 ___38-[CTInsurance initFromDict:residency:]_block_invoke
-___copy_helper_block_e4_20s24r
+___copy_helper_block_e8_32s40r
 -[CTInsurance initialiseProviderType:]
 -[CTInsurance awnProductType:]
 -[CTInsurance initialiseInsuranceFunctional:]
 ___45-[CTInsurance initialiseInsuranceFunctional:]_block_invoke
-___copy_helper_block_e4_20r
-___destroy_helper_block_e4_20r
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
 -[CTInsurance setNationalIdEnable:]
 -[CTInsurance isValidInsuranceProvider]
 -[CTInsurance overrideChubbModules]
@@ -8003,8 +8010,9 @@ ___destroy_helper_block_e4_20r
 -[CTInsurance nationalIDInformation]
 -[CTInsurance nationalIDPlaceHolder]
 -[CTInsurance .cxx_destruct]
-___block_descriptor_28_e4_20s24r_e28_v16?0"NSDictionary"4I8^c12l
-___block_descriptor_24_e4_20r_e31_v16?0"CTInsuranceLink"4I8^c12l
+___block_descriptor_48_e8_32s40r_e29_v32?0"NSDictionary"8Q16^B24l
+___block_descriptor_40_e8_32r_e32_v32?0"CTInsuranceLink"8Q16^B24l
+_OBJC_SELECTOR_REFERENCES_.240
 __OBJC_CLASS_PROTOCOLS_$_CTInsurance
 __OBJC_METACLASS_RO_$_CTInsurance
 __OBJC_$_INSTANCE_METHODS_CTInsurance
@@ -8069,10 +8077,10 @@ __OBJC_CLASS_RO_$_CTInsurance
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/Classes/CTInsurance.m
 CartrawlerSDK/Classes/CTInsurance.m
 CartrawlerSDK/Classes/CTInsurance.h
-__destroy_helper_block_e4_20r
-__copy_helper_block_e4_20r
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
 __45-[CTInsurance initialiseInsuranceFunctional:]_block_invoke
-__copy_helper_block_e4_20s24r
+__copy_helper_block_e8_32s40r
 __38-[CTInsurance initFromDict:residency:]_block_invoke
 -[UILabel(CTLabelAdditions) applyStrikeThrough]
 -[UILabel(CTLabelAdditions) setTextRightToLeftDirection:]
@@ -8080,7 +8088,7 @@ __38-[CTInsurance initFromDict:residency:]_block_invoke
 ___41-[UILabel(CTLabelAdditions) setHTMLText:]_block_invoke
 -[UILabel(CTLabelAdditions) htmlAttributedText:]
 ___48-[UILabel(CTLabelAdditions) htmlAttributedText:]_block_invoke
-___block_descriptor_28_e4_20s24s_e26_v20?04{_NSRange=II}8^c16l
+___block_descriptor_48_e8_32s40s_e27_v40?08{_NSRange=QQ}16^B32l
 __OBJC_$_CATEGORY_INSTANCE_METHODS_UILabel_$_CTLabelAdditions
 __OBJC_$_CATEGORY_UILabel_$_CTLabelAdditions
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/UILabel+CTLabelAdditions.m
@@ -8363,14 +8371,15 @@ _OBJC_IVAR_$_CTFloatLabeledTextField._floatingLabelActiveTextColor
 _OBJC_IVAR_$_CTFloatLabeledTextField.stringUtils
 _OBJC_IVAR_$_CTFloatLabeledTextField._floatingLabelXPadding
 _OBJC_IVAR_$_CTFloatLabeledTextField._floatingLabelYPadding
-_OBJC_CLASSLIST_REFERENCES_$_.118
 _OBJC_IVAR_$_CTFloatLabeledTextField._placeholderYPadding
 _OBJC_IVAR_$_CTFloatLabeledTextField._alwaysShowFloatingLabel
+_OBJC_CLASSLIST_REFERENCES_$_.183
 _OBJC_IVAR_$_CTFloatLabeledTextField.topBorder
 _OBJC_IVAR_$_CTFloatLabeledTextField.bottomBorder
 _OBJC_IVAR_$_CTFloatLabeledTextField.border
-_OBJC_CLASSLIST_REFERENCES_$_.211
-_OBJC_CLASSLIST_REFERENCES_$_.223
+_OBJC_CLASSLIST_REFERENCES_$_.210
+_OBJC_CLASSLIST_REFERENCES_$_.222
+_OBJC_CLASSLIST_REFERENCES_$_.227
 _OBJC_IVAR_$_CTFloatLabeledTextField._fieldState
 _OBJC_IVAR_$_CTFloatLabeledTextField._viewDelegate
 _OBJC_IVAR_$_CTFloatLabeledTextField._errorMessage
@@ -8442,6 +8451,7 @@ __27+[CTAppController instance]_block_invoke
 +[CTTheme initialiseFont:]
 +[CTTheme updateTheme:]
 +[CTTheme setAppearance:style:themeColor:]
+_OBJC_CLASSLIST_REFERENCES_$_.118
 __OBJC_$_CLASS_METHODS_CTTheme
 __OBJC_METACLASS_RO_$_CTTheme
 __OBJC_CLASS_RO_$_CTTheme
@@ -8740,7 +8750,7 @@ ___42-[CTSizeCategoryView updateWithViewModel:]_block_invoke
 -[CTSizeCategoryView selected]
 -[CTSizeCategoryView setSelected:]
 -[CTSizeCategoryView .cxx_destruct]
-___block_descriptor_28_e4_20s24w_e29_v12?0"UIImage"4"NSString"8l
+___block_descriptor_48_e8_32s40w_e30_v24?0"UIImage"8"NSString"16l
 _OBJC_IVAR_$_CTSizeCategoryView._delegate
 _OBJC_IVAR_$_CTSizeCategoryView._title
 _OBJC_IVAR_$_CTSizeCategoryView._vehicleURL
@@ -8794,6 +8804,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.281
 _OBJC_CLASSLIST_REFERENCES_$_.304
 _OBJC_CLASSLIST_REFERENCES_$_.313
 _OBJC_CLASSLIST_REFERENCES_$_.316
+_OBJC_SELECTOR_REFERENCES_.318
 _OBJC_CLASSLIST_REFERENCES_$_.333
 _OBJC_CLASSLIST_REFERENCES_$_.338
 __OBJC_$_PROTOCOL_REFS_CTAnalyticsCacheDelegate
@@ -8823,6 +8834,8 @@ __33-[CTAnalyticsController fireTag:]_block_invoke
 +[CTSearchViewModel splashViewModelForState:]
 +[CTSearchViewModel modalViewModelsForState:]
 +[CTSearchViewModel settingsSelectionViewModel:]
++[CTSearchViewModel showLocationServicesDisabledAlert]
+___54+[CTSearchViewModel showLocationServicesDisabledAlert]_block_invoke
 -[CTSearchViewModel regularFont]
 -[CTSearchViewModel setRegularFont:]
 -[CTSearchViewModel title]
@@ -8861,6 +8874,7 @@ __OBJC_CLASS_RO_$_CTSearchViewModel
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTSearchViewModel.m
 CartrawlerSDK/CTSearchViewModel.m
 CartrawlerSDK/CTSearchViewModel.h
+__54+[CTSearchViewModel showLocationServicesDisabledAlert]_block_invoke
 -[CTVehicleIndexation initFromDictionary:]
 -[CTVehicleIndexation key]
 -[CTVehicleIndexation bundleText]
@@ -9009,7 +9023,7 @@ ___55-[CTClientController notifyClientOfLowestVehiclePrice:]_block_invoke
 -[CTClientController widgetVehicleForState:]
 -[CTClientController inPathVehicle:]
 -[CTClientController paymentDetailsForState:]
-___block_descriptor_20_e50_i12?0"CTAvailabilityItem"4"CTAvailabilityItem"8l
+___block_descriptor_32_e51_q24?0"CTAvailabilityItem"8"CTAvailabilityItem"16l
 __OBJC_METACLASS_RO_$_CTClientController
 __OBJC_$_INSTANCE_METHODS_CTClientController
 __OBJC_CLASS_RO_$_CTClientController
@@ -9176,6 +9190,7 @@ base64_encode_data
 -[CTSearchState selectedSavedBooking]
 -[CTSearchState recentSearches]
 -[CTSearchState vehicleSearchLoading]
+-[CTSearchState resetVehicleSearchProgress]
 -[CTSearchState vehicleSearchError]
 -[CTSearchState displayVehicleFreeCancellationBanner]
 -[CTSearchState setDisplayVehicleFreeCancellationBanner:]
@@ -9185,6 +9200,8 @@ base64_encode_data
 -[CTSearchState setCancellationPolicyHighestQuantity:]
 -[CTSearchState showSaleTermsAndConditions]
 -[CTSearchState setShowSaleTermsAndConditions:]
+-[CTSearchState showLocationServicesDisabledAlert]
+-[CTSearchState setShowLocationServicesDisabledAlert:]
 -[CTSearchState searchLocationsState]
 -[CTSearchState setSearchLocationsState:]
 -[CTSearchState searchCalendarState]
@@ -9205,6 +9222,7 @@ __OBJC_$_INSTANCE_METHODS_CTSearchState
 _OBJC_IVAR_$_CTSearchState._displayVehicleFreeCancellationBanner
 _OBJC_IVAR_$_CTSearchState._displayVehicleListFreeCancellationBanner
 _OBJC_IVAR_$_CTSearchState._showSaleTermsAndConditions
+_OBJC_IVAR_$_CTSearchState._showLocationServicesDisabledAlert
 _OBJC_IVAR_$_CTSearchState._cancellationPolicyHighestQuantity
 _OBJC_IVAR_$_CTSearchState._searchLocationsState
 _OBJC_IVAR_$_CTSearchState._searchCalendarState
@@ -9222,20 +9240,20 @@ CartrawlerSDK/CTSearchState.h
 -[CTVehicleListTransitionAnimator transitionDuration:]
 -[CTVehicleListTransitionAnimator animateTransition:]
 ___53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke
-___copy_helper_block_e4_20s24s28s32s36s40s44s
-___destroy_helper_block_e4_20s24s28s32s36s40s44s
+___copy_helper_block_e8_32s40s48s56s64s72s80s
+___destroy_helper_block_e8_32s40s48s56s64s72s80s
 ___53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke.92
 ___53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke_2
 ___53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke.97
-___copy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s
-___destroy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s
-___copy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s60s64s
-___destroy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s60s64s
+___copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s
+___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s
+___copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s
+___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s
 -[CTVehicleListTransitionAnimator presenting]
 -[CTVehicleListTransitionAnimator setPresenting:]
-___block_descriptor_96_e4_20s24s28s32s36s40s44s_e5_v4?0l
-___block_descriptor_60_e4_20s24s28s32s36s40s44s48s52s56s_e7_v8?0c4l
-___block_descriptor_68_e4_20s24s28s32s36s40s44s48s52s56s60s64s_e7_v8?0c4l
+___block_descriptor_184_e8_32s40s48s56s64s72s80s_e5_v8?0l
+___block_descriptor_112_e8_32s40s48s56s64s72s80s88s96s104s_e8_v12?0B8l
+___block_descriptor_128_e8_32s40s48s56s64s72s80s88s96s104s112s120s_e8_v12?0B8l
 __OBJC_$_PROTOCOL_REFS_UIViewControllerAnimatedTransitioning
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIViewControllerAnimatedTransitioning
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerAnimatedTransitioning
@@ -9251,16 +9269,16 @@ __OBJC_$_PROP_LIST_CTVehicleListTransitionAnimator
 __OBJC_CLASS_RO_$_CTVehicleListTransitionAnimator
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTVehicleListTransitionAnimator.m
 CartrawlerSDK/CTVehicleListTransitionAnimator.h
-__destroy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s60s64s
-__copy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s60s64s
-__destroy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s
-__copy_helper_block_e4_20s24s28s32s36s40s44s48s52s56s
+__destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s
+__copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112s120s
+__destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s
+__copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s
 __53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke.97
 CartrawlerSDK/CTVehicleListTransitionAnimator.m
 __53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke_2
 __53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke.92
-__destroy_helper_block_e4_20s24s28s32s36s40s44s
-__copy_helper_block_e4_20s24s28s32s36s40s44s
+__destroy_helper_block_e8_32s40s48s56s64s72s80s
+__copy_helper_block_e8_32s40s48s56s64s72s80s
 __53-[CTVehicleListTransitionAnimator animateTransition:]_block_invoke
 -[CTTermsAndConditions initFromRentalTermsAndConditionsResponse:]
 -[CTTermsAndConditions initFromBookingTermsAndConditionsResponse:]
@@ -9271,7 +9289,7 @@ ___54-[CTTermsAndConditions initFromPrivacyPolicyResponse:]_block_invoke
 ___49-[CTTermsAndConditions initFromTransferResponse:]_block_invoke
 -[CTTermsAndConditions termsAndConditions]
 -[CTTermsAndConditions .cxx_destruct]
-___block_descriptor_24_e4_20s_e28_v16?0"NSDictionary"4I8^c12l
+___block_descriptor_40_e8_32s_e29_v32?0"NSDictionary"8Q16^B24l
 __OBJC_METACLASS_RO_$_CTTermsAndConditions
 __OBJC_$_INSTANCE_METHODS_CTTermsAndConditions
 _OBJC_IVAR_$_CTTermsAndConditions._termsAndConditions
@@ -9401,7 +9419,7 @@ CartrawlerSDK/Insurance Page/View/CTBaseInsuranceViewController.h
 -[CTInsuranceFactory checkBoxTitle:]
 -[CTInsuranceFactory alternativeListItems:]
 ___43-[CTInsuranceFactory alternativeListItems:]_block_invoke
-___block_descriptor_32_e4_20s24s28s_e26_v16?0"CTListItem"4I8^c12l
+___block_descriptor_56_e8_32s40s48s_e27_v32?0"CTListItem"8Q16^B24l
 __OBJC_METACLASS_RO_$_CTInsuranceFactory
 __OBJC_$_INSTANCE_METHODS_CTInsuranceFactory
 __OBJC_CLASS_RO_$_CTInsuranceFactory
@@ -9459,8 +9477,9 @@ CartrawlerSDK/CTStateSelectorViewController.h
 -[CTVehicleListViewController viewDidLoad]
 -[CTVehicleListViewController updateWithViewModel:]
 ___51-[CTVehicleListViewController updateWithViewModel:]_block_invoke
+___51-[CTVehicleListViewController updateWithViewModel:]_block_invoke.198
 ___51-[CTVehicleListViewController updateWithViewModel:]_block_invoke_2
-___51-[CTVehicleListViewController updateWithViewModel:]_block_invoke.195
+___51-[CTVehicleListViewController updateWithViewModel:]_block_invoke_3
 -[CTVehicleListViewController increaseProgressView]
 -[CTVehicleListViewController resetProgressState]
 ___49-[CTVehicleListViewController resetProgressState]_block_invoke
@@ -9518,13 +9537,19 @@ ___47-[CTVehicleListViewController showDimmingView:]_block_invoke
 -[CTVehicleListViewController progress]
 -[CTVehicleListViewController setProgress:]
 -[CTVehicleListViewController .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.245
-_OBJC_CLASSLIST_REFERENCES_$_.255
-_OBJC_CLASSLIST_REFERENCES_$_.256
-_OBJC_CLASSLIST_REFERENCES_$_.273
-_OBJC_CLASSLIST_REFERENCES_$_.343
-_OBJC_CLASSLIST_REFERENCES_$_.345
+_OBJC_CLASSLIST_REFERENCES_$_.249
+_OBJC_CLASSLIST_REFERENCES_$_.258
+_OBJC_CLASSLIST_REFERENCES_$_.259
+_OBJC_CLASSLIST_REFERENCES_$_.260
+_OBJC_CLASSLIST_REFERENCES_$_.261
+_OBJC_CLASSLIST_REFERENCES_$_.266
+_OBJC_CLASSLIST_REFERENCES_$_.280
+_OBJC_CLASSLIST_REFERENCES_$_.303
 _OBJC_CLASSLIST_REFERENCES_$_.346
+_OBJC_CLASSLIST_REFERENCES_$_.347
+_OBJC_CLASSLIST_REFERENCES_$_.348
+_OBJC_CLASSLIST_REFERENCES_$_.349
+_OBJC_CLASSLIST_REFERENCES_$_.350
 _OBJC_IVAR_$_CTVehicleListViewController._navigationBar
 _OBJC_IVAR_$_CTVehicleListViewController._tableView
 _OBJC_IVAR_$_CTVehicleListViewController._viewModel
@@ -9560,8 +9585,9 @@ __47-[CTVehicleListViewController showDimmingView:]_block_invoke
 __49-[CTVehicleListViewController resetProgressState]_block_invoke_3
 __49-[CTVehicleListViewController resetProgressState]_block_invoke_2
 __49-[CTVehicleListViewController resetProgressState]_block_invoke
-__51-[CTVehicleListViewController updateWithViewModel:]_block_invoke.195
+__51-[CTVehicleListViewController updateWithViewModel:]_block_invoke_3
 __51-[CTVehicleListViewController updateWithViewModel:]_block_invoke_2
+__51-[CTVehicleListViewController updateWithViewModel:]_block_invoke.198
 __51-[CTVehicleListViewController updateWithViewModel:]_block_invoke
 __OBJC_METACLASS_RO_$_CTLabelFontSize22
 __OBJC_CLASS_RO_$_CTLabelFontSize22
@@ -9648,10 +9674,11 @@ _OBJC_IVAR_$_CTCalendarView._discard
 _OBJC_IVAR_$_CTCalendarView._dateSelected
 _OBJC_IVAR_$_CTCalendarView._datesSelected
 _OBJC_IVAR_$_CTCalendarView._logicController
-___block_descriptor_24_e4_20w_e29_v16?0"NSDate"4"NSDate"8c12l
+___block_descriptor_40_e8_32w_e30_v28?0"NSDate"8"NSDate"16B24l
 _OBJC_IVAR_$_CTCalendarView._language
 _OBJC_CLASSLIST_REFERENCES_$_.216
 _OBJC_CLASSLIST_REFERENCES_$_.221
+_OBJC_CLASSLIST_REFERENCES_$_.228
 _OBJC_IVAR_$_CTCalendarView._padding
 _OBJC_IVAR_$_CTCalendarView._secondaryActionColor
 _OBJC_IVAR_$_CTCalendarView._secondaryActionTextColor
@@ -9858,6 +9885,7 @@ __OBJC_CLASS_RO_$_CTViewPaymentHeader
 -[CTBaseViewController setDevEnvironmentLabel:]
 -[CTBaseViewController .cxx_destruct]
 _OBJC_IVAR_$_CTBaseViewController._toastView
+__OBJC_PROTOCOL_REFERENCE_$_WKNavigationDelegate
 _OBJC_IVAR_$_CTBaseViewController._devEnvironmentLabel
 __OBJC_$_PROTOCOL_REFS_CTToastViewDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_CTToastViewDelegate
@@ -10061,6 +10089,7 @@ __OBJC_CLASS_RO_$_CTViewInsuranceColor
 +[CTSearchReducer updateState:action:payload:]
 +[CTSearchReducer displayVehicleFreeCancellationBanner:availabilityItem:]
 +[CTSearchReducer cancellationPolicyHighestQuantity:quantities:]
+_OBJC_CLASSLIST_REFERENCES_$_.129
 __OBJC_$_CLASS_METHODS_CTSearchReducer
 __OBJC_CLASS_PROTOCOLS_$_CTSearchReducer
 __OBJC_METACLASS_RO_$_CTSearchReducer
@@ -10416,7 +10445,7 @@ ___81-[CTViewController presentModalVCForViewModel:presentingViewController:dele
 -[CTViewController stackViewControllers]
 -[CTViewController setStackViewControllers:]
 -[CTViewController .cxx_destruct]
-___block_descriptor_32_e4_20s24s28s_e14_v16?0#4I8^c12l
+___block_descriptor_56_e8_32s40s48s_e15_v32?0#8Q16^B24l
 __OBJC_PROTOCOL_REFERENCE_$_UIAdaptivePresentationControllerDelegate
 _OBJC_CLASSLIST_REFERENCES_$_.188
 _OBJC_CLASSLIST_REFERENCES_$_.220
@@ -10595,7 +10624,7 @@ ___65+[CTBaseInsuranceViewModel showInsuranceTermsAndConditionsAlert:]_block_inv
 -[CTBaseInsuranceViewModel showStateSelector]
 -[CTBaseInsuranceViewModel setShowStateSelector:]
 -[CTBaseInsuranceViewModel .cxx_destruct]
-___block_descriptor_24_e4_20s_e22_v8?0"UIAlertAction"4l
+___block_descriptor_40_e8_32s_e23_v16?0"UIAlertAction"8l
 ___block_literal_global.94
 __OBJC_$_CLASS_METHODS_CTBaseInsuranceViewModel
 __OBJC_METACLASS_RO_$_CTBaseInsuranceViewModel
@@ -10697,7 +10726,6 @@ CartrawlerSDK/CTAbandonmentPrice.h
 +[CTPaymentReducer validatePhone:]
 +[CTPaymentReducer validate:withRegex:]
 +[CTPaymentReducer isAlphaNumeric:]
-_OBJC_CLASSLIST_REFERENCES_$_.232
 __OBJC_$_CLASS_METHODS_CTPaymentReducer
 __OBJC_CLASS_PROTOCOLS_$_CTPaymentReducer
 __OBJC_METACLASS_RO_$_CTPaymentReducer
@@ -10829,6 +10857,7 @@ CartrawlerSDK/UIColor+Insurance.m
 -[CTDriverDetailsFormViewModel addressLineTwoErrorMessage]
 -[CTDriverDetailsFormViewModel setAddressLineTwoErrorMessage:]
 -[CTDriverDetailsFormViewModel .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.245
 __OBJC_$_CLASS_METHODS_CTDriverDetailsFormViewModel
 __OBJC_CLASS_PROTOCOLS_$_CTDriverDetailsFormViewModel
 __OBJC_METACLASS_RO_$_CTDriverDetailsFormViewModel
@@ -11072,8 +11101,8 @@ CartrawlerSDK/CTSearchLocationsReducer.m
 -[CTDeposit .cxx_destruct]
 __OBJC_METACLASS_RO_$_CTDeposit
 __OBJC_$_INSTANCE_METHODS_CTDeposit
-_OBJC_IVAR_$_CTDeposit._currencyCode
 _OBJC_IVAR_$_CTDeposit._amount
+_OBJC_IVAR_$_CTDeposit._currencyCode
 _OBJC_IVAR_$_CTDeposit._minAmount
 _OBJC_IVAR_$_CTDeposit._maxAmount
 __OBJC_$_INSTANCE_VARIABLES_CTDeposit
@@ -11154,8 +11183,7 @@ ___51-[CTPaymentController customizeTextFieldsFromView:]_block_invoke
 -[CTPaymentController payment]
 -[CTPaymentController setPayment:]
 -[CTPaymentController .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.261
-___block_descriptor_24_e4_20s_e33_v12?0"NSDictionary"4"NSError"8l
+___block_descriptor_40_e8_32s_e34_v24?0"NSDictionary"8"NSError"16l
 _OBJC_CLASSLIST_REFERENCES_$_.288
 _OBJC_CLASSLIST_REFERENCES_$_.301
 _OBJC_SELECTOR_REFERENCES_.320
@@ -11806,7 +11834,7 @@ ___43-[CTMatchedLocation validateLocationTypes:]_block_invoke
 -[CTMatchedLocation isValidLocation]
 -[CTMatchedLocation setIsValidLocation:]
 -[CTMatchedLocation .cxx_destruct]
-___block_descriptor_28_e4_20s24r_e24_v16?0"NSString"4I8^c12l
+___block_descriptor_48_e8_32s40r_e25_v32?0"NSString"8Q16^B24l
 __OBJC_CLASS_PROTOCOLS_$_CTMatchedLocation
 __OBJC_METACLASS_RO_$_CTMatchedLocation
 __OBJC_$_INSTANCE_METHODS_CTMatchedLocation
@@ -11905,7 +11933,7 @@ CartrawlerSDK/CTSearchSettingsViewController.h
 -[CTVehicleListSectionHeader layoutSubviews]
 -[CTVehicleListSectionHeader awakeFromNib]
 -[CTVehicleListSectionHeader setLoading:]
--[CTVehicleListSectionHeader setProgress:]
+-[CTVehicleListSectionHeader setProgress:animated:]
 -[CTVehicleListSectionHeader filterViewTapped:]
 -[CTVehicleListSectionHeader filterButtonPressed:]
 -[CTVehicleListSectionHeader sortButtonTapped:]
@@ -12118,23 +12146,29 @@ __OBJC_CLASS_RO_$_CTGraylogTag
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CTGraylogTag.m
 CartrawlerSDK/CTGraylogTag.m
 CartrawlerSDK/CTGraylogTag.h
--[CTTermsConditionsViewModel initWithTermType:terms:primaryColor:]
+-[CTTermsConditionsViewModel initWithTermType:terms:primaryColor:loadingTerms:loadTermsError:]
 -[CTTermsConditionsViewModel titleForType:]
 +[CTTermsConditionsViewModel storyboardName]
 +[CTTermsConditionsViewModel viewControllerIdentifier]
+-[CTTermsConditionsViewModel termType]
 -[CTTermsConditionsViewModel primaryColor]
 -[CTTermsConditionsViewModel title]
 -[CTTermsConditionsViewModel close]
 -[CTTermsConditionsViewModel terms]
+-[CTTermsConditionsViewModel loadingTerms]
+-[CTTermsConditionsViewModel loadTermsError]
 -[CTTermsConditionsViewModel .cxx_destruct]
 __OBJC_$_CLASS_METHODS_CTTermsConditionsViewModel
 __OBJC_CLASS_PROTOCOLS_$_CTTermsConditionsViewModel
 __OBJC_METACLASS_RO_$_CTTermsConditionsViewModel
 __OBJC_$_INSTANCE_METHODS_CTTermsConditionsViewModel
+_OBJC_IVAR_$_CTTermsConditionsViewModel._loadingTerms
+_OBJC_IVAR_$_CTTermsConditionsViewModel._termType
 _OBJC_IVAR_$_CTTermsConditionsViewModel._primaryColor
 _OBJC_IVAR_$_CTTermsConditionsViewModel._title
 _OBJC_IVAR_$_CTTermsConditionsViewModel._close
 _OBJC_IVAR_$_CTTermsConditionsViewModel._terms
+_OBJC_IVAR_$_CTTermsConditionsViewModel._loadTermsError
 __OBJC_$_INSTANCE_VARIABLES_CTTermsConditionsViewModel
 __OBJC_$_PROP_LIST_CTTermsConditionsViewModel
 __OBJC_CLASS_RO_$_CTTermsConditionsViewModel
@@ -12757,7 +12791,7 @@ CartrawlerSDK/CTSearchLocationsCell.m
 -[CTSearchFormView autoSelectedDriverAge]
 -[CTSearchFormView setAutoSelectedDriverAge:]
 -[CTSearchFormView .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.259
+_OBJC_SELECTOR_REFERENCES_.351
 _OBJC_IVAR_$_CTSearchFormView._selectedTextfield
 _OBJC_IVAR_$_CTSearchFormView._delegate
 _OBJC_IVAR_$_CTSearchFormView._viewModel
@@ -12848,6 +12882,7 @@ _OBJC_IVAR_$_CTRentalBooking._driverName
 _OBJC_IVAR_$_CTRentalBooking._driverEmail
 _OBJC_IVAR_$_CTRentalBooking._driverPhoneNumber
 _OBJC_IVAR_$_CTRentalBooking._insuranceIncluded
+_OBJC_IVAR_$_CTRentalBooking._zeroExcessAddOnPrice
 _OBJC_IVAR_$_CTRentalBooking._vehicleName
 _OBJC_IVAR_$_CTRentalBooking._orSimilar
 _OBJC_IVAR_$_CTRentalBooking._seats
@@ -12858,6 +12893,7 @@ _OBJC_IVAR_$_CTRentalBooking._vehicleURL
 _OBJC_IVAR_$_CTRentalBooking._vendorURL
 _OBJC_IVAR_$_CTRentalBooking._carRentalAmount
 _OBJC_IVAR_$_CTRentalBooking._carRentalPercentageDiscount
+_OBJC_IVAR_$_CTRentalBooking._carRentalAmountBeforeDiscount
 _OBJC_IVAR_$_CTRentalBooking._carRentalDiscountAmount
 _OBJC_IVAR_$_CTRentalBooking._insuranceAmount
 _OBJC_IVAR_$_CTRentalBooking._totalAmount
@@ -12869,8 +12905,6 @@ _OBJC_IVAR_$_CTRentalBooking._loyaltyIconURL
 _OBJC_IVAR_$_CTRentalBooking._primaryLoyaltyIconURL
 _OBJC_IVAR_$_CTRentalBooking._loyaltyPointsEarned
 _OBJC_IVAR_$_CTRentalBooking._carTrawlerCash
-_OBJC_IVAR_$_CTRentalBooking._zeroExcessAddOnPrice
-_OBJC_IVAR_$_CTRentalBooking._carRentalAmountBeforeDiscount
 __OBJC_$_INSTANCE_VARIABLES_CTRentalBooking
 __OBJC_$_PROP_LIST_CTRentalBooking
 __OBJC_CLASS_RO_$_CTRentalBooking
@@ -12922,7 +12956,7 @@ ___48-[CTBestRateInteractor didFailToReceiveRequest:]_block_invoke
 ___48-[CTBestRateInteractor didFailToReceiveRequest:]_block_invoke_2
 -[CTBestRateInteractor isVehicleSearch]
 -[CTBestRateInteractor setIsVehicleSearch:]
-___block_descriptor_24_e4_20s_e50_i12?0"CTAvailabilityItem"4"CTAvailabilityItem"8l
+___block_descriptor_40_e8_32s_e51_q24?0"CTAvailabilityItem"8"CTAvailabilityItem"16l
 _OBJC_IVAR_$_CTBestRateInteractor._isVehicleSearch
 __OBJC_METACLASS_RO_$_CTBestRateInteractor
 __OBJC_$_INSTANCE_METHODS_CTBestRateInteractor
@@ -13014,7 +13048,7 @@ CartrawlerSDK/CTInsuranceFactory+CTChubb.m
 -[CTWebViewController fallbackUrl]
 -[CTWebViewController setFallbackUrl:]
 -[CTWebViewController .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.183
+_OBJC_CLASSLIST_REFERENCES_$_.185
 _OBJC_IVAR_$_CTWebViewController._delegate
 _OBJC_IVAR_$_CTWebViewController._titleNavItem
 _OBJC_IVAR_$_CTWebViewController._containerView
@@ -13091,7 +13125,6 @@ __50-[CTLoggingTableViewController updateWithMessage:]_block_invoke
 -[CTSelectedVehicleExtrasCellModel expanded]
 -[CTSelectedVehicleExtrasCellModel setExpanded:]
 -[CTSelectedVehicleExtrasCellModel .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.129
 __OBJC_$_CLASS_METHODS_CTSelectedVehicleExtrasCellModel
 __OBJC_CLASS_PROTOCOLS_$_CTSelectedVehicleExtrasCellModel
 __OBJC_METACLASS_RO_$_CTSelectedVehicleExtrasCellModel
@@ -13527,7 +13560,7 @@ __OBJC_CLASS_RO_$_CTInPathPresenter
 CartrawlerSDK/In Path Widget/Rental/Presenter/CTInPathPresenter.m
 +[CTExtrasPresentationLogic extrasReminderByName:]
 ___50+[CTExtrasPresentationLogic extrasReminderByName:]_block_invoke
-___block_descriptor_28_e4_20s24s_e24_v16?0"NSString"4I8^c12l
+___block_descriptor_48_e8_32s40s_e25_v32?0"NSString"8Q16^B24l
 __OBJC_$_CLASS_METHODS_CTExtrasPresentationLogic
 __OBJC_METACLASS_RO_$_CTExtrasPresentationLogic
 __OBJC_CLASS_RO_$_CTExtrasPresentationLogic
@@ -13608,6 +13641,10 @@ CartrawlerSDK/CTExtrasPresentationLogic.m
 -[CTSelectionVehicleState setShowZeroExcessUpSell:]
 -[CTSelectionVehicleState showLoyaltyHelpSpecific]
 -[CTSelectionVehicleState setShowLoyaltyHelpSpecific:]
+-[CTSelectionVehicleState loadingTerms]
+-[CTSelectionVehicleState setLoadingTerms:]
+-[CTSelectionVehicleState loadTermsError]
+-[CTSelectionVehicleState setLoadTermsError:]
 -[CTSelectionVehicleState .cxx_destruct]
 __OBJC_METACLASS_RO_$_CTSelectionVehicleState
 __OBJC_$_INSTANCE_METHODS_CTSelectionVehicleState
@@ -13628,9 +13665,11 @@ _OBJC_IVAR_$_CTSelectionVehicleState._showAllExtras
 _OBJC_IVAR_$_CTSelectionVehicleState._showInsuranceTermsAndCondition
 _OBJC_IVAR_$_CTSelectionVehicleState._showZeroExcessUpSell
 _OBJC_IVAR_$_CTSelectionVehicleState._showLoyaltyHelpSpecific
+_OBJC_IVAR_$_CTSelectionVehicleState._loadingTerms
 _OBJC_IVAR_$_CTSelectionVehicleState._selectedAvailabilityItem
 _OBJC_IVAR_$_CTSelectionVehicleState._selectedBaseVehicleAvailabilityItem
 _OBJC_IVAR_$_CTSelectionVehicleState._selectedAvailabilityItemZeroExcessOption
+_OBJC_IVAR_$_CTSelectionVehicleState._zeroExcessAddOnPrice
 _OBJC_IVAR_$_CTSelectionVehicleState._selectedTab
 _OBJC_IVAR_$_CTSelectionVehicleState._rentalTermsAndConditions
 _OBJC_IVAR_$_CTSelectionVehicleState._bookingTermsAndConditions
@@ -13646,7 +13685,7 @@ _OBJC_IVAR_$_CTSelectionVehicleState._addedExtras
 _OBJC_IVAR_$_CTSelectionVehicleState._zeroExcessVehicleIncludedExtras
 _OBJC_IVAR_$_CTSelectionVehicleState._addedExtrasTemp
 _OBJC_IVAR_$_CTSelectionVehicleState._nationalId
-_OBJC_IVAR_$_CTSelectionVehicleState._zeroExcessAddOnPrice
+_OBJC_IVAR_$_CTSelectionVehicleState._loadTermsError
 __OBJC_$_INSTANCE_VARIABLES_CTSelectionVehicleState
 __OBJC_$_PROP_LIST_CTSelectionVehicleState
 __OBJC_CLASS_RO_$_CTSelectionVehicleState
@@ -13764,13 +13803,13 @@ __OBJC_$_INSTANCE_METHODS_CTInsuranceDetails
 _OBJC_IVAR_$_CTInsuranceDetails._upSell
 _OBJC_IVAR_$_CTInsuranceDetails._company
 _OBJC_IVAR_$_CTInsuranceDetails._insuranceID
+_OBJC_IVAR_$_CTInsuranceDetails._cost
 _OBJC_IVAR_$_CTInsuranceDetails._currency
+_OBJC_IVAR_$_CTInsuranceDetails._costCharge
 _OBJC_IVAR_$_CTInsuranceDetails._currencyCharge
 _OBJC_IVAR_$_CTInsuranceDetails._companyLogo
 _OBJC_IVAR_$_CTInsuranceDetails._companyPolicyURL
 _OBJC_IVAR_$_CTInsuranceDetails._text
-_OBJC_IVAR_$_CTInsuranceDetails._cost
-_OBJC_IVAR_$_CTInsuranceDetails._costCharge
 __OBJC_$_INSTANCE_VARIABLES_CTInsuranceDetails
 __OBJC_$_PROP_LIST_CTInsuranceDetails
 __OBJC_CLASS_RO_$_CTInsuranceDetails
@@ -13913,7 +13952,7 @@ ___57+[CTVehicleListFilterViewModel headerViewModelsForState:]_block_invoke_2
 -[CTVehicleListFilterViewModel arrayOfVehicles]
 -[CTVehicleListFilterViewModel setArrayOfVehicles:]
 -[CTVehicleListFilterViewModel .cxx_destruct]
-___block_descriptor_20_e88_i12?0"CTVehicleListFilterCellTableViewModel"4"CTVehicleListFilterCellTableViewModel"8l
+___block_descriptor_32_e89_q24?0"CTVehicleListFilterCellTableViewModel"8"CTVehicleListFilterCellTableViewModel"16l
 ___block_literal_global.151
 __OBJC_$_CLASS_METHODS_CTVehicleListFilterViewModel
 __OBJC_CLASS_PROTOCOLS_$_CTVehicleListFilterViewModel
@@ -13954,8 +13993,8 @@ ___59-[CTCMSLocalization checkRemoteLocalizationsForIdentifier:]_block_invoke
 -[CTCMSLocalization localizations]
 -[CTCMSLocalization setLocalizations:]
 -[CTCMSLocalization .cxx_destruct]
-___block_descriptor_24_e4_20s_e27_v12?0"NSData"4"NSError"8l
-___block_descriptor_32_e4_20s24s28s_e27_v12?0"NSData"4"NSError"8l
+___block_descriptor_40_e8_32s_e28_v24?0"NSData"8"NSError"16l
+___block_descriptor_56_e8_32s40s48s_e28_v24?0"NSData"8"NSError"16l
 __OBJC_METACLASS_RO_$_CTCMSLocalization
 __OBJC_$_INSTANCE_METHODS_CTCMSLocalization
 _OBJC_IVAR_$_CTCMSLocalization._cachedIndex
@@ -14049,7 +14088,7 @@ __33-[CTCMSLocalization loadCMSIndex]_block_invoke
 -[CTDriverDetailsFormView loyaltyTermsAndConditionsLinkView]
 -[CTDriverDetailsFormView setLoyaltyTermsAndConditionsLinkView:]
 -[CTDriverDetailsFormView .cxx_destruct]
-_OBJC_CLASSLIST_REFERENCES_$_.185
+_OBJC_CLASSLIST_REFERENCES_$_.308
 _OBJC_CLASSLIST_REFERENCES_$_.320
 _OBJC_IVAR_$_CTDriverDetailsFormView._selectedTextfield
 _OBJC_IVAR_$_CTDriverDetailsFormView._addressDetailsContainer
@@ -14113,7 +14152,7 @@ ___58-[CTVehicleListFilterHeaderViewModel isAllFiltersSelected]_block_invoke
 -[CTVehicleListFilterHeaderViewModel languageCode]
 -[CTVehicleListFilterHeaderViewModel sliderRangeColor]
 -[CTVehicleListFilterHeaderViewModel .cxx_destruct]
-___block_descriptor_24_e4_20r_e53_v16?0"CTVehicleListFilterCellTableViewModel"4I8^c12l
+___block_descriptor_40_e8_32r_e54_v32?0"CTVehicleListFilterCellTableViewModel"8Q16^B24l
 __OBJC_CLASS_PROTOCOLS_$_CTVehicleListFilterHeaderViewModel
 __OBJC_METACLASS_RO_$_CTVehicleListFilterHeaderViewModel
 __OBJC_$_INSTANCE_METHODS_CTVehicleListFilterHeaderViewModel
@@ -14126,16 +14165,16 @@ _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._rowViewModels
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._filterModels
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._carSizeRows
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._averagePriceString
+_OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._sensibleMax
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._minPriceFilterValueSelected
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._maxPriceFilterValueSelected
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._minPriceFilterValue
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._maxPriceFilterValue
+_OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._cheapestVehiclePrice
+_OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._mostExpensiveVehiclePrice
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._currencyCode
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._languageCode
 _OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._sliderRangeColor
-_OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._sensibleMax
-_OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._cheapestVehiclePrice
-_OBJC_IVAR_$_CTVehicleListFilterHeaderViewModel._mostExpensiveVehiclePrice
 __OBJC_$_INSTANCE_VARIABLES_CTVehicleListFilterHeaderViewModel
 __OBJC_$_PROP_LIST_CTVehicleListFilterHeaderViewModel
 __OBJC_CLASS_RO_$_CTVehicleListFilterHeaderViewModel
@@ -14161,8 +14200,8 @@ ___65+[CTLocalStorageController retrieveRecentSearchesWithCompletion:]_block_inv
 +[CTLocalStorageController customerID]
 +[CTLocalStorageController clearStorage:]
 +[CTLocalStorageController clearRecentSearches]
-___block_descriptor_28_e4_20s24r_e39_v16?0"<CTSearchStateProtocol>"4I8^c12l
-___block_descriptor_24_e4_20s_e39_v16?0"<CTSearchStateProtocol>"4I8^c12l
+___block_descriptor_48_e8_32s40r_e40_v32?0"<CTSearchStateProtocol>"8Q16^B24l
+___block_descriptor_40_e8_32s_e40_v32?0"<CTSearchStateProtocol>"8Q16^B24l
 __OBJC_$_CLASS_METHODS_CTLocalStorageController
 __OBJC_METACLASS_RO_$_CTLocalStorageController
 __OBJC_CLASS_RO_$_CTLocalStorageController
@@ -14561,8 +14600,8 @@ CartrawlerSDK/CTStyle.m
 CartrawlerSDK/CTStyle.h
 +[CarTrawlerSDK sharedInstance]
 ___31+[CarTrawlerSDK sharedInstance]_block_invoke
-___copy_helper_block_e4_
-___destroy_helper_block_e4_
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
 -[CarTrawlerSDK initPrivate]
 -[CarTrawlerSDK init]
 -[CarTrawlerSDK registerObservables]
@@ -14616,7 +14655,7 @@ ___destroy_helper_block_e4_
 -[CarTrawlerSDK .cxx_destruct]
 _sharedInstance.once
 _sharedInstance._sharedInstance
-___block_descriptor_24_e4__e5_v4?0l
+___block_descriptor_40_e8__e5_v8?0l
 __OBJC_$_CLASS_METHODS_CarTrawlerSDK
 __OBJC_$_PROTOCOL_REFS_CTInPathModuleDelegate
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_CTInPathModuleDelegate
@@ -14644,8 +14683,8 @@ __OBJC_$_PROP_LIST_CarTrawlerSDK
 __OBJC_CLASS_RO_$_CarTrawlerSDK
 /Users/uxui/.jenkins/workspace/IOS_Release_master/CarTrawlerSDK/CartrawlerSDK/CarTrawlerSDK.m
 CartrawlerSDK/CarTrawlerSDK.m
-__destroy_helper_block_e4_
-__copy_helper_block_e4_
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
 __31+[CarTrawlerSDK sharedInstance]_block_invoke
 +[CTSelectedVehicleViewModel storyboardName]
 +[CTSelectedVehicleViewModel viewControllerIdentifier]
