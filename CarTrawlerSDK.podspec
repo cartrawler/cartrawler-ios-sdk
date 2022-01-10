@@ -28,7 +28,6 @@ s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 s.requires_arc = true
 s.dependency 'CTPayment', '1.0.29'
-s.dependency 'SnowplowTracker', '~> 2.2.0'
 s.preserve_path = '**/*.bcsymbolmap'
 
 end
