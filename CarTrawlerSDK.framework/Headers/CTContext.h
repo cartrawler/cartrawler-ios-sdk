@@ -42,6 +42,7 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
 @property (nonatomic) CTDeeplink deeplink;
 @property (nonatomic, strong) NSString *promotionCode;
 @property (nonatomic, strong) CTRecentSearch *recentSearch;
+@property (nonatomic) BOOL supplierBenefitAutoApplied;
 
 - (instancetype)init NS_UNAVAILABLE;
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType;
