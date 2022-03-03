@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "CTLoyaltyStyle.h"
 #import "CTCashStyle.h"
+#import "CTSupplierBenefitsStyle.h"
+
+@class CTSupplierBenefitsStyle;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -73,6 +76,9 @@ typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
 
 // CarTrawler Cash
 @property (nonatomic, strong) CTCashStyle *cashStyle;
+
+// Supplier Benefits
+@property (nonatomic, strong) CTSupplierBenefitsStyle *supplierBenefitStyle;
 
 + (instancetype)styleWithTheme:(CTAppTheme)appTheme
                   primaryColor:(nonnull UIColor *)primaryColor;
