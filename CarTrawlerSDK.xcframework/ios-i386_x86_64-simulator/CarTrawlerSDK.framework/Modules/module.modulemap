@@ -1,0 +1,6 @@
+framework module CarTrawlerSDK {
+  umbrella header "CarTrawlerSDK.h"
+
+  export *
+  module * { export * }
+}
