@@ -1,0 +1,111 @@
+{
+	"@xmlns": "http://www.opentravel.org/OTA/2003/05",
+	"@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+	"@xsi:schemaLocation": "http://www.opentravel.org/OTA/2003/05 OTA_InsuranceQuoteRS.xsd",
+	"@Version": "1.000",
+	"@Target": "Test",
+	"@PrimaryLangID": "EN",
+	"@TimeStamp": "2018-08-31T10:15:10.655+01:00",
+	"Success": [],
+	"PlanForQuoteRS": {
+		"@PlanID": "900004",
+		"@Name": "Araç Kiralama",
+		"@Type": "Protection",
+		"QuoteDetail": {
+			"ProviderCompany": {
+				"@CompanyShortName": "Hepstar"
+			},
+			"QuoteDetailURL": "https://assets.hepstar.com/documents/Car_Hire_CHE_F20_2018.pdf"
+		},
+		"InsCoverageDetail": {
+			"@Type": "SingleTrip",
+			"CoverageRequirements": {
+				"CoverageRequirement": {
+					"@CoverageType": "12",
+					"PolicyLimit": {
+						"@Amount": "904.55",
+						"@CurrencyCode": "EUR"
+					}
+				}
+			},
+			"TotalTripCost": {
+				"@Amount": "38.51",
+				"@Currency": "EUR"
+			}
+		},
+		"PlanCost": {
+			"@Amount": "5.81",
+			"@CurrencyCode": "EUR",
+			"BasePremium": {
+				"@Amount": "45.00",
+				"@CurrencyCode": "TRY"
+			}
+		}
+	},
+	"TPA_Extensions": {
+		"CurrencyExchange": {
+			"@QuoteToChargeRate": "0.129222"
+		},
+		"Data": {
+			"Title": {
+				"@OrderID": "1",
+				"#text": "Rental Car Protection"
+			},
+			"Image": {
+				"@OrderID": "2",
+				"@UIToken": "ct_s3_ea_logo_tr",
+				"#text": "https://cdn.cartrawler.com/insurance/logos/orient.svg"
+			},
+			"Paragraph": [
+						  {
+						  "@OrderID": "3",
+						  "@Type": "FOOTER",
+						  "#text": "Please see the ${link1} for full details"
+						  },
+						  {
+						  "@OrderID": "7",
+						  "@Type": "INFO",
+						  "#text": "How does this insurance work during and after the hire?"
+						  },
+						  {
+						  "@OrderID": "8",
+						  "@Type": "SUBFOOTER",
+						  "#text": "This policy is underwritten by Orient Sigorta A.Ş. (registration number T14113-CEM09) and distributed by its authorised agency, Hepstar. By selecting this product you consent to your personal data being submitted, processed, recorded, stored, classified, updated and distributed to necessary third parties, as well as stored abroad in accordance with the Turkish law number 6698 and related legislation."
+						  }
+						  ],
+			"Summary": {
+				"@OrderID": "4",
+				"#text": "The Collision Damage Waiver and Theft Protection included in this hire do not fully cover you in the event of damage and theft. You are still liable for payment of an excess if the car is damaged or stolen or you lose the keys."
+			},
+			"List": {
+				"@OrderID": "5",
+				"@Title": "If you want to insure potential excess payments, be sure to tick the box above.",
+				"Item": [
+						 "<b>Great value</b> – Reimbursement of incurred excess payment of up to TRY 7000 for just EUR 5.81 (EUR 5.81 = TRY 45.00).",
+						 "<b>Best Protection</b> - Receive a refund of up to TRY 7000 if you are required to pay an excess.",
+						 "<b>Peace of mind</b> - Cover for unexpected excess payments.",
+						 "<b>And more</b> - Personal Accident Benefit of up to TRY 100,000 for death or disability and cover for Theft of Personal Belongings of up to TRY 3000 are included in this insurance!"
+						 ]
+			},
+			"Links": {
+				"@OrderID": "6",
+				"Link": {
+					"@OrderID": "1",
+					"@Code": "link1",
+					"@Text": "Terms and Conditions",
+					"@Url": "https://assets.hepstar.com/documents/Car_Hire_CHE_F20_2018.pdf"
+				}
+			},
+			"Functional": {
+				"@OrderID": "9",
+				"Option": {
+					"@OrderID": "1",
+					"@Type": "CHECKBOX",
+					"@Enabled": "false",
+					"@Title": "I wish to purchase Damage Refund Insurance for EUR 5.81 (EUR 5.81 = TRY 45.00). I have read and understood the ${link1}"
+				}
+			}
+		}
+	}
+}
+
