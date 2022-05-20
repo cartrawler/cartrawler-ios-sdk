@@ -23,11 +23,9 @@ s.platform     = :ios, "10.0"
 s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-sdk.git", :tag => "#{s.version}" }
 
 s.ios.vendored_frameworks = 'CarTrawlerSDK.xcframework'
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 s.requires_arc = true
-s.dependency 'CTPayment', '2.0.0'
+s.dependency 'CTPayment', '2.1.0'
 s.preserve_path = '**/*.bcsymbolmap'
 
 end
