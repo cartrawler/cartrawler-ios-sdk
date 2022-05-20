@@ -1,0 +1,1267 @@
+{
+    "@xmlns": "http://www.opentravel.org/OTA/2003/05",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xsi:schemaLocation": "http://www.opentravel.org/OTA/2003/05 OTA_VehRetResRS.xsd",
+    "@Version": "1.002",
+    "@Target": "Test",
+    "@PrimaryLangID": "EN",
+    "@TimeStamp": "2022-02-28T12:18:11.062Z",
+    "Success": [],
+    "VehRetResRSCore": {
+        "VehReservation": {
+            "@Status": "Confirmed",
+            "Customer": {
+                "Primary": {
+                    "PersonName": {
+                        "GivenName": "John",
+                        "Surname": "Murphy"
+                    },
+                    "Telephone": {
+                        "@PhoneNumber": "0838880000"
+                    },
+                    "Email": {
+                        "@EmailType": "2",
+                        "#text": "JOHN.MURPHY@CARTRAWLER.COM"
+                    },
+                    "Address": {
+                        "AddressLine": "DunDrum Dublin 12, Dublin, Ireland",
+                        "CountryName": {
+                            "@Code": "IE",
+                            "#text": "Ireland"
+                        }
+                    },
+                    "TPA_Extensions": {
+                        "DriverType": {
+                            "@Age": "30"
+                        }
+                    }
+                }
+            },
+            "VehSegmentCore": {
+                "ConfId": [{
+                    "@Type": "16",
+                    "@ID": "ES708140670",
+                    "@ID_Context": "RESID"
+                }, {
+                    "@Type": "16",
+                    "@ID": "CT-Test1645538342288",
+                    "@ID_Context": "CARTRAWLER"
+                }],
+                "PricedEquips": [],
+                "Vendor": {
+                    "@CompanyShortName": "LEASYS",
+                    "@Code": "1938",
+                    "@CodeContext": "CARTRAWLER",
+                    "@OverallReview": "73",
+                    "#text": "Leasys"
+                },
+                "VehRentalCore": {
+                    "@PickUpDateTime": "2022-03-15T10:00:00",
+                    "@ReturnDateTime": "2022-03-17T10:00:00",
+                    "PickUpLocation": {
+                        "@CodeContext": "CARTRAWLER",
+                        "@LocationCode": "470",
+                        "@Name": "Alicante - Airport"
+                    },
+                    "ReturnLocation": {
+                        "@CodeContext": "CARTRAWLER",
+                        "@LocationCode": "470",
+                        "@Name": "Alicante - Airport"
+                    }
+                },
+                "Vehicle": {
+                    "@AirConditionInd": "true",
+                    "@TransmissionType": "Manual",
+                    "@FuelType": "Unspecified",
+                    "@DriveType": "Unspecified",
+                    "@PassengerQuantity": "4",
+                    "@BaggageQuantity": "2",
+                    "@Code": "MCMR",
+                    "@CodeContext": "CARTRAWLER",
+                    "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                    },
+                    "VehClass": {
+                        "@Size": "1"
+                    },
+                    "VehMakeModel": {
+                        "@Name": "Ford Ka or similar",
+                        "@Code": "MCMR",
+                        "@orSimiliar": "or similar"
+                    },
+                    "PictureURL": "https://ctimg-fleet.cartrawler.com/ford/ka-3dr/primary.png"
+                },
+                "TPA_Extensions": {
+                    "Fleet": {
+                        "FleetGroup": {
+                            "@Code": "MCMR",
+                            "@CodeContext": "CARTRAWLER",
+                            "Vehicle": {
+                                "@AirConditionInd": "true",
+                                "@TransmissionType": "Manual",
+                                "@FuelType": "Unspecified",
+                                "@DriveType": "Unspecified",
+                                "@PassengerQuantity": "4",
+                                "@BaggageQuantity": "2",
+                                "@Code": "MCMR",
+                                "@CodeContext": "CARTRAWLER",
+                                "VehType": {
+                                    "@VehicleCategory": "1",
+                                    "@DoorCount": "3"
+                                },
+                                "VehClass": {
+                                    "@Size": "1"
+                                },
+                                "VehMakeModel": {
+                                    "@Name": "Ford Ka or similar",
+                                    "@Code": "MCMR",
+                                    "@orSimiliar": "or similar",
+                                    "@Guaranteed": "0"
+                                },
+                                "PictureURL": "https://ctimg-fleet.cartrawler.com/ford/ka-3dr/primary.png",
+                                "VehIdentity": {
+                                    "@VehicleAssetNumber": "25217"
+                                }
+                            },
+                            "SimilarVehicle": ["Fiat Panda", "Volkswagen Crossup!", "Citroen C1"]
+                        },
+                        "EngineDetail": {
+                            "@EngineSize": "0.0",
+                            "@FuelConsumption": "0.0",
+                            "@CO2Emission": "0.0"
+                        },
+                        "Description": "This air-conditioned model is perfect for small groups/families as it offers room for 4 passengers and capacity for 1 flight sized carry-on bag."
+                    },
+                    "ClientID": {
+                        "@ID": "68622"
+                    },
+                    "ConfID": {
+                        "@Type": "14",
+                        "@ID": "CT-Test1645538342288"
+                    },
+                    "VendorPictureURL": "https://ctimg-supplier.cartrawler.com/leasys.pdf",
+                    "IsFreesale": "false",
+                    "LookAndFeel": {
+                        "@DateTimeFormat": "dd/mm/yyyy HH:mm:ss"
+                    },
+                    "PickupTimezone": {
+                        "@Timezone": "Europe/Madrid",
+                        "@TimeZoneOffset": "+01:00"
+                    },
+                    "ReturnTimezone": {
+                        "@Timezone": "Europe/Madrid",
+                        "@TimeZoneOffset": "+01:00"
+                    },
+                    "Insurance": {
+                        "@Upsell": "false",
+                        "@Company": "AXA",
+                        "@ID": "G001IRLES708140670",
+                        "@Currency": "EUR",
+                        "@CreateDate": "2022-02-22 13:58:14.227",
+                        "@Cost": "37.98",
+                        "@CostCharge": "37.98",
+                        "@CurrencyCharge": "EUR",
+                        "ProductType": "INCLUSIVE",
+                        "CompanyLogo": "https://cdn.cartrawler.com/insurance/logos/axa_simple.svg",
+                        "CompanyPolicyURL": "https://ajaxgeo.cartrawler.com/conditions/insurance/CT_AXA_TC_IE.pdf",
+                        "Data": {
+                            "Title": {
+                                "@OrderID": "1",
+                                "#text": "<b>Damage Refund Insurance</b> –<i>Great Value, Best Protection, and Peace of Mind</i>"
+                            }
+                        },
+                        "RentalInfo": {
+                            "@Cost": "98.02",
+                            "@Currency": "EUR",
+                            "@CustomerCost": "98.02",
+                            "@CustomerCurrency": "EUR"
+                        }
+                    },
+                    "Reservation": {
+                        "@CreatedDate": "2022-02-22 13:58:13.28"
+                    },
+                    "Status": "Confirmed",
+                    "CancellationPolicy": "What is your cancellation policy for fully prepaid or part-paid bookings?\n\n1 - If you cancel 24 hours prior to your pick-up, you will be refunded in full.\n2 - If you cancel less than 24 hours in advance of pick-up, you will receive a refund minus EUR50. If your online payment is less than EUR50, no refund will be made for your car hire booking. \n3 - If your booking is made less than 24 hours before pick up, the cancellation policy will automatically apply to your booking.\n4 - All cancellations should be made on our online portal and not with the car hire agent. Should you agree to cancel directly with the car hire agent on arrival, you must also inform us of this change to your booking. \n5 - Amending your booking or cancelling optional extras may not be possible less than 24 hours before pick up. \n\nIf you purchased our Damage Refund Insurance product and have since decided to cancel your car rental booking, the Damage Refund Insurance will be cancelled automatically. \nIf you wish to amend or rearrange your booking, the Damage Refund Insurance will initially be cancelled. We will, however, automatically create a new policy for your new booking. \nIn both cases you will receive an email to confirm the cancellation at the email address you have provided during the online booking process. \nPlease be aware that if you cancel your insurance policy less than 24 hours before the start of your car hire agreement, no refund for insurance will be granted.\n\nWhat is a no-show?\nA 'no-show' occurs for the following reasons:\n1 - You didn't inform us about your cancellation prior to your pick-up time.\n2 - You failed to pick up the car at the arranged time and date.\n3 - You failed to provide the documentation that's required to pick up the car.\n4 - You failed to provide a credit card in the main driver's name with enough available funds on it. \n\nIn the event of any of the above, no refunds will be made to you.\n\nThe car hire company reserves the right to refuse a car if you fail to arrive on time with all necessary documentation and a credit card with enough available funds for the car's security deposit. In such a case, unless the car hire has been cancelled at least 24 hours in advance, you will not be entitled to a refund.",
+                    "Reference": {
+                        "@Type": "16",
+                        "@ID": "470:1938:55435",
+                        "@ID_Context": "CARTRAWLER"
+                    }
+                }
+            },
+            "VehSegmentInfo": {
+                "LocationDetails": [{
+                    "@Code": "470",
+                    "@Name": "Alicante - Airport",
+                    "@AtAirport": "1",
+                    "@ExtendedLocationCode": "402552",
+                    "@CodeContext": "Pickup Location",
+                    "Address": {
+                        "@Remark": "38.2884210,-0.5653240",
+                        "AddressLine": "Ctra. Aeropuerto-Torrellano, Km. 1 , Alicante",
+                        "CountryName": {
+                            "@Code": "ES"
+                        }
+                    },
+                    "Telephone": {
+                        "@PhoneNumber": "0034 628389564"
+                    },
+                    "AdditionalInfo": {
+                        "VehRentLocInfos": {
+                            "VehRentLocInfo": {
+                                "@Type": "VLI_2.VLI.X"
+                            }
+                        },
+                        "CounterLocation": {
+                            "@Location": "VWF_2.VWF.X"
+                        },
+                        "TPA_Extensions": {
+                            "SupplierLocation": {
+                                "@Timezone": "Europe/Madrid"
+                            }
+                        }
+                    }
+                }, {
+                    "@Code": "470",
+                    "@Name": "Alicante - Airport",
+                    "@AtAirport": "1",
+                    "@ExtendedLocationCode": "402552",
+                    "@CodeContext": "Return Location",
+                    "Address": {
+                        "@Remark": "38.2884210,-0.5653240",
+                        "AddressLine": "Ctra. Aeropuerto-Torrellano, Km. 1 , Alicante",
+                        "CountryName": {
+                            "@Code": "ES"
+                        }
+                    },
+                    "Telephone": {
+                        "@PhoneNumber": "0034 628389564"
+                    },
+                    "AdditionalInfo": {
+                        "VehRentLocInfos": {
+                            "VehRentLocInfo": {
+                                "@Type": "VLI_2.VLI.X"
+                            }
+                        },
+                        "CounterLocation": {
+                            "@Location": "VWF_2.VWF.X"
+                        },
+                        "TPA_Extensions": {
+                            "SupplierLocation": {
+                                "@Timezone": "Europe/Madrid"
+                            }
+                        }
+                    }
+                }],
+                "PaymentRules": [{
+                    "@RuleType": "9",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                }, {
+                    "@RuleType": "10",
+                    "@Amount": "98.02",
+                    "@CurrencyCode": "EUR"
+                }, {
+                    "@RuleType": "1",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                }],
+                "RentalPaymentAmount": {
+                    "PaymentCard": {
+                        "@CardType": "1",
+                        "@CardCode": "VI",
+                        "@MaskedCardNumber": "************1111",
+                        "@ExpireDate": "0222",
+                        "CardHolderName": "Fsdfsdfsdf"
+                    }
+                }
+            }
+        }
+    },
+    "VehRetResRSInfo": {
+        "TPA_Extensions": {
+            "PickupLocationDirections": "Drivalia has now changed brand to Leasys: When you have collected your luggage and made your way to the arrival's hall take the lift down to level minus two (-2).  Do not go up to level two as this is the wrong area.  Once you have gone down to level minus two you will exit the building into the transfer bus station. You will see that all of the bus stops are numbered. Walk to your left to the very end where bus stops 1 to 5 can be located.  These bus stops are shared with several companies but you can easily locate the Leasys bus. Our busses run every few minutes and so if the bus is not there on arrival it will be with you shortly. Please make yourself known to our uniformed driver on arrival especially at busy times.",
+            "GPS": {
+                "@lat": "38.28842100",
+                "@long": "-0.56532400",
+                "@tz": "Europe/Madrid"
+            },
+            "PickupTimezone": {
+                "@Timezone": "Europe/Madrid",
+                "@TimeZoneOffset": "+01:00"
+            },
+            "ReturnTimezone": {
+                "@Timezone": "Europe/Madrid",
+                "@TimeZoneOffset": "+01:00"
+            },
+            "RentalConditions": {
+                "Language": {
+                    "@Code": "EN",
+                    "Conditions": [{
+                        "@Title": "Driver's age",
+                        "@TitleNameId": "1051",
+                        "@CategoryId": "1",
+                        "Paragraph": ["25 to 75 years.", "Young driver's age: 21 to 24 years. Charge 6.8 EUR per day. Minimum 27.2 EUR Maximum 102 EUR. Includes 21% tax", "Senior driver's age.: 76 to 99 years. Charge 5 EUR per day. Maximum 75 EUR. Includes 21% tax", "Customers who fall outside the age limitations will not be able to hire a car unless there is a young or senior driver fee specified in this section. Please note that if applicable, this fee will be included in the rental price and will be payable on arrival at the rental desk in the local currency."]
+                    }, {
+                        "@Title": "Driving licence",
+                        "@TitleNameId": "1053",
+                        "@CategoryId": "1",
+                        "Paragraph": ["A full licence held for minimum of 1 years with no major endorsements. UK licence holders need to present the photocard.", "If your driving licence is not in the Roman alphabet (i.e. if it is in Arabic, Greek, Cyrillic or Chinese) you are required to bring an International Driving Permit and your domestic licence. For driving licences from countries not part of the international driving licence treaty, an official translation of the licence must be presented with the original licence.", "When renting within the EU, customers who do not hold a driving licence issued by an EU/EEA country or Switzerland must also present an International Driving Permit along with their domestic licence.", "Damaged driving licences will not be accepted at the rental desk."]
+                    }, {
+                        "@Title": "Deposit and Credit card Information",
+                        "@TitleNameId": "1069",
+                        "@CategoryId": "2",
+                        "Paragraph": ["ACCEPTED: MasterCard (not prepaid), Visa (not prepaid). Debit card not accepted unless otherwise stated below.", "A deposit amount of EUR 1000.0 will be held against your credit card for the duration of the rental. Your deposit is a guarantee held in the event of damage/theft of the vehicle. This will be released if there is no theft or damage during the rental period. Please note that this does not represent your total excess liability which can be found in the Damage Waiver Liability section.", "NOT ACCEPTED: No other payment types will be accepted.", "A valid credit card in the first name and surname (no abbreviations) of the lead driver must be presented at the rental desk in order to pre-authorise/charge a deposit. Please be prepared to provide the PIN number of the credit card(s) presented as suppliers could require this to proceed with the rental contract.", "In the event that you fail to present a valid credit card, there is a lack of sufficient funds available on the credit card or the credit card is not in the lead driver's name, the car rental agent may refuse to release the vehicle. In these instances, no funds paid will be reimbursed."]
+                    }, {
+                        "@Title": "Insurance coverage",
+                        "@TitleNameId": "1057",
+                        "@CategoryId": "3",
+                        "Paragraph": ["Theft waiver (TW):  Includes 21% tax; Excess 1,000 EUR", "Collision damage waiver (CDW):  Includes 21% tax; Excess 1,000 EUR", "Complete cover package: 17.45 EUR per day. Minimum 69.8 EUR Maximum 261 EUR. Includes 21% tax; Excess 0 EUR", "Third party liability protection (TP):  Includes 21% tax", "The Excess Liability is the amount determined by the car rental supplier for which you can be held liable in case of damage/theft of the vehicle. Damage to or loss of tyres, windscreens, glass and undercarriage may not be covered by the CDW (Collision Damage Waiver). Please check with the rental agent at the desk.", "If you purchase the Excess Reimbursement Insurance from a third party, the main driver will be required to present their credit card at the rental desk in order for the car rental agent to authorize the deposit."]
+                    }, {
+                        "@Title": "Breakdown assistance",
+                        "@TitleNameId": "1059",
+                        "@CategoryId": "3",
+                        "Paragraph": ["Includes 21% tax", "A basic product is included.  Additional cover can be purchased at the rental counter."]
+                    }, {
+                        "@Title": "Fuel policy",
+                        "@TitleNameId": "1063",
+                        "@CategoryId": "4",
+                        "Paragraph": ["Fuel: Pick up and return full.", "Your vehicle will be supplied with a full tank of fuel. To avoid incurring fuel charges, you will need to return it with the same amount of fuel as it had when you collected it. You may be required to leave a fuel deposit reserved or charged on your credit card, this will be released or refunded when you return the car full. Missing fuel will be charged on your return. The price per litre charged by the rental agent may be significantly higher than the price at the local service station. A refuelling charge may also be applicable.", "Fuel charges are payable at the rental desk unless otherwise stated in the top section of rate details."]
+                    }, {
+                        "@Title": "Mileage policy",
+                        "@TitleNameId": "1065",
+                        "@CategoryId": "4",
+                        "Paragraph": ["Limited", "Charge: 0.45  per kilometer. (Includes tax)", "Max kilometres included per rental: 2,000"]
+                    }, {
+                        "@Title": "Special equipment/optional extras",
+                        "@TitleNameId": "2309",
+                        "@CategoryId": "4",
+                        "Paragraph": ["GPS: 5.5 EUR per day. Maximum 65 EUR. Includes 21% tax; On request", "Child toddler seat: 4.95 EUR per day. Maximum 63 EUR. Includes 21% tax; On request", "Booster seat: 3.5 EUR per day. Maximum 49 EUR. Includes 21% tax; On request", "Special equipment/optional extras may be requested at the time of booking, but they are not included in the rental price. They are paid in the local currency at the rental desk."]
+                    }, {
+                        "@Title": "Conditions of optional extras",
+                        "@TitleNameId": "1181",
+                        "@CategoryId": "4",
+                        "Paragraph": "Please note the following: The price of optional extras is subject to change without notice. Optional extras are subject to availability. Charges made at the desk may be subject to local/airport surcharges."
+                    }, {
+                        "@Title": "Additional driver",
+                        "@TitleNameId": "1055",
+                        "@CategoryId": "1",
+                        "Paragraph": "Maximum additional drivers: 3. 7.5 EUR per day. Minimum 15 EUR Maximum 75 EUR. Includes 21% tax"
+                    }, {
+                        "@Title": "Travel Restrictions",
+                        "@TitleNameId": "2313",
+                        "@CategoryId": "4",
+                        "Paragraph": ["Car hires from Alicante, Valencia, Murcia & Mallorca", "Cross-border driving is not permitted during car rentals from these offices.", "Car hires from Santiago, Bilbao & Girona", "In the event that a client wishes to drive cross border to one of our approved countries,  the following charges will apply:", "1             For customers who choose to contract our SCDW cover or who book our All-Inclusive (no deposit) package.  The daily charge to drive cross border is 10 euros per day with a minimum charge of 20 euros and a maximum charge of 150 euros.", "2             For customers who book our basic package and choose not to contract our full coverage.  The daily charge to drive cross border is 20 euros per day with a minimum charge of 40 euros and a maximum charge of 300 euros.", "Customers of Santiago may only drive to Portugal and customers of Bilbao and Girona may only drive to France and Andorra under these conditions."]
+                    }, {
+                        "@Title": "Tax rate",
+                        "@TitleNameId": "1067",
+                        "@CategoryId": "2",
+                        "Paragraph": ["21%", "Included in the rental price."]
+                    }, {
+                        "@Title": "Fees",
+                        "@TitleNameId": "1061",
+                        "@CategoryId": "2",
+                        "Paragraph": ["Airport fee:  Includes 21% tax", "Please note credit card fees apply. Fees vary per card type, please check with the supplier at the desk."]
+                    }, {
+                        "@Title": "Form(s) of ID",
+                        "@TitleNameId": "2635",
+                        "@CategoryId": "1",
+                        "Paragraph": "A valid photo ID (passport or national ID)."
+                    }, {
+                        "@Title": "Car types",
+                        "@TitleNameId": "15349",
+                        "@CategoryId": "4",
+                        "Paragraph": "The vehicle displayed and models listed are the most common vehicles used by our car rental partners. We cannot guarantee the make or model of the rental vehicle will be the same as the vehicle displayed on our website."
+                    }, {
+                        "@Title": "Voucher",
+                        "@TitleNameId": "1183",
+                        "@CategoryId": "5",
+                        "Paragraph": "A printed version of your voucher must be produced upon arrival at the rental desk. Failure to present the voucher means the car rental agent may charge you at the local rates. Please note: We are not responsible for overcharges on rentals where the voucher was not presented to the local agent on collection of the vehicle. If you do not present the required documents, the documentation is not valid or you do not have enough funds on your credit card, the car rental agent may refuse to release the vehicle and no funds will be reimbursed."
+                    }, {
+                        "@Title": "Lead Driver credit card requirements",
+                        "@TitleNameId": "10087961",
+                        "@CategoryId": "2",
+                        "Paragraph": ["The credit card must be embossed and a PIN number will be required if the card uses chip and pin technology.", "Accepted credit cards: MasterCard (not prepaid),Visa (not prepaid). Debit card not accepted unless otherwise stated below.", "Debit cards: cash and debit cards are not accepted", "Important", "In the event that the Lead Driver fails to present a valid credit card in their first name and surname (no abbreviations), there is a lack of sufficient funds available on the credit card or the credit card pin is unknown, the car rental agent may refuse to release the vehicle. In these instances no funds paid will be refunded."]
+                    }, {
+                        "@Title": "Driving licence requirements",
+                        "@TitleNameId": "10087975",
+                        "@CategoryId": "1",
+                        "Paragraph": ["The Lead Driver must be in possession of a full licence for minimum of 1 year(s) with no major endorsements.", "Proof of address (two documents with the same address as on your driver's license): one must be a credit card or bank statement for the credit card presented at the desk. The second should be a utility bill (gas, electric, water use bill etc.).", "UK licence holders need to present the photo card part of their licence and DVLA Code.", "Your driver’s licence must be valid in country of rental:"]
+                    }, {
+                        "@Title": "Cancellation and no-show policy",
+                        "@TitleNameId": "2011",
+                        "@CategoryId": "5",
+                        "Paragraph": ["What is your cancellation policy for fully prepaid or part-paid bookings?", "1 - If you cancel 24 hours prior to your pick-up, you will be refunded in full.", "2 - If you cancel less than 24 hours in advance of pick-up, you will receive a refund minus EUR50. If your online payment is less than EUR50, no refund will be made for your car hire booking.", "3 - If your booking is made less than 24 hours before pick up, the cancellation policy will automatically apply to your booking.", "4 - All cancellations should be made on our online portal and not with the car hire agent. Should you agree to cancel directly with the car hire agent on arrival, you must also inform us of this change to your booking.", "5 - Amending your booking or cancelling optional extras may not be possible less than 24 hours before pick up.", "If you purchased our Damage Refund Insurance product and have since decided to cancel your car rental booking, the Damage Refund Insurance will be cancelled automatically.", "If you wish to amend or rearrange your booking, the Damage Refund Insurance will initially be cancelled. We will, however, automatically create a new policy for your new booking.", "In both cases you will receive an email to confirm the cancellation at the email address you have provided during the online booking process.", "Please be aware that if you cancel your insurance policy less than 24 hours before the start of your car hire agreement, no refund for insurance will be granted.", "What is a no-show?", "A 'no-show' occurs for the following reasons:", "1 - You didn't inform us about your cancellation prior to your pick-up time.", "2 - You failed to pick up the car at the arranged time and date.", "3 - You failed to provide the documentation that's required to pick up the car.", "4 - You failed to provide a credit card in the main driver's name with enough available funds on it.", "In the event of any of the above, no refunds will be made to you.", "The car hire company reserves the right to refuse a car if you fail to arrive on time with all necessary documentation and a credit card with enough available funds for the car's security deposit. In such a case, unless the car hire has been cancelled at least 24 hours in advance, you will not be entitled to a refund."]
+                    }]
+                }
+            },
+            "Fleet": {
+                "FleetGroup": {
+                    "Vehicle": {
+                        "@AirConditionInd": "true",
+                        "@TransmissionType": "Manual",
+                        "@FuelType": "Unspecified",
+                        "@DriveType": "Unspecified",
+                        "@PassengerQuantity": "4",
+                        "@BaggageQuantity": "2",
+                        "@Code": "MCMR",
+                        "@CodeContext": "CARTRAWLER",
+                        "VehType": {
+                            "@VehicleCategory": "1",
+                            "@DoorCount": "3"
+                        },
+                        "VehClass": {
+                            "@Size": "1"
+                        },
+                        "VehMakeModel": {
+                            "@Name": "Ford Ka or similar",
+                            "@Code": "MCMR",
+                            "@orSimiliar": "or similar"
+                        },
+                        "PictureURL": "https://ctimg-fleet.cartrawler.com/ford/ka-3dr/primary.png"
+                    }
+                }
+            },
+            "FeeBreakdown": {
+                "RateDistance": {
+                    "@DistUnitName": "Km",
+                    "@Quantity": "2000",
+                    "@Unlimited": "false",
+                    "@VehiclePeriodUnitName": "RentalPeriod"
+                },
+                "FuelPolicy": {
+                    "@Type": "FULLFULL",
+                    "@Description": "Fuel: Pick up and return full.",
+                    "@LongDescription": "Your vehicle will be supplied with a full tank of fuel. To avoid incurring fuel charges, you will need to return it with the same amount of fuel as it had when you collected it. You may be required to leave a fuel deposit reserved or charged on your credit card, this will be released or refunded when you return the car full. Missing fuel will be charged on your return. The price per litre charged by the rental agent may be significantly higher than the price at the local service station. A refuelling charge may also be applicable."
+                },
+                "CDW": {
+                    "@ExcessAmount": "1000.00",
+                    "@CurrencyCode": "EUR",
+                    "@DepositAmount": "0.00"
+                },
+                "Fee": [{
+                    "@Description": "Tax",
+                    "@Purpose": "7",
+                    "@IncludedInRate": "true",
+                    "@IncludedInEstTotalInd": "false",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                }, {
+                    "@Description": "Airport fee",
+                    "@Purpose": "30",
+                    "@IncludedInRate": "true",
+                    "@IncludedInEstTotalInd": "false",
+                    "@TaxInclusive": "true",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                }, {
+                    "@Description": "Breakdown assistance",
+                    "@Purpose": "602.VCP.X",
+                    "@IncludedInRate": "true",
+                    "@IncludedInEstTotalInd": "false",
+                    "@TaxInclusive": "true",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                }, {
+                    "@Description": "Additional distance",
+                    "@Purpose": "8",
+                    "@IncludedInRate": "false",
+                    "@IncludedInEstTotalInd": "false",
+                    "@TaxInclusive": "true",
+                    "@Amount": "0.45",
+                    "@CurrencyCode": "EUR",
+                    "Calculation": {
+                        "@Applicability": "BeforePickup"
+                    }
+                }, {
+                    "@Description": "Collision damage waiver (CDW)",
+                    "@Purpose": "6",
+                    "@IncludedInRate": "true",
+                    "@IncludedInEstTotalInd": "false",
+                    "@TaxInclusive": "true",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR",
+                    "Excess": {
+                        "@Amount": "1000.00",
+                        "@CurrencyCode": "EUR"
+                    }
+                }, {
+                    "@Description": "Theft waiver (TW)",
+                    "@Purpose": "47",
+                    "@IncludedInRate": "true",
+                    "@IncludedInEstTotalInd": "false",
+                    "@TaxInclusive": "true",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR",
+                    "Excess": {
+                        "@Amount": "1000.00",
+                        "@CurrencyCode": "EUR"
+                    }
+                }, {
+                    "@Description": "Third party liability protection (TP)",
+                    "@Purpose": "50",
+                    "@IncludedInRate": "true",
+                    "@IncludedInEstTotalInd": "false",
+                    "@TaxInclusive": "true",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                }, {
+                    "@Description": "Limited Mileage",
+                    "@Purpose": "618.VCP.X",
+                    "@IncludedInRate": "true",
+                    "@IncludedInEstTotalInd": "false",
+                    "@TaxInclusive": "true",
+                    "@Amount": "0.00",
+                    "@CurrencyCode": "EUR"
+                }]
+            },
+            "Deposit": {
+                "@Amount": "1000.00",
+                "@CurrencyCode": "EUR",
+                "@MinAmount": "0.00",
+                "@MaxAmount": "0.00"
+            },
+            "Client": {
+                "@Type": "AFFILIATE",
+                "@Code": "68622",
+                "@ParentID": "68622",
+                "@Name": "Content Testing",
+                "@DisplayName": "",
+                "@IsMOR": "0",
+                "@CanEmail": "1",
+                "@EngineURL": "http://www.arguscarhire.com/book",
+                "@LoyaltyClient": "0",
+                "@BrandType": "None"
+            },
+            "Reservation": {
+                "@ID": "ES708140670",
+                "@Resuid": "12163316729535602872",
+                "@TransactionID": "70814067",
+                "@Status": "CONFIRMED",
+                "@Date": "2022-02-22 13:59:01.0",
+                "@CreatedDate": "2022-02-22 13:58:13.28",
+                "@ResRef": "70814067",
+                "@AmendedDate": "",
+                "@BookingLanguage": "EN",
+                "@BusinessType": "CAR_RENTAL",
+                "@PickUpDublin": "2022-03-15 09:00:00.0",
+                "@PickUpDateTimePassed": "false",
+                "@PaymentModel": "PREPAID",
+                "@SavedListPaymentHours": "24",
+                "@ClientInterface": "MOBILE",
+                "@IsDeliveryOrCollection": "0",
+                "@CustomerConsent": "0",
+                "@EmailSubstitution": "0",
+                "@CanCancel": "1",
+                "VoucherURL": "https://cars.cartrawler.com/voucher?resid=ES708140670&email=12163316729535602872",
+                "ReceiptURL": "http://www.cartrawler.com/res/invoice.php?resid=ES708140670&email=12163316729535602872",
+                "CallCenterNumber": "(+353) 1 907 5843",
+                "RentalDays": "2",
+                "Confirmed": {
+                    "@Ref": "CT-Test1645538342288",
+                    "@Date": "2022-02-22 13:59:01.0"
+                },
+                "PKTimeZone": "Europe/Madrid",
+                "ReservationChain": {
+                    "Chain": {
+                        "@Order": "1",
+                        "@ID": "ES708140670",
+                        "@Status": "CONFIRMED"
+                    }
+                },
+                "Insurance": {
+                    "@Company": "AXA",
+                    "@CompanyDisplayName": "AXA",
+                    "@ID": "G001IRLES708140670",
+                    "@CarTrawlerMOR": "0",
+                    "@Currency": "EUR",
+                    "@CreateDate": "2022-02-22 13:58:14.227",
+                    "@Cost": "37.98",
+                    "@CostCharge": "37.98",
+                    "@CurrencyCharge": "EUR",
+                    "CompanyLogo": "https://cdn.cartrawler.com/insurance/logos/axa_simple.svg",
+                    "CompanyPolicyURL": "https://ajaxgeo.cartrawler.com/conditions/insurance/CT_AXA_TC_IE.pdf",
+                    "Data": {
+                        "Title": {
+                            "@OrderID": "1",
+                            "#text": "<b>Damage Refund Insurance</b> –<i>Great Value, Best Protection, and Peace of Mind</i>"
+                        }
+                    }
+                },
+                "UpSell": {
+                    "@Insurance": "0"
+                },
+                "ProvisionalRevenue": "53.019999999999996",
+                "Acquired": [],
+                "Modified": [],
+                "CancellationPolicy": {
+                    "@Type": "PREPAID",
+                    "@NumFreeCancelDays": "-1",
+                    "@CurrencyCode": "EUR",
+                    "@CancellationCharge": "50.00",
+                    "@LeadTimeInHrs": "24",
+                    "@ChargeDays": "-1",
+                    "#text": "What is your cancellation policy for fully prepaid or part-paid bookings?\n\n1 - If you cancel 24 hours prior to your pick-up, you will be refunded in full.\n2 - If you cancel less than 24 hours in advance of pick-up, you will receive a refund minus EUR50. If your online payment is less than EUR50, no refund will be made for your car hire booking. \n3 - If your booking is made less than 24 hours before pick up, the cancellation policy will automatically apply to your booking.\n4 - All cancellations should be made on our online portal and not with the car hire agent. Should you agree to cancel directly with the car hire agent on arrival, you must also inform us of this change to your booking. \n5 - Amending your booking or cancelling optional extras may not be possible less than 24 hours before pick up. \n\nIf you purchased our Damage Refund Insurance product and have since decided to cancel your car rental booking, the Damage Refund Insurance will be cancelled automatically. \nIf you wish to amend or rearrange your booking, the Damage Refund Insurance will initially be cancelled. We will, however, automatically create a new policy for your new booking. \nIn both cases you will receive an email to confirm the cancellation at the email address you have provided during the online booking process. \nPlease be aware that if you cancel your insurance policy less than 24 hours before the start of your car hire agreement, no refund for insurance will be granted.\n\nWhat is a no-show?\nA 'no-show' occurs for the following reasons:\n1 - You didn't inform us about your cancellation prior to your pick-up time.\n2 - You failed to pick up the car at the arranged time and date.\n3 - You failed to provide the documentation that's required to pick up the car.\n4 - You failed to provide a credit card in the main driver's name with enough available funds on it. \n\nIn the event of any of the above, no refunds will be made to you.\n\nThe car hire company reserves the right to refuse a car if you fail to arrive on time with all necessary documentation and a credit card with enough available funds for the car's security deposit. In such a case, unless the car hire has been cancelled at least 24 hours in advance, you will not be entitled to a refund."
+                }
+            },
+            "CarAgent": {
+                "@Code": "1938",
+                "@Name": "Leasys",
+                "@UIToken": "leasys",
+                "@URL": "https://ctimg-supplier.cartrawler.com/leasys.pdf",
+                "@DigitalVoucher": "1",
+                "VendorPictureURL": "https://ctimg-supplier.cartrawler.com/leasys.pdf",
+                "ContractInfo": {
+                    "@ID": "10006648",
+                    "@Code": "3C3B563F-8986-4577-AE80-DC0C10205CAD",
+                    "@Account": "CTRF",
+                    "@ProductType": "INCLUSIVE",
+                    "@ProductType2": "INCLUSIVE",
+                    "@RateType": "NET",
+                    "@Switch": "0",
+                    "@SupplierMOR": "false"
+                },
+                "CarCode": "A - MBMR",
+                "Vehicle": {
+                    "@Make": "Ford",
+                    "@Model": "Ka"
+                },
+                "Vehicles": [{
+                    "@AirConditionInd": "true",
+                    "@TransmissionType": "Manual",
+                    "@FuelType": "Unspecified",
+                    "@DriveType": "Unspecified",
+                    "@PassengerQuantity": "4",
+                    "@BaggageQuantity": "2",
+                    "@IsVendorMakeModel": "true",
+                    "@Make": "Ford",
+                    "@Model": "Ka",
+                    "@Picture": "ford/ka-3dr/primary.png",
+                    "@Description": "Ford Ka or similar",
+                    "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                    },
+                    "VehClass": {
+                        "@Size": "1"
+                    }
+                }, {
+                    "@AirConditionInd": "true",
+                    "@TransmissionType": "Manual",
+                    "@FuelType": "Unspecified",
+                    "@DriveType": "Unspecified",
+                    "@PassengerQuantity": "4",
+                    "@BaggageQuantity": "2",
+                    "@IsSampleMakeModel": "true",
+                    "@Make": "Peugeot",
+                    "@Model": "107",
+                    "@Picture": "peugeot/107/primary.png",
+                    "@Description": "Peugeot 107 or similar",
+                    "VehType": {
+                        "@VehicleCategory": "1",
+                        "@DoorCount": "3"
+                    },
+                    "VehClass": {
+                        "@Size": "1"
+                    }
+                }, {
+                    "@Make": "Fiat",
+                    "@Model": "500",
+                    "@Picture": "fiat/500/primary.png",
+                    "@Description": "Fiat 500 or similar"
+                }, {
+                    "@Make": "Volkswagen",
+                    "@Model": "Up",
+                    "@Picture": "volkswagen/up-3dr/primary.png",
+                    "@Description": "Volkswagen Up or similar"
+                }, {
+                    "@Make": "Toyota",
+                    "@Model": "Aygo",
+                    "@Picture": "toyota/aygo-3dr/primary.png",
+                    "@Description": "Toyota Aygo or similar"
+                }, {
+                    "@Make": "Hyundai",
+                    "@Model": "i10",
+                    "@Picture": "hyundai/i10/primary.png",
+                    "@Description": "Hyundai i10 or similar"
+                }, {
+                    "@Make": "Renault",
+                    "@Model": "Twingo",
+                    "@Picture": "renault/twingo/primary.png",
+                    "@Description": "Renault Twingo or similar"
+                }, {
+                    "@Make": "Citroen",
+                    "@Model": "C1",
+                    "@Picture": "citroen/c1-3dr/primary.png",
+                    "@Description": "Citroen C1 or similar"
+                }, {
+                    "@Make": "Kia",
+                    "@Model": "Picanto",
+                    "@Picture": "kia/picanto-3dr/primary.png",
+                    "@Description": "Kia Picanto or similar"
+                }, {
+                    "@Make": "Peugeot",
+                    "@Model": "108",
+                    "@Picture": "peugeot/108/primary.png",
+                    "@Description": "Peugeot 108 or similar"
+                }, {
+                    "@Make": "Fiat",
+                    "@Model": "Panda",
+                    "@Picture": "fiat/panda/primary.png",
+                    "@Description": "Fiat Panda or similar"
+                }, {
+                    "@Make": "Skoda",
+                    "@Model": "Citigo",
+                    "@Picture": "skoda/citigo/primary.png",
+                    "@Description": "Skoda Citigo or similar"
+                }, {
+                    "@Make": "Chevrolet",
+                    "@Model": "Spark",
+                    "@Picture": "chevrolet/spark/primary.png",
+                    "@Description": "Chevrolet Spark or similar"
+                }, {
+                    "@Make": "Opel",
+                    "@Model": "Adam",
+                    "@Picture": "opel/adam/primary.png",
+                    "@Description": "Opel Adam or similar"
+                }, {
+                    "@Make": "Smart",
+                    "@Model": "Forfour",
+                    "@Picture": "smart/forfour/primary.png",
+                    "@Description": "Smart Forfour or similar"
+                }, {
+                    "@Make": "Seat",
+                    "@Model": "Mii",
+                    "@Picture": "seat/mii/primary.png",
+                    "@Description": "Seat Mii or similar"
+                }, {
+                    "@Make": "Mini",
+                    "@Model": "One",
+                    "@Picture": "mini/one/primary.png",
+                    "@Description": "Mini One or similar"
+                }, {
+                    "@Make": "Suzuki",
+                    "@Model": "Alto",
+                    "@Picture": "suzuki/alto/primary.png",
+                    "@Description": "Suzuki Alto or similar"
+                }, {
+                    "@Make": "Dacia",
+                    "@Model": "Logan",
+                    "@Picture": "dacia/logan/primary.png",
+                    "@Description": "Dacia Logan or similar"
+                }, {
+                    "@Make": "Suzuki",
+                    "@Model": "Ignis",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Suzuki Ignis or similar"
+                }, {
+                    "@Make": "Toyota",
+                    "@Model": "Yaris",
+                    "@Picture": "toyota/yaris-3dr/primary.png",
+                    "@Description": "Toyota Yaris or similar"
+                }, {
+                    "@Make": "Fiat",
+                    "@Model": "Seicento",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Fiat Seicento or similar"
+                }, {
+                    "@Make": "Volkswagen",
+                    "@Model": "Crossup!",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Volkswagen Crossup! or similar"
+                }, {
+                    "@Make": "Toyota",
+                    "@Model": "IQ",
+                    "@Picture": "toyota/iq/primary.png",
+                    "@Description": "Toyota IQ or similar"
+                }, {
+                    "@Make": "Opel",
+                    "@Model": "Agila",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Opel Agila or similar"
+                }, {
+                    "@Make": "Seat",
+                    "@Model": "Arosa",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Seat Arosa or similar"
+                }, {
+                    "@Make": "Peugeot",
+                    "@Model": "106",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Peugeot 106 or similar"
+                }, {
+                    "@Make": "Daewoo",
+                    "@Model": "Matiz",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Daewoo Matiz or similar"
+                }, {
+                    "@Make": "Hyundai",
+                    "@Model": "Atos",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Hyundai Atos or similar"
+                }, {
+                    "@Make": "Nissan",
+                    "@Model": "Micra",
+                    "@Picture": "nissan/micra/primary.png",
+                    "@Description": "Nissan Micra or similar"
+                }, {
+                    "@Make": "Volkswagen",
+                    "@Model": "Fox",
+                    "@Picture": "generic/economy/primary.png",
+                    "@Description": "Volkswagen Fox or similar"
+                }, {
+                    "@Make": "Chevrolet",
+                    "@Model": "Matiz",
+                    "@Picture": "chevrolet/matiz/primary.png",
+                    "@Description": "Chevrolet Matiz or similar"
+                }, {
+                    "@Make": "Volkswagen",
+                    "@Model": "Lupo",
+                    "@Picture": "generic/mini/primary.png",
+                    "@Description": "Volkswagen Lupo or similar"
+                }],
+                "PlanCode": [],
+                "ContractTitle": "Drivalia ES pp - FF - Src all",
+                "AccountNo": [],
+                "BookingEmail": "reservations@drivalia.com",
+                "Phone": "628 541 759",
+                "CustomerSupportEmail": [],
+                "RateCode": [],
+                "AgentAssignedNumber": [],
+                "BillingAccountNumber": [],
+                "LocalPhone": "0034 628389564"
+            },
+            "SpecialOffers": {
+                "Offer": {
+                    "@type": "free_additional_driver",
+                    "@shortText": "free_additional_driver",
+                    "@UIToken": "free_additional_driver",
+                    "#text": "With this car you get 1 free additional driver."
+                }
+            },
+            "Product": {
+                "@code": "0",
+                "#text": "SELF_DRIVE"
+            },
+            "ArrivalDetails": [],
+            "Costings": {
+                "Region": {
+                    "@IsEU": "1"
+                },
+                "CarAgent": {
+                    "@Currency": "EUR",
+                    "@BaseRate": "45.00",
+                    "@Margin": "53.02",
+                    "@RentalCost": "98.02",
+                    "@FinalSellingPrice": "98.02",
+                    "EuroValue": {
+                        "@ExchangeRate": "1.000000",
+                        "@BaseRate": "45.00",
+                        "@RentalCost": "98.02"
+                    },
+                    "PayableOnArrival": {
+                        "@Currency": "EUR",
+                        "@Amount": "0.00",
+                        "@InclusiveAmount": "0.00"
+                    }
+                },
+                "Display": {
+                    "@Currency": "EUR",
+                    "@RentalCost": "98.02",
+                    "@TotalOrderPrice": "136.00",
+                    "DisplayToCharge": {
+                        "@ExchangeRate": "1.000000"
+                    },
+                    "CarAgentToDisplay": {
+                        "@ExchangeRate": "1.000000"
+                    }
+                },
+                "Charge": {
+                    "@Currency": "EUR",
+                    "@Amount": "98.02",
+                    "CarAgent": {
+                        "@Currency": "EUR",
+                        "@Amount": "98.02"
+                    }
+                }
+            },
+            "PayAndShop": {
+                "@PaymentDescriptor": "CarHire & Rental Insurance",
+                "@ID": "70814067_53135902288",
+                "Transaction": [{
+                    "@PayAndShopRef": "506667299",
+                    "@ID": "70814067",
+                    "@Ref": "70814067_53135902251",
+                    "@RequestTypeCode": "O",
+                    "@PASRef": "70814067_53135902251",
+                    "@AuthCode": "53135902251",
+                    "@DateTime": "2022-02-22 13:59:01.0",
+                    "@AutoSettle": "1",
+                    "@Currency": "EUR",
+                    "@Amount": "98.02",
+                    "@ExchangeRate": "1.0",
+                    "@PaymentMethodType": "CREDITCARD",
+                    "@ResRef": "70814067",
+                    "@RevenueSource": "Car Rental",
+                    "@AtFault": "1",
+                    "@PaymentProvider": "1",
+                    "@OrderID": "70814067_53135902251",
+                    "@Account": "7512"
+                }, {
+                    "@PayAndShopRef": "506667300",
+                    "@ID": "70814067",
+                    "@Ref": "70814067_53135902251",
+                    "@RequestTypeCode": "O",
+                    "@PASRef": "70814067_53135902251",
+                    "@AuthCode": "53135902251",
+                    "@DateTime": "2022-02-22 13:59:01.0",
+                    "@AutoSettle": "1",
+                    "@Currency": "EUR",
+                    "@Amount": "37.98",
+                    "@ExchangeRate": "1.0",
+                    "@PaymentMethodType": "CREDITCARD",
+                    "@ResRef": "70814067",
+                    "@RevenueSource": "Insurance",
+                    "@AtFault": "1",
+                    "@PaymentProvider": "1",
+                    "@OrderID": "70814067_53135902251",
+                    "@Account": "7512"
+                }, {
+                    "@PayAndShopRef": "506667301",
+                    "@ID": "70814067",
+                    "@Ref": "1645538343848857",
+                    "@RequestTypeCode": "C",
+                    "@PASRef": "1645538343848857",
+                    "@AuthCode": "12345",
+                    "@DateTime": "2022-02-22 13:59:01.0",
+                    "@AutoSettle": "1",
+                    "@Currency": "EUR",
+                    "@Amount": "98.02",
+                    "@ExchangeRate": "1.0",
+                    "@PaymentMethodType": "CREDITCARD",
+                    "@ResRef": "70814067",
+                    "@RevenueSource": "Car Rental",
+                    "@AtFault": "1",
+                    "@PaymentProvider": "1",
+                    "@OrderID": "70814067_53135902288",
+                    "@Account": "7512"
+                }, {
+                    "@PayAndShopRef": "506667302",
+                    "@ID": "70814067",
+                    "@Ref": "1645538343848857",
+                    "@RequestTypeCode": "C",
+                    "@PASRef": "1645538343848857",
+                    "@AuthCode": "12345",
+                    "@DateTime": "2022-02-22 13:59:01.0",
+                    "@AutoSettle": "1",
+                    "@Currency": "EUR",
+                    "@Amount": "37.98",
+                    "@ExchangeRate": "1.0",
+                    "@PaymentMethodType": "CREDITCARD",
+                    "@ResRef": "70814067",
+                    "@RevenueSource": "Insurance",
+                    "@AtFault": "1",
+                    "@PaymentProvider": "1",
+                    "@OrderID": "70814067_53135902288",
+                    "@Account": "7512"
+                }],
+                "Outstanding": {
+                    "@Currency": "EUR",
+                    "@Balance": "0.00",
+                    "@Paid": "98.02",
+                    "@InitialPayment": "98.02",
+                    "@InitialPaymentPaid": "true",
+                    "@NonRefundableDeposit": "false"
+                },
+                "OutstandingIns": {
+                    "@Currency": "EUR",
+                    "@Balance": "0.00",
+                    "@Paid": "37.98"
+                },
+                "OutstandingExtras": {
+                    "@Currency": "EUR",
+                    "@Balance": "0.00",
+                    "@Paid": "0.00"
+                },
+                "OutstandingTotal": {
+                    "@Currency": "EUR",
+                    "@Balance": "0.00",
+                    "@Paid": "136.00"
+                }
+            },
+            "Amendments": {
+                "Available": {
+                    "@Rebookable": "false",
+                    "Type": [{
+                        "@ID": "DriverNameChange",
+                        "@DisplayName": "Driver Name Change",
+                        "@Mechanism": "Assisted",
+                        "RequiredField": [{
+                            "@Format": "String",
+                            "@IsRequired": "true",
+                            "#text": "FirstName"
+                        }, {
+                            "@Format": "String",
+                            "@IsRequired": "true",
+                            "#text": "Surname"
+                        }]
+                    }, {
+                        "@ID": "FlightNumberChange",
+                        "@DisplayName": "Flight Number Change",
+                        "@Mechanism": "Assisted",
+                        "RequiredField": [{
+                            "@Format": "String",
+                            "@IsRequired": "true",
+                            "@MaxLength": "2",
+                            "#text": "AirlineCode"
+                        }, {
+                            "@Format": "IntegerValue",
+                            "@IsRequired": "true",
+                            "#text": "FlightNumber"
+                        }]
+                    }, {
+                        "@ID": "DateTimeChange",
+                        "@DisplayName": "Date Time Change",
+                        "@Mechanism": "Assisted",
+                        "RequiredField": [{
+                            "@Format": "yyyy-MM-ddTHH:mm:ss",
+                            "@IsRequired": "true",
+                            "#text": "PickupDateTime"
+                        }, {
+                            "@Format": "yyyy-MM-ddTHH:mm:ss",
+                            "@IsRequired": "true",
+                            "#text": "ReturnDateTime"
+                        }]
+                    }]
+                }
+            },
+            "Problems": {
+                "@OutstandingProblem": "0"
+            },
+            "ReservationHistory": {
+                "Reservation": {
+                    "@ID": "ES708140670",
+                    "@Active": "1"
+                }
+            },
+            "OpenHours": {
+                "Pickup": [{
+                    "@DOW": "SUN",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "SUN",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "SUN",
+                    "@From": "00:00",
+                    "@To": "07:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "SUN",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "SUN",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "SUN",
+                    "@From": "23:30",
+                    "@To": "23:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "MON",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "MON",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "MON",
+                    "@From": "00:00",
+                    "@To": "07:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "MON",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "MON",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "MON",
+                    "@From": "23:30",
+                    "@To": "23:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "TUE",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "TUE",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "TUE",
+                    "@From": "00:00",
+                    "@To": "07:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "TUE",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "TUE",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "TUE",
+                    "@From": "23:30",
+                    "@To": "23:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "WED",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "WED",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "WED",
+                    "@From": "00:00",
+                    "@To": "07:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "WED",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "WED",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "WED",
+                    "@From": "23:30",
+                    "@To": "23:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "THU",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "THU",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "THU",
+                    "@From": "00:00",
+                    "@To": "07:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "THU",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "THU",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "THU",
+                    "@From": "23:30",
+                    "@To": "23:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "FRI",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "FRI",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "FRI",
+                    "@From": "00:00",
+                    "@To": "07:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "FRI",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "FRI",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "FRI",
+                    "@From": "23:30",
+                    "@To": "23:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "SAT",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "SAT",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "SAT",
+                    "@From": "00:00",
+                    "@To": "07:59",
+                    "@Type": "After Hours Return"
+                }, {
+                    "@DOW": "SAT",
+                    "@From": "08:00",
+                    "@To": "21:59",
+                    "@Type": "Open"
+                }, {
+                    "@DOW": "SAT",
+                    "@From": "22:00",
+                    "@To": "23:29",
+                    "@Type": "After Hours"
+                }, {
+                    "@DOW": "SAT",
+                    "@From": "23:30",
+                    "@To": "23:59",
+                    "@Type": "After Hours Return"
+                }]
+            },
+            "LookAndFeel": {
+                "@DateTimeFormat": "dd/mm/yyyy HH:mm:ss"
+            },
+            "PortalUrl": "https://cars.cartrawler.com/managebooking?booking=ES708140670&email=12163316729535602872&lang=EN"
+        }
+    }
+}
