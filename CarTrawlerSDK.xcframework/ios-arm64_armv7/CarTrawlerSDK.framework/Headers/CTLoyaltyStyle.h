@@ -15,6 +15,11 @@ typedef NS_ENUM(NSUInteger, CTLoyaltyTheme) {
     CTLoyaltyThemeDark
 };
 
+typedef NS_ENUM(NSUInteger, CTChipSize) {
+    CTChipSizeRegular = 28,
+    CTChipSizeLarge = 36
+};
+
 @interface CTLoyaltyStyle : NSObject
 
 // Mandatory parameters
@@ -25,6 +30,7 @@ typedef NS_ENUM(NSUInteger, CTLoyaltyTheme) {
 @property (nonatomic, strong) UIColor *primaryTextColor;
 @property (nonatomic, strong) UIColor *secondaryColor;
 @property (nonatomic, strong) UIColor *secondaryTextColor;
+@property (nonatomic) CTChipSize chipSize;
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)styleWithTheme:(CTLoyaltyTheme)loyaltyTheme;
