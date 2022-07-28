@@ -4,6 +4,8 @@
 <dict>
 	<key>BuildMachineOSBuild</key>
 	<string>21F79</string>
+	<key>CFBundleCarTrawlerSDKVersion</key>
+	<string>12.3.0</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,13 +19,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>12.2.0</string>
+	<string>12.3.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1873</string>
+	<string>1874</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
