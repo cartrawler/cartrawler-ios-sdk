@@ -78,6 +78,15 @@ typedef void (^CTRemoveRecentSearchesCompletion)(BOOL success, NSError * _Nullab
 - (void)presentFromViewController:(nonnull UIViewController *)viewController context:(nonnull CTContext *)context;
 
 /**
+ Pushes the CarTrawlerSDK over an existing UINavigationController given the context
+ The SDK must be initialised before calling this method
+ 
+ @param navigationViewController the navigation view controller where the SDK will be pushed
+ @param context which gives the parameters to be presented
+ */
+- (void)pushFromNavigationViewController:(nonnull UINavigationController *)navigationViewController context:(nonnull CTContext *)context;
+
+/**
  Present the Car Trawler InPath flow from the provided view controller
  The SDK must be initialised, and the In Path card added before calling this method
  */
