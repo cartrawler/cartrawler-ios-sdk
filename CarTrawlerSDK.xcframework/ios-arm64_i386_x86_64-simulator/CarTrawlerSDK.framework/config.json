@@ -547,7 +547,6 @@
       "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf"
     }
   ],
-  "enableCTCashSubtraction": "true",
   "enablePSD2WebForm": "false",
   "enablePrePaidExtras": "false",
   "enableZeroExcess": "true",
