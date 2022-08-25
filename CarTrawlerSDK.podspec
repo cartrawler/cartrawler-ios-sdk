@@ -27,5 +27,6 @@ s.ios.vendored_frameworks = 'CarTrawlerSDK.xcframework'
 s.requires_arc = true
 s.dependency 'CTPayment', '2.1.0'
 s.preserve_path = '**/*.bcsymbolmap'
+s.preserve_path = '**/*.dSYM'
 
 end
