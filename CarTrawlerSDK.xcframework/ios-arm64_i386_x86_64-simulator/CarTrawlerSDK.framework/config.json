@@ -504,6 +504,7 @@
         "budget"
       ],
       "enableLoyaltyRead": "true",
+      "forceCalendarFirstDayOfWeek": "1",
       "supplierBenefitCodes": [
         {
           "code": "A791500",
