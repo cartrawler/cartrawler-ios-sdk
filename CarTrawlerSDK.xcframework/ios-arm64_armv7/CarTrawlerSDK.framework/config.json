@@ -9,24 +9,48 @@
         "83004"
       ],
       "abandonmentKey": "",
+      "saleBanner": {
+        "type": "dynamic",
+        "captionColor": "#FFD633",
+        "captionDarkColor": "#CB0000",
+        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "textColor": "#FFFFFF",
+        "textDarkColor": "#333333",
+        "backgroundColor": "#002C52",
+        "backgroundDarkColor": "#FFFFFF",
+        "linkColor": "#FFFFFF",
+        "linkDarkColor": "#333333",
+        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+      },
       "landingPageIcons": [
       ],
       "loyaltyProgramId": "CARTRAWLER",
       "supplierBorderColor": "#009900",
       "supplierTextColor": "#FFFFFF",
-      "ratingType": "STARS"
+      "ratingType": "STARS",
+      "USPSpec": {
+        "type": "dynamic",
+        "usps": "5",
+        "sales": "1",
+        "footnotes": "5",
+        "iconColour": "#69B3E7",
+        "baseURL":"https://cars.mileageplus.com",
+        "showTAC":"true",
+        "showPP":"true"
+      }
     },
     {
       "name": "Promo Code",
-      "domain": "",
+      "domain": "",    
       "clientIds": [
-          "460396"
+          "460396"        
       ],
       "abandonmentKey": "",
       "loyaltyProgramId": "CARTRAWLER",
       "supplierBorderColor": "#009900",
       "supplierTextColor": "#FFFFFF",
-      "ratingType": "Stars"
+      "ratingType": "Stars"      
     },
     {
       "name": "easyJet",
@@ -247,7 +271,22 @@
         "566613",
         "569826"
       ],
-      "abandonmentKey": ""
+      "abandonmentKey": "",
+      "chipDiscountMechanicType": "MONETARY",
+      "saleBanner": {
+        "type": "dynamic",
+        "captionColor": "#FFD633",
+        "captionDarkColor": "#CB0000",
+        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "textColor": "#FFFFFF",
+        "textDarkColor": "#333333",
+        "backgroundColor": "#002C52",
+        "backgroundDarkColor": "#FFFFFF",
+        "linkColor": "#FFFFFF",
+        "linkDarkColor": "#333333",
+        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+      }
     },
     {
       "name": "Go Voyage",
@@ -346,7 +385,8 @@
         "532783",
         "505158",
         "532766",
-        "505141"
+        "505141",
+        "561921"
       ],
       "abandonmentKey": ""
     },
@@ -486,6 +526,27 @@
       ]
     },
     {
+      "name": "Flynas",
+      "domain": "",
+      "clientIds": [
+        "587387"
+      ]
+    },
+    {
+      "name": "Dollar",
+      "domain": "",
+      "clientIds": [
+        "587557"
+      ]
+    },
+    {
+      "name": "Thrifty",
+      "domain": "",
+      "clientIds": [
+        "587574"
+      ]
+    },
+    {
       "name": "United Airlines",
       "domain": "",
       "tag": "united",
@@ -503,8 +564,8 @@
         "avis",
         "budget"
       ],
-      "enableLoyaltyRead": "true",
       "forceCalendarFirstDayOfWeek": "1",
+      "enableLoyaltyRead": "true",
       "supplierBenefitCodes": [
         {
           "code": "A791500",
@@ -515,8 +576,28 @@
           "code": "B204900",
           "xmlType": "BG",
           "codeType": "CORPORATE_RATE"
+        },
+        {
+          "code": "MUAA006",
+          "xmlType": "AV",
+          "codeType": "PROMOTIONAL_CODE"
+        },
+        {
+          "code": "MUAZ007",
+          "xmlType": "BG",
+          "codeType": "PROMOTIONAL_CODE"
         }
-      ]
+      ],
+      "USPSpec": {
+        "type": "dynamic",
+        "usps": "5",
+        "sales": "1",
+        "footnotes": "1",
+        "iconColour": "#69B3E7",
+        "baseURL":"https://cars.mileageplus.com",
+        "showTAC":"true",
+        "showPP":"true"
+      }
     }
   ],
   "suppliers": [
@@ -548,6 +629,7 @@
       "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf"
     }
   ],
+  "enableCTCashSubtraction": "false",
   "enablePSD2WebForm": "false",
   "enablePrePaidExtras": "false",
   "enableZeroExcess": "true",
@@ -574,7 +656,8 @@
     "b6QUqVKuzdx/SvXkO7SgfzSA9Y4pXi+Vuylaiy3KjT8ethLt1V8Sf4uv/Wf6a6RUrsGmHHTyj1O2KG1nbI576La897D34oMMosFb9Ur4VvBY8mbGYguyaEsKapm+B+gkcJomNMp+eJseJKCFu36zG6NzBCkagG/oybranp11a+k=": [
       "ov3Ds7QMJmY6elxIc4IbR3w6F4OI7LWq+ZVCvJMs7sGCKcqgR+D3cWMr31JweAA7DJ00uwMGPNA+ORFeor1OHHjnp8b3vHrsKEjWlQk1UY/8nrLVu3mrxVyBhSOh4rvvwALqO9fPZBuFE+ycJ16fNQS5F5saPohu6F4NhlebN2k=",
       "RDcSvbMJQWZQFwWbtKPNzBtgr7/QimxQv5fXk3/bGim2DXnqBwGlX0RwCqW+zskqDcHFg2NMp+IvdzgY2pAP1ZvgFALmWLXXJpmdd9Iaxr4LjUNkPDCrxe4hs5SHxAzOpPX0PHhQ4gCwON+DkIAM1feEZgMo3Cxhjwy9cQ0XDuc=",
-      "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q="
+      "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q=",
+      "cTH6QoyXPEoHk/DjrigE9yVuldO9+Co32GSWLusoNzGQ1S2vYmyCIp2P5AjI5S9BlPPRg9dLIeQM8K9J6fecvsBO+f3t633jgpwg5ytnVkPNX0JNMcOdXJA8dMwxwgxc93oq6b8qo/9RZPFK4Y5gCwWBykL0iVHfiPVTqnfgUXA="
     ]
   },
   "encrypted": {
@@ -582,7 +665,8 @@
     "hashes": [
       "ov3Ds7QMJmY6elxIc4IbR3w6F4OI7LWq+ZVCvJMs7sGCKcqgR+D3cWMr31JweAA7DJ00uwMGPNA+ORFeor1OHHjnp8b3vHrsKEjWlQk1UY/8nrLVu3mrxVyBhSOh4rvvwALqO9fPZBuFE+ycJ16fNQS5F5saPohu6F4NhlebN2k=",
       "RDcSvbMJQWZQFwWbtKPNzBtgr7/QimxQv5fXk3/bGim2DXnqBwGlX0RwCqW+zskqDcHFg2NMp+IvdzgY2pAP1ZvgFALmWLXXJpmdd9Iaxr4LjUNkPDCrxe4hs5SHxAzOpPX0PHhQ4gCwON+DkIAM1feEZgMo3Cxhjwy9cQ0XDuc=",
-      "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q="
+      "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q=",
+      "cTH6QoyXPEoHk/DjrigE9yVuldO9+Co32GSWLusoNzGQ1S2vYmyCIp2P5AjI5S9BlPPRg9dLIeQM8K9J6fecvsBO+f3t633jgpwg5ytnVkPNX0JNMcOdXJA8dMwxwgxc93oq6b8qo/9RZPFK4Y5gCwWBykL0iVHfiPVTqnfgUXA="
     ]
   },
   "categories": {
