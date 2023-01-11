@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G115</string>
+	<string>21G320</string>
 	<key>CFBundleCarTrawlerSDKVersion</key>
-	<string>13.0.0</string>
+	<string>13.1.0</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>13.0.0</string>
+	<string>13.1.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -29,19 +29,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13E113</string>
+	<string>14B47b</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>12.3</string>
+	<string>13.0</string>
 	<key>DTSDKBuild</key>
-	<string>21E226</string>
+	<string>22A372</string>
 	<key>DTSDKName</key>
-	<string>macosx12.3</string>
+	<string>macosx13.0</string>
 	<key>DTXcode</key>
-	<string>1330</string>
+	<string>1410</string>
 	<key>DTXcodeBuild</key>
-	<string>13E113</string>
+	<string>14B47b</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15</string>
 	<key>UIAppFonts</key>
