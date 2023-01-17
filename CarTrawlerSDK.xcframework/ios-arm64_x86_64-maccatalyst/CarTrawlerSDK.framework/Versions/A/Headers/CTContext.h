@@ -22,7 +22,7 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
 
 @interface CTContext : NSObject
 
-@property (nonatomic, strong, readonly) NSString *clientID;
+@property (nonatomic, strong, readonly, nonnull) NSString *clientID;
 @property (nonatomic, readonly) CTFlowType flowType;
 @property (nonatomic, weak) id <CarTrawlerSDKDelegate> delegate;
 @property (nonatomic, strong) NSString *countryCode;
