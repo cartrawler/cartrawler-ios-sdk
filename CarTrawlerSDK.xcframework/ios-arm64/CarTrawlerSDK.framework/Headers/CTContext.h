@@ -20,6 +20,12 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
     CTDeeplinkSearchForm
 };
 
+typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
+    CTSettingsIconCog,
+    CTSettingsIconUser,
+    CTSettingsIconHamburger
+};
+
 @interface CTContext : NSObject
 
 @property (nonatomic, strong, readonly, nonnull) NSString *clientID;
@@ -44,6 +50,7 @@ typedef NS_ENUM(NSUInteger, CTDeeplink) {
 @property (nonatomic, strong) NSString *promotionCode;
 @property (nonatomic, strong) CTRecentSearch *recentSearch;
 @property (nonatomic) BOOL supplierBenefitAutoApplied;
+@property (nonatomic) CTSettingsIconType settingsIconType;
 
 - (instancetype)init NS_UNAVAILABLE;
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType;
