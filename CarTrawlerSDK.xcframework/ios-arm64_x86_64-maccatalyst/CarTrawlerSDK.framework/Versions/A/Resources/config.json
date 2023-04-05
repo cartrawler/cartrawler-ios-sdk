@@ -2,6 +2,7 @@
   "partners": [
     {
       "name": "Native Test ID",
+      "implementationID":"89e36078-362c-4f52-9a65-ec9cea9b8482",
       "domain": "",
       "tag": "native",
       "clientIds": [
@@ -23,7 +24,8 @@
         "linkDarkColor": "#333333",
         "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
       },
-      "landingPageIcons": [],
+      "landingPageIcons": [
+      ],
       "loyaltyProgramId": "CARTRAWLER",
       "supplierBorderColor": "#009900",
       "supplierTextColor": "#FFFFFF",
@@ -34,16 +36,31 @@
         "sales": "1",
         "footnotes": "5",
         "iconColour": "#69B3E7",
-        "baseURL": "https://cars.mileageplus.com",
-        "showTAC": "true",
-        "showPP": "true"
-      }
+        "baseURL":"https://cars.mileageplus.com",
+        "showTAC":"true",
+        "showPP":"true"
+      },
+      "settingsMenu": {
+        "urls":[
+           {
+              "order":"1",
+              "productionURL":"https://cars.mileageplus.com/${lang}/managebooking",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=native&portalEnv=preview"
+           },
+           {
+              "order":"2",
+              "productionURL":"https://cars.mileageplus.com/${lang}/managebooking?goto=faqs",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=native&goto=faqs&portalEnv=preview"
+           }
+        ]
+     }
     },
     {
       "name": "Promo Code",
+      "implementationID":"98240bd9-ad87-4265-b63f-628719ca9894",
       "domain": "",
       "clientIds": [
-        "460396"
+          "460396"
       ],
       "abandonmentKey": "",
       "loyaltyProgramId": "CARTRAWLER",
@@ -53,6 +70,7 @@
     },
     {
       "name": "easyJet",
+      "implementationID":"ad4301f6-e55b-4824-9508-53c279d468b6",
       "domain": "",
       "clientIds": [
         "512434",
@@ -65,22 +83,30 @@
       "supplierTextColor": "#FFFFFF",
       "abandonmentKey": "",
       "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true"
-    },
-    {
-      "name": "Finn.no",
-      "domain": "",
-      "clientIds": [
-        "360367",
-        "535724",
-        "550480"
-      ],
-      "abandonmentKey": "",
-      "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true"
+      "enableZeroExcessUpSell": "true",
+      "settingsMenu": {
+        "urls":[
+           {
+              "order":"1",
+              "productionURL":"https://cars.easyjet.com/${lang}/managebooking",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=easyjet&portalEnv=preview"
+           },
+           {
+              "order":"2",
+              "productionURL":"https://cars.easyjet.com/${lang}/managebooking?goto=faqs",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=easyjet&goto=faqs&portalEnv=preview"
+           },
+           {
+              "order":"3",
+              "productionURL":"https://cars.easyjet.com/${lang}/help",
+              "developmentURL":"https://staging.cars.cartrawler.com/easyjet/help/"
+           }
+        ]
+     }
     },
     {
       "name": "Test only",
+      "implementationID":"7c4f7224-6447-468a-a7a2-caa2dd75b4c1",
       "domain": "",
       "clientIds": [
         "503339",
@@ -91,6 +117,7 @@
     },
     {
       "name": "Content testing",
+      "implementationID":"59380cee-0372-42cc-814a-aa8e2c103857",
       "domain": "",
       "clientIds": [
         "68622",
@@ -118,58 +145,8 @@
       "ratingType": "STARS"
     },
     {
-      "name": "TravelStart (356100)",
-      "domain": "",
-      "clientIds": [
-        "304030",
-        "487834",
-        "487103"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Jet2",
-      "domain": "",
-      "clientIds": [
-        "605831"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Aer Lingus",
-      "domain": "",
-      "clientIds": [
-        "566323"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "West jet",
-      "domain": "",
-      "clientIds": [
-        "848557"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Hawaiian Airlines",
-      "domain": "",
-      "clientIds": [
-        "162768",
-        "222268"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Jetstar",
-      "domain": "",
-      "clientIds": [
-        "728996"
-      ],
-      "abandonmentKey": ""
-    },
-    {
       "name": "Norwegian Air Shuttle",
+      "implementationID":"f2e4c7a9-c87b-491b-ab6e-c704bc9570d8",
       "domain": "",
       "clientIds": [
         "139699",
@@ -183,47 +160,8 @@
       "enableZeroExcessUpSell": "true"
     },
     {
-      "name": "Vueling",
-      "domain": "",
-      "clientIds": [
-        "198332"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Dollar",
-      "domain": "",
-      "clientIds": [
-        "229561"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Thrifty",
-      "domain": "",
-      "clientIds": [
-        "240458"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Swiss",
-      "domain": "",
-      "clientIds": [
-        "592214"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Expedia APAC",
-      "domain": "",
-      "clientIds": [
-        "381107"
-      ],
-      "abandonmentKey": ""
-    },
-    {
       "name": "Sales Banners",
+      "implementationID":"9e33a2a5-6ae3-4c38-abda-331abac7e6ee",
       "domain": "",
       "clientIds": [
         "633337"
@@ -232,6 +170,7 @@
     },
     {
       "name": "eDreams",
+      "implementationID":"032bed39-f74b-4794-ad31-c49c8c37d2dc",
       "domain": "",
       "tag": "edreams",
       "clientIds": [
@@ -248,12 +187,57 @@
         "532664",
         "513131",
         "532647",
-        "505039"
+        "505039",
+        "320878",
+        "588237",
+        "318617",
+        "313925",
+        "517891",
+        "517908",
+        "517925",
+        "313891",
+        "313908",
+        "313942",
+        "531542",
+        "499429",
+        "499361",
+        "499344",
+        "500262",
+        "318634",
+        "519574",
+        "504988",
+        "519591",
+        "518928",
+        "318668",
+        "513165",
+        "514100",
+        "499395",
+        "499446"
       ],
-      "abandonmentKey": ""
+      "abandonmentKey": "",
+      "settingsMenu": {
+        "urls":[
+           {
+              "order":"1",
+              "productionURL":"https://rentacar.edreams.com/${lang}/managebooking",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&portalEnv=preview"
+           },
+           {
+              "order":"2",
+              "productionURL":"https://rentacar.edreams.com/${lang}/managebooking?goto=faqs",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&goto=faqs&portalEnv=preview"
+           },
+           {
+              "order":"3",
+              "productionURL":"https://rentacar.edreams.com/${lang}/help",
+              "developmentURL":"https://staging.cars.cartrawler.com/edreams/help/"
+           }
+        ]
+     }
     },
     {
       "name": "eDreams Prime",
+      "implementationID":"299ca34f-fa4b-4089-a97b-f5a7e8862a27",
       "domain": "",
       "tag": "prime",
       "clientIds": [
@@ -269,7 +253,36 @@
         "564862",
         "565151",
         "566613",
-        "569826"
+        "569826",
+        "565015",
+        "564709",
+        "564726",
+        "564743",
+        "564760",
+        "564794",
+        "564811",
+        "564828",
+        "564845",
+        "564896",
+        "564913",
+        "564930",
+        "564947",
+        "564964",
+        "564981",
+        "564998",
+        "565032",
+        "565049",
+        "565083",
+        "565100",
+        "565253",
+        "565270",
+        "565287",
+        "565304",
+        "565321",
+        "571118",
+        "571135",
+        "571152",
+        "571169"
       ],
       "abandonmentKey": "",
       "chipDiscountMechanicType": "MONETARY",
@@ -286,10 +299,31 @@
         "linkColor": "#FFFFFF",
         "linkDarkColor": "#333333",
         "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+      },
+      "settingsMenu":{
+         "icon":"COG",
+         "urls":[
+            {
+               "order":"1",
+               "productionURL":"https://rentacar.edreams.com/${lang}/managebooking",
+               "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&portalEnv=preview"
+            },
+            {
+               "order":"2",
+               "productionURL":"https://rentacar.edreams.com/${lang}/managebooking?goto=faqs",
+               "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&goto=faqs&portalEnv=preview"
+            },
+            {
+               "order":"3",
+               "productionURL":"https://rentacar.edreams.com/${lang}/help",
+               "developmentURL":"https://staging.cars.cartrawler.com/edreams/help/"
+            }
+         ]
       }
     },
     {
       "name": "Go Voyage",
+      "implementationID":"89270def-7fa3-4e4a-96b0-21479f9473c6",
       "domain": "",
       "tag": "edreams",
       "clientIds": [
@@ -307,12 +341,68 @@
         "531593",
         "513097",
         "532732",
-        "505107"
+        "505107",
+        "320895",
+        "499582",
+        "499616",
+        "318719",
+        "316220",
+        "316186",
+        "518044",
+        "518061",
+        "518078",
+        "316237",
+        "316203",
+        "499667",
+        "499633",
+        "499565",
+        "499548",
+        "500364",
+        "499684",
+        "519659",
+        "318736",
+        "519676",
+        "318753",
+        "505022",
+        "519693",
+        "518962",
+        "318770",
+        "513199",
+        "514134",
+        "499735",
+        "513046",
+        "499599",
+        "499650",
+        "500381",
+        "549188",
+        "549205",
+        "549222",
+        "588220"
       ],
-      "abandonmentKey": ""
+      "abandonmentKey": "",
+      "settingsMenu": {
+        "urls":[
+           {
+              "order":"1",
+              "productionURL":"https://voiture.govoyages.com/${lang}/managebooking",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&portalEnv=preview"
+           },
+           {
+              "order":"2",
+              "productionURL":"https://voiture.govoyages.com/${lang}/managebooking?goto=faqs",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&goto=faqs&portalEnv=preview"
+           },
+           {
+              "order":"3",
+              "productionURL":"https://voiture.govoyages.com/${lang}/help",
+              "developmentURL":"https://staging.cars.cartrawler.com/govoyages/help/"
+           }
+        ]
+     }
     },
     {
       "name": "Go Voyage Prime",
+      "implementationID":"2a3d04fa-8adb-4517-8c5b-4e01df8387cb",
       "domain": "",
       "tag": "prime",
       "clientIds": [
@@ -328,12 +418,61 @@
         "563128",
         "562890",
         "563366",
-        "566579"
+        "566579",
+        "563043",
+        "562856",
+        "562924",
+        "562975",
+        "563009",
+        "562822",
+        "562771",
+        "563230",
+        "563247",
+        "563264",
+        "562737",
+        "562754",
+        "562788",
+        "563060",
+        "563026",
+        "562958",
+        "562941",
+        "563077",
+        "563298",
+        "562839",
+        "563315",
+        "563111",
+        "563332",
+        "563281",
+        "562873",
+        "562992",
+        "571033",
+        "571016"
       ],
-      "abandonmentKey": ""
+      "abandonmentKey": "",
+      "settingsMenu":{
+         "icon":"COG",
+         "urls":[
+            {
+               "order":"1",
+               "productionURL":"https://voiture.govoyages.com/${lang}/managebooking",
+               "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&portalEnv=preview"
+            },
+            {
+               "order":"2",
+               "productionURL":"https://voiture.govoyages.com/${lang}/managebooking?goto=faqs",
+               "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&goto=faqs&portalEnv=preview"
+            },
+            {
+               "order":"3",
+               "productionURL":"https://voiture.govoyages.com/${lang}/help",
+               "developmentURL":"https://staging.cars.cartrawler.com/govoyages/help/"
+            }
+         ]
+      }
     },
     {
       "name": "Opodo",
+      "implementationID":"a70cce14-117b-4cc4-90d1-8f59b472d84a",
       "domain": "",
       "tag": "edreams",
       "clientIds": [
@@ -351,12 +490,72 @@
         "532698",
         "513114",
         "532681",
-        "505073"
+        "505073",
+        "319824",
+        "499786",
+        "499820",
+        "318821",
+        "315455",
+        "315438",
+        "517942",
+        "517959",
+        "517976",
+        "315472",
+        "315438",
+        "499871",
+        "499837",
+        "499769",
+        "499752",
+        "500313",
+        "499888",
+        "519608",
+        "318838",
+        "519625",
+        "318821",
+        "505005",
+        "519642",
+        "518945",
+        "318872",
+        "513182",
+        "514117",
+        "499939",
+        "513029",
+        "499803",
+        "499854",
+        "500330",
+        "549137",
+        "549154",
+        "549171",
+        "571441",
+        "571458",
+        "571475",
+        "571492",
+        "588203"
       ],
-      "abandonmentKey": ""
+      "abandonmentKey": "",
+      "settingsMenu": {
+        "urls":[
+           {
+              "order":"1",
+              "productionURL":"https://carhire.opodo.com/${lang}/managebooking",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&portalEnv=preview"
+           },
+           {
+              "order":"2",
+              "productionURL":"https://carhire.opodo.com/${lang}/managebooking?goto=faqs",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&goto=faqs&portalEnv=preview"
+           },
+           {
+              "order":"3",
+              "productionURL":"https://carhire.opodo.com/${lang}/help",
+              "developmentURL":"https://staging.cars.cartrawler.com/opodo/help/"
+           }
+        ]
+     }
     },
     {
       "name": "Opodo Prime",
+      "implementationID":"ff156b05-2c2c-4d3e-84b9-a93ef65ee9f8",
       "domain": "",
       "tag": "prime",
       "clientIds": [
@@ -372,12 +571,63 @@
         "563876",
         "564114",
         "564352",
-        "566630"
+        "566630",
+        "564029",
+        "563723",
+        "563740",
+        "563757",
+        "563774",
+        "563808",
+        "563825",
+        "563842",
+        "563859",
+        "563910",
+        "563927",
+        "563944",
+        "563961",
+        "563978",
+        "563995",
+        "564012",
+        "564046",
+        "564063",
+        "564097",
+        "564216",
+        "564233",
+        "564250",
+        "564267",
+        "564284",
+        "564301",
+        "564318",
+        "571101",
+        "571084",
+        "571067",
+        "571050"
       ],
-      "abandonmentKey": ""
+      "abandonmentKey": "",
+      "settingsMenu":{
+          "icon":"COG",
+          "urls":[
+             {
+                "order":"1",
+                "productionURL":"https://carhire.opodo.com/${lang}/managebooking",
+                "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&portalEnv=preview"
+             },
+             {
+                "order":"2",
+                "productionURL":"https://carhire.opodo.com/${lang}/managebooking?goto=faqs",
+                "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&goto=faqs&portalEnv=preview"
+             },
+             {
+                "order":"3",
+                "productionURL":"https://carhire.opodo.com/${lang}/help",
+                "developmentURL":"https://staging.cars.cartrawler.com/opodo/help/"
+             }
+          ]
+       }
     },
     {
       "name": "Travellink",
+      "implementationID":"89535f56-d81f-4799-817e-868c9bf365e2",
       "domain": "",
       "tag": "prime",
       "clientIds": [
@@ -388,48 +638,77 @@
         "505158",
         "532766",
         "505141",
-        "561921"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Tipoa",
-      "domain": "",
-      "clientIds": [
-        "728503"
+        "561921",
+        "320912",
+        "499990",
+        "500024",
+        "319008",
+        "318923",
+        "314690",
+        "314656",
+        "517993",
+        "518010",
+        "518027",
+        "314707",
+        "314673",
+        "500075",
+        "318991",
+        "531610",
+        "500041",
+        "499973",
+        "499956",
+        "500415",
+        "500415",
+        "500092",
+        "519710",
+        "318940",
+        "519727",
+        "318957",
+        "519744",
+        "518979",
+        "318974",
+        "513216",
+        "514151",
+        "500143",
+        "513063",
+        "500007",
+        "500058",
+        "500432",
+        "549086",
+        "549103",
+        "549120",
+        "588186"
       ],
       "abandonmentKey": "",
-      "enablePSD2WebForm": "false"
-    },
-    {
-      "name": "itaka",
-      "domain": "",
-      "clientIds": [
-        "528125",
-        "528414"
-      ]
-    },
-    {
-      "name": "TAP",
-      "domain": "",
-      "clientIds": [
-        "861936"
-      ],
-      "loyaltyProgramId": "TAP"
-    },
-    {
-      "name": "Transavia",
-      "domain": "",
-      "clientIds": [
-        "505821"
-      ]
+      "settingsMenu":{
+         "icon":"COG",
+         "urls":[
+            {
+               "order":"1",
+               "productionURL":"https://cars.travellink.com/${lang}/managebooking",
+               "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&portalEnv=preview"
+            },
+            {
+               "order":"2",
+               "productionURL":"https://cars.travellink.com/${lang}/managebooking?goto=faqs",
+               "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&goto=faqs&portalEnv=preview"
+            },
+            {
+               "order":"3",
+               "productionURL":"https://cars.travellink.com/${lang}/help",
+               "developmentURL":"https://staging.cars.cartrawler.com/travellink/help/"
+            }
+         ]
+      }
     },
     {
       "name": "Argus",
+      "implementationID":"692d9c14-24f3-4f9a-aae3-2249422e8758",
       "domain": "",
       "clientIds": [
         "685068",
-        "685051"
+        "685051",
+        "594544"
       ],
       "abandonmentKey": "",
       "enableTracking": "true",
@@ -438,11 +717,13 @@
     },
     {
       "name": "Holiday Autos",
+      "implementationID":"b830933d-c323-4451-ab6d-329fe9846617",
       "domain": "",
       "clientIds": [
         "685034",
         "685017",
-        "463473"
+        "463473",
+        "594527"
       ],
       "abandonmentKey": "",
       "enableTracking": "true",
@@ -451,9 +732,11 @@
     },
     {
       "name": "easyCar",
+      "implementationID":"d3ae1b67-6588-4edf-904c-c896e9ba9594",
       "domain": "",
       "clientIds": [
-        "574008"
+        "574008",
+        "594578"
       ],
       "abandonmentKey": "",
       "enableTracking": "true",
@@ -461,21 +744,8 @@
       "enableApplePay": "true"
     },
     {
-      "name": "CardGenY",
-      "domain": "",
-      "clientIds": [
-        "551908"
-      ]
-    },
-    {
-      "name": "RentalCars",
-      "domain": "",
-      "clientIds": [
-        "553676"
-      ]
-    },
-    {
       "name": "MyIDTravel",
+      "implementationID":"60141854-0a09-48e3-8216-50a0cb27ec26",
       "domain": "",
       "clientIds": [
         "560408",
@@ -489,14 +759,8 @@
       ]
     },
     {
-      "name": "Apexx1",
-      "domain": "",
-      "clientIds": [
-        "570030"
-      ]
-    },
-    {
       "name": "Ethiopian Airlines",
+      "implementationID":"1b7028a9-de1c-459c-9718-a7feba423c25",
       "domain": "",
       "clientIds": [
         "574365"
@@ -506,35 +770,16 @@
       ]
     },
     {
-      "name": "Alaska",
-      "domain": "",
-      "clientIds": [
-        "300206"
-      ],
-      "landingPageIcons": [
-        "hertz",
-        "alamo",
-        "avis"
-      ]
-    },
-    {
       "name": "OTA Test",
+      "implementationID":"9f92ae2e-127a-49f9-ac1b-f07c76805ca7",
       "domain": "",
       "clientIds": [
         "549885"
       ]
     },
     {
-      "name": "Realex",
-      "domain": "",
-      "clientIds": [
-        "745979",
-        "745996",
-        "746013"
-      ]
-    },
-    {
       "name": "Flynas",
+      "implementationID":"f3570324-140f-45f0-80d7-4008509b3272",
       "domain": "",
       "clientIds": [
         "587387",
@@ -542,21 +787,8 @@
       ]
     },
     {
-      "name": "Dollar",
-      "domain": "",
-      "clientIds": [
-        "587557"
-      ]
-    },
-    {
-      "name": "Thrifty",
-      "domain": "",
-      "clientIds": [
-        "587574"
-      ]
-    },
-    {
       "name": "United Airlines",
+      "implementationID":"d6a6d45e-2b1d-4df9-a7b9-3075ad42ca22",
       "domain": "",
       "tag": "united",
       "loyaltyProgramId": "UNITED",
@@ -606,10 +838,29 @@
         "sales": "1",
         "footnotes": "1",
         "iconColour": "#69B3E7",
-        "baseURL": "https://cars.mileageplus.com",
-        "showTAC": "true",
-        "showPP": "true"
-      }
+        "baseURL":"https://cars.mileageplus.com",
+        "showTAC":"true",
+        "showPP":"true"
+      },
+      "settingsMenu": {
+        "urls":[
+           {
+              "order":"1",
+              "productionURL":"https://cars.united.com/${lang}/managebooking",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=united&portalEnv=preview"
+           },
+           {
+              "order":"2",
+              "productionURL":"https://cars.united.com/${lang}/managebooking?goto=faqs",
+              "developmentURL":"https://staging.cars.cartrawler.com/managebooking/${lang}?portal=united&goto=faqs&portalEnv=preview"
+           },
+           {
+              "order":"3",
+              "productionURL":"https://cars.united.com/${lang}/help",
+              "developmentURL":"https://staging.cars.cartrawler.com/united/help/"      
+           }
+        ]
+     }
     }
   ],
   "suppliers": [
