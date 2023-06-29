@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CTReservationDetails : NSObject
 
 @property (nonatomic, nonnull, readonly) NSString *status;
+@property (nonatomic, nonnull, readonly) NSString *paymentStatus;
 @property (nonatomic, nonnull, readonly) NSString *givenName;
 @property (nonatomic, nonnull, readonly) NSString *surname;
 @property (nonatomic, nonnull, readonly) NSString *email;
