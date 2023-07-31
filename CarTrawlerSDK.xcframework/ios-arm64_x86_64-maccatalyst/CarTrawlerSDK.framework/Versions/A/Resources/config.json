@@ -40,6 +40,7 @@
         "showTAC":"true",
         "showPP":"true"
       },
+      "enablePayPaliOS":"true",
       "settingsMenu": {
         "urls":[
            {
