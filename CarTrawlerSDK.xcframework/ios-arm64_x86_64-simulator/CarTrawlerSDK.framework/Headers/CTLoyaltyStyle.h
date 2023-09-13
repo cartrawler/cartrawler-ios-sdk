@@ -29,6 +29,7 @@ typedef NS_ENUM(NSUInteger, CTChipSize) {
 @property (nonatomic, strong) UIColor *primaryColor;
 @property (nonatomic, strong) UIColor *primaryTextColor;
 @property (nonatomic, strong) UIColor *secondaryColor;
+@property (nonatomic, strong) UIColor *secondaryVariantColor;
 @property (nonatomic, strong) UIColor *secondaryTextColor;
 @property (nonatomic) CTChipSize chipSize;
 

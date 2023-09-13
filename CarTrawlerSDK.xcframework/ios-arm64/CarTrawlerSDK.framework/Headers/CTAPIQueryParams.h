@@ -28,6 +28,7 @@ typedef NS_ENUM(NSUInteger, CTSortType) {
 @property (nonatomic, strong) NSDate *pickupDate;
 @property (nonatomic, strong) NSDate *dropOffDate;
 @property (nonatomic, strong) NSString *IATACode;
+@property (nonatomic, strong) NSString *IATACodeDropoff;
 @property (nonatomic, strong) NSString *pickupLocationID;
 @property (nonatomic, strong) NSString *dropOffLocationID;
 @property (nonatomic, strong) NSArray<CTPassenger *>* passengers;
