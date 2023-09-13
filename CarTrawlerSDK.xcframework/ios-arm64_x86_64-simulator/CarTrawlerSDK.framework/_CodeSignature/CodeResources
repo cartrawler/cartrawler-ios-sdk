@@ -32,6 +32,10 @@
 		<data>
 		oiHli72n+FkCCLlEq0vaNC056Sc=
 		</data>
+		<key>CTBannerView.nib</key>
+		<data>
+		taJ+pnyvLm/JWgaLeMaYHOppRlE=
+		</data>
 		<key>CTBestPriceWidgetView.nib</key>
 		<data>
 		lDuVHJnYj/Jfle1i3DQXTP9nCSA=
@@ -55,6 +59,10 @@
 		<key>CTBookingDetailsCell.nib</key>
 		<data>
 		Hhtmjs4kEl1FKmkQuLfbvgGRh9Q=
+		</data>
+		<key>CTCarBlockView.nib</key>
+		<data>
+		bn7kZf06nSfFOPaFV2TkhxHQX/U=
 		</data>
 		<key>CTCashWidgetView.nib</key>
 		<data>
@@ -198,7 +206,7 @@
 		</data>
 		<key>CTPaymentConfirmation.storyboardc/gV7-Cg-gwI-view-YTu-Ae-W2g.nib</key>
 		<data>
-		/xfIidauJ/w0oyFiU0QumfqjCxo=
+		1ojiOjc03QM57z2U9hJNAdoe0GY=
 		</data>
 		<key>CTPaymentOptionsView.nib</key>
 		<data>
@@ -514,7 +522,7 @@
 		</data>
 		<key>CTVehicleList.storyboardc/Nbo-6I-POD-view-oLu-rS-til.nib</key>
 		<data>
-		EpVm2wUfwmKPy5G6co+wWK58RBE=
+		v3HLgHKs/jEXvDmG72Srphi6vNM=
 		</data>
 		<key>CTVehicleListFilter.storyboardc/CTVehicleListFilterViewController.nib</key>
 		<data>
@@ -602,11 +610,15 @@
 		</data>
 		<key>Headers/CTAPIQueryParams.h</key>
 		<data>
-		8yLY3sFk42S+bRjCRJaMx6LM+pg=
+		LsAdAcPMz6xBUGKRJY7cw3sSn4k=
 		</data>
 		<key>Headers/CTAddress.h</key>
 		<data>
 		pk6fkm2PBqd2bOD/qNlD8qdtx3c=
+		</data>
+		<key>Headers/CTBannerStyle.h</key>
+		<data>
+		iDessZElwacsDFbsFRC1G+AEDfk=
 		</data>
 		<key>Headers/CTCashStyle.h</key>
 		<data>
@@ -614,7 +626,7 @@
 		</data>
 		<key>Headers/CTContext.h</key>
 		<data>
-		jeQg+gQsxuTcgzpw9wglzfd1uDU=
+		PZ8j7RN7kZZzxJ2rcTg91j0P8ug=
 		</data>
 		<key>Headers/CTCustomer.h</key>
 		<data>
@@ -650,7 +662,7 @@
 		</data>
 		<key>Headers/CTLoyaltyStyle.h</key>
 		<data>
-		Htwdlz7akt+lhtT0Jo3PSuRgsB4=
+		lBoNz2WAF8DRpeTQyD1+lVCw83w=
 		</data>
 		<key>Headers/CTPassenger.h</key>
 		<data>
@@ -670,7 +682,7 @@
 		</data>
 		<key>Headers/CTStyle.h</key>
 		<data>
-		J5NsYQ2SjQlDtJwI2hGGhuvXJy8=
+		LaHtuWoDxpKtU9gTb2AVrKsr1fA=
 		</data>
 		<key>Headers/CTSupplierBenefitDetails.h</key>
 		<data>
@@ -710,7 +722,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		M6xJZIQmCXBPa4TXVLjxefGlsvo=
+		S6v8RsV5svk7eWQP9+xKJ0nL1cs=
 		</data>
 		<key>InsuranceCardView.nib</key>
 		<data>
@@ -993,6 +1005,13 @@
 			x53gmhcL87rlquaCTIYtucUfgYHkscvqwv7oaYQ0Q+c=
 			</data>
 		</dict>
+		<key>CTBannerView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yHzSZ9f0wTbRhWvXQAx3L3UJCqBsokxooiAZVjkHxpc=
+			</data>
+		</dict>
 		<key>CTBestPriceWidgetView.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1033,6 +1052,13 @@
 			<key>hash2</key>
 			<data>
 			fTojPRv6iu5sixmh1ZaJzNPrzL+jTfdBge2AXaJEzqk=
+			</data>
+		</dict>
+		<key>CTCarBlockView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9yFGtx722J9EevAuKd4d4jJcYk95YHhcSwzebswcJM4=
 			</data>
 		</dict>
 		<key>CTCashWidgetView.nib</key>
@@ -1284,7 +1310,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nJLQlzpRMnrfD3nq2IFEVJRLafCPt/bIMqInqQFRArM=
+			FVsPbYjikzavFib0RrXRhkMo2p4nCTBlgqj4x29P/PU=
 			</data>
 		</dict>
 		<key>CTPaymentOptionsView.nib</key>
@@ -1837,7 +1863,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DHm36uGEDWGqVUQsdHJs5rTEkrFBXJhzaoOA24BifSA=
+			oBt4oHmB8ipt4CvFgrOrkQTDFwRqy0Z3TMT2oXy1Av4=
 			</data>
 		</dict>
 		<key>CTVehicleListFilter.storyboardc/CTVehicleListFilterViewController.nib</key>
@@ -1991,7 +2017,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYu2PkvURzbrYmXrGZDb4CLkkgqudqgZaedYA0CbAn4=
+			5yLRyfEY1JqGwUK689Ry2vzcLUnUN7qZclMdA88/dpg=
 			</data>
 		</dict>
 		<key>Headers/CTAddress.h</key>
@@ -1999,6 +2025,13 @@
 			<key>hash2</key>
 			<data>
 			c4se9SluUXna4F2Rjbju6wbM4UM3L35vCqhVXMrWYec=
+			</data>
+		</dict>
+		<key>Headers/CTBannerStyle.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Pmyi9z9KLKSNedZPApk7Uo6o/LSTZyI4QieTgeLBAY=
 			</data>
 		</dict>
 		<key>Headers/CTCashStyle.h</key>
@@ -2012,7 +2045,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yA3u2P3MJxipEJA4JtigiHTIMBarTZkxeLysUkPjruE=
+			eJzQtzBvXlCZZrtyDfYTgQZnyTV7boXk9qCthnKmks0=
 			</data>
 		</dict>
 		<key>Headers/CTCustomer.h</key>
@@ -2075,7 +2108,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s75cUux+Fm4wWxjut0NEK+R999in1NjIUyIy0fx5U7Y=
+			NnRvdkZyym7qTQcrWfNPluikj0I0hCcVc9d85u27GzY=
 			</data>
 		</dict>
 		<key>Headers/CTPassenger.h</key>
@@ -2110,7 +2143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L5u+7LKQdg3nl0dv3oI6U9Ut9iE4PrmbCFPc+uXC1N8=
+			smkjw5JJWft2YBADodh7GlW8Y9BWip6JFd9ekkh6RG8=
 			</data>
 		</dict>
 		<key>Headers/CTSupplierBenefitDetails.h</key>

@@ -10,8 +10,7 @@
 #import "CTLoyaltyStyle.h"
 #import "CTCashStyle.h"
 #import "CTSupplierBenefitsStyle.h"
-
-@class CTSupplierBenefitsStyle;
+#import "CTBannerStyle.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -66,6 +65,10 @@ typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
 @property (nonatomic, strong, nullable) UIImage *dmLandingPageLogoImage;
 @property (nonatomic, strong, nullable) NSURL *dmLandingPageLogoURL;
 
+// Landing Page Navigation Bar Image
+@property (nonatomic, strong, nullable) UIImage *landingTopBarImage;
+@property (nonatomic, strong, nullable) UIImage *landingTopBarImageDark;
+
 // Fonts
 @property (nonatomic, strong) UIFont *regularFont;
 @property (nonatomic, strong) UIFont *boldFont;
@@ -82,6 +85,8 @@ typedef NS_ENUM(NSUInteger, CTLandingPageStyle) {
 
 + (instancetype)styleWithTheme:(CTAppTheme)appTheme
                   primaryColor:(nonnull UIColor *)primaryColor;
+
+- (void)addBannerStyle:(nonnull CTBannerStyle *)bannerStyle;
 
 @end
 

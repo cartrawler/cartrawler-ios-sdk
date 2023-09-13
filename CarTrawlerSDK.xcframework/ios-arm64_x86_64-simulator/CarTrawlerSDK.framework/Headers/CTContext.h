@@ -17,7 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, CTDeeplink) {
     CTDeeplinkNone,
-    CTDeeplinkSearchForm
+    CTDeeplinkSearchForm,
+};
+
+typedef NS_ENUM(NSUInteger, CTURLDeeplinkType) {
+    CTURLDeeplinkTypeNone,
+    CTURLDeeplinkTypeLanding,
+    CTURLDeeplinkTypeSearchForm,
+    CTURLDeeplinkTypeSearchResults,
 };
 
 typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
@@ -48,6 +55,7 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic, strong, nullable) NSString *clientUserIdentifier;
 @property (nonatomic) BOOL customCashTreatment;
 @property (nonatomic) CTDeeplink deeplink;
+@property (nonatomic) CTURLDeeplinkType urlDeeplinkType;
 @property (nonatomic, strong) NSString *promotionCode;
 @property (nonatomic, strong) CTRecentSearch *recentSearch;
 @property (nonatomic) BOOL supplierBenefitAutoApplied;
@@ -58,6 +66,8 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 - (nonnull instancetype)initWithImplementationID:(nonnull NSString *)implementationID
                                         clientID:(nonnull NSString *)clientID
                                             flow:(CTFlowType)flowType;
+- (nonnull instancetype)initWithImplementationID:(nonnull NSString *)implementationID
+                                  appDeeplinkURL:(nonnull NSString *)appDeeplinkURL;
 
 @end
 
