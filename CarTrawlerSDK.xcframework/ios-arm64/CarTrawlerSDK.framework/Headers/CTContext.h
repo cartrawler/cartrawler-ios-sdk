@@ -11,6 +11,7 @@
 #import <CartrawlerSDK/CarTrawlerSDKDelegate.h>
 #import "CTRecentSearch.h"
 #import "CTFlightDetails.h"
+#import "CTUTMParameters.h"
 
 @class CTPassenger;
 
@@ -62,6 +63,7 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic) BOOL supplierBenefitAutoApplied;
 @property (nonatomic) CTSettingsIconType settingsIconType;
 @property (nonatomic) CTFlightDetails *flightDetails;
+@property (nonatomic) CTUTMParameters *utmParameters;
 
 - (instancetype)init __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
