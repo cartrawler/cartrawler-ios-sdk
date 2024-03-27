@@ -16,9 +16,19 @@
     <script>
     var currentState = "NoState";
     var jsonResponse = "NoResponse";
+    var iFrameLoaded = false;
+    
+    setTimeout(checkTimeout, 30000)
+    function checkTimeout() {
+      if (!iFrameLoaded) {
+          window.webkit.messageHandlers.CTWebView.postMessage({"errorLoading" : true} , "*");
+      }
+    }
     
     document.addEventListener("DOMContentLoaded", function () {
       window.addEventListener("message", function(e) {
+              iFrameLoaded = true;
+              window.webkit.messageHandlers.CTWebView.postMessage({"pageLoaded" : true} , "*");
               var paymentFormMsg;
               try {
                     paymentFormMsg = JSON.parse(e.data);
@@ -47,12 +57,14 @@
                         case "startSCA":
                           currentState = "StartedSCA";
                           break;
+                        case "stopSCA":
+                          currentState = "StoppedSCA";
+                          break;
                     }
                               
                     window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState} , "*");
               } catch(ex) {
-                   jsonResponse = decodeURIComponent(e.data);
-                   window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": jsonResponse});
+                    window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)});
               }
           });
       });
@@ -63,6 +75,11 @@
           meta.setAttribute('name', 'viewport');
           meta.setAttribute('content', 'width=device-width');
           securePayment.getElementsByTagName('head')[0].appendChild(meta);
+      }
+        
+      function post(data) {
+          var iframe = document.getElementById("ct-secure-payment").contentWindow;
+          iframe.postMessage(encodeURIComponent(data), '*');
       }
 
       function validateAndBook() {

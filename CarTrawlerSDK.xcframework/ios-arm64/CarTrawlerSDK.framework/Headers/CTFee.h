@@ -105,6 +105,13 @@ typedef NS_ENUM(NSUInteger, CTFeeType) {
  Initialise with dictionary from JSON
 
  @param feeDictionary the fee dictionary
+ @return a CTFee
+ */
+- (instancetype)initFromFeeDictionary:(NSDictionary *)feeDictionary;
+/**
+ Initialise with dictionary from JSON
+
+ @param feeDictionary the fee dictionary
  @param TPAFees the supplementary info on fees
  @param rentalCharges the rental charges which contain the title of young driver fee
  @return a CTFee
