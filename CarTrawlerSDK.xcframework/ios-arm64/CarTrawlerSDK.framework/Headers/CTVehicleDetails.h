@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "CTCashDetails.h"
 
 @interface CTVehicleDetails : NSObject
 
@@ -49,6 +50,9 @@
 @property (nonatomic, readonly, nullable) NSNumber *price;
 @property (nonatomic, readonly, nullable) NSNumber *pricePerDay;
 @property (nonatomic, readonly, nullable) NSString *currencyCode;
+
+@property (nonatomic, readonly, nullable) CTCashDetails *ctCashDetails;
+
 
 @end
 

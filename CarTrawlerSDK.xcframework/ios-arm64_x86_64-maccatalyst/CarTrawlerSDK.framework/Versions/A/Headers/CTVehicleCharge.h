@@ -27,6 +27,39 @@ typedef NS_ENUM(NSUInteger, CTVehicleChargeCalculation) {
     CTVehicleChargeCalculationBeforePickup,
 };
 
+typedef NS_ENUM(NSUInteger, CTPurposeCode) {
+    CTPurposeCodeCollisionDamageWaiver,
+    CTPurposeCodeLocalTaxes,
+    CTPurposeCodeAdditionalDistance,
+    CTPurposeCodeSnowChain,
+    CTPurposeCodeAdditionalDriver,
+    CTPurposeCodeYoungDriver,
+    CTPurposeCodeSnowTyres,
+    CTPurposeCodeSeniorDriver,
+    CTPurposeCodeOutOfHoursPickup,
+    CTPurposeCodeOutOfHoursDropOff,
+    CTPurposeCodeTankOfFuel,
+    CTPurposeCodeAirport,
+    CTPurposeCodeExcessReimburseInsurance,
+    CTPurposeCodeTheftProtection,
+    CTPurposeCodeThirdPartyProtection,
+    CTPurposeCodeTollPass,
+    CTPurposeCodeOneWayRental,
+    CTPurposeCodeBreakdown24Hour,
+    CTPurposeCodeMisc,
+    CTPurposeCodeMeetLate,
+    CTPurposeCodeUnlimitedMileage,
+    CTPurposeCodeDeliveryFee,
+    CTPurposeCodeCollectionFee,
+    CTPurposeCodeLimitedMileage,
+    CTPurposeCodeFuelAdmin,
+    CTPurposeCodeZeroExcess,
+    CTPurposeCodeOtherFees,
+    CTPurposeCodeTotalFeesAndCharges,
+    CTPurposeCodeGeneric,
+    CTPurposeCodeUnknown,
+};
+
 /**
  *  CTVehicleCharge
  */
@@ -68,7 +101,12 @@ typedef NS_ENUM(NSUInteger, CTVehicleChargeCalculation) {
  *  Currency code of the excess vehicle charge
  */
 @property (nonatomic, nonnull, readonly) NSString *excessCurrencyCode;
+/**
+ *  Mapped purpose code of the vehicle charge
+ */
+@property (nonatomic, readonly) CTPurposeCode purposeCode;
 
++ (CTPurposeCode)purposeCodeFromString:(NSString *)purposeCodeString;
 
 @end
 
