@@ -5,7 +5,7 @@
 	<key>BuildMachineOSBuild</key>
 	<string>23F79</string>
 	<key>CFBundleCarTrawlerSDKVersion</key>
-	<string>15.3.4</string>
+	<string>15.4.1</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>15.3.4</string>
+	<string>15.4.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -44,6 +44,11 @@
 	<string>15E204a</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.15</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Regular.ttf</string>

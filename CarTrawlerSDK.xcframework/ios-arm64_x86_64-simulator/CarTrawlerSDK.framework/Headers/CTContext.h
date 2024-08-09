@@ -17,11 +17,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM(NSUInteger, CTDeeplink) {
-    CTDeeplinkNone,
-    CTDeeplinkSearchForm,
-};
-
 typedef NS_ENUM(NSUInteger, CTURLDeeplinkType) {
     CTURLDeeplinkTypeNone,
     CTURLDeeplinkTypeLanding,
@@ -56,7 +51,6 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic, strong) NSString *loyaltyRegex;
 @property (nonatomic, strong, nullable) NSString *clientUserIdentifier;
 @property (nonatomic) BOOL customCashTreatment;
-@property (nonatomic) CTDeeplink deeplink;
 @property (nonatomic) CTURLDeeplinkType urlDeeplinkType;
 @property (nonatomic, strong) NSString *promotionCode;
 @property (nonatomic, strong) CTRecentSearch *recentSearch;
