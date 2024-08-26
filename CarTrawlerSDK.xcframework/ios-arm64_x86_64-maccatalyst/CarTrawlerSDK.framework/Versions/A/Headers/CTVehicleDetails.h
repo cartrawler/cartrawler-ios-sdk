@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "CTCashDetails.h"
+#import "CTSpecialOfferDetails.h"
 
 @interface CTVehicleDetails : NSObject
 
@@ -52,6 +53,7 @@
 @property (nonatomic, readonly, nullable) NSString *currencyCode;
 
 @property (nonatomic, readonly, nullable) CTCashDetails *ctCashDetails;
+@property (nonatomic, readonly, nullable) NSArray <CTSpecialOfferDetails *> *specialOffers;
 
 
 @end
