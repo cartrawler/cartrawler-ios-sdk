@@ -32,6 +32,7 @@ typedef void (^CTClearStorageCompletion)(NSError * _Nullable error);
 typedef void (^CTReservationCompletion)(CTReservationDetails * _Nullable reservationDetails, NSError * _Nullable error);
 typedef void (^CTRecentSearchesCompletion)(NSArray<CTRecentSearch *> * _Nullable recentSearches, NSError * _Nullable error);
 typedef void (^CTRemoveRecentSearchesCompletion)(BOOL success, NSError * _Nullable error);
+typedef void (^CTDismissSDKCompletion)(BOOL success);
 
 /**
  Please refer to cartrawler.github.io for full documentation
@@ -161,6 +162,11 @@ typedef void (^CTRemoveRecentSearchesCompletion)(BOOL success, NSError * _Nullab
  This will clear all storage
  */
 - (void)clearStorage:(nonnull CTClearStorageCompletion)completion;
+
+/**
+ This will dismiss all SDK views
+ */
+- (void)dismissSDK:(nonnull CTDismissSDKCompletion)completion;
 
 @end
 
