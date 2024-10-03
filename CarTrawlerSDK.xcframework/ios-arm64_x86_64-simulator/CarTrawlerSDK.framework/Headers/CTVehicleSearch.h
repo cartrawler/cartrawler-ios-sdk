@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) NSDate *derivedPickupDate;
 @property (nonatomic, strong, readonly) NSDate *derivedDropoffDate;
 
+@property (nonatomic, assign, readonly) NSUInteger vehiclesCount;
+
 @property (nonatomic, assign, readonly) BOOL isAtAirport;
 
 @end

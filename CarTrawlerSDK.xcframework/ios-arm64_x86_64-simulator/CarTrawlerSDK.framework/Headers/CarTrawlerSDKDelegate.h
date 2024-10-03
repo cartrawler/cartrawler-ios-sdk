@@ -61,9 +61,16 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 - (void)didNavigateTo:(nonnull CTNavigationDetails *)navigationDetails;
 
 /**
- Called when the user navigates
+ Called when the vehicle search will start
  
- @param vehicleSearch The navigation details
+ @param vehicleSearch details of the search
+ */
+- (void)willStartVehicleSearch:(nonnull CTVehicleSearch *)vehicleSearch;
+
+/**
+ Called when the vehicle search is returned
+ 
+ @param vehicleSearch details of the search
  */
 - (void)didReceiveVehicleSearch:(nonnull CTVehicleSearch *)vehicleSearch;
 
