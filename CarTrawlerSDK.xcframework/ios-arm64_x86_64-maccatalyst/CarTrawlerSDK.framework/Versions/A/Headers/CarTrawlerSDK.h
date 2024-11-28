@@ -88,7 +88,7 @@ typedef void (^CTDismissSDKCompletion)(BOOL success);
 - (void)pushFromNavigationViewController:(nonnull UINavigationController *)navigationViewController context:(nonnull CTContext *)context;
 
 /**
- Present the Car Trawler InPath flow from the provided view controller
+ Present the CarTrawler InPath flow from the provided view controller
  The SDK must be initialised, and the In Path card added before calling this method
  */
 - (void)presentInPathFromViewController:(nonnull UIViewController *)presentingViewController;
