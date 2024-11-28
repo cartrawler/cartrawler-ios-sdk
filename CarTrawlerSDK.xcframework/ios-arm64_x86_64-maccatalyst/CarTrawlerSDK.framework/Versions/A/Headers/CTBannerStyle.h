@@ -40,7 +40,7 @@ typedef NS_ENUM(NSUInteger, CTBannerType) {
 @property (nonatomic, strong, nullable) UIColor *darkInfoButtonColor;
 
 - (instancetype)init NS_UNAVAILABLE;
-+ (instancetype)styleWithType:(CTBannerType)type template:(CTBannerTemplate)template;
++ (instancetype)styleWithType:(CTBannerType)type template:(CTBannerTemplate)bannerTemplate;
 
 @end
 

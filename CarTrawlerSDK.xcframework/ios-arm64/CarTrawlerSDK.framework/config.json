@@ -1,1794 +1,1908 @@
 {
-  "partners": [
-    {
-      "name": "United Airlines",
-      "implementationID": "d6a6d45e-2b1d-4df9-a7b9-3075ad42ca22",
-      "tag": "united",
-      "domain": "",
-      "USPSpec": {
-        "type": "dynamic",
-        "usps": "5",
-        "sales": "1",
-        "showPP": "true",
-        "baseURL": "https://cars.mileageplus.com",
-        "showTAC": "true",
-        "footnotes": "1",
-        "iconColour": "#69B3E7"
-      },
-      "clientIds": [],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-partner.cartrawler.com/mileage-plus.pdf?auto=format&w=200&pad-right=24",
-        "imageDark": "https://ctimg-partner.cartrawler.com/mileage-plus-white.pdf?auto=format&w=200&pad-right=20",
-        "textColor": "#333333",
-        "linkColor": "#333333",
-        "showTitle": "false",
-        "showCaption": "true",
-        "captionColor": "#0033A0",
-        "textDarkColor": "#FFFFFF",
-        "linkDarkColor": "#FFFFFF",
-        "backgroundColor": "#FFFFFF",
-        "showDescription": "true",
-        "captionDarkColor": "#69B3E7",
-        "backgroundDarkColor": "#002244",
-        "termsAndConditionsURL": "https://cars.united.com/en-us/mileage-terms-and-conditions"
-      },
-      "loyaltyRegex": "^\\d{11,11}$|^[a-zA-Z0-9]{8,8}$",
-      "settingsMenu": {
-        "icon": "COG",
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://cars.united.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=united&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://cars.united.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=united&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://cars.united.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/united/help/"
-          }
-        ]
-      },
-      "loyaltyProgramId": "UNITED",
-      "landingPageIcons": [
-        "avis",
-        "budget"
-      ],
-      "supplierBenefitCodes": [
+    "partners": [
         {
-          "code": "A791500",
-          "xmlType": "AV",
-          "codeType": "CORPORATE_RATE"
+            "name": "U-Save Demo",
+            "implementationID": "99743d91-0219-43e8-a878-70e77946015e",
+            "tag": "usave",
+            "ecoCarousel": {
+                "types": [
+                    "friendly_location",
+                    "go_further",
+                    "fuel_costs"
+                ]
+            },
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "50"
+            },
+            "landingPageIcons": [],
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#FFD633",
+                "textAndBox": "#002C52",
+                "numberText": "#FFFFFF"
+            },
+            "mosaic": {
+                "tiles": [
+                    {
+                        "imageUrl": "https://ct-locations.imgix.net/338.jpg",
+                        "position": "1",
+                        "tapUrl": "https://new.usave.com/news/u-save-expands-to-tampa-airport-unlocking-convenience-for-travelers"
+                    },
+                    {
+                        "imageUrl": "https://ct-locations.imgix.net/330.jpg",
+                        "position": "2",
+                        "tapUrl": "https://new.usave.com/blog/discover-the-best-weekend-getaways-in-the-usa-with-u-save"
+                    },
+                    {
+                        "imageUrl": "https://ctimg-mcore.cartrawler.com/components/hero/america-north-car-forest.jpg",
+                        "position": "3",
+                        "tapUrl": "https://new.usave.com/blog/how-to-travel-green-6-eco-friendly-tips-for-your-next-road-trip"
+                    }
+                ]
+            },
+            "USPSpec": {
+                "type": "dynamic",
+                "usps": "5",
+                "sales": "0",
+                "showPP": "false",
+                "baseURL": "https://www.cartrawler.com",
+                "showTAC": "false",
+                "footnotes": "0",
+                "iconColour": "#58595B"
+            },
+            "enableMap": "true",
+            "enableMosaic": "true",
+            "enableApplePay": "true",
+            "enablePayPaliOS": "true",
+            "enableRatings": "false"
         },
         {
-          "code": "B204900",
-          "xmlType": "BG",
-          "codeType": "CORPORATE_RATE"
+            "name": "Wizz Air Payment Test",
+            "implementationID": "eb9d830d-b424-4658-9567-ee243254b8b5",
+            "tag": "wizz",
+            "domain": "",
+            "clientIds": [],
+            "loyaltyRegex": "^[a-zA-Z0-9]{10}$",
+            "settingsMenu": {
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://cars.wizzair.com/${lang}/manage-booking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=wizzair&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://cars.wizzair.com/${lang}/manage-booking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=wizzair&goto=faqs&portalEnv=preview"
+                    }
+                ]
+            },
+            "loyaltyProgramId": "WIZZ_CREDIT",
+            "landingPageIcons": [
+                "budget",
+                "avis",
+                "europcar",
+                "alamo",
+                "hertz"
+            ],
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableApplePay": "true"
         },
         {
-          "code": "MUAA011",
-          "xmlType": "AV",
-          "codeType": "PROMOTIONAL_CODE"
+            "name": "United Airlines",
+            "implementationID": "d6a6d45e-2b1d-4df9-a7b9-3075ad42ca22",
+            "tag": "united",
+            "domain": "",
+            "USPSpec": {
+                "type": "dynamic",
+                "usps": "5",
+                "sales": "1",
+                "showPP": "true",
+                "baseURL": "https://cars.mileageplus.com",
+                "showTAC": "true",
+                "footnotes": "1",
+                "iconColour": "#69B3E7"
+            },
+            "clientIds": [],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-partner.cartrawler.com/mileage-plus.pdf?auto=format&w=200&pad-right=24",
+                "imageDark": "https://ctimg-partner.cartrawler.com/mileage-plus-white.pdf?auto=format&w=200&pad-right=20",
+                "textColor": "#333333",
+                "linkColor": "#333333",
+                "showTitle": "false",
+                "showCaption": "true",
+                "captionColor": "#0033A0",
+                "textDarkColor": "#FFFFFF",
+                "linkDarkColor": "#FFFFFF",
+                "backgroundColor": "#FFFFFF",
+                "showDescription": "true",
+                "captionDarkColor": "#69B3E7",
+                "backgroundDarkColor": "#002244",
+                "termsAndConditionsURL": "https://cars.united.com/en-us/mileage-terms-and-conditions"
+            },
+            "loyaltyRegex": "^\\d{11,11}$|^[a-zA-Z0-9]{8,8}$",
+            "settingsMenu": {
+                "icon": "COG",
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://cars.united.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=united&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://cars.united.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=united&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://cars.united.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/united/help/"
+                    }
+                ]
+            },
+            "loyaltyProgramId": "UNITED",
+            "landingPageIcons": [
+                "avis",
+                "budget"
+            ],
+            "supplierBenefitCodes": [
+                {
+                    "code": "A791500",
+                    "xmlType": "AV",
+                    "codeType": "CORPORATE_RATE"
+                },
+                {
+                    "code": "B204900",
+                    "xmlType": "BG",
+                    "codeType": "CORPORATE_RATE"
+                },
+                {
+                    "code": "MUAA021",
+                    "xmlType": "AV",
+                    "codeType": "PROMOTIONAL_CODE"
+                },
+                {
+                    "code": "MUAZ031",
+                    "xmlType": "BG",
+                    "codeType": "PROMOTIONAL_CODE"
+                }
+            ],
+            "chipDiscountMechanicType": "HIDDEN",
+            "forceCalendarFirstDayOfWeek": "1",
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://cars.united.com/book",
+                "autoOptIn": "false"
+            },
+            "enableTracking": "true",
+            "enableLoyaltyRead": "true"
         },
         {
-          "code": "MUAZ006",
-          "xmlType": "BG",
-          "codeType": "PROMOTIONAL_CODE"
+            "name": "OTA Test",
+            "implementationID": "9f92ae2e-127a-49f9-ac1b-f07c76805ca7",
+            "domain": "",
+            "clientIds": [
+                "549885"
+            ]
+        },
+        {
+            "name": "Sales Banners",
+            "implementationID": "9e33a2a5-6ae3-4c38-abda-331abac7e6ee",
+            "domain": "",
+            "clientIds": [
+                "633337"
+            ],
+            "abandonmentKey": ""
+        },
+        {
+            "name": "Content testing",
+            "implementationID": "59380cee-0372-42cc-814a-aa8e2c103857",
+            "domain": "",
+            "clientIds": [
+                "68622",
+                "122070"
+            ],
+            "ratingType": "STARS",
+            "abandonmentKey": "",
+            "landingPageIcons": [
+                "hertz",
+                "enterprise",
+                "flizzr",
+                "budget",
+                "avis"
+            ],
+            "supplierTextColor": "#FFFFFF",
+            "supplierBorderColor": "#009900",
+            "landingPageIconsDark": [
+                "europcar",
+                "avis",
+                "hertz",
+                "alamo",
+                "budget"
+            ],
+            "enableRatings": "true",
+            "enablePrePaidExtras": "true"
+        },
+        {
+            "name": "Test only",
+            "implementationID": "7c4f7224-6447-468a-a7a2-caa2dd75b4c1",
+            "domain": "",
+            "clientIds": [
+                "503339",
+                "122070"
+            ],
+            "abandonmentKey": "",
+            "enablePrePaidExtras": "true"
+        },
+        {
+            "name": "Promo Code",
+            "implementationID": "98240bd9-ad87-4265-b63f-628719ca9894",
+            "domain": "",
+            "clientIds": [
+                "460396"
+            ],
+            "ratingType": "Stars",
+            "abandonmentKey": "",
+            "loyaltyProgramId": "CARTRAWLER",
+            "supplierTextColor": "#FFFFFF",
+            "supplierBorderColor": "#009900"
+        },
+        {
+            "name": "Native Test ID (17-06)",
+            "implementationID": "89e36078-362c-4f52-9a65-ec9cea9b8482",
+            "tag": "native",
+            "domain": "",
+            "USPSpec": {
+                "type": "dynamic",
+                "usps": "5",
+                "sales": "1",
+                "showPP": "true",
+                "baseURL": "https://cars.mileageplus.com",
+                "showTAC": "true",
+                "footnotes": "5",
+                "iconColour": "#69B3E7"
+            },
+            "clientIds": [
+                "541368",
+                "83004"
+            ],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "textColor": "#FFFFFF",
+                "linkColor": "#FFFFFF",
+                "captionColor": "#FFD633",
+                "textDarkColor": "#333333",
+                "linkDarkColor": "#333333",
+                "backgroundColor": "#002C52",
+                "captionDarkColor": "#CB0000",
+                "backgroundDarkColor": "#FFFFFF",
+                "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+            },
+            "ratingType": "STARS",
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://www.holidayautos.com/book",
+                "autoOptIn": "true"
+            },
+            "settingsMenu": {
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://cars.mileageplus.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=native&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://cars.mileageplus.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=native&goto=faqs&portalEnv=preview"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "landingPageIcons": [],
+            "loyaltyProgramId": "CARTRAWLER",
+            "supplierTextColor": "#FFFFFF",
+            "supplierBorderColor": "#009900",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#FFD633",
+                "textAndBox": "#002C52",
+                "numberText": "#FFFFFF",
+                "backgroundDark": "#FFD633",
+                "textAndBoxDark": "#002C52",
+                "numberTextDark": "#FFFFFF"
+            },
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableApplePay": "false",
+            "enableLocalNotification": "true"
+        },
+        {
+            "name": "easyJet",
+            "implementationID": "ad4301f6-e55b-4824-9508-53c279d468b6",
+            "domain": "",
+            "clientIds": [
+                "512434",
+                "512451",
+                "512485",
+                "512468",
+                "300765"
+            ],
+            "settingsMenu": {
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://cars.easyjet.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=easyjet&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://cars.easyjet.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=easyjet&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://cars.easyjet.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/easyjet/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "supplierTextColor": "#FFFFFF",
+            "supplierBorderColor": "#009900",
+            "enableTracking": "true",
+            "enableZeroExcess": "true",
+            "enableZeroExcessUpSell": "true",
+            "enablePayPaliOS": "false",
+            "enablePayPalAndroid": "false"
+        },
+        {
+            "name": "eDreams Prime",
+            "implementationID": "299ca34f-fa4b-4089-a97b-f5a7e8862a27",
+            "tag": "prime",
+            "domain": "",
+            "clientIds": [
+                "564471",
+                "564488",
+                "564692",
+                "565168",
+                "565389",
+                "570319",
+                "570336",
+                "564879",
+                "565355",
+                "564862",
+                "565151",
+                "566613",
+                "569826",
+                "565015",
+                "564709",
+                "564726",
+                "564743",
+                "564760",
+                "564794",
+                "564811",
+                "564828",
+                "564845",
+                "564896",
+                "564913",
+                "564930",
+                "564947",
+                "564964",
+                "564981",
+                "564998",
+                "565032",
+                "565049",
+                "565083",
+                "565100",
+                "565253",
+                "565270",
+                "565287",
+                "565304",
+                "565321",
+                "571118",
+                "571135",
+                "571152",
+                "571169"
+            ],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "textColor": "#FFFFFF",
+                "linkColor": "#FFFFFF",
+                "captionColor": "#FFD633",
+                "textDarkColor": "#FFFFFF",
+                "linkDarkColor": "#FFFFFF",
+                "backgroundColor": "#002C52",
+                "captionDarkColor": "#FFD633",
+                "backgroundDarkColor": "#002C52",
+                "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://rentacar.edreams.com/en/book",
+                "autoOptIn": "false"
+            },
+            "settingsMenu": {
+                "icon": "COG",
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://rentacar.edreams.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://rentacar.edreams.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://rentacar.edreams.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/edreams/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#FFD633",
+                "textAndBox": "#002C52",
+                "numberText": "#FFFFFF",
+                "backgroundDark": "#FFD633",
+                "textAndBoxDark": "#002C52",
+                "numberTextDark": "#FFFFFF"
+            },
+            "chipDiscountMechanicType": "MONETARY",
+            "enableMap": "true",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true"
+        },
+        {
+            "name": "eDreams",
+            "implementationID": "032bed39-f74b-4794-ad31-c49c8c37d2dc",
+            "tag": "edreams",
+            "domain": "",
+            "clientIds": [
+                "313415",
+                "313432",
+                "313874",
+                "506501",
+                "561870",
+                "570897",
+                "570098",
+                "318685",
+                "318702",
+                "505056",
+                "532664",
+                "513131",
+                "532647",
+                "505039",
+                "320878",
+                "588237",
+                "318617",
+                "313925",
+                "517891",
+                "517908",
+                "517925",
+                "313891",
+                "313908",
+                "313942",
+                "531542",
+                "499429",
+                "499361",
+                "499344",
+                "500262",
+                "318634",
+                "519574",
+                "504988",
+                "519591",
+                "518928",
+                "318668",
+                "513165",
+                "514100",
+                "499395",
+                "499446"
+            ],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "textColor": "#FFFFFF",
+                "linkColor": "#FFFFFF",
+                "captionColor": "#FFD633",
+                "textDarkColor": "#FFFFFF",
+                "linkDarkColor": "#FFFFFF",
+                "backgroundColor": "#002C52",
+                "captionDarkColor": "#FFD633",
+                "backgroundDarkColor": "#002C52",
+                "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://rentacar.edreams.com/en/book",
+                "autoOptIn": "false"
+            },
+            "settingsMenu": {
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://rentacar.edreams.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://rentacar.edreams.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://rentacar.edreams.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/edreams/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#FFD633",
+                "textAndBox": "#002C52",
+                "numberText": "#FFFFFF",
+                "backgroundDark": "#FFD633",
+                "textAndBoxDark": "#002C52",
+                "numberTextDark": "#FFFFFF"
+            },
+            "chipDiscountMechanicType": "MONETARY",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableMap": "true"
+        },
+        {
+            "name": "Go Voyage",
+            "implementationID": "89270def-7fa3-4e4a-96b0-21479f9473c6",
+            "tag": "edreams",
+            "domain": "",
+            "clientIds": [
+                "315710",
+                "315727",
+                "316169",
+                "506518",
+                "561904",
+                "570234",
+                "570914",
+                "532749",
+                "505124",
+                "318804",
+                "318787",
+                "531593",
+                "513097",
+                "532732",
+                "505107",
+                "320895",
+                "499582",
+                "499616",
+                "318719",
+                "316220",
+                "316186",
+                "518044",
+                "518061",
+                "518078",
+                "316237",
+                "316203",
+                "499667",
+                "499633",
+                "499565",
+                "499548",
+                "500364",
+                "499684",
+                "519659",
+                "318736",
+                "519676",
+                "318753",
+                "505022",
+                "519693",
+                "518962",
+                "318770",
+                "513199",
+                "514134",
+                "499735",
+                "513046",
+                "499599",
+                "499650",
+                "500381",
+                "549188",
+                "549205",
+                "549222",
+                "588220"
+            ],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "textColor": "#FFFFFF",
+                "linkColor": "#FFFFFF",
+                "captionColor": "#66C431",
+                "textDarkColor": "#FFFFFF",
+                "linkDarkColor": "#FFFFFF",
+                "backgroundColor": "#123300",
+                "captionDarkColor": "#66C431",
+                "backgroundDarkColor": "#123300",
+                "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://voiture.govoyages.com/book",
+                "autoOptIn": "false"
+            },
+            "settingsMenu": {
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://voiture.govoyages.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://voiture.govoyages.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://voiture.govoyages.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/govoyages/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#66C431",
+                "textAndBox": "#123300",
+                "numberText": "#FFFFFF",
+                "backgroundDark": "#66C431",
+                "textAndBoxDark": "#123300",
+                "numberTextDark": "#FFFFFF"
+            },
+            "chipDiscountMechanicType": "MONETARY",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableMap": "true"
+        },
+        {
+            "name": "Go Voyage Prime",
+            "implementationID": "2a3d04fa-8adb-4517-8c5b-4e01df8387cb",
+            "tag": "prime",
+            "domain": "",
+            "clientIds": [
+                "563417",
+                "562499",
+                "563145",
+                "562516",
+                "562720",
+                "570404",
+                "570387",
+                "562907",
+                "563383",
+                "563128",
+                "562890",
+                "563366",
+                "566579",
+                "563043",
+                "562856",
+                "562924",
+                "562975",
+                "563009",
+                "562822",
+                "562771",
+                "563230",
+                "563247",
+                "563264",
+                "562737",
+                "562754",
+                "562788",
+                "563060",
+                "563026",
+                "562958",
+                "562941",
+                "563077",
+                "563298",
+                "562839",
+                "563315",
+                "563111",
+                "563332",
+                "563281",
+                "562873",
+                "562992",
+                "571033",
+                "571016"
+            ],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "textColor": "#FFFFFF",
+                "linkColor": "#FFFFFF",
+                "captionColor": "#66C431",
+                "textDarkColor": "#FFFFFF",
+                "linkDarkColor": "#FFFFFF",
+                "backgroundColor": "#123300",
+                "captionDarkColor": "#66C431",
+                "backgroundDarkColor": "#123300",
+                "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://voiture.govoyages.com/book",
+                "autoOptIn": "false"
+            },
+            "settingsMenu": {
+                "icon": "COG",
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://voiture.govoyages.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://voiture.govoyages.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://voiture.govoyages.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/govoyages/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#66C431",
+                "textAndBox": "#123300",
+                "numberText": "#FFFFFF",
+                "backgroundDark": "#66C431",
+                "textAndBoxDark": "#123300",
+                "numberTextDark": "#FFFFFF"
+            },
+            "chipDiscountMechanicType": "MONETARY",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableMap": "true"
+        },
+        {
+            "name": "Opodo",
+            "implementationID": "a70cce14-117b-4cc4-90d1-8f59b472d84a",
+            "tag": "edreams",
+            "domain": "",
+            "clientIds": [
+                "314945",
+                "314962",
+                "315404",
+                "506535",
+                "561887",
+                "570166",
+                "570880",
+                "318889",
+                "318906",
+                "505090",
+                "531559",
+                "532698",
+                "513114",
+                "532681",
+                "505073",
+                "319824",
+                "499786",
+                "499820",
+                "318821",
+                "315455",
+                "315438",
+                "517942",
+                "517959",
+                "517976",
+                "315472",
+                "315438",
+                "499871",
+                "499837",
+                "499769",
+                "499752",
+                "500313",
+                "499888",
+                "519608",
+                "318838",
+                "519625",
+                "318821",
+                "505005",
+                "519642",
+                "518945",
+                "318872",
+                "513182",
+                "514117",
+                "499939",
+                "513029",
+                "499803",
+                "499854",
+                "500330",
+                "549137",
+                "549154",
+                "549171",
+                "571441",
+                "571458",
+                "571475",
+                "571492",
+                "588203"
+            ],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "textColor": "#FFFFFF",
+                "linkColor": "#FFFFFF",
+                "captionColor": "#FF6600",
+                "textDarkColor": "#FFFFFF",
+                "linkDarkColor": "#FFFFFF",
+                "backgroundColor": "#262626",
+                "captionDarkColor": "#FF6600",
+                "backgroundDarkColor": "#262626",
+                "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://carhire.opodo.com/en/book",
+                "autoOptIn": "false"
+            },
+            "settingsMenu": {
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://carhire.opodo.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://carhire.opodo.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://carhire.opodo.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/opodo/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#FF6600",
+                "textAndBox": "#262626",
+                "numberText": "#FFFFFF",
+                "backgroundDark": "#FF6600",
+                "textAndBoxDark": "#262626",
+                "numberTextDark": "#FFFFFF"
+            },
+            "chipDiscountMechanicType": "MONETARY",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableMap": "true"
+        },
+        {
+            "name": "Opodo Prime",
+            "implementationID": "ff156b05-2c2c-4d3e-84b9-a93ef65ee9f8",
+            "tag": "prime",
+            "domain": "",
+            "clientIds": [
+                "563485",
+                "563502",
+                "563706",
+                "564131",
+                "564403",
+                "570370",
+                "570353",
+                "563893",
+                "564369",
+                "563876",
+                "564114",
+                "564352",
+                "566630",
+                "564029",
+                "563723",
+                "563740",
+                "563757",
+                "563774",
+                "563808",
+                "563825",
+                "563842",
+                "563859",
+                "563910",
+                "563927",
+                "563944",
+                "563961",
+                "563978",
+                "563995",
+                "564012",
+                "564046",
+                "564063",
+                "564097",
+                "564216",
+                "564233",
+                "564250",
+                "564267",
+                "564284",
+                "564301",
+                "564318",
+                "571101",
+                "571084",
+                "571067",
+                "571050"
+            ],
+            "saleBanner": {
+                "type": "dynamic",
+                "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+                "textColor": "#FFFFFF",
+                "linkColor": "#FFFFFF",
+                "captionColor": "#FF6600",
+                "textDarkColor": "#FFFFFF",
+                "linkDarkColor": "#FFFFFF",
+                "backgroundColor": "#262626",
+                "captionDarkColor": "#FF6600",
+                "backgroundDarkColor": "#262626",
+                "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://carhire.opodo.com/en/book",
+                "autoOptIn": "false"
+            },
+            "settingsMenu": {
+                "icon": "COG",
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://carhire.opodo.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://carhire.opodo.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://carhire.opodo.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/opodo/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "landingCountdownTimer": {
+                "enabled": "true",
+                "background": "#FF6600",
+                "textAndBox": "#262626",
+                "numberText": "#FFFFFF",
+                "backgroundDark": "#FF6600",
+                "textAndBoxDark": "#262626",
+                "numberTextDark": "#FFFFFF"
+            },
+            "chipDiscountMechanicType": "MONETARY",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableMap": "true"
+        },
+        {
+            "name": "Travellink",
+            "implementationID": "89535f56-d81f-4799-817e-868c9bf365e2",
+            "tag": "prime",
+            "domain": "",
+            "clientIds": [
+                "314180",
+                "314197",
+                "315639",
+                "532783",
+                "505158",
+                "532766",
+                "505141",
+                "561921",
+                "320912",
+                "499990",
+                "500024",
+                "319008",
+                "318923",
+                "314690",
+                "314656",
+                "517993",
+                "518010",
+                "518027",
+                "314707",
+                "314673",
+                "500075",
+                "318991",
+                "531610",
+                "500041",
+                "499973",
+                "499956",
+                "500415",
+                "500415",
+                "500092",
+                "519710",
+                "318940",
+                "519727",
+                "318957",
+                "519744",
+                "518979",
+                "318974",
+                "513216",
+                "514151",
+                "500143",
+                "513063",
+                "500007",
+                "500058",
+                "500432",
+                "549086",
+                "549103",
+                "549120",
+                "588186"
+            ],
+            "ecoCarousel": {
+                "types": [
+                    "friendly_location",
+                    "city_driving",
+                    "fuel_costs",
+                    "go_further"
+                ],
+                "locations": [
+                    "MRS",
+                    "NCE",
+                    "LIS",
+                    "BRU",
+                    "MRS",
+                    "FAO",
+                    "LHR",
+                    "FCO",
+                    "LYS",
+                    "AGP",
+                    "CPH",
+                    "ORY",
+                    "MXP",
+                    "BCN",
+                    "TLS",
+                    "JER",
+                    "BOD",
+                    "LAX",
+                    "MAN",
+                    "EDI",
+                    "MXP",
+                    "LGW",
+                    "LIN",
+                    "OPO",
+                    "TFS",
+                    "PMI",
+                    "MAD",
+                    "FLR",
+                    "FCS",
+                    "BIA",
+                    "PMO",
+                    "BLQ",
+                    "AJA",
+                    "TFN"
+                ]
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://cars.travellink.com/",
+                "autoOptIn": "false"
+            },
+            "settingsMenu": {
+                "icon": "COG",
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://cars.travellink.com/${lang}/managebooking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://cars.travellink.com/${lang}/managebooking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&goto=faqs&portalEnv=preview"
+                    },
+                    {
+                        "order": "3",
+                        "productionURL": "https://cars.travellink.com/${lang}/help",
+                        "developmentURL": "https://staging.cars.cartrawler.com/travellink/help/"
+                    }
+                ]
+            },
+            "abandonmentKey": "",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableMap": "true"
+        },
+        {
+            "name": "Argus",
+            "implementationID": "692d9c14-24f3-4f9a-aae3-2249422e8758",
+            "domain": "",
+            "tag": "argus",
+            "clientIds": [
+                "685068",
+                "685051",
+                "594544"
+            ],
+            "ecoCarousel": {
+                "types": [
+                    "friendly_location",
+                    "go_further",
+                    "fuel_costs"
+                ]
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://www.arguscarhire.com/book",
+                "autoOptIn": "true"
+            },
+            "abandonmentKey": "",
+            "insuranceUpsellURL": "https://www.arguscarhire.com/book?",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "bookingFlowRouting": {
+                "iOSWebFlow": 0,
+                "iOSNativeFlow": 1,
+                "androidWebFlow": 0,
+                "androidNativeFlow": 1,
+                "iOSWebClientID": "400173",
+                "androidWebClientID": "400190",
+                "webDevelopmentVersion": "5.326.1--DEVELOP--202405141137"
+            },
+            "enableMap": "true",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enableApplePay": "true",
+            "enableGooglePay": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableLocalNotification": "true"
+        },
+        {
+            "name": "easyCar",
+            "implementationID": "d3ae1b67-6588-4edf-904c-c896e9ba9594",
+            "domain": "",
+            "tag": "easycar",
+            "clientIds": [
+                "574008",
+                "594578"
+            ],
+            "ecoCarousel": {
+                "types": [
+                    "friendly_location",
+                    "go_further",
+                    "fuel_costs"
+                ]
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://go.easycar.com/en/book",
+                "autoOptIn": "true"
+            },
+            "abandonmentKey": "",
+            "insuranceUpsellURL": "https://go.easycar.com/book?",
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "enableMap": "true",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enableApplePay": "true",
+            "enableGooglePay": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true"
+        },
+        {
+            "name": "MyIDTravelTest",
+            "implementationID": "a15d93a8-9647-45b6-9707-dab49e3b60f7",
+            "domain": "",
+            "clientIds": [
+                "560408",
+                "560425"
+            ],
+            "landingPageIcons": [
+                "hertz",
+                "alamo",
+                "avis",
+                "budget"
+            ],
+            "enableApplePay": "true",
+            "enablePayPaliOS": "true",
+            "enableGooglePay": "true",
+            "enablePayPalAndroid": "true"
+        },
+        {
+            "name": "MyIDTravel",
+            "implementationID": "60141854-0a09-48e3-8216-50a0cb27ec26",
+            "domain": "",
+            "clientIds": [
+                "560408",
+                "560425"
+            ],
+            "landingPageIcons": [
+                "hertz",
+                "alamo",
+                "avis",
+                "budget"
+            ],
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true"
+        },
+        {
+            "name": "Flynas",
+            "implementationID": "f3570324-140f-45f0-80d7-4008509b3272",
+            "domain": "",
+            "clientIds": [
+                "587387",
+                "565678"
+            ],
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://cars.cartrawler.com/flynas/book",
+                "autoOptIn": "false"
+            },
+            "insuranceUpsellURL": "https://cars.cartrawler.com/flynas/book",
+            "enableTracking": "true"
+        },
+        {
+            "name": "Bonza",
+            "implementationID": "cdd1aee4-0e74-457c-8ae0-691fc90f9586",
+            "domain": "",
+            "clientIds": [],
+            "ratingType": "Stars",
+            "enableTracking": "true"
+        },
+        {
+            "name": "Ethiopian Airlines",
+            "implementationID": "1b7028a9-de1c-459c-9718-a7feba423c25",
+            "domain": "",
+            "clientIds": [
+                "574365",
+                "594663"
+            ],
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://cars.cartrawler.com/ethiopianairlines/book",
+                "autoOptIn": "false"
+            },
+            "insuranceUpsellURL": "https://cars.cartrawler.com/ethiopianairlines/book",
+            "enableTracking": "true"
+        },
+        {
+            "name": "Finnair",
+            "implementationID": "582e927f-673a-4f7c-bb1b-fc47eb29e417",
+            "domain": "",
+            "clientIds": [],
+            "loyaltyProgramId": "CARTRAWLER",
+            "landingPageIcons": [
+                "hertz",
+                "enterprise",
+                "flizzr",
+                "budget",
+                "avis"
+            ],
+            "landingPageIconsDark": [
+                "europcar",
+                "avis",
+                "hertz",
+                "alamo",
+                "budget"
+            ],
+            "enableTracking": "true"
+        },
+        {
+            "name": "Holiday Autos",
+            "implementationID": "b830933d-c323-4451-ab6d-329fe9846617",
+            "domain": "",
+            "tag": "holidayautos",
+            "clientIds": [
+                "685034",
+                "685017",
+                "463473",
+                "594527"
+            ],
+            "ecoCarousel": {
+                "types": [
+                    "friendly_location",
+                    "go_further",
+                    "fuel_costs"
+                ]
+            },
+            "abandonment": {
+                "enable": "true",
+                "baseURL": "https://www.holidayautos.com/book",
+                "autoOptIn": "true"
+            },
+            "abandonmentKey": "",
+            "insuranceUpsellURL": "https://www.holidayautos.com/book?",
+            "bookingFlowRouting": {
+                "iOSWebFlow": 0.5,
+                "iOSNativeFlow": 0.5,
+                "androidWebFlow": 0.5,
+                "androidNativeFlow": 0.5,
+                "iOSWebClientID": "400139",
+                "androidWebClientID": "400156",
+                "webDevelopmentVersion": "5.326.1--DEVELOP--202405141137"
+            },
+            "ecoAlternativeUpsell": {
+                "enable": "true",
+                "percentageRange": "15"
+            },
+            "enableMap": "true",
+            "enableMosaic": "true",
+            "enableTracking": "true",
+            "enableApplePay": "true",
+            "enableGooglePay": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableLocalNotification": "true"
+        },
+        {
+            "name": "Wizz Air",
+            "implementationID": "1cde6def-d00f-47eb-b372-fd9d3cb293dc",
+            "tag": "wizz",
+            "domain": "",
+            "clientIds": [],
+            "loyaltyRegex": "^[a-zA-Z0-9]{10}$",
+            "settingsMenu": {
+                "urls": [
+                    {
+                        "order": "1",
+                        "productionURL": "https://cars.wizzair.com/${lang}/manage-booking",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=wizzair&portalEnv=preview"
+                    },
+                    {
+                        "order": "2",
+                        "productionURL": "https://cars.wizzair.com/${lang}/manage-booking?goto=faqs",
+                        "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=wizzair&goto=faqs&portalEnv=preview"
+                    }
+                ]
+            },
+            "loyaltyProgramId": "WIZZ_CREDIT",
+            "landingPageIcons": [
+                "budget",
+                "avis",
+                "europcar",
+                "alamo",
+                "hertz"
+            ],
+            "enableTracking": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true",
+            "enableApplePay": "true",
+            "enableGooglePay": "true"
+        },
+        {
+            "name": "Norwegian Air Shuttle",
+            "implementationID": "f2e4c7a9-c87b-491b-ab6e-c704bc9570d8",
+            "domain": "",
+            "clientIds": [
+                "139699",
+                "346087",
+                "828735"
+            ],
+            "loyaltyRegex": "^\\d{8}(\\d{2})?$",
+            "abandonmentKey": "",
+            "loyaltyProgramId": "NORWEGIAN",
+            "enableTracking": "true",
+            "enableZeroExcess": "true",
+            "enableZeroExcessUpSell": "true"
         }
-      ],
-      "chipDiscountMechanicType": "HIDDEN",
-      "forceCalendarFirstDayOfWeek": "1",
-      "enableTracking": "true",
-      "enableLoyaltyRead": "true"
-    },
-    {
-      "name": "OTA Test",
-      "implementationID": "9f92ae2e-127a-49f9-ac1b-f07c76805ca7",
-      "domain": "",
-      "clientIds": [
-        "549885"
-      ]
-    },
-    {
-      "name": "Sales Banners",
-      "implementationID": "9e33a2a5-6ae3-4c38-abda-331abac7e6ee",
-      "domain": "",
-      "clientIds": [
-        "633337"
-      ],
-      "abandonmentKey": ""
-    },
-    {
-      "name": "Content testing",
-      "implementationID": "59380cee-0372-42cc-814a-aa8e2c103857",
-      "domain": "",
-      "clientIds": [
-        "68622",
-        "122070"
-      ],
-      "ratingType": "STARS",
-      "abandonmentKey": "",
-      "landingPageIcons": [
-        "hertz",
-        "enterprise",
-        "flizzr",
-        "budget",
-        "avis"
-      ],
-      "supplierTextColor": "#FFFFFF",
-      "supplierBorderColor": "#009900",
-      "landingPageIconsDark": [
-        "europcar",
-        "avis",
-        "hertz",
-        "alamo",
-        "budget"
-      ],
-      "enableRatings": "true",
-      "enablePrePaidExtras": "true"
-    },
-    {
-      "name": "Test only",
-      "implementationID": "7c4f7224-6447-468a-a7a2-caa2dd75b4c1",
-      "domain": "",
-      "clientIds": [
-        "503339",
-        "122070"
-      ],
-      "abandonmentKey": "",
-      "enablePrePaidExtras": "true"
-    },
-    {
-      "name": "Promo Code",
-      "implementationID": "98240bd9-ad87-4265-b63f-628719ca9894",
-      "domain": "",
-      "clientIds": [
-        "460396"
-      ],
-      "ratingType": "Stars",
-      "abandonmentKey": "",
-      "loyaltyProgramId": "CARTRAWLER",
-      "supplierTextColor": "#FFFFFF",
-      "supplierBorderColor": "#009900"
-    },
-    {
-      "name": "Native Test ID (17-06)",
-      "implementationID": "89e36078-362c-4f52-9a65-ec9cea9b8482",
-      "tag": "native",
-      "domain": "",
-      "USPSpec": {
-        "type": "dynamic",
-        "usps": "5",
-        "sales": "1",
-        "showPP": "true",
-        "baseURL": "https://cars.mileageplus.com",
-        "showTAC": "true",
-        "footnotes": "5",
-        "iconColour": "#69B3E7"
-      },
-      "clientIds": [
-        "541368",
-        "83004"
-      ],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FFFFFF",
-        "captionColor": "#FFD633",
-        "textDarkColor": "#333333",
-        "linkDarkColor": "#333333",
-        "backgroundColor": "#002C52",
-        "captionDarkColor": "#CB0000",
-        "backgroundDarkColor": "#FFFFFF",
-        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
-      },
-      "ratingType": "STARS",
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://www.holidayautos.com/book",
-        "autoOptIn": "true"
-      },
-      "settingsMenu": {
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://cars.mileageplus.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=native&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://cars.mileageplus.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=native&goto=faqs&portalEnv=preview"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "landingPageIcons": [],
-      "loyaltyProgramId": "CARTRAWLER",
-      "supplierTextColor": "#FFFFFF",
-      "supplierBorderColor": "#009900",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "landingCountdownTimer": {
-        "enabled": "true",
-        "background": "#FFD633",
-        "textAndBox": "#002C52",
-        "numberText": "#FFFFFF",
-        "backgroundDark": "#FFD633",
-        "textAndBoxDark": "#002C52",
-        "numberTextDark": "#FFFFFF"
-      },
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "easyJet",
-      "implementationID": "ad4301f6-e55b-4824-9508-53c279d468b6",
-      "domain": "",
-      "clientIds": [
-        "512434",
-        "512451",
-        "512485",
-        "512468",
-        "300765"
-      ],
-      "settingsMenu": {
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://cars.easyjet.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=easyjet&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://cars.easyjet.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=easyjet&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://cars.easyjet.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/easyjet/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "supplierTextColor": "#FFFFFF",
-      "supplierBorderColor": "#009900",
-      "enableTracking": "true",
-      "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true",
-      "enablePayPaliOS": "false",
-      "enablePayPalAndroid": "false"
-    },
-    {
-      "name": "eDreams Prime",
-      "implementationID": "299ca34f-fa4b-4089-a97b-f5a7e8862a27",
-      "tag": "prime",
-      "domain": "",
-      "clientIds": [
-        "564471",
-        "564488",
-        "564692",
-        "565168",
-        "565389",
-        "570319",
-        "570336",
-        "564879",
-        "565355",
-        "564862",
-        "565151",
-        "566613",
-        "569826",
-        "565015",
-        "564709",
-        "564726",
-        "564743",
-        "564760",
-        "564794",
-        "564811",
-        "564828",
-        "564845",
-        "564896",
-        "564913",
-        "564930",
-        "564947",
-        "564964",
-        "564981",
-        "564998",
-        "565032",
-        "565049",
-        "565083",
-        "565100",
-        "565253",
-        "565270",
-        "565287",
-        "565304",
-        "565321",
-        "571118",
-        "571135",
-        "571152",
-        "571169"
-      ],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FFFFFF",
-        "captionColor": "#FFD633",
-        "textDarkColor": "#FFFFFF",
-        "linkDarkColor": "#FFFFFF",
-        "backgroundColor": "#002C52",
-        "captionDarkColor": "#FFD633",
-        "backgroundDarkColor": "#002C52",
-        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://rentacar.edreams.com/en/book",
-        "autoOptIn": "false"
-      },
-      "settingsMenu": {
-        "icon": "COG",
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://rentacar.edreams.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://rentacar.edreams.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://rentacar.edreams.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/edreams/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "landingCountdownTimer": {
-        "enabled": "true",
-        "background": "#FFD633",
-        "textAndBox": "#002C52",
-        "numberText": "#FFFFFF",
-        "backgroundDark": "#FFD633",
-        "textAndBoxDark": "#002C52",
-        "numberTextDark": "#FFFFFF"
-      },
-      "chipDiscountMechanicType": "MONETARY",
-      "enableMap": "true",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "eDreams",
-      "implementationID": "032bed39-f74b-4794-ad31-c49c8c37d2dc",
-      "tag": "edreams",
-      "domain": "",
-      "clientIds": [
-        "313415",
-        "313432",
-        "313874",
-        "506501",
-        "561870",
-        "570897",
-        "570098",
-        "318685",
-        "318702",
-        "505056",
-        "532664",
-        "513131",
-        "532647",
-        "505039",
-        "320878",
-        "588237",
-        "318617",
-        "313925",
-        "517891",
-        "517908",
-        "517925",
-        "313891",
-        "313908",
-        "313942",
-        "531542",
-        "499429",
-        "499361",
-        "499344",
-        "500262",
-        "318634",
-        "519574",
-        "504988",
-        "519591",
-        "518928",
-        "318668",
-        "513165",
-        "514100",
-        "499395",
-        "499446"
-      ],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FFFFFF",
-        "captionColor": "#FFD633",
-        "textDarkColor": "#FFFFFF",
-        "linkDarkColor": "#FFFFFF",
-        "backgroundColor": "#002C52",
-        "captionDarkColor": "#FFD633",
-        "backgroundDarkColor": "#002C52",
-        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://rentacar.edreams.com/en/book",
-        "autoOptIn": "false"
-      },
-      "settingsMenu": {
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://rentacar.edreams.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://rentacar.edreams.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=edreams&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://rentacar.edreams.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/edreams/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "landingCountdownTimer": {
-        "enabled": "true",
-        "background": "#FFD633",
-        "textAndBox": "#002C52",
-        "numberText": "#FFFFFF",
-        "backgroundDark": "#FFD633",
-        "textAndBoxDark": "#002C52",
-        "numberTextDark": "#FFFFFF"
-      },
-      "chipDiscountMechanicType": "MONETARY",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true",
-      "enableMap": "true"
-    },
-    {
-      "name": "Go Voyage",
-      "implementationID": "89270def-7fa3-4e4a-96b0-21479f9473c6",
-      "tag": "edreams",
-      "domain": "",
-      "clientIds": [
-        "315710",
-        "315727",
-        "316169",
-        "506518",
-        "561904",
-        "570234",
-        "570914",
-        "532749",
-        "505124",
-        "318804",
-        "318787",
-        "531593",
-        "513097",
-        "532732",
-        "505107",
-        "320895",
-        "499582",
-        "499616",
-        "318719",
-        "316220",
-        "316186",
-        "518044",
-        "518061",
-        "518078",
-        "316237",
-        "316203",
-        "499667",
-        "499633",
-        "499565",
-        "499548",
-        "500364",
-        "499684",
-        "519659",
-        "318736",
-        "519676",
-        "318753",
-        "505022",
-        "519693",
-        "518962",
-        "318770",
-        "513199",
-        "514134",
-        "499735",
-        "513046",
-        "499599",
-        "499650",
-        "500381",
-        "549188",
-        "549205",
-        "549222",
-        "588220"
-      ],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FFFFFF",
-        "captionColor": "#66C431",
-        "textDarkColor": "#FFFFFF",
-        "linkDarkColor": "#FFFFFF",
-        "backgroundColor": "#123300",
-        "captionDarkColor": "#66C431",
-        "backgroundDarkColor": "#123300",
-        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://voiture.govoyages.com/book",
-        "autoOptIn": "false"
-      },
-      "settingsMenu": {
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://voiture.govoyages.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://voiture.govoyages.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://voiture.govoyages.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/govoyages/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "landingCountdownTimer": {
-        "enabled": "true",
-        "background": "#66C431",
-        "textAndBox": "#123300",
-        "numberText": "#FFFFFF",
-        "backgroundDark": "#66C431",
-        "textAndBoxDark": "#123300",
-        "numberTextDark": "#FFFFFF"
-      },
-      "chipDiscountMechanicType": "MONETARY",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true",
-      "enableMap": "true"
-    },
-    {
-      "name": "Go Voyage Prime",
-      "implementationID": "2a3d04fa-8adb-4517-8c5b-4e01df8387cb",
-      "tag": "prime",
-      "domain": "",
-      "clientIds": [
-        "563417",
-        "562499",
-        "563145",
-        "562516",
-        "562720",
-        "570404",
-        "570387",
-        "562907",
-        "563383",
-        "563128",
-        "562890",
-        "563366",
-        "566579",
-        "563043",
-        "562856",
-        "562924",
-        "562975",
-        "563009",
-        "562822",
-        "562771",
-        "563230",
-        "563247",
-        "563264",
-        "562737",
-        "562754",
-        "562788",
-        "563060",
-        "563026",
-        "562958",
-        "562941",
-        "563077",
-        "563298",
-        "562839",
-        "563315",
-        "563111",
-        "563332",
-        "563281",
-        "562873",
-        "562992",
-        "571033",
-        "571016"
-      ],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FFFFFF",
-        "captionColor": "#66C431",
-        "textDarkColor": "#FFFFFF",
-        "linkDarkColor": "#FFFFFF",
-        "backgroundColor": "#123300",
-        "captionDarkColor": "#66C431",
-        "backgroundDarkColor": "#123300",
-        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://voiture.govoyages.com/book",
-        "autoOptIn": "false"
-      },
-      "settingsMenu": {
-        "icon": "COG",
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://voiture.govoyages.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://voiture.govoyages.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=govoyages&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://voiture.govoyages.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/govoyages/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "landingCountdownTimer": {
-        "enabled": "true",
-        "background": "#66C431",
-        "textAndBox": "#123300",
-        "numberText": "#FFFFFF",
-        "backgroundDark": "#66C431",
-        "textAndBoxDark": "#123300",
-        "numberTextDark": "#FFFFFF"
-      },
-      "chipDiscountMechanicType": "MONETARY",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true",
-      "enableMap": "true"
-    },
-    {
-      "name": "Opodo",
-      "implementationID": "a70cce14-117b-4cc4-90d1-8f59b472d84a",
-      "tag": "edreams",
-      "domain": "",
-      "clientIds": [
-        "314945",
-        "314962",
-        "315404",
-        "506535",
-        "561887",
-        "570166",
-        "570880",
-        "318889",
-        "318906",
-        "505090",
-        "531559",
-        "532698",
-        "513114",
-        "532681",
-        "505073",
-        "319824",
-        "499786",
-        "499820",
-        "318821",
-        "315455",
-        "315438",
-        "517942",
-        "517959",
-        "517976",
-        "315472",
-        "315438",
-        "499871",
-        "499837",
-        "499769",
-        "499752",
-        "500313",
-        "499888",
-        "519608",
-        "318838",
-        "519625",
-        "318821",
-        "505005",
-        "519642",
-        "518945",
-        "318872",
-        "513182",
-        "514117",
-        "499939",
-        "513029",
-        "499803",
-        "499854",
-        "500330",
-        "549137",
-        "549154",
-        "549171",
-        "571441",
-        "571458",
-        "571475",
-        "571492",
-        "588203"
-      ],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FFFFFF",
-        "captionColor": "#FF6600",
-        "textDarkColor": "#FFFFFF",
-        "linkDarkColor": "#FFFFFF",
-        "backgroundColor": "#262626",
-        "captionDarkColor": "#FF6600",
-        "backgroundDarkColor": "#262626",
-        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://carhire.opodo.com/en/book",
-        "autoOptIn": "false"
-      },
-      "settingsMenu": {
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://carhire.opodo.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://carhire.opodo.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://carhire.opodo.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/opodo/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "landingCountdownTimer": {
-        "enabled": "true",
-        "background": "#FF6600",
-        "textAndBox": "#262626",
-        "numberText": "#FFFFFF",
-        "backgroundDark": "#FF6600",
-        "textAndBoxDark": "#262626",
-        "numberTextDark": "#FFFFFF"
-      },
-      "chipDiscountMechanicType": "MONETARY",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true",
-      "enableMap": "true"
-    },
-    {
-      "name": "Opodo Prime",
-      "implementationID": "ff156b05-2c2c-4d3e-84b9-a93ef65ee9f8",
-      "tag": "prime",
-      "domain": "",
-      "clientIds": [
-        "563485",
-        "563502",
-        "563706",
-        "564131",
-        "564403",
-        "570370",
-        "570353",
-        "563893",
-        "564369",
-        "563876",
-        "564114",
-        "564352",
-        "566630",
-        "564029",
-        "563723",
-        "563740",
-        "563757",
-        "563774",
-        "563808",
-        "563825",
-        "563842",
-        "563859",
-        "563910",
-        "563927",
-        "563944",
-        "563961",
-        "563978",
-        "563995",
-        "564012",
-        "564046",
-        "564063",
-        "564097",
-        "564216",
-        "564233",
-        "564250",
-        "564267",
-        "564284",
-        "564301",
-        "564318",
-        "571101",
-        "571084",
-        "571067",
-        "571050"
-      ],
-      "saleBanner": {
-        "type": "dynamic",
-        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FFFFFF",
-        "captionColor": "#FF6600",
-        "textDarkColor": "#FFFFFF",
-        "linkDarkColor": "#FFFFFF",
-        "backgroundColor": "#262626",
-        "captionDarkColor": "#FF6600",
-        "backgroundDarkColor": "#262626",
-        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://carhire.opodo.com/en/book",
-        "autoOptIn": "false"
-      },
-      "settingsMenu": {
-        "icon": "COG",
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://carhire.opodo.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://carhire.opodo.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=opodo&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://carhire.opodo.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/opodo/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "landingCountdownTimer": {
-        "enabled": "true",
-        "background": "#FF6600",
-        "textAndBox": "#262626",
-        "numberText": "#FFFFFF",
-        "backgroundDark": "#FF6600",
-        "textAndBoxDark": "#262626",
-        "numberTextDark": "#FFFFFF"
-      },
-      "chipDiscountMechanicType": "MONETARY",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true",
-      "enableMap": "true"
-    },
-    {
-      "name": "Travellink",
-      "implementationID": "89535f56-d81f-4799-817e-868c9bf365e2",
-      "tag": "prime",
-      "domain": "",
-      "clientIds": [
-        "314180",
-        "314197",
-        "315639",
-        "532783",
-        "505158",
-        "532766",
-        "505141",
-        "561921",
-        "320912",
-        "499990",
-        "500024",
-        "319008",
-        "318923",
-        "314690",
-        "314656",
-        "517993",
-        "518010",
-        "518027",
-        "314707",
-        "314673",
-        "500075",
-        "318991",
-        "531610",
-        "500041",
-        "499973",
-        "499956",
-        "500415",
-        "500415",
-        "500092",
-        "519710",
-        "318940",
-        "519727",
-        "318957",
-        "519744",
-        "518979",
-        "318974",
-        "513216",
-        "514151",
-        "500143",
-        "513063",
-        "500007",
-        "500058",
-        "500432",
-        "549086",
-        "549103",
-        "549120",
-        "588186"
-      ],
-      "ecoCarousel": {
-        "types": [
-          "friendly_location",
-          "city_driving",
-          "fuel_costs",
-          "go_further"
-        ],
-        "locations": [
-          "MRS",
-          "NCE",
-          "LIS",
-          "BRU",
-          "MRS",
-          "FAO",
-          "LHR",
-          "FCO",
-          "LYS",
-          "AGP",
-          "CPH",
-          "ORY",
-          "MXP",
-          "BCN",
-          "TLS",
-          "JER",
-          "BOD",
-          "LAX",
-          "MAN",
-          "EDI",
-          "MXP",
-          "LGW",
-          "LIN",
-          "OPO",
-          "TFS",
-          "PMI",
-          "MAD",
-          "FLR",
-          "FCS",
-          "BIA",
-          "PMO",
-          "BLQ",
-          "AJA",
-          "TFN"
-        ]
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://cars.travellink.com/",
-        "autoOptIn": "false"
-      },
-      "settingsMenu": {
-        "icon": "COG",
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://cars.travellink.com/${lang}/managebooking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://cars.travellink.com/${lang}/managebooking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&goto=faqs&portalEnv=preview"
-          },
-          {
-            "order": "3",
-            "productionURL": "https://cars.travellink.com/${lang}/help",
-            "developmentURL": "https://staging.cars.cartrawler.com/travellink/help/"
-          }
-        ]
-      },
-      "abandonmentKey": "",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true",
-      "enableMap": "true"
-    },
-    {
-      "name": "Argus",
-      "implementationID": "692d9c14-24f3-4f9a-aae3-2249422e8758",
-      "domain": "",
-      "tag": "argus",
-      "clientIds": [
-        "685068",
-        "685051",
-        "594544"
-      ],
-      "ecoCarousel": {
-        "types": [
-          "friendly_location",
-          "go_further",
-          "fuel_costs"
-        ]
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://www.arguscarhire.com/book",
-        "autoOptIn": "true"
-      },
-      "abandonmentKey": "",
-      "insuranceUpsellURL": "https://www.arguscarhire.com/book?",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "bookingFlowRouting": {
-        "iOSWebFlow": 0,
-        "iOSNativeFlow": 1,
-        "androidWebFlow": 0,
-        "androidNativeFlow": 1,
-        "iOSWebClientID": "400173",
-        "androidWebClientID": "400190",
-        "webDevelopmentVersion": "5.326.1--DEVELOP--202405141137"
-      },
-      "enableMap": "true",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enableApplePay": "true",
-      "enableGooglePay": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "easyCar",
-      "implementationID": "d3ae1b67-6588-4edf-904c-c896e9ba9594",
-      "domain": "",
-      "tag": "easycar",
-      "clientIds": [
-        "574008",
-        "594578"
-      ],
-      "ecoCarousel": {
-        "types": [
-          "friendly_location",
-          "go_further",
-          "fuel_costs"
-        ]
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://go.easycar.com/en/book",
-        "autoOptIn": "true"
-      },
-      "abandonmentKey": "",
-      "insuranceUpsellURL": "https://go.easycar.com/book?",
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "enableMap": "true",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enableApplePay": "true",
-      "enableGooglePay": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "MyIDTravelTest",
-      "implementationID": "a15d93a8-9647-45b6-9707-dab49e3b60f7",
-      "domain": "",
-      "clientIds": [
-        "560408",
-        "560425"
-      ],
-      "landingPageIcons": [
-        "hertz",
-        "alamo",
-        "avis",
-        "budget"
-      ],
-      "enableApplePay": "true",
-      "enablePayPaliOS": "true",
-      "enableGooglePay": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "MyIDTravel",
-      "implementationID": "60141854-0a09-48e3-8216-50a0cb27ec26",
-      "domain": "",
-      "clientIds": [
-        "560408",
-        "560425"
-      ],
-      "landingPageIcons": [
-        "hertz",
-        "alamo",
-        "avis",
-        "budget"
-      ],
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "Flynas",
-      "implementationID": "f3570324-140f-45f0-80d7-4008509b3272",
-      "domain": "",
-      "clientIds": [
-        "587387",
-        "565678"
-      ],
-      "enableTracking": "true"
-    },
-    {
-      "name": "Bonza",
-      "implementationID": "cdd1aee4-0e74-457c-8ae0-691fc90f9586",
-      "domain": "",
-      "clientIds": [],
-      "ratingType": "Stars",
-      "enableTracking": "true"
-    },
-    {
-      "name": "Ethiopian Airlines",
-      "implementationID": "1b7028a9-de1c-459c-9718-a7feba423c25",
-      "domain": "",
-      "clientIds": [
-        "574365",
-        "594663"
-      ],
-      "enableTracking": "true"
-    },
-    {
-      "name": "Finnair",
-      "implementationID": "582e927f-673a-4f7c-bb1b-fc47eb29e417",
-      "domain": "",
-      "clientIds": [],
-      "loyaltyProgramId": "CARTRAWLER",
-      "landingPageIcons": [
-        "hertz",
-        "enterprise",
-        "flizzr",
-        "budget",
-        "avis"
-      ],
-      "landingPageIconsDark": [
-        "europcar",
-        "avis",
-        "hertz",
-        "alamo",
-        "budget"
-      ],
-      "enableTracking": "true"
-    },
-    {
-      "name": "Holiday Autos",
-      "implementationID": "b830933d-c323-4451-ab6d-329fe9846617",
-      "domain": "",
-      "tag": "holidayautos",
-      "clientIds": [
-        "685034",
-        "685017",
-        "463473",
-        "594527"
-      ],
-      "ecoCarousel": {
-        "types": [
-          "friendly_location",
-          "go_further",
-          "fuel_costs"
-        ]
-      },
-      "abandonment": {
-        "enable": "true",
-        "baseURL": "https://www.holidayautos.com/book",
-        "autoOptIn": "true"
-      },
-      "abandonmentKey": "",
-      "insuranceUpsellURL": "https://www.holidayautos.com/book?",
-      "bookingFlowRouting": {
-        "iOSWebFlow": 0.5,
-        "iOSNativeFlow": 0.5,
-        "androidWebFlow": 0.5,
-        "androidNativeFlow": 0.5,
-        "iOSWebClientID": "400139",
-        "androidWebClientID": "400156",
-        "webDevelopmentVersion": "5.326.1--DEVELOP--202405141137"
-      },
-      "ecoAlternativeUpsell": {
-        "enable": "true",
-        "percentageRange": "15"
-      },
-      "enableMap": "true",
-      "enableMosaic": "true",
-      "enableTracking": "true",
-      "enableApplePay": "true",
-      "enableGooglePay": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "Wizz Air",
-      "implementationID": "1cde6def-d00f-47eb-b372-fd9d3cb293dc",
-      "tag": "wizz",
-      "domain": "",
-      "clientIds": [],
-      "loyaltyRegex": "^[a-zA-Z0-9]{10}$",
-      "settingsMenu": {
-        "urls": [
-          {
-            "order": "1",
-            "productionURL": "https://cars.wizzair.com/${lang}/manage-booking",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=wizzair&portalEnv=preview"
-          },
-          {
-            "order": "2",
-            "productionURL": "https://cars.wizzair.com/${lang}/manage-booking?goto=faqs",
-            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=wizzair&goto=faqs&portalEnv=preview"
-          }
-        ]
-      },
-      "loyaltyProgramId": "WIZZ_CREDIT",
-      "landingPageIcons": [
-        "budget",
-        "avis",
-        "europcar",
-        "alamo",
-        "hertz"
-      ],
-      "enableTracking": "true",
-      "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
-    },
-    {
-      "name": "Norwegian Air Shuttle",
-      "implementationID": "f2e4c7a9-c87b-491b-ab6e-c704bc9570d8",
-      "domain": "",
-      "clientIds": [
-        "139699",
-        "346087",
-        "828735"
-      ],
-      "loyaltyRegex": "^\\d{8}(\\d{2})?$",
-      "abandonmentKey": "",
-      "loyaltyProgramId": "NORWEGIAN",
-      "enableTracking": "true",
-      "enableZeroExcess": "true",
-      "enableZeroExcessUpSell": "true"
-    }
-  ],
-  "suppliers": [
-    {
-      "name": "BUDGET",
-      "preferredTextColor": "#FFFFFF",
-      "preferredBorderColor": "#00285F",
-      "darkPreferredTextColor": "#FFFFFF",
-      "darkPreferredBorderColor": "#00285F",
-      "preferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf",
-      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf"
-    },
-    {
-      "name": "EUROPCAR",
-      "preferredTextColor": "#FFFFFF",
-      "preferredBorderColor": "#009900",
-      "darkPreferredTextColor": "#000000",
-      "darkPreferredBorderColor": "#FFFFFF",
-      "preferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf",
-      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf"
-    },
-    {
-      "name": "AVIS",
-      "preferredTextColor": "#FFFFFF",
-      "preferredBorderColor": "#D4002A",
-      "darkPreferredTextColor": "#FFFFFF",
-      "darkPreferredBorderColor": "#D4002A",
-      "preferredLogo": "https://ct-supplierimage.imgix.net/car/avis.pdf",
-      "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/avis.pdf"
-    }
-  ],
-  "hash": {
-    "b6QUqVKuzdx/SvXkO7SgfzSA9Y4pXi+Vuylaiy3KjT8ethLt1V8Sf4uv/Wf6a6RUrsGmHHTyj1O2KG1nbI576La897D34oMMosFb9Ur4VvBY8mbGYguyaEsKapm+B+gkcJomNMp+eJseJKCFu36zG6NzBCkagG/oybranp11a+k=": [
-      "ov3Ds7QMJmY6elxIc4IbR3w6F4OI7LWq+ZVCvJMs7sGCKcqgR+D3cWMr31JweAA7DJ00uwMGPNA+ORFeor1OHHjnp8b3vHrsKEjWlQk1UY/8nrLVu3mrxVyBhSOh4rvvwALqO9fPZBuFE+ycJ16fNQS5F5saPohu6F4NhlebN2k=",
-      "RDcSvbMJQWZQFwWbtKPNzBtgr7/QimxQv5fXk3/bGim2DXnqBwGlX0RwCqW+zskqDcHFg2NMp+IvdzgY2pAP1ZvgFALmWLXXJpmdd9Iaxr4LjUNkPDCrxe4hs5SHxAzOpPX0PHhQ4gCwON+DkIAM1feEZgMo3Cxhjwy9cQ0XDuc=",
-      "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q=",
-      "cTH6QoyXPEoHk/DjrigE9yVuldO9+Co32GSWLusoNzGQ1S2vYmyCIp2P5AjI5S9BlPPRg9dLIeQM8K9J6fecvsBO+f3t633jgpwg5ytnVkPNX0JNMcOdXJA8dMwxwgxc93oq6b8qo/9RZPFK4Y5gCwWBykL0iVHfiPVTqnfgUXA="
-    ]
-  },
-  "mosaic": {
-    "tiles": [
-      {
-        "imageUrl": "https://ctimg-mcore.cartrawler.com/components/hero/america-north-car-forest.jpg",
-        "position": "1",
-        "tapUrl": "https://customer.cartrawler.com/{lang}?goto=faqs/topics/ELECTRIC_VEHICLES"
-      },
-      {
-        "imageUrl": "https://ctimg-mcore.cartrawler.com/components/partners/airfrance/charge-anywhere.png",
-        "position": "2",
-        "tapUrl": "https://ct-images.imgix.net/ctabe/brands/sustainability/charging-an-electric-vehicle/index.html"
-      },
-      {
-        "imageUrl": "https://ctimg-mcore.cartrawler.com/components/hero/car-couple-navigation-holidays.jpg",
-        "position": "3",
-        "tapUrl": "https://ct-images.imgix.net/ctabe/brands/sustainability/important-questions-to-ask-when-renting-an-electric-vehicle/index.html"
-      }
-    ]
-  },
-  "encrypted": {
-    "url": "b6QUqVKuzdx/SvXkO7SgfzSA9Y4pXi+Vuylaiy3KjT8ethLt1V8Sf4uv/Wf6a6RUrsGmHHTyj1O2KG1nbI576La897D34oMMosFb9Ur4VvBY8mbGYguyaEsKapm+B+gkcJomNMp+eJseJKCFu36zG6NzBCkagG/oybranp11a+k=",
-    "hashes": [
-      "ov3Ds7QMJmY6elxIc4IbR3w6F4OI7LWq+ZVCvJMs7sGCKcqgR+D3cWMr31JweAA7DJ00uwMGPNA+ORFeor1OHHjnp8b3vHrsKEjWlQk1UY/8nrLVu3mrxVyBhSOh4rvvwALqO9fPZBuFE+ycJ16fNQS5F5saPohu6F4NhlebN2k=",
-      "RDcSvbMJQWZQFwWbtKPNzBtgr7/QimxQv5fXk3/bGim2DXnqBwGlX0RwCqW+zskqDcHFg2NMp+IvdzgY2pAP1ZvgFALmWLXXJpmdd9Iaxr4LjUNkPDCrxe4hs5SHxAzOpPX0PHhQ4gCwON+DkIAM1feEZgMo3Cxhjwy9cQ0XDuc=",
-      "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q=",
-      "cTH6QoyXPEoHk/DjrigE9yVuldO9+Co32GSWLusoNzGQ1S2vYmyCIp2P5AjI5S9BlPPRg9dLIeQM8K9J6fecvsBO+f3t633jgpwg5ytnVkPNX0JNMcOdXJA8dMwxwgxc93oq6b8qo/9RZPFK4Y5gCwWBykL0iVHfiPVTqnfgUXA="
-    ]
-  },
-  "categories": {
-    "US": [
-      {
-        "ids": [
-          "1",
-          "33",
-          "2",
-          "3",
-          "34"
-        ],
-        "rank": 1,
-        "type": "Economy"
-      },
-      {
-        "ids": [
-          "4",
-          "35"
-        ],
-        "rank": 2,
-        "type": "Compact"
-      },
-      {
-        "ids": [
-          "5",
-          "6",
-          "36"
-        ],
-        "rank": 4,
-        "type": "Midsize"
-      },
-      {
-        "ids": [
-          "7",
-          "37"
-        ],
-        "rank": 6,
-        "type": "Standard"
-      },
-      {
-        "ids": [
-          "8",
-          "38",
-          "44"
-        ],
-        "rank": 7,
-        "type": "Fullsize"
-      },
-      {
-        "ids": [
-          "10",
-          "39"
-        ],
-        "rank": 9,
-        "type": "Premium"
-      },
-      {
-        "ids": [
-          "9",
-          "21",
-          "23",
-          "24",
-          "40"
-        ],
-        "rank": 14,
-        "type": "Luxury"
-      },
-      {
-        "ids": [
-          "27"
-        ],
-        "rank": 10,
-        "type": "Smallsuv"
-      },
-      {
-        "ids": [
-          "28"
-        ],
-        "rank": 3,
-        "type": "Midsizesuv"
-      },
-      {
-        "ids": [
-          "29",
-          "30"
-        ],
-        "rank": 5,
-        "type": "Largesuv"
-      },
-      {
-        "ids": [
-          "11",
-          "45",
-          "46"
-        ],
-        "rank": 8,
-        "type": "Minivan"
-      },
-      {
-        "ids": [
-          "47"
-        ],
-        "rank": 12,
-        "type": "Van"
-      },
-      {
-        "ids": [
-          "12"
-        ],
-        "rank": 16,
-        "type": "Largevan.12pax"
-      },
-      {
-        "ids": [
-          "14"
-        ],
-        "rank": 17,
-        "type": "Largevan.15pax"
-      },
-      {
-        "ids": [
-          "13",
-          "15",
-          "16",
-          "17",
-          "18",
-          "19",
-          "25",
-          "26"
-        ],
-        "rank": 12,
-        "type": "Truck"
-      },
-      {
-        "ids": [
-          "43"
-        ],
-        "rank": 13,
-        "type": "Convertible"
-      },
-      {
-        "ids": [
-          "32"
-        ],
-        "rank": 11,
-        "type": "Special"
-      }
     ],
-    "default": [
-      {
-        "ids": [
-          "1",
-          "33"
+    "suppliers": [
+        {
+            "name": "BUDGET",
+            "preferredTextColor": "#FFFFFF",
+            "preferredBorderColor": "#00285F",
+            "darkPreferredTextColor": "#FFFFFF",
+            "darkPreferredBorderColor": "#00285F",
+            "preferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf",
+            "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/budget.pdf"
+        },
+        {
+            "name": "EUROPCAR",
+            "preferredTextColor": "#FFFFFF",
+            "preferredBorderColor": "#009900",
+            "darkPreferredTextColor": "#000000",
+            "darkPreferredBorderColor": "#FFFFFF",
+            "preferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf",
+            "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/europcar.pdf"
+        },
+        {
+            "name": "AVIS",
+            "preferredTextColor": "#FFFFFF",
+            "preferredBorderColor": "#D4002A",
+            "darkPreferredTextColor": "#FFFFFF",
+            "darkPreferredBorderColor": "#D4002A",
+            "preferredLogo": "https://ct-supplierimage.imgix.net/car/avis.pdf",
+            "darkPreferredLogo": "https://ct-supplierimage.imgix.net/car/avis.pdf"
+        }
+    ],
+    "hash": {
+        "b6QUqVKuzdx/SvXkO7SgfzSA9Y4pXi+Vuylaiy3KjT8ethLt1V8Sf4uv/Wf6a6RUrsGmHHTyj1O2KG1nbI576La897D34oMMosFb9Ur4VvBY8mbGYguyaEsKapm+B+gkcJomNMp+eJseJKCFu36zG6NzBCkagG/oybranp11a+k=": [
+            "ov3Ds7QMJmY6elxIc4IbR3w6F4OI7LWq+ZVCvJMs7sGCKcqgR+D3cWMr31JweAA7DJ00uwMGPNA+ORFeor1OHHjnp8b3vHrsKEjWlQk1UY/8nrLVu3mrxVyBhSOh4rvvwALqO9fPZBuFE+ycJ16fNQS5F5saPohu6F4NhlebN2k=",
+            "RDcSvbMJQWZQFwWbtKPNzBtgr7/QimxQv5fXk3/bGim2DXnqBwGlX0RwCqW+zskqDcHFg2NMp+IvdzgY2pAP1ZvgFALmWLXXJpmdd9Iaxr4LjUNkPDCrxe4hs5SHxAzOpPX0PHhQ4gCwON+DkIAM1feEZgMo3Cxhjwy9cQ0XDuc=",
+            "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q=",
+            "cTH6QoyXPEoHk/DjrigE9yVuldO9+Co32GSWLusoNzGQ1S2vYmyCIp2P5AjI5S9BlPPRg9dLIeQM8K9J6fecvsBO+f3t633jgpwg5ytnVkPNX0JNMcOdXJA8dMwxwgxc93oq6b8qo/9RZPFK4Y5gCwWBykL0iVHfiPVTqnfgUXA="
+        ]
+    },
+    "mosaic": {
+        "tiles": [
+            {
+                "imageUrl": "https://ctimg-mcore.cartrawler.com/components/hero/america-north-car-forest.jpg",
+                "position": "1",
+                "tapUrl": "https://customer.cartrawler.com/{lang}?goto=faqs/topics/ELECTRIC_VEHICLES"
+            },
+            {
+                "imageUrl": "https://ctimg-mcore.cartrawler.com/components/partners/airfrance/charge-anywhere.png",
+                "position": "2",
+                "tapUrl": "https://ct-images.imgix.net/ctabe/brands/sustainability/charging-an-electric-vehicle/index.html"
+            },
+            {
+                "imageUrl": "https://ctimg-mcore.cartrawler.com/components/hero/car-couple-navigation-holidays.jpg",
+                "position": "3",
+                "tapUrl": "https://ct-images.imgix.net/ctabe/brands/sustainability/important-questions-to-ask-when-renting-an-electric-vehicle/index.html"
+            }
+        ]
+    },
+    "encrypted": {
+        "url": "b6QUqVKuzdx/SvXkO7SgfzSA9Y4pXi+Vuylaiy3KjT8ethLt1V8Sf4uv/Wf6a6RUrsGmHHTyj1O2KG1nbI576La897D34oMMosFb9Ur4VvBY8mbGYguyaEsKapm+B+gkcJomNMp+eJseJKCFu36zG6NzBCkagG/oybranp11a+k=",
+        "hashes": [
+            "ov3Ds7QMJmY6elxIc4IbR3w6F4OI7LWq+ZVCvJMs7sGCKcqgR+D3cWMr31JweAA7DJ00uwMGPNA+ORFeor1OHHjnp8b3vHrsKEjWlQk1UY/8nrLVu3mrxVyBhSOh4rvvwALqO9fPZBuFE+ycJ16fNQS5F5saPohu6F4NhlebN2k=",
+            "RDcSvbMJQWZQFwWbtKPNzBtgr7/QimxQv5fXk3/bGim2DXnqBwGlX0RwCqW+zskqDcHFg2NMp+IvdzgY2pAP1ZvgFALmWLXXJpmdd9Iaxr4LjUNkPDCrxe4hs5SHxAzOpPX0PHhQ4gCwON+DkIAM1feEZgMo3Cxhjwy9cQ0XDuc=",
+            "LApzR9MljpTDauD5tpyPtysRsqtUtKg1HNZI7e1OpwvOF/7JALNm8itpD5sXPHVQTmrnHVkIZhgryWJRgpijUyZgSk2z7TTJWFHzkih5chirP9CTx1x71x7b2jZBosPoG34H7Xk8QsroZM5s/VhlrNU5YoRuiPup7xud0DE4a+Q=",
+            "cTH6QoyXPEoHk/DjrigE9yVuldO9+Co32GSWLusoNzGQ1S2vYmyCIp2P5AjI5S9BlPPRg9dLIeQM8K9J6fecvsBO+f3t633jgpwg5ytnVkPNX0JNMcOdXJA8dMwxwgxc93oq6b8qo/9RZPFK4Y5gCwWBykL0iVHfiPVTqnfgUXA="
+        ]
+    },
+    "categories": {
+        "US": [
+            {
+                "ids": [
+                    "1",
+                    "33",
+                    "2",
+                    "3",
+                    "34"
+                ],
+                "rank": 1,
+                "type": "Economy"
+            },
+            {
+                "ids": [
+                    "4",
+                    "35"
+                ],
+                "rank": 2,
+                "type": "Compact"
+            },
+            {
+                "ids": [
+                    "5",
+                    "6",
+                    "36"
+                ],
+                "rank": 4,
+                "type": "Midsize"
+            },
+            {
+                "ids": [
+                    "7",
+                    "37"
+                ],
+                "rank": 6,
+                "type": "Standard"
+            },
+            {
+                "ids": [
+                    "8",
+                    "38",
+                    "44"
+                ],
+                "rank": 7,
+                "type": "Fullsize"
+            },
+            {
+                "ids": [
+                    "10",
+                    "39"
+                ],
+                "rank": 9,
+                "type": "Premium"
+            },
+            {
+                "ids": [
+                    "9",
+                    "21",
+                    "23",
+                    "24",
+                    "40"
+                ],
+                "rank": 14,
+                "type": "Luxury"
+            },
+            {
+                "ids": [
+                    "27"
+                ],
+                "rank": 10,
+                "type": "Smallsuv"
+            },
+            {
+                "ids": [
+                    "28"
+                ],
+                "rank": 3,
+                "type": "Midsizesuv"
+            },
+            {
+                "ids": [
+                    "29",
+                    "30"
+                ],
+                "rank": 5,
+                "type": "Largesuv"
+            },
+            {
+                "ids": [
+                    "11",
+                    "45",
+                    "46"
+                ],
+                "rank": 8,
+                "type": "Minivan"
+            },
+            {
+                "ids": [
+                    "47"
+                ],
+                "rank": 12,
+                "type": "Van"
+            },
+            {
+                "ids": [
+                    "12"
+                ],
+                "rank": 16,
+                "type": "Largevan.12pax"
+            },
+            {
+                "ids": [
+                    "14"
+                ],
+                "rank": 17,
+                "type": "Largevan.15pax"
+            },
+            {
+                "ids": [
+                    "13",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "25",
+                    "26"
+                ],
+                "rank": 12,
+                "type": "Truck"
+            },
+            {
+                "ids": [
+                    "43"
+                ],
+                "rank": 13,
+                "type": "Convertible"
+            },
+            {
+                "ids": [
+                    "32"
+                ],
+                "rank": 11,
+                "type": "Special"
+            }
         ],
-        "rank": 1,
-        "type": "Mini"
-      },
-      {
-        "ids": [
-          "3",
-          "34"
-        ],
-        "rank": 2,
-        "type": "Economy"
-      },
-      {
-        "ids": [
-          "4",
-          "35"
-        ],
-        "rank": 3,
-        "type": "Compact"
-      },
-      {
-        "ids": [
-          "6",
-          "36"
-        ],
-        "rank": 7,
-        "type": "Intermediate"
-      },
-      {
-        "ids": [
-          "7",
-          "37"
-        ],
-        "rank": 6,
-        "type": "Standard"
-      },
-      {
-        "ids": [
-          "8",
-          "38"
-        ],
-        "rank": 12,
-        "type": "Fullsize"
-      },
-      {
-        "ids": [
-          "9",
-          "40"
-        ],
-        "rank": 13,
-        "type": "Luxury"
-      },
-      {
-        "ids": [
-          "10"
-        ],
-        "rank": 14,
-        "type": "Premium"
-      },
-      {
-        "ids": [
-          "11"
-        ],
-        "rank": 11,
-        "type": "Minivan"
-      },
-      {
-        "ids": [
-          "15"
-        ],
-        "rank": 15,
-        "type": "Cargovan"
-      },
-      {
-        "ids": [
-          "43"
-        ],
-        "rank": 16,
-        "type": "Convertible"
-      },
-      {
-        "ids": [
-          "44"
-        ],
-        "rank": 5,
-        "type": "Estate"
-      },
-      {
-        "ids": [
-          "45"
-        ],
-        "rank": 8,
-        "type": "5seatcarrier"
-      },
-      {
-        "ids": [
-          "46"
-        ],
-        "rank": 9,
-        "type": "7seatcarrier"
-      },
-      {
-        "ids": [
-          "47"
-        ],
-        "rank": 10,
-        "type": "9seatcarrier"
-      },
-      {
-        "ids": [
-          "48",
-          "27",
-          "28",
-          "29",
-          "5"
-        ],
-        "rank": 4,
-        "type": "SUV"
-      },
-      {
-        "ids": [
-          "20"
-        ],
-        "rank": 17,
-        "type": "Scooter"
-      },
-      {
-        "ids": [
-          "25",
-          "26"
-        ],
-        "rank": 18,
-        "type": "Truck"
-      },
-      {
-        "ids": [
-          "24"
-        ],
-        "rank": 19,
-        "type": "Exotic"
-      }
-    ]
-  },
-  "ecoCarousel": {
-    "locations": [
-      "MRS",
-      "NCE",
-      "LIS",
-      "BRU",
-      "MRS",
-      "FAO",
-      "LHR",
-      "FCO",
-      "LYS",
-      "AGP",
-      "CPH",
-      "ORY",
-      "MXP",
-      "BCN",
-      "TLS",
-      "JER",
-      "BOD",
-      "LAX",
-      "MAN",
-      "EDI",
-      "MXP",
-      "LGW"
-    ]
-  },
-  "imageBaseURL": "https://ct-supplierimage.imgix.net/car/",
-  "landingPageIcons": [
-    "europcar",
-    "avis",
-    "hertz",
-    "alamo",
-    "budget"
-  ],
-  "omnibusCountries": [
-    "AT",
-    "BE",
-    "BG",
-    "HR",
-    "CY",
-    "CS",
-    "DA",
-    "ET",
-    "FI",
-    "FR",
-    "DE",
-    "EL",
-    "HU",
-    "IE",
-    "IT",
-    "LV",
-    "LT",
-    "LX",
-    "MT",
-    "NL",
-    "PL",
-    "PT",
-    "RO",
-    "SK",
-    "SL",
-    "ES",
-    "SV"
-  ],
-  "currenciesNoDecimal": [
-    "CNY",
-    "HKD",
-    "HUF",
-    "IDR",
-    "ISK",
-    "JPY",
-    "KRW",
-    "MYR",
-    "NOK",
-    "RUB",
-    "SEK",
-    "TWD",
-    "VND"
-  ],
-  "landingPageIconsDark": [
-    "europcar",
-    "avis",
-    "hertz",
-    "alamo",
-    "budget"
-  ],
-  "covidInsuranceMessageURL": "https://allianztravel-info.com",
-  "saleTermsAndConditionsURL": "https://cars.cartrawler.com/book/${x}/terms-sale",
-  "enableMap": "true",
-  "enableZeroExcess": "true",
-  "enablePSD2WebForm": "false",
-  "enableQuickFilters": "true",
-  "enablePrePaidExtras": "false",
-  "enableZeroExcessUpSell": "true",
-  "enableCTCashSubtraction": "false",
-  "enableCovidInsuranceMessage": "true"
+        "default": [
+            {
+                "ids": [
+                    "1",
+                    "33"
+                ],
+                "rank": 1,
+                "type": "Mini"
+            },
+            {
+                "ids": [
+                    "3",
+                    "34"
+                ],
+                "rank": 2,
+                "type": "Economy"
+            },
+            {
+                "ids": [
+                    "4",
+                    "35"
+                ],
+                "rank": 3,
+                "type": "Compact"
+            },
+            {
+                "ids": [
+                    "6",
+                    "36"
+                ],
+                "rank": 7,
+                "type": "Intermediate"
+            },
+            {
+                "ids": [
+                    "7",
+                    "37"
+                ],
+                "rank": 6,
+                "type": "Standard"
+            },
+            {
+                "ids": [
+                    "8",
+                    "38"
+                ],
+                "rank": 12,
+                "type": "Fullsize"
+            },
+            {
+                "ids": [
+                    "9",
+                    "40"
+                ],
+                "rank": 13,
+                "type": "Luxury"
+            },
+            {
+                "ids": [
+                    "10"
+                ],
+                "rank": 14,
+                "type": "Premium"
+            },
+            {
+                "ids": [
+                    "11"
+                ],
+                "rank": 11,
+                "type": "Minivan"
+            },
+            {
+                "ids": [
+                    "15"
+                ],
+                "rank": 15,
+                "type": "Cargovan"
+            },
+            {
+                "ids": [
+                    "43"
+                ],
+                "rank": 16,
+                "type": "Convertible"
+            },
+            {
+                "ids": [
+                    "44"
+                ],
+                "rank": 5,
+                "type": "Estate"
+            },
+            {
+                "ids": [
+                    "45"
+                ],
+                "rank": 8,
+                "type": "5seatcarrier"
+            },
+            {
+                "ids": [
+                    "46"
+                ],
+                "rank": 9,
+                "type": "7seatcarrier"
+            },
+            {
+                "ids": [
+                    "47"
+                ],
+                "rank": 10,
+                "type": "9seatcarrier"
+            },
+            {
+                "ids": [
+                    "48",
+                    "27",
+                    "28",
+                    "29",
+                    "5"
+                ],
+                "rank": 4,
+                "type": "SUV"
+            },
+            {
+                "ids": [
+                    "20"
+                ],
+                "rank": 17,
+                "type": "Scooter"
+            },
+            {
+                "ids": [
+                    "25",
+                    "26"
+                ],
+                "rank": 18,
+                "type": "Truck"
+            },
+            {
+                "ids": [
+                    "24"
+                ],
+                "rank": 19,
+                "type": "Exotic"
+            }
+        ]
+    },
+    "ecoCarousel": {
+        "locations": [
+            "MRS",
+            "NCE",
+            "LIS",
+            "BRU",
+            "MRS",
+            "FAO",
+            "LHR",
+            "FCO",
+            "LYS",
+            "AGP",
+            "CPH",
+            "ORY",
+            "MXP",
+            "BCN",
+            "TLS",
+            "JER",
+            "BOD",
+            "LAX",
+            "MAN",
+            "EDI",
+            "MXP",
+            "LGW"
+        ]
+    },
+    "imageBaseURL": "https://ct-supplierimage.imgix.net/car/",
+    "landingPageIcons": [
+        "europcar",
+        "avis",
+        "hertz",
+        "alamo",
+        "budget"
+    ],
+    "omnibusCountries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CS",
+        "DA",
+        "ET",
+        "FI",
+        "FR",
+        "DE",
+        "EL",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LX",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SL",
+        "ES",
+        "SV"
+    ],
+    "currenciesNoDecimal": [
+        "CNY",
+        "HKD",
+        "HUF",
+        "IDR",
+        "ISK",
+        "JPY",
+        "KRW",
+        "MYR",
+        "NOK",
+        "RUB",
+        "SEK",
+        "TWD",
+        "VND"
+    ],
+    "landingPageIconsDark": [
+        "europcar",
+        "avis",
+        "hertz",
+        "alamo",
+        "budget"
+    ],
+    "covidInsuranceMessageURL": "https://allianztravel-info.com",
+    "saleTermsAndConditionsURL": "https://cars.cartrawler.com/book/${x}/terms-sale",
+    "enableMap": "true",
+    "enableZeroExcess": "true",
+    "enablePSD2WebForm": "false",
+    "enableQuickFilters": "true",
+    "enablePrePaidExtras": "false",
+    "enableZeroExcessUpSell": "true",
+    "enableCTCashSubtraction": "false",
+    "enableCovidInsuranceMessage": "true"
 }
