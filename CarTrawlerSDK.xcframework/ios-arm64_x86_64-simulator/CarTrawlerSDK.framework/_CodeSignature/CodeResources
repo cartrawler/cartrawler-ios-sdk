@@ -226,7 +226,7 @@
 		</data>
 		<key>CTPCI.html</key>
 		<data>
-		Pz/MCFpFIJLVKfZjZ8p4iP8wRjU=
+		27G1NBTgnSDbw0CIaRrjYHUv63Q=
 		</data>
 		<key>CTPayment.storyboardc/CTPaymentViewController.nib</key>
 		<data>
@@ -818,7 +818,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nsrAF63Wl2ByjnlhtkB3wiHXkqc=
+		oqrQFMWQOjrNF/XzJ2ch38Fn/7g=
 		</data>
 		<key>InsuranceCardView.nib</key>
 		<data>
@@ -843,6 +843,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		1pq3AHS5914D3MMqheYFpKi1qqc=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		5TnqGu88pBXNMe8Dg3rI8oDHp1I=
 		</data>
 		<key>PrivateHeaders/CTViewControllerProtocol.h</key>
 		<data>
@@ -1445,7 +1449,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IAHCtF4gFP9ejTLKLGNZcOJZXAFO5r6oK3pTKTo6SMo=
+			rI70XDwG5ZAlqkjrVkKslAv6SuCSoqEOorb+ZBlGqcQ=
 			</data>
 		</dict>
 		<key>CTPayment.storyboardc/CTPaymentViewController.nib</key>
@@ -2517,6 +2521,13 @@
 			<key>hash2</key>
 			<data>
 			hEpgn9rd3XPlf1aixF0PZEOqbg/k2MMTZu4lCZnqyYo=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g/FVcXpIVTFqK5mUzqkS4M17K6g8I7n5lwnhRG88hNo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/CTViewControllerProtocol.h</key>

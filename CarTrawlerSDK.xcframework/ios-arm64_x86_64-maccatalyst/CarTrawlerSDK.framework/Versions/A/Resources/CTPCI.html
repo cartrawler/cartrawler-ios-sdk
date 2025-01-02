@@ -18,7 +18,7 @@
     var jsonResponse = "NoResponse";
     var iFrameLoaded = false;
     
-    setTimeout(checkTimeout, 30000)
+    setTimeout(checkTimeout, 15000)
     function checkTimeout() {
       if (!iFrameLoaded) {
           window.webkit.messageHandlers.CTWebView.postMessage({"errorLoading" : true} , "*");
@@ -32,37 +32,42 @@
               var paymentFormMsg;
               try {
                     paymentFormMsg = JSON.parse(e.data);
-                    window.webkit.messageHandlers.CTWebView.postMessage({"paymentFormMsg" : paymentFormMsg} , "*");
-                    switch(paymentFormMsg.action) {
-                        case "onLoad":
-                          window.webkit.messageHandlers.CTWebView.postMessage({"onLoad" : true} , "*");
-                          break;
-                        case "sendMessage":
-                          currentState = "SendingPayment";
-                          window.webkit.messageHandlers.CTWebView.postMessage({"backButtonEnabled" : false} , "*");
-                          break;
-                        case "sendError":
-                          currentState = "PaymentError";
-                          break;
-                        case "validation":
-                          currentState = "ValidationError";
-                          window.webkit.messageHandlers.CTWebView.postMessage({"backButtonEnabled" : true} , "*");
-                          break;
-                        case "onError":
-                          currentState = "PaymentError";
-                          break;
-                        case "sendAuth":
-                          currentState = "SendAuthentication";
-                          break;
-                        case "startSCA":
-                          currentState = "StartedSCA";
-                          break;
-                        case "stopSCA":
-                          currentState = "StoppedSCA";
-                          break;
+                    if (paymentFormMsg.action !== undefined) {
+                        window.webkit.messageHandlers.CTWebView.postMessage({"paymentFormMsg" : paymentFormMsg} , "*");
+                        
+                        switch(paymentFormMsg.action) {
+                            case "onLoad":
+                              window.webkit.messageHandlers.CTWebView.postMessage({"onLoad" : true} , "*");
+                              break;
+                            case "sendMessage":
+                              currentState = "SendingPayment";
+                              window.webkit.messageHandlers.CTWebView.postMessage({"backButtonEnabled" : false} , "*");
+                              break;
+                            case "sendError":
+                              currentState = "PaymentError";
+                              break;
+                            case "validation":
+                              currentState = "ValidationError";
+                              window.webkit.messageHandlers.CTWebView.postMessage({"backButtonEnabled" : true} , "*");
+                              break;
+                            case "onError":
+                              currentState = "PaymentError";
+                              break;
+                            case "sendAuth":
+                              currentState = "SendAuthentication";
+                              break;
+                            case "startSCA":
+                              currentState = "StartedSCA";
+                              break;
+                            case "stopSCA":
+                              currentState = "StoppedSCA";
+                              break;
+                        }
+                                  
+                        window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState} , "*");
+                    } else {
+                        window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)});
                     }
-                              
-                    window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState} , "*");
               } catch(ex) {
                     window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)});
               }
