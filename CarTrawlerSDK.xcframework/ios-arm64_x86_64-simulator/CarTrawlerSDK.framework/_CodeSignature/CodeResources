@@ -12,6 +12,18 @@
 		<data>
 		2wuDjYeS8z5n7hNH6JI7kuDecz8=
 		</data>
+		<key>CTAddBooking.storyboardc/CTAddBookingViewController.nib</key>
+		<data>
+		n1QFhd8WsuFc3ihn8+2vMfGyp0Y=
+		</data>
+		<key>CTAddBooking.storyboardc/Info.plist</key>
+		<data>
+		lSdUsP+bF1ybhg3b3Py8svks+0M=
+		</data>
+		<key>CTAddBooking.storyboardc/x1f-5W-Szp-view-mma-JI-rys.nib</key>
+		<data>
+		H8ciM4158Pzqp2XoDdhBPOne310=
+		</data>
 		<key>CTAlert.storyboardc/1rC-I4-QJR-view-F0k-fa-JR4.nib</key>
 		<data>
 		vA++adXZinwDXhcVpMTUckVKhns=
@@ -58,7 +70,7 @@
 		</data>
 		<key>CTBookingCardView.nib</key>
 		<data>
-		wqzV2mkLwOxJjZiY1gu73bcAO78=
+		CH8ntnS8U8YK2BrK0/abH/pQS4M=
 		</data>
 		<key>CTBookingDetailsCell.nib</key>
 		<data>
@@ -346,7 +358,7 @@
 		</data>
 		<key>CTSearch.storyboardc/IOV-zr-TQV-view-1A5-8y-0MM.nib</key>
 		<data>
-		65slAOp9MY77eJmYVKO2JlCI4Kw=
+		8Js+UdtIyNQ3u5Rt5LX63wklltM=
 		</data>
 		<key>CTSearch.storyboardc/Info.plist</key>
 		<data>
@@ -358,7 +370,7 @@
 		</data>
 		<key>CTSearchBookingsView.nib</key>
 		<data>
-		fB3nhUILPNbyknYBwnuv+vbIy9I=
+		fKwf758DLS2lK9VyRAyCcWzb08w=
 		</data>
 		<key>CTSearchCalendar.storyboardc/CTSearchCalendarViewController.nib/objects-12.3+.nib</key>
 		<data>
@@ -694,7 +706,7 @@
 		</data>
 		<key>Headers/CTContext.h</key>
 		<data>
-		CwbWKMnmfOmngyJgDFIDZr3KX1s=
+		yI7eFIozMQ9Wohk6s12uwD7DoSM=
 		</data>
 		<key>Headers/CTCustomer.h</key>
 		<data>
@@ -818,7 +830,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oqrQFMWQOjrNF/XzJ2ch38Fn/7g=
+		RR7eJ4CtY8tAV4iN5I75aLTxRiM=
 		</data>
 		<key>InsuranceCardView.nib</key>
 		<data>
@@ -920,7 +932,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c+vpSm8bBGfBKqoWtUxR5C6tCiE=
+			9Hwdefo/XAJFmo7QlrNAdq5NCCQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1074,6 +1086,27 @@
 			B3rRxQ5kRmPWTaT9mMT+CrwmU1pAqpQGEb65WmI3iQc=
 			</data>
 		</dict>
+		<key>CTAddBooking.storyboardc/CTAddBookingViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v+Ci+MtsNJLUoKUApqtosXtt8AqYPTT6s/tizx4q620=
+			</data>
+		</dict>
+		<key>CTAddBooking.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1lmTYaTTerZPo+Ug3Pz4lyAQkSx8EN6Zho8m3VUBfos=
+			</data>
+		</dict>
+		<key>CTAddBooking.storyboardc/x1f-5W-Szp-view-mma-JI-rys.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/Rs12TtP7u40x6Kwgzz+J0/7Q/pxL+B7g0wgKpGmokY=
+			</data>
+		</dict>
 		<key>CTAlert.storyboardc/1rC-I4-QJR-view-F0k-fa-JR4.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -1155,7 +1188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jR0uPw/AnWEGwpy87s98Yc3c86JiEGqO6gh8wMA/U68=
+			jTq6jV734hKvqUEnhoTuRfrXMCkdy0wVPOP3tbVZmlc=
 			</data>
 		</dict>
 		<key>CTBookingDetailsCell.nib</key>
@@ -1659,7 +1692,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N6ohtKfkwV5V9OD76Nur6pXxdyGYaIjYxNwu9zfwFew=
+			ZV/cxbESNfl/GGMsEkm4Aq15NxAqA+wVYdqTShWVcS0=
 			</data>
 		</dict>
 		<key>CTSearch.storyboardc/Info.plist</key>
@@ -1680,7 +1713,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1knGHcWU9PJA+CNiMmjIueUnziFECrBugsbd6d98ldU=
+			I35ZI+At4Szqdap+iV10p0pv8RutK7BysztaiT8SNpE=
 			</data>
 		</dict>
 		<key>CTSearchCalendar.storyboardc/CTSearchCalendarViewController.nib/objects-12.3+.nib</key>
@@ -2268,7 +2301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yqJ7AGwqa5aNlvfSK0PmyKMY5XBwxSN7r5Mzp+PcCY8=
+			Kn79THy8M+Xxll5F+Q97acjQTcUiDRUIK3xIc7Ufj8s=
 			</data>
 		</dict>
 		<key>Headers/CTCustomer.h</key>
@@ -2653,7 +2686,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FuJMCmLQvKavX+WX4FslJO5+1q4ZXNO93U8TROkVNbk=
+			vJ5kY3tCr89V8ur+025NJA5rzzcmNAwQdkc3M5JQefI=
 			</data>
 			<key>optional</key>
 			<true/>

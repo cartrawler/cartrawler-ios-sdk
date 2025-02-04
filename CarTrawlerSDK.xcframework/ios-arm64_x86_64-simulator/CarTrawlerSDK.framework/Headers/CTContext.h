@@ -20,8 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSUInteger, CTURLDeeplinkType) {
     CTURLDeeplinkTypeNone,
     CTURLDeeplinkTypeLanding,
-    CTURLDeeplinkTypeSearchForm,
     CTURLDeeplinkTypeSearchResults,
+    CTURLDeeplinkTypeBookingDetails,
 };
 
 typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
@@ -58,6 +58,8 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic) CTSettingsIconType settingsIconType;
 @property (nonatomic) CTFlightDetails *flightDetails;
 @property (nonatomic) CTUTMParameters *utmParameters;
+@property (nonatomic) NSString *bookingEmail;
+@property (nonatomic) NSString *bookingID;
 
 - (instancetype)init __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
