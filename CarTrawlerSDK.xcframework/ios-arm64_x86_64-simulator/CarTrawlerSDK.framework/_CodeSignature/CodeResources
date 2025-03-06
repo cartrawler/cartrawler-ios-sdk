@@ -68,9 +68,13 @@
 		<data>
 		ILVq6whF286fD8VUbqqvqyuH6M4=
 		</data>
-		<key>CTBookingCardView.nib</key>
+		<key>CTBookingCardView.nib/objects-14.0+.nib</key>
 		<data>
-		CH8ntnS8U8YK2BrK0/abH/pQS4M=
+		V0oxdgHAs0tEYe+WVzRz84gwAGI=
+		</data>
+		<key>CTBookingCardView.nib/runtime.nib</key>
+		<data>
+		V0oxdgHAs0tEYe+WVzRz84gwAGI=
 		</data>
 		<key>CTBookingDetailsCell.nib</key>
 		<data>
@@ -258,7 +262,7 @@
 		</data>
 		<key>CTPaymentConfirmation.storyboardc/Gdk-hy-16T-view-92v-tt-fkB.nib</key>
 		<data>
-		LpYJbCh74GtHPlKOdLC+OMqj3q8=
+		wuP4Gpdr7fmAfhGjqh97GUHuY+Q=
 		</data>
 		<key>CTPaymentConfirmation.storyboardc/Info.plist</key>
 		<data>
@@ -270,7 +274,7 @@
 		</data>
 		<key>CTPaymentConfirmation.storyboardc/gV7-Cg-gwI-view-YTu-Ae-W2g.nib</key>
 		<data>
-		DUROdjtilSNDVW4VZ7WDYYf2aEM=
+		Tk5Rqf9e1n1MYjbfJYlRus7zks4=
 		</data>
 		<key>CTPaymentOptionsView.nib</key>
 		<data>
@@ -830,7 +834,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RR7eJ4CtY8tAV4iN5I75aLTxRiM=
+		z70oewJ9ZjWvq37G/HmKEheuWiU=
 		</data>
 		<key>InsuranceCardView.nib</key>
 		<data>
@@ -1184,11 +1188,18 @@
 			SKTI9GLjiX40I0JoQjtRsv8vk6YqBv72ztgJMe4dH6Y=
 			</data>
 		</dict>
-		<key>CTBookingCardView.nib</key>
+		<key>CTBookingCardView.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jTq6jV734hKvqUEnhoTuRfrXMCkdy0wVPOP3tbVZmlc=
+			M4jfmF7eFcQVx1XvMBbphyhjmt/aNcO9wMkoJbO2hQM=
+			</data>
+		</dict>
+		<key>CTBookingCardView.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M4jfmF7eFcQVx1XvMBbphyhjmt/aNcO9wMkoJbO2hQM=
 			</data>
 		</dict>
 		<key>CTBookingDetailsCell.nib</key>
@@ -1517,7 +1528,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GfSXtR3FfqmAyOkZcIrJMI0+pxaqieoNPwAneUWCvdE=
+			PmpdIxYWIL7ywNYnUAqa0aJtHCkWm04DmzcxB9ilJE4=
 			</data>
 		</dict>
 		<key>CTPaymentConfirmation.storyboardc/Info.plist</key>
@@ -1538,7 +1549,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3TBnQ/yHku5UDvS2MmJhmO8snsbLDadUFPVhpQfq2dc=
+			RguK9dfM5V+Qx/2SK7AQ4Cfx5xl2WWWCL00i42yUTYw=
 			</data>
 		</dict>
 		<key>CTPaymentOptionsView.nib</key>
