@@ -64,12 +64,12 @@
                               break;
                         }
                                   
-                        window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState} , "*");
+                        window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState}, "*");
                     } else {
-                        window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)});
+                        window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)}, "*");
                     }
               } catch(ex) {
-                    window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)});
+                    window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)}, "*");
               }
           });
       });
