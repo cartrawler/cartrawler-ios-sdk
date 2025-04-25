@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/uxui/Library/Developer/Xcode/DerivedData/GenericiOS-dqmvuksjgitozxfwjbpmmxwmmfmm/Build/Intermediates.noindex/ArchiveIntermediates/CarTrawlerSDK/InstallationBuildProductsLocation/Library/Frameworks/CarTrawlerSDK.framework/CarTrawlerSDK'
+binary-path:     '/Users/uxui/Library/Developer/Xcode/DerivedData/GenericiOS-fwninzoiclhsoefqzgywsehwclcf/Build/Intermediates.noindex/ArchiveIntermediates/CarTrawlerSDK/InstallationBuildProductsLocation/Library/Frameworks/CarTrawlerSDK.framework/CarTrawlerSDK'
 relocations:
   - { offset: 0x635AA, size: 0x8, addend: 0x0, symName: _CarTrawlerSDKVersionString, symObjAddr: 0x0, symBinAddr: 0x1D6A40, symSize: 0x0 }
   - { offset: 0x635DF, size: 0x8, addend: 0x0, symName: _CarTrawlerSDKVersionNumber, symObjAddr: 0x38, symBinAddr: 0x1D6A78, symSize: 0x0 }
@@ -5015,7 +5015,7 @@ relocations:
   - { offset: 0x174DDA, size: 0x8, addend: 0x0, symName: '-[CTBooking insuranceErrorMessage]', symObjAddr: 0x5BF0, symBinAddr: 0xBCCC8, symSize: 0x8 }
   - { offset: 0x174E12, size: 0x8, addend: 0x0, symName: '-[CTBooking exchangeRateDisplayToCharge]', symObjAddr: 0x5BF8, symBinAddr: 0xBCCD0, symSize: 0x8 }
   - { offset: 0x174E4A, size: 0x8, addend: 0x0, symName: '-[CTBooking exchangeRateCarAgentToDisplay]', symObjAddr: 0x5C00, symBinAddr: 0xBCCD8, symSize: 0x8 }
-  - { offset: 0x174E82, size: 0x8, addend: 0x0, symName: '-[CTBooking pickUpDateTimePassed]', symObjAddr: 0x5C08, symBinAddr: 0xBCCE0, symSize: 0x8 }
+  - { offset: 0x174E82, size: 0x8, addend: 0x0, symName: '-[CTBooking returnDateTimePassed]', symObjAddr: 0x5C08, symBinAddr: 0xBCCE0, symSize: 0x8 }
   - { offset: 0x174EBA, size: 0x8, addend: 0x0, symName: '-[CTBooking .cxx_destruct]', symObjAddr: 0x5C10, symBinAddr: 0xBCCE8, symSize: 0x42C }
   - { offset: 0x176AF7, size: 0x8, addend: 0x0, symName: '+[CTInsuranceStyle styleWithPrimaryColor:primaryDarkColor:ctaColor:ctaFontColor:]', symObjAddr: 0x0, symBinAddr: 0xBD114, symSize: 0xB0 }
   - { offset: 0x176B83, size: 0x8, addend: 0x0, symName: '+[CTInsuranceStyle styleWithPrimaryColor:primaryDarkColor:ctaColor:ctaFontColor:]', symObjAddr: 0x0, symBinAddr: 0xBD114, symSize: 0xB0 }
@@ -9984,8 +9984,8 @@ relocations:
   - { offset: 0x267E48, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking initWithCoder:]', symObjAddr: 0x0, symBinAddr: 0x14850C, symSize: 0x9B0 }
   - { offset: 0x267E8F, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking encodeWithCoder:]', symObjAddr: 0x9B0, symBinAddr: 0x148EBC, symSize: 0xB78 }
   - { offset: 0x267ED2, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking copyWithZone:]', symObjAddr: 0x1528, symBinAddr: 0x149A34, symSize: 0xD60 }
-  - { offset: 0x267F29, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking initWithBookingID:status:paymentStatus:clientID:resUid:pickupLocation:dropoffLocation:pickupDate:dropoffDate:driverName:driverEmail:driverPhoneNumber:insuranceIncluded:vehicleName:orSimilar:seats:fuelType:fuelPolicy:mileagePolicy:location:locationIcon:doors:transmission:hasAirConditioning:vehicleURL:vendorURL:carRentalAmount:carRentalAmountCurrency:paidAmount:paidAmountCurrency:dueAtPickupAmount:dueAtPickupAmountCurrency:carRentalPercentageDiscount:carRentalAmountBeforeDiscount:carRentalDiscountAmount:insuranceAmount:insuranceCompany:insuranceTaxInfo:insuranceCurrency:totalAmount:fees:addedInsurance:addedExtras:vehicleCharges:isZeroExcessBundle:zeroExcessAddOnPrice:loyaltyIconURL:primaryLoyaltyIconURL:loyaltyPointsEarned:carTrawlerCash:specialOffers:portalURL:voucherURL:ppdPaymentDate:outstandingBalance:outstandingBalanceCurrency:pickUpDateTimePassed:exchangeRateDisplayToCharge:exchangeRateCarAgentToDisplay:]', symObjAddr: 0x2288, symBinAddr: 0x14A794, symSize: 0x9CC }
-  - { offset: 0x268340, size: 0x8, addend: 0x0, symName: '+[CTRentalBooking bookingStatusFromString:paymentStatus:pickUpDateTimePassed:]', symObjAddr: 0x2C54, symBinAddr: 0x14B160, symSize: 0x118 }
+  - { offset: 0x267F29, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking initWithBookingID:status:paymentStatus:clientID:resUid:pickupLocation:dropoffLocation:pickupDate:dropoffDate:driverName:driverEmail:driverPhoneNumber:insuranceIncluded:vehicleName:orSimilar:seats:fuelType:fuelPolicy:mileagePolicy:location:locationIcon:doors:transmission:hasAirConditioning:vehicleURL:vendorURL:carRentalAmount:carRentalAmountCurrency:paidAmount:paidAmountCurrency:dueAtPickupAmount:dueAtPickupAmountCurrency:carRentalPercentageDiscount:carRentalAmountBeforeDiscount:carRentalDiscountAmount:insuranceAmount:insuranceCompany:insuranceTaxInfo:insuranceCurrency:totalAmount:fees:addedInsurance:addedExtras:vehicleCharges:isZeroExcessBundle:zeroExcessAddOnPrice:loyaltyIconURL:primaryLoyaltyIconURL:loyaltyPointsEarned:carTrawlerCash:specialOffers:portalURL:voucherURL:ppdPaymentDate:outstandingBalance:outstandingBalanceCurrency:returnDateTimePassed:exchangeRateDisplayToCharge:exchangeRateCarAgentToDisplay:]', symObjAddr: 0x2288, symBinAddr: 0x14A794, symSize: 0x9CC }
+  - { offset: 0x268340, size: 0x8, addend: 0x0, symName: '+[CTRentalBooking bookingStatusFromString:paymentStatus:returnDateTimePassed:]', symObjAddr: 0x2C54, symBinAddr: 0x14B160, symSize: 0x118 }
   - { offset: 0x2683A7, size: 0x8, addend: 0x0, symName: '+[CTRentalBooking bookingStatusStringFromCTBookingStatus:]', symObjAddr: 0x2D6C, symBinAddr: 0x14B278, symSize: 0x28 }
   - { offset: 0x2683EA, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking payAtDeskVehicleCharges]', symObjAddr: 0x2D94, symBinAddr: 0x14B2A0, symSize: 0xB0 }
   - { offset: 0x268422, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking isEqual:]', symObjAddr: 0x2E44, symBinAddr: 0x14B350, symSize: 0xF0 }
@@ -10110,8 +10110,8 @@ relocations:
   - { offset: 0x269FFA, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking setOutstandingBalance:]', symObjAddr: 0x3514, symBinAddr: 0x14BA20, symSize: 0xC }
   - { offset: 0x26A03B, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking outstandingBalanceCurrency]', symObjAddr: 0x3520, symBinAddr: 0x14BA2C, symSize: 0x8 }
   - { offset: 0x26A072, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking setOutstandingBalanceCurrency:]', symObjAddr: 0x3528, symBinAddr: 0x14BA34, symSize: 0xC }
-  - { offset: 0x26A0B3, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking pickUpDateTimePassed]', symObjAddr: 0x3534, symBinAddr: 0x14BA40, symSize: 0x8 }
-  - { offset: 0x26A0EA, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking setPickUpDateTimePassed:]', symObjAddr: 0x353C, symBinAddr: 0x14BA48, symSize: 0x8 }
+  - { offset: 0x26A0B3, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking returnDateTimePassed]', symObjAddr: 0x3534, symBinAddr: 0x14BA40, symSize: 0x8 }
+  - { offset: 0x26A0EA, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking setReturnDateTimePassed:]', symObjAddr: 0x353C, symBinAddr: 0x14BA48, symSize: 0x8 }
   - { offset: 0x26A125, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking isHidden]', symObjAddr: 0x3544, symBinAddr: 0x14BA50, symSize: 0x8 }
   - { offset: 0x26A15C, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking setIsHidden:]', symObjAddr: 0x354C, symBinAddr: 0x14BA58, symSize: 0x8 }
   - { offset: 0x26A197, size: 0x8, addend: 0x0, symName: '-[CTRentalBooking isRecentlyAdded]', symObjAddr: 0x3554, symBinAddr: 0x14BA60, symSize: 0x8 }
