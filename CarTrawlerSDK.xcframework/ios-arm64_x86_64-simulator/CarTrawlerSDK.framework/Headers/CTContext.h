@@ -12,6 +12,7 @@
 #import "CTRecentSearch.h"
 #import "CTFlightDetails.h"
 #import "CTUTMParameters.h"
+#import <CoreLocation/CLLocation.h>
 
 @class CTPassenger;
 
@@ -60,6 +61,8 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic) CTUTMParameters *utmParameters;
 @property (nonatomic) NSString *bookingEmail;
 @property (nonatomic) NSString *bookingID;
+@property (nonatomic) CLLocationCoordinate2D pickupLocationCoordinate;
+@property (nonatomic) CLLocationCoordinate2D dropoffLocationCoordinate;
 
 - (instancetype)init __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
 - (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));

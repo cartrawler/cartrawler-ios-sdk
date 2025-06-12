@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CartrawlerSDK/CarTrawlerSDKDelegate.h>
+#import <CoreLocation/CLLocation.h>
 
 @class CTPassenger;
 
@@ -36,6 +37,8 @@ typedef NS_ENUM(NSUInteger, CTSortType) {
 @property (nonatomic) NSUInteger numberOfVehicles;
 @property (nonatomic, strong) NSString *resId;
 @property (nonatomic, strong) NSString *resUid;
+@property (nonatomic) CLLocationCoordinate2D pickupLocationCoordinate;
+@property (nonatomic) CLLocationCoordinate2D dropoffLocationCoordinate;
 
 + (nonnull instancetype)bestDailyRateWithDelegate:(nonnull id <CarTrawlerSDKDelegate>)delegate
                                          clientID:(nonnull NSString *)clientID
