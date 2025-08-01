@@ -48,7 +48,7 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic, strong) NSString *pickupLocationID;
 @property (nonatomic, strong) NSString *dropOffLocationID;
 @property (nonatomic, strong) NSString *pinnedVehicleID;
-@property (nonatomic, strong) CTPassenger *passenger;
+@property (nonatomic, strong) NSArray<CTPassenger *>* passengers;
 @property (nonatomic, strong) NSString *loyaltyRegex;
 @property (nonatomic, strong, nullable) NSString *clientUserIdentifier;
 @property (nonatomic) BOOL customCashTreatment;
@@ -65,6 +65,7 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic) CLLocationCoordinate2D dropoffLocationCoordinate;
 
 - (instancetype)init __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
+- (nonnull instancetype)initWithClientID:(nonnull NSString *)clientID flow:(CTFlowType)flowType __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
 - (nonnull instancetype)initWithImplementationID:(nonnull NSString *)implementationID
                                         clientID:(nonnull NSString *)clientID
                                             flow:(CTFlowType)flowType;
