@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger, CTSortType) {
 @property (nonatomic, strong) NSString *IATACodeDropoff;
 @property (nonatomic, strong) NSString *pickupLocationID;
 @property (nonatomic, strong) NSString *dropOffLocationID;
-@property (nonatomic, strong) CTPassenger *passenger;
+@property (nonatomic, strong) NSArray<CTPassenger *>* passengers;
 @property (nonatomic) CTSortType sortType;
 @property (nonatomic) NSUInteger numberOfVehicles;
 @property (nonatomic, strong) NSString *resId;
@@ -50,7 +50,7 @@ typedef NS_ENUM(NSUInteger, CTSortType) {
                                          IATACode:(nullable NSString *)IATACode
                                  pickupLocationID:(nullable NSString *)pickupLocationID
                                 dropOffLocationID:(nullable NSString *)dropOffLocationID
-                                        passenger:(nullable CTPassenger *)passenger;
+                                       passengers:(nullable NSArray<CTPassenger *> *)passengers;
 
 @end
 
