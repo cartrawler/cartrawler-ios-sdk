@@ -18,21 +18,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTReservationDetails : NSObject
 
-@property (nonatomic, nonnull, readonly) NSString *clientID;
-@property (nonatomic, nonnull, readonly) NSString *status;
-@property (nonatomic, nonnull, readonly) NSString *paymentStatus;
-@property (nonatomic, nonnull, readonly) NSString *givenName;
-@property (nonatomic, nonnull, readonly) NSString *surname;
-@property (nonatomic, nonnull, readonly) NSString *email;
-@property (nonatomic, nonnull, readonly) NSString *resId;
-@property (nonatomic, nonnull, readonly) NSString *resUid;
-@property (nonatomic, nonnull, readonly) NSDate *pickUpDateTime;
-@property (nonatomic, nonnull, readonly) NSDate *returnDateTime;
-@property (nonatomic, nonnull, readonly) CTLocationDetails *pickUpLocation;
-@property (nonatomic, nonnull, readonly) CTLocationDetails *returnLocation;
+@property (nonatomic, readonly) NSString *clientID;
+@property (nonatomic, readonly) NSString *status;
+@property (nonatomic, readonly) NSString *paymentStatus;
+@property (nonatomic, readonly) NSString *givenName;
+@property (nonatomic, readonly) NSString *surname;
+@property (nonatomic, readonly) NSString *email;
+@property (nonatomic, readonly) NSString *resId;
+@property (nonatomic, readonly) NSString *resUid;
+@property (nonatomic, readonly) NSDate *pickUpDateTime;
+@property (nonatomic, readonly) NSDate *returnDateTime;
+@property (nonatomic, readonly) CTLocationDetails *pickUpLocation;
+@property (nonatomic, readonly) CTLocationDetails *returnLocation;
 @property (nonatomic, nullable, readonly) CTInsuranceDetails *insurance;
-@property (nonatomic, nonnull, readonly) CTRentalInfo *rentalInfo;
-@property (nonatomic, nonnull, readonly) CTVehicleDetails *vehicleDetails;
+@property (nonatomic, readonly) CTRentalInfo *rentalInfo;
+@property (nonatomic, readonly) CTVehicleDetails *vehicleDetails;
 @property (nonatomic, nullable, readonly) CTLoyalty *loyalty;
 @property (nonatomic, nullable, readonly) NSArray <CTSupplierBenefitDetails *> *supplierBenefits;
 
