@@ -12,27 +12,27 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CTRecentSearch : NSObject
 
-@property (nonatomic, strong, readonly) NSString *pickupLocationName;
-@property (nonatomic, strong, readonly) NSString *pickupCountryCode;
-@property (nonatomic, strong, readonly) NSString *pickupAddressLine;
-@property (nonatomic, strong, readonly) NSString *pickupLatitude;
-@property (nonatomic, strong, readonly) NSString *pickupLongitude;
-@property (nonatomic, strong, readonly) NSString *pickupCityName;
+@property (nonatomic, readonly) NSString *pickupLocationName;
+@property (nonatomic, readonly) NSString *pickupCountryCode;
+@property (nonatomic, readonly) NSString *pickupAddressLine;
+@property (nonatomic, readonly) NSString *pickupLatitude;
+@property (nonatomic, readonly) NSString *pickupLongitude;
+@property (nonatomic, readonly) NSString *pickupCityName;
 
-@property (nonatomic, strong, readonly) NSDate *pickupDate;
-@property (nonatomic, strong, readonly) NSDate *pickupTime;
-@property (nonatomic, strong, readonly) NSDate *derivedPickupDate;
+@property (nonatomic, readonly) NSDate *pickupDate;
+@property (nonatomic, readonly) NSDate *pickupTime;
+@property (nonatomic, readonly) NSDate *derivedPickupDate;
 
-@property (nonatomic, strong, readonly) NSString *dropoffLocationName;
-@property (nonatomic, strong, readonly) NSString *dropoffCountryCode;
-@property (nonatomic, strong, readonly) NSString *dropoffAddressLine;
-@property (nonatomic, strong, readonly) NSString *dropoffLatitude;
-@property (nonatomic, strong, readonly) NSString *dropoffLongitude;
-@property (nonatomic, strong, readonly) NSString *dropoffCityName;
+@property (nonatomic, readonly) NSString *dropoffLocationName;
+@property (nonatomic, readonly) NSString *dropoffCountryCode;
+@property (nonatomic, readonly) NSString *dropoffAddressLine;
+@property (nonatomic, readonly) NSString *dropoffLatitude;
+@property (nonatomic, readonly) NSString *dropoffLongitude;
+@property (nonatomic, readonly) NSString *dropoffCityName;
 
-@property (nonatomic, strong, readonly) NSDate *dropoffDate;
-@property (nonatomic, strong, readonly) NSDate *dropoffTime;
-@property (nonatomic, strong, readonly) NSDate *derivedDropoffDate;
+@property (nonatomic, readonly) NSDate *dropoffDate;
+@property (nonatomic, readonly) NSDate *dropoffTime;
+@property (nonatomic, readonly) NSDate *derivedDropoffDate;
 
 @property (nonatomic, assign, readonly) BOOL isAtAirport;
 

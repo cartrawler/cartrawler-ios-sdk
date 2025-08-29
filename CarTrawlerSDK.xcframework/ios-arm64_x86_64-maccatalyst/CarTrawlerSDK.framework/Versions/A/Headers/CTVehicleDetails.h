@@ -11,46 +11,48 @@
 #import "CTCashDetails.h"
 #import "CTSpecialOfferDetails.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface CTVehicleDetails : NSObject
 
 // OTA
-@property (nonatomic, readonly, nonnull) NSString *referenceId;
-@property (nonatomic, readonly, nullable) NSString *name;
+@property (nonatomic, readonly) NSString *referenceId;
+@property (nonatomic, readonly) NSString *name;
 @property (nonatomic, readonly, nullable) NSString *orSimilar;
-@property (nonatomic, readonly, nullable) NSString *code;
-@property (nonatomic, readonly, nullable) NSString *vehicleAssetNumber;
-@property (nonatomic, readonly, nullable) NSURL *pictureURL;
+@property (nonatomic, readonly) NSString *code;
+@property (nonatomic, readonly) NSString *vehicleAssetNumber;
+@property (nonatomic, readonly) NSURL *pictureURL;
 @property (nonatomic, readonly) NSInteger passengerQuantity;
 @property (nonatomic, readonly) NSInteger doorCount;
 @property (nonatomic, readonly) NSInteger baggageQuantity;
-@property (nonatomic, readonly, nullable) NSString *fuelType;
-@property (nonatomic, readonly, nullable) NSString *driveType;
+@property (nonatomic, readonly) NSString *fuelType;
+@property (nonatomic, readonly) NSString *driveType;
 @property (nonatomic, readonly) BOOL airConditionInd;
-@property (nonatomic, readonly, nullable) NSString *transmissionType;
-@property (nonatomic, readonly, nullable) NSString *size;
-@property (nonatomic, readonly, nullable) NSString *categoryText;
+@property (nonatomic, readonly) NSString *transmissionType;
+@property (nonatomic, readonly) NSString *size;
+@property (nonatomic, readonly) NSString *categoryText;
 @property (nonatomic, readonly) BOOL isPreferredSupplier;
 
 // Supplier
-@property (nonatomic, readonly, nullable) NSString *supplier;
-@property (nonatomic, readonly, nullable) NSNumber *supplierRating;
-@property (nonatomic, readonly, nullable) NSURL *supplierImageURL;
-@property (nonatomic, readonly, nullable) NSString *preferredSupplierText;
+@property (nonatomic, readonly) NSString *supplier;
+@property (nonatomic, readonly) NSNumber *supplierRating;
+@property (nonatomic, readonly) NSURL *supplierImageURL;
+@property (nonatomic, readonly) NSString *preferredSupplierText;
 @property (nonatomic, readonly, nullable) UIColor *preferredSupplierTextColor;
 @property (nonatomic, readonly, nullable) UIColor *preferredSupplierBorderColor;
-@property (nonatomic, readonly, nullable) NSURL *preferredSupplierLogoURL;
+@property (nonatomic, readonly) NSURL *preferredSupplierLogoURL;
 
 // Widget localization
-@property (nonatomic, readonly, nullable) NSString *passengersText;
-@property (nonatomic, readonly, nullable) NSString *baggageText;
-@property (nonatomic, readonly, nullable) NSString *doorsCountText;
-@property (nonatomic, readonly, nullable) NSString *transmissionText;
-@property (nonatomic, readonly, nullable) NSString *sizeText;
+@property (nonatomic, readonly) NSString *passengersText;
+@property (nonatomic, readonly) NSString *baggageText;
+@property (nonatomic, readonly) NSString *doorsCountText;
+@property (nonatomic, readonly) NSString *transmissionText;
+@property (nonatomic, readonly) NSString *sizeText;
 
 // Price
-@property (nonatomic, readonly, nullable) NSNumber *price;
-@property (nonatomic, readonly, nullable) NSNumber *pricePerDay;
-@property (nonatomic, readonly, nullable) NSString *currencyCode;
+@property (nonatomic, readonly) NSNumber *price;
+@property (nonatomic, readonly) NSNumber *pricePerDay;
+@property (nonatomic, readonly) NSString *currencyCode;
 
 @property (nonatomic, readonly, nullable) CTCashDetails *ctCashDetails;
 @property (nonatomic, readonly, nullable) NSArray <CTSpecialOfferDetails *> *specialOffers;
@@ -58,3 +60,4 @@
 
 @end
 
+NS_ASSUME_NONNULL_END
