@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nonnull instancetype)initWithAdults:(NSUInteger)adults teens:(NSUInteger)teens children:(NSUInteger)children infants:(NSUInteger)infants;
 - (NSDictionary *)toDictionary;
 - (NSNumber *)totalPax;
+- (NSString *)pax;
 
 @end
 
