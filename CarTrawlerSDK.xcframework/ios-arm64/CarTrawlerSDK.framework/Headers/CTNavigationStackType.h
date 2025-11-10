@@ -11,5 +11,6 @@ typedef NS_ENUM(NSUInteger, CTNavigationStep) {
     CTNavigationStepViewVoucher,
     CTNavigationStepPaymentConfirmation,
     CTNavigationStepWebVehicleList,
+    CTNavigationStepWebInPathFlow,
     CTNavigationStepProcessingBooking,
 };

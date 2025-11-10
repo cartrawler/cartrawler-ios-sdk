@@ -54,6 +54,24 @@ static NSString * _Nonnull const CTPlaceholderPassengerCountryCode = @"[COUNTRYN
 @optional
 
 /**
+ Called a vehicle a booking is made through web flow
+ 
+ @param bookingID  Booking ID
+ @param email Booking email
+ @param resUid Booking resUid
+ */
+- (void)didReceiveBookingID:(nonnull NSString *)bookingID
+                      email:(nonnull NSString *)email
+                     resUid:(nonnull NSString *)resUid;
+
+/**
+ Called when the grid view pre warm has finished
+ 
+ @param dictionary The payload details
+ */
+- (void)didFinishPrewarm:(nullable NSDictionary *)dictionary;
+
+/**
  Called when the user navigates
  
  @param navigationDetails The navigation details

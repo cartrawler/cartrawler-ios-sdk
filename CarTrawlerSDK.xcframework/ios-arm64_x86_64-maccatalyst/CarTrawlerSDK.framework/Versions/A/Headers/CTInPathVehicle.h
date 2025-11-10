@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class CTExtraEquipment;
 @class CTVehicleDetails;
 @class CTVehicleCharge;
@@ -15,27 +17,33 @@
 
 @interface CTInPathVehicle : NSObject
 
-@property (nonatomic, strong, readonly) NSString *firstName;
-@property (nonatomic, strong, readonly) NSString *lastName;
+@property (nonatomic, nullable, strong, readonly) NSString *firstName;
+@property (nonatomic, nullable, strong, readonly) NSString *lastName;
 @property (nonatomic, strong, readonly) NSString *vehicleName;
-@property (nonatomic, strong, readonly) NSString *vehicleOrSimilar;
+@property (nonatomic, nullable, strong, readonly) NSString *vehicleOrSimilar;
 @property (nonatomic, strong, readonly) NSString *vendorName;
 @property (nonatomic, strong, readonly) NSURL *vehicleImageURL;
-@property (nonatomic, strong, readonly) NSURL *vendorImageURL;
+@property (nonatomic, nullable, strong, readonly) NSURL *vendorImageURL;
 @property (nonatomic, strong, readonly) NSString *pickupLocationName;
 @property (nonatomic, strong, readonly) NSString *dropoffLocationName;
 @property (nonatomic, strong, readonly) NSDate *pickupDate;
 @property (nonatomic, strong, readonly) NSDate *dropoffDate;
-@property (nonatomic, strong, readonly) NSArray <CTExtraEquipment *> *extrasIncludedForFree;
-@property (nonatomic, strong, readonly) NSArray <CTExtraEquipment *> *extrasPayableNow;
-@property (nonatomic, strong, readonly) NSArray <CTExtraEquipment *> *extrasPayableAtDesk;
+@property (nonatomic, nullable, strong, readonly) NSArray <CTExtraEquipment *> *extrasIncludedForFree;
+@property (nonatomic, nullable, strong, readonly) NSArray <CTExtraEquipment *> *extrasPayableNow;
+@property (nonatomic, nullable, strong, readonly) NSArray <CTExtraEquipment *> *extrasPayableAtDesk;
 @property (nonatomic, readonly) BOOL isBuyingInsurance;
-@property (nonatomic, readonly) NSNumber *insuranceCost;
-@property (nonatomic, readonly) NSNumber *totalCost;
+@property (nonatomic, nullable, readonly) NSNumber *insuranceCost;
+@property (nonatomic, nullable, readonly) NSNumber *totalCost;
 @property (nonatomic, strong, readonly) NSString *refId;
-@property (nonatomic, strong, readonly) CTVehicleDetails *vehicleDetails;
-@property (nonatomic, strong, readonly) NSArray <CTVehicleCharge *> *vehicleCharges;
-@property (nonatomic, strong, readonly) CTLoyalty *loyalty;
+@property (nonatomic, nullable, strong, readonly) CTVehicleDetails *vehicleDetails;
+@property (nonatomic, nullable, strong, readonly) NSArray <CTVehicleCharge *> *vehicleCharges;
+@property (nonatomic, nullable, strong, readonly) CTLoyalty *loyalty;
+@property (nonatomic, nullable, strong, readonly) NSString *pickupDateString;
+@property (nonatomic, nullable, strong, readonly) NSString *dropoffDateString;
+@property (nonatomic, strong, readonly) NSString *language;
+@property (nonatomic, strong, readonly) NSString *currency;
+@property (nonatomic, strong, readonly) NSNumber *age;
+@property (nonatomic, strong, readonly) NSString *residency;
 
 /**
  *  The pay now price, this amount will be taken from the customers card at the time of booking. This price is made up from the deposit amount + insurance cost (if purchased)
@@ -53,5 +61,7 @@
  *  the booking fee for the rental
  */
 @property (nonatomic, readonly) NSNumber *bookingFeePrice;
+
+NS_ASSUME_NONNULL_END
 
 @end
