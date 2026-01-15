@@ -1,6 +1,180 @@
 {
   "partners": [
     {
+      "implementationID": "d23b8f3d-9a64-4700-b4cc-2ed7b3b2a0d5",
+      "name": "CarRentalChoice.com",
+      "domain": "carrentalchoice.com",
+      "tag": "carrentalchoice",
+      "clientIds": [],
+      "enableMap": "true",
+      "enableTracking": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true",
+      "enablePayPaliOS": "true",
+      "enableQuickFilters": "true",
+      "enablePayPalAndroid": "true",
+      "enableLocalNotification": "true"
+    },
+    {
+      "implementationID": "6c3a1f4b-0b92-4c48-9b61-f2e48c924d47",
+      "tag": "prime",
+      "name": "Travellink Prime",
+      "domain": "",
+      "clientIds": [
+        "314180",
+        "314197",
+        "315639",
+        "532783",
+        "505158",
+        "532766",
+        "505141",
+        "561921",
+        "320912",
+        "499990",
+        "500024",
+        "319008",
+        "318923",
+        "314690",
+        "314656",
+        "517993",
+        "518010",
+        "518027",
+        "314707",
+        "314673",
+        "500075",
+        "318991",
+        "531610",
+        "500041",
+        "499973",
+        "499956",
+        "500415",
+        "500415",
+        "500092",
+        "519710",
+        "318940",
+        "519727",
+        "318957",
+        "519744",
+        "518979",
+        "318974",
+        "513216",
+        "514151",
+        "500143",
+        "513063",
+        "500007",
+        "500058",
+        "500432",
+        "549086",
+        "549103",
+        "549120",
+        "588186"
+      ],
+      "ecoCarousel": {
+        "types": [
+          "friendly_location",
+          "city_driving",
+          "fuel_costs",
+          "go_further"
+        ],
+        "locations": [
+          "MRS",
+          "NCE",
+          "LIS",
+          "BRU",
+          "MRS",
+          "FAO",
+          "LHR",
+          "FCO",
+          "LYS",
+          "AGP",
+          "CPH",
+          "ORY",
+          "MXP",
+          "BCN",
+          "TLS",
+          "JER",
+          "BOD",
+          "LAX",
+          "MAN",
+          "EDI",
+          "MXP",
+          "LGW",
+          "LIN",
+          "OPO",
+          "TFS",
+          "PMI",
+          "MAD",
+          "FLR",
+          "FCS",
+          "BIA",
+          "PMO",
+          "BLQ",
+          "AJA",
+          "TFN"
+        ]
+      },
+      "abandonment": {
+        "enable": "true",
+        "baseURL": "https://cars.travellink.com/",
+        "autoOptIn": "false"
+      },
+      "settingsMenu": {
+        "icon": "COG",
+        "urls": [
+          {
+            "order": "1",
+            "productionURL": "https://cars.travellink.com/${lang}/managebooking",
+            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&portalEnv=preview"
+          },
+          {
+            "order": "2",
+            "productionURL": "https://cars.travellink.com/${lang}/managebooking?goto=faqs",
+            "developmentURL": "https://staging.cars.cartrawler.com/managebooking/${lang}?portal=travellink&goto=faqs&portalEnv=preview"
+          },
+          {
+            "order": "3",
+            "productionURL": "https://cars.travellink.com/${lang}/help",
+            "developmentURL": "https://staging.cars.cartrawler.com/travellink/help/"
+          }
+        ]
+      },
+      "abandonmentKey": "",
+      "ecoAlternativeUpsell": {
+        "enable": "true",
+        "percentageRange": "15"
+      },
+      "saleBanner": {
+        "type": "dynamic",
+        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "textColor": "#FFFFFF",
+        "linkColor": "#FFFFFF",
+        "captionColor": "#FFD633",
+        "textDarkColor": "#FFFFFF",
+        "linkDarkColor": "#FFFFFF",
+        "backgroundColor": "#002C52",
+        "captionDarkColor": "#FFD633",
+        "backgroundDarkColor": "#002C52",
+        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+      },
+      "landingCountdownTimer": {
+        "enabled": "true",
+        "background": "#FFD633",
+        "textAndBox": "#002C52",
+        "numberText": "#FFFFFF",
+        "backgroundDark": "#FFD633",
+        "textAndBoxDark": "#002C52",
+        "numberTextDark": "#FFFFFF"
+      },
+      "enableMosaic": "true",
+      "enableTracking": "true",
+      "enablePayPaliOS": "true",
+      "enablePayPalAndroid": "true",
+      "enableMap": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
+    },
+    {
       "implementationID": "99743d91-0219-43e8-a878-70e77946015e",
       "name": "U-Save Car Rental Demo",
       "tag": "usave",
@@ -239,12 +413,12 @@
           "codeType": "CORPORATE_RATE"
         },
         {
-          "code": "MUAA186",
+          "code": "MUAA187",
           "xmlType": "AV",
           "codeType": "PROMOTIONAL_CODE"
         },
         {
-          "code": "MUAZ171",
+          "code": "MUAZ187",
           "xmlType": "BG",
           "codeType": "PROMOTIONAL_CODE"
         }
@@ -332,7 +506,7 @@
     {
       "implementationID": "89e36078-362c-4f52-9a65-ec9cea9b8482",
       "tag": "native",
-      "name": "Native Test ID2",
+      "name": "Native Test ID",
       "domain": "",
       "USPSpec": {
         "type": "dynamic",
@@ -568,7 +742,7 @@
       "enableMap": "true",
       "enableMosaic": "true",
       "enableTracking": "true",
-      "enablePayPaliOS": "false",
+      "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true"
     },
     {
@@ -672,7 +846,7 @@
       "chipDiscountMechanicType": "MONETARY",
       "enableMosaic": "true",
       "enableTracking": "true",
-      "enablePayPaliOS": "false",
+      "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
       "enableMap": "true"
     },
@@ -789,9 +963,11 @@
       "chipDiscountMechanicType": "MONETARY",
       "enableMosaic": "true",
       "enableTracking": "true",
-      "enablePayPaliOS": "false",
+      "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
-      "enableMap": "true"
+      "enableMap": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
     },
     {
       "implementationID": "2a3d04fa-8adb-4517-8c5b-4e01df8387cb",
@@ -897,9 +1073,11 @@
       "chipDiscountMechanicType": "MONETARY",
       "enableMosaic": "true",
       "enableTracking": "true",
-      "enablePayPaliOS": "false",
+      "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
-      "enableMap": "true"
+      "enableMap": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
     },
     {
       "implementationID": "a70cce14-117b-4cc4-90d1-8f59b472d84a",
@@ -1018,7 +1196,7 @@
       "chipDiscountMechanicType": "MONETARY",
       "enableMosaic": "true",
       "enableTracking": "true",
-      "enablePayPaliOS": "false",
+      "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
       "enableMap": "true"
     },
@@ -1128,13 +1306,13 @@
       "chipDiscountMechanicType": "MONETARY",
       "enableMosaic": "true",
       "enableTracking": "true",
-      "enablePayPaliOS": "false",
+      "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
       "enableMap": "true"
     },
     {
       "implementationID": "89535f56-d81f-4799-817e-868c9bf365e2",
-      "tag": "prime",
+      "tag": "edreams",
       "name": "Travellink",
       "domain": "",
       "clientIds": [
@@ -1260,11 +1438,36 @@
         "enable": "true",
         "percentageRange": "15"
       },
+      "saleBanner": {
+        "type": "dynamic",
+        "image": "https://ctimg-fleet.cartrawler.com/volkswagen/polo-vivo-3dr/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "imageDark": "https://ctimg-fleet.cartrawler.com/volkswagen/golf/primary.png?auto=format&flip=h&fm=png&w=240&h=161&fit=crop&crop=focalpoint&fp-x=.7",
+        "textColor": "#FFFFFF",
+        "linkColor": "#FFFFFF",
+        "captionColor": "#FFD633",
+        "textDarkColor": "#FFFFFF",
+        "linkDarkColor": "#FFFFFF",
+        "backgroundColor": "#002C52",
+        "captionDarkColor": "#FFD633",
+        "backgroundDarkColor": "#002C52",
+        "termsAndConditionsURL": "https://cars.cartrawler.com/book/${lang}/terms-sale?clientID=${clientId}"
+      },
+      "landingCountdownTimer": {
+        "enabled": "true",
+        "background": "#FFD633",
+        "textAndBox": "#002C52",
+        "numberText": "#FFFFFF",
+        "backgroundDark": "#FFD633",
+        "textAndBoxDark": "#002C52",
+        "numberTextDark": "#FFFFFF"
+      },
       "enableMosaic": "true",
       "enableTracking": "true",
-      "enablePayPaliOS": "false",
+      "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
-      "enableMap": "true"
+      "enableMap": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
     },
     {
       "implementationID": "692d9c14-24f3-4f9a-aae3-2249422e8758",
@@ -1548,7 +1751,9 @@
         "androidWebFlow": 1,
         "androidNativeFlow": 0,
         "webDevelopmentVersion": "develop",
-        "webEngine": "FBE"
+        "webEngine": "FBE",
+        "webFlowType": "full",
+        "webURL": "https://carhire.ryanair.com"
       },
       "inPathWebFlowRouting": {
         "basePrefixDev": "ryanair-sb-stg01",
