@@ -1,0 +1,105 @@
+EUR Euro,EUR,SymbolFormat
+GBP British Pound,GBP,SymbolFormat
+USD US Dollar,USD,ISOFormat
+AED UAE Dirhams,AED,SymbolFormat
+ALL Albania Leke,ALL,SymbolFormat
+ANG Dutch Guilders,ANG,SymbolFormat
+AOA Angola Kwanza,AOA,SymbolFormat
+ARS Argentina Pesos,ARS,SymbolFormat
+AUD Australian Dollars,AUD,ISOFormat
+BAM Bosnia and Herzegovina Convertible Marka,BAM,SymbolFormat
+BBD Barbados Dollars,BBD,ISOFormat
+BDT Bangladesh Taka,BDT,SymbolFormat
+BGN Bulgaria Leva,BGN,SymbolFormat
+BHD Bahrain Dinars,BHD,SymbolFormat
+BMD Bermuda Dollars,BMD,ISOFormat
+BND Brunei Dollars,BND,ISOFormat
+BOB Bolivia Bolivianos,BOB,SymbolFormat
+BRL Brazil Reais,BRL,SymbolFormat
+BSD Bahamas Dollars,BSD,ISOFormat
+BWP Botswana Pulas,BWP,SymbolFormat
+CAD Canadian Dollars,CAD,ISOFormat
+CHF Switzerland Francs,CHF,SymbolFormat
+CLP Chilean pesos,CLP,SymbolFormat
+CNY China Yuan Renminbi,CNY,SymbolFormat
+COP Colombia Pesos,COP,SymbolFormat
+CRC Costa Rica Colones,CRC,SymbolFormat
+CUP Cuba Pesos,CUP,SymbolFormat
+CVE Cape Verde Escudos,CVE,SymbolFormat
+CZK Czech Republic Koruny,CZK,SymbolFormat
+DKK Denmark Kroner,DKK,SymbolFormat
+DOP Dominican Republic Pesos,DOP,SymbolFormat
+DZD Algeria Dinars,DZD,SymbolFormat
+EEK Estonia Krooni,EEK,SymbolFormat
+EGP Egypt Pounds,EGP,SymbolFormat
+ERN Eritrea Nakfa,ERN,SymbolFormat
+EUR Euro,EUR,SymbolFormat
+FJD Fiji Dollars,FJD,ISOFormat
+GBP British Pound,GBP,SymbolFormat
+GHS Ghana Cedis,GHS,SymbolFormat
+GNF Guinea Francs,GNF,SymbolFormat
+GTQ Guatemala Quetzales,GTQ,SymbolFormat
+HKD HKD Hong Kong Dollars,HKD,ISOFormat
+HNL Honduras Lempiras,HNL,SymbolFormat
+HRK Croatia Kuna,HRK,SymbolFormat
+HUF Hungary Forint,HUF,SymbolFormat
+IDR Indonesia Rupiahs,IDR,SymbolFormat
+ILS Israel New Shekels,ILS,SymbolFormat
+INR India Rupees,INR,SymbolFormat
+IRR Iran Rials,IRR,SymbolFormat
+ISK Iceland Kronur,ISK,SymbolFormat
+JMD Jamaica Dollars,JMD,ISOFormat
+JOD Jordan Dinars,JOD,SymbolFormat
+JPY Japan Yen,JPY,SymbolFormat
+KES Kenya Shillings,KES,SymbolFormat
+KRW South Korea Won,KRW,SymbolFormat
+KWD Kuwait Dinars,KWD,SymbolFormat
+KZT Kazakhstan Tenge,KZT,SymbolFormat
+LBP Lebanon Pounds,LBP,SymbolFormat
+LKR Sri Lanka Rupees,LKR,SymbolFormat
+LSL Lesotho Maloti,LSL,SymbolFormat
+LTL Lithuania Litai,LTL,SymbolFormat
+LYD Libya Dinars,LYD,SymbolFormat
+MAD Moroccan Dirham,MAD,SymbolFormat
+MGA Madagascar Ariary,MGA,SymbolFormat
+MMK Myanmar Kyats,MMK,SymbolFormat
+MOP Macau Patacas,MOP,SymbolFormat
+MUR Mauritius Rupee,MUR,SymbolFormat
+MWK Malawi Kwachas,MWK,SymbolFormat
+MXN Mexico Pesos,MXN,SymbolFormat
+MYR Malaysia Ringgits,MYR,SymbolFormat
+MZN Mozambique Meticais,MZN,SymbolFormat
+NAD Namibia Dollar,NAD,ISOFormat
+NGN Nigeria Nairas,NGN,SymbolFormat
+NOK Norway Kroner,NOK,SymbolFormat
+NZD New Zealand Dollars,NZD,ISOFormat
+OMR Oman Rials,OMR,SymbolFormat
+PEN Peru Nuevos Soles,PEN,SymbolFormat
+PHP Philippines Pesos,PHP,SymbolFormat
+PKR Pakistan Rupees,PKR,SymbolFormat
+PLN Poland Zlotych,PLN,SymbolFormat
+QAR Qatar Riyals,QAR,SymbolFormat
+RON Romania New Lei,RON,SymbolFormat
+RSD Serbia Dinars,RSD,SymbolFormat
+RUB Russia Rubles,RUB,SymbolFormat
+SAR Saudi Arabia Riyals,SAR,SymbolFormat
+SDG Sudan Pounds,SDG,SymbolFormat
+SEK Sweden Kronor,SEK,SymbolFormat
+SGD Singapore Dollars,SGD,ISOFormat
+SZL Swaziland Emalangeni,SZL,SymbolFormat
+THB Thailand Baht,THB,SymbolFormat
+TND Tunisia Dinars,TND,SymbolFormat
+TRY Turkey New Lira,TRY,SymbolFormat
+TTD Trinidad and Tobago Dollars,TTD,ISOFormat
+TWD Taiwan New Dollars,TWD,ISOFormat
+TZS Tanzania Shillings,TZS,SymbolFormat
+UAH Ukraine Hryvnia,UAH,SymbolFormat
+UGX Uganda Shillings,UGX,SymbolFormat
+USD US Dollar,USD,ISOFormat
+UYU Uruguay Pesos,UYU,SymbolFormat
+VEB Venezuela Bolivares,VEB,SymbolFormat
+VEF Venezuela Bolivares Fuertes,VEF,SymbolFormat
+VND Vietnam Dong,VND,SymbolFormat
+ZAR South Africa Rand,ZAR,SymbolFormat
+ZMK Zambia Kwacha,ZMK,SymbolFormat
+ZWD Zimbabwe Dollar,ZWD,ISOFormat
