@@ -84,7 +84,8 @@
         
       function post(data) {
           var iframe = document.getElementById("ct-secure-payment").contentWindow;
-          iframe.postMessage(encodeURIComponent(data), '*');
+          var json = (typeof data === "string") ? data : JSON.stringify(data);
+          iframe.postMessage(encodeURIComponent(json), "*");
       }
 
       function validateAndBook() {
