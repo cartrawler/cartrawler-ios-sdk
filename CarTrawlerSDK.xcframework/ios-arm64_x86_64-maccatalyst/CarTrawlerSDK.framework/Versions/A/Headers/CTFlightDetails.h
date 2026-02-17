@@ -38,6 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *pnr;
 @property (nonatomic, strong) NSString *sessionID;
 @property (nonatomic, strong) NSString *campaignID;
+@property (nonatomic, strong) NSString *visitorID;
 @property (nonatomic) BOOL oneWay;
 
 - (NSDictionary *)toDictionary;
