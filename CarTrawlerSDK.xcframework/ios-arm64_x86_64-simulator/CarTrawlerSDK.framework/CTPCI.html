@@ -64,7 +64,7 @@
                               break;
                         }
                                   
-                        window.webkit.messageHandlers.CTWebView.postMessage({"currentState" : currentState}, "*");
+                        window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data), "currentState" : currentState}, "*");
                     } else {
                         window.webkit.messageHandlers.CTWebView.postMessage({"jsonResponse": decodeURIComponent(e.data)}, "*");
                     }
