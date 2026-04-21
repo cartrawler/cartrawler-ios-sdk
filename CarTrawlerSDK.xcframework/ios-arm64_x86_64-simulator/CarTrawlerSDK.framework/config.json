@@ -175,6 +175,31 @@
       "enableGooglePay": "true"
     },
     {
+      "implementationID": "a7f4c9e2-5b31-4c88-9d6a-1e3f2b7c0a94",
+      "name": "Trainline 🛤️",
+      "domain": "",
+      "tag": "trainline",
+      "clientIds": [],
+      "bookingFlowRouting": {
+        "iOSWebFlow": 1,
+        "iOSNativeFlow": 0,
+        "androidWebFlow": 1,
+        "androidNativeFlow": 0,
+        "webDevelopmentVersion": "develop",
+        "webEngine": "FBE",
+        "webFlowType": "full",
+        "webURL": "https://thetrainline.cartrawler.com",
+        "pickupMarginInMins": 30,
+        "dropoffMarginInMins": 90,
+        "oneWayDays": 5
+      },
+      "enableTracking": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true",
+      "enablePayPaliOS": "true",
+      "enablePayPalAndroid": "true"
+    },
+    {
       "implementationID": "99743d91-0219-43e8-a878-70e77946015e",
       "name": "U-Save Car Rental Demo",
       "tag": "usave",
@@ -743,7 +768,9 @@
       "enableMosaic": "true",
       "enableTracking": "true",
       "enablePayPaliOS": "true",
-      "enablePayPalAndroid": "true"
+      "enablePayPalAndroid": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
     },
     {
       "implementationID": "032bed39-f74b-4794-ad31-c49c8c37d2dc",
@@ -848,7 +875,9 @@
       "enableTracking": "true",
       "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
-      "enableMap": "true"
+      "enableMap": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
     },
     {
       "implementationID": "89270def-7fa3-4e4a-96b0-21479f9473c6",
@@ -1198,7 +1227,9 @@
       "enableTracking": "true",
       "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
-      "enableMap": "true"
+      "enableMap": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
     },
     {
       "implementationID": "ff156b05-2c2c-4d3e-84b9-a93ef65ee9f8",
@@ -1308,7 +1339,9 @@
       "enableTracking": "true",
       "enablePayPaliOS": "true",
       "enablePayPalAndroid": "true",
-      "enableMap": "true"
+      "enableMap": "true",
+      "enableApplePay": "true",
+      "enableGooglePay": "true"
     },
     {
       "implementationID": "89535f56-d81f-4799-817e-868c9bf365e2",
@@ -1753,7 +1786,10 @@
         "webDevelopmentVersion": "develop",
         "webEngine": "FBE",
         "webFlowType": "full",
-        "webURL": "https://carhire.ryanair.com"
+        "webURL": "https://carhire.ryanair.com",
+        "pickupMarginInMins": 30,
+        "dropoffMarginInMins": 90,
+        "oneWayDays": 5
       },
       "inPathWebFlowRouting": {
         "basePrefixDev": "ryanair-sb-stg01",
