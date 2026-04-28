@@ -63,6 +63,7 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic) NSString *bookingID;
 @property (nonatomic) CLLocationCoordinate2D pickupLocationCoordinate;
 @property (nonatomic) CLLocationCoordinate2D dropoffLocationCoordinate;
+@property (nonatomic) NSString *orderID;
 
 - (instancetype)init __attribute__((unavailable("Please use initWithImplementationID:clientID:flow")));
 - (nonnull instancetype)initWithImplementationID:(nonnull NSString *)implementationID
