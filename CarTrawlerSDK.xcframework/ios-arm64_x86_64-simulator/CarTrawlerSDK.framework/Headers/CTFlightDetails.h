@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *customerEmail;
 @property (nonatomic, strong) NSString *flightOrigin;
 @property (nonatomic, strong) NSString *flightReturn;
+@property (nonatomic, strong) NSString *geoOrigin;
+@property (nonatomic, strong) NSString *geoReturn;
 @property (nonatomic) BOOL marketingPreference;
 @property (nonatomic, strong) NSString *marketingSegment;
 @property (nonatomic, strong) NSString *fareClass;
