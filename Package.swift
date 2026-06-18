@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CarTrawlerSDK",
-            url: "https://github.com/cartrawler/cartrawler-ios-sdk/releases/download/16.9.1/CarTrawlerSDK.xcframework.zip",
-            checksum: "050f3456fc2af8913b60d8841344c11f26c83d3a03f80c4d4e0cd20cce062f34"
+            url: "https://github.com/cartrawler/cartrawler-ios-sdk/releases/download/16.10.0/CarTrawlerSDK.xcframework.zip",
+            checksum: "70d33b8ba033c91cb3412601a69a474f78aed896c57e317c166c27d0bab9db30"
         )
     ]
 )
