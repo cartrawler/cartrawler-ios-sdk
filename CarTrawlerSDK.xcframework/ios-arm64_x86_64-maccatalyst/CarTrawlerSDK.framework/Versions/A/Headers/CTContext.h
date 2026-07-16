@@ -50,6 +50,7 @@ typedef NS_ENUM(NSUInteger, CTSettingsIconType) {
 @property (nonatomic, strong) NSString *pinnedVehicleID;
 @property (nonatomic, strong) CTPassenger *passenger;
 @property (nonatomic, strong) NSString *loyaltyRegex;
+@property (nonatomic, strong, nullable) NSString *loyaltyToken;
 @property (nonatomic, strong, nullable) NSString *clientUserIdentifier;
 @property (nonatomic) BOOL customCashTreatment;
 @property (nonatomic) CTURLDeeplinkType urlDeeplinkType;

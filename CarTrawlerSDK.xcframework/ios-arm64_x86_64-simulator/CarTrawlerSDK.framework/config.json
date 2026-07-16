@@ -1,6 +1,31 @@
 {
     "partners": [
         {
+            "implementationID": "18d77949-db83-4985-8162-9a9ce9ab2d05",
+            "name": "AirBnB",
+            "domain": "",
+            "tag": "airbnb",
+            "clientIds": [],
+            "bookingFlowRouting": {
+                "iOSWebFlow": 1,
+                "iOSNativeFlow": 0,
+                "androidWebFlow": 1,
+                "androidNativeFlow": 0,
+                "webDevelopmentVersion": "develop",
+                "webEngine": "FBE",
+                "webFlowType": "full",
+                "webURL": "https://site-loader-uat.cartrawler.com/airbnb",
+                "pickupMarginInMins": 30,
+                "dropoffMarginInMins": 90,
+                "oneWayDays": 5
+            },
+            "enableTracking": "true",
+            "enableApplePay": "true",
+            "enableGooglePay": "true",
+            "enablePayPaliOS": "true",
+            "enablePayPalAndroid": "true"
+        },
+        {
             "implementationID": "c3d9a1f6-8e27-4b5a-92f1-6c0e4d7b9a12",
             "name": "Eurowings",
             "domain": "",
