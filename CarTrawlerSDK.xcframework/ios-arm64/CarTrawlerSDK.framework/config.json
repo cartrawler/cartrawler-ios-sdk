@@ -1763,6 +1763,24 @@
                     "fuel_costs"
                 ]
             },
+            "enableMosaic": "true",
+            "mosaic": {
+                "tiles": [
+                    {
+                        "imageUrl": "https://ctimg-mcore.cartrawler.com/components/partners/holidayautos/ha-usp-1.png?fit=crop&w=410&h=140&fp-y=0.50",
+                        "position": "1",
+                        "tapUrl": "https://holidayautos-oak.cartrawler.net/en/price-match-guarantee"
+                    },
+                    {
+                        "imageUrl": "https://ctimg-mcore.cartrawler.com/components/partners/holidayautos/usp-3-man-street.png?fit=crop&w=410&h=140&fp-y=0.25",
+                        "position": "2"
+                    },
+                    {
+                        "imageUrl": "https://ctimg-mcore.cartrawler.com/components/partners/holidayautos/usp-3-woman-car.png?fit=crop&w=410&h=140&fp-y=0.25",
+                        "position": "3"
+                    }
+                ]
+            },
             "abandonment": {
                 "enable": "true",
                 "baseURL": "https://www.holidayautos.com/book",
@@ -1908,7 +1926,6 @@
             "darkPreferredLogo": "https://ctimg-supplier.cartrawler.com/avis.pdf"
         }
     ],
-    "hash": {},
     "mosaic": {
         "tiles": [
             {
